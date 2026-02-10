@@ -15,14 +15,20 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GRAPHQL_URL = "https://api.github.com/graphql"
 README_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "README.md")
 
-# Repos to exclude (test/trivial/profile)
+# Repos to exclude from the README entirely
 BLOCKLIST = {
-    "test",
-    "testing",
-    "test-repo",
-    "hello-world",
-    "Jesssullivan",
+    "test", "testing", "test-repo", "hello-world",
+    "Jesssullivan",  # profile repo itself
+    "jesssullivan.github.io",  # blog repo (shown separately)
+    "misc", "sk-blog-1", "cal-com-testing",
+    "TarrytownNY-Notes", "MembershipWorks-Migration",
+    "DLADocs", "dla-hugo", "pages_columbari",
+    "stub_mo_image_classify", "tmpUI",
 }
+
+# Limits for table sizes
+MAX_ORIGINAL_REPOS = 20
+MAX_FORKS = 15
 
 QUERY = """
 {
@@ -35,6 +41,7 @@ QUERY = """
         primaryLanguage { name }
         stargazerCount
         isFork
+        pushedAt
         parent { nameWithOwner }
       }
     }
@@ -72,40 +79,106 @@ def should_include(repo):
     return True
 
 
+def build_activity_section(repos):
+    """Build the 'Currently working on' section from the most recently pushed repo."""
+    if not repos:
+        return ""
+    top = repos[0]
+    name = top["name"]
+    url = top["url"]
+    desc = top.get("description") or ""
+    lang = top.get("primaryLanguage")
+    lang_name = lang["name"] if lang else ""
+    pushed = top.get("pushedAt", "")
+    pushed_nice = _format_iso_date(pushed) if pushed else ""
+
+    lines = [
+        f"**Currently working on:** [{name}]({url})",
+    ]
+    if desc:
+        lines.append(f"  {desc}")
+    parts = []
+    if lang_name:
+        parts.append(lang_name)
+    if pushed_nice:
+        parts.append(f"last push {pushed_nice}")
+    if parts:
+        lines.append(f"  *{' · '.join(parts)}*")
+    return "\n".join(lines)
+
+
 def build_original_table(repos):
-    """Build markdown table for non-fork (original) repos."""
+    """Build markdown table for non-fork (original) repos, limited to MAX_ORIGINAL_REPOS."""
+    shown = repos[:MAX_ORIGINAL_REPOS]
     lines = ["| Repo | Description | Lang |", "|------|-------------|------|"]
-    for repo in repos:
+    for repo in shown:
         name = repo["name"]
         desc = (repo["description"] or "").replace("|", "\\|")
+        # Truncate long descriptions
+        if len(desc) > 100:
+            desc = desc[:97] + "..."
         lang = repo.get("primaryLanguage")
         lang_name = lang["name"] if lang else ""
         url = repo["url"]
         lines.append(f"| [{name}]({url}) | {desc} | {lang_name} |")
+    remaining = len(repos) - len(shown)
+    if remaining > 0:
+        lines.append("")
+        lines.append(f"*...and [{remaining} more](https://github.com/Jesssullivan?tab=repositories&type=source)*")
     return "\n".join(lines)
 
 
 def build_forks_table(repos):
-    """Build markdown table for forked repos with star badges."""
-    lines = ["| Fork | What |", "|------|------|"]
-    for repo in repos:
+    """Build compact list for forked repos, limited to MAX_FORKS."""
+    # Prioritize forks with descriptions and stars
+    scored = sorted(repos, key=lambda r: (r.get("stargazerCount", 0), bool(r.get("description"))), reverse=True)
+    shown = scored[:MAX_FORKS]
+    lines = ["| Fork | Upstream |", "|------|----------|"]
+    for repo in shown:
         name = repo["name"]
-        desc = (repo["description"] or "").replace("|", "\\|")
+        parent = repo.get("parent", {})
+        upstream = parent.get("nameWithOwner", "") if parent else ""
         badge = f"![](https://img.shields.io/github/stars/Jesssullivan/{name}?style=social&label={name})"
-        lines.append(f"| {badge} | {desc} |")
+        upstream_link = f"[{upstream}](https://github.com/{upstream})" if upstream else ""
+        lines.append(f"| {badge} | {upstream_link} |")
+    remaining = len(repos) - len(shown)
+    if remaining > 0:
+        lines.append("")
+        lines.append(f"*...and [{remaining} more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*")
     return "\n".join(lines)
 
+
+def _format_iso_date(date_str):
+    """Format an ISO 8601 date string into a relative or readable date."""
+    if not date_str:
+        return ""
+    try:
+        dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        now = datetime.now(timezone.utc)
+        delta = now - dt
+        if delta.days == 0:
+            return "today"
+        elif delta.days == 1:
+            return "yesterday"
+        elif delta.days < 7:
+            return f"{delta.days} days ago"
+        elif delta.days < 30:
+            weeks = delta.days // 7
+            return f"{weeks} week{'s' if weeks > 1 else ''} ago"
+        else:
+            return dt.strftime("%b %d, %Y")
+    except (ValueError, TypeError):
+        return date_str[:10]
+
+
+# --- Blog feed ---
 
 BLOG_FEED_URL = "https://jesssullivan.github.io/feed.xml"
 BLOG_POST_COUNT = 3
 
 
 def fetch_blog_posts():
-    """Fetch the latest blog posts from the RSS feed.
-
-    Returns a list of dicts with 'title', 'link', and 'date' keys,
-    or an empty list if the feed is unreachable or unparseable.
-    """
+    """Fetch the latest blog posts from the RSS feed."""
     try:
         req = urllib.request.Request(
             BLOG_FEED_URL,
@@ -138,10 +211,10 @@ def fetch_blog_posts():
 
     # Try Atom format
     ns = {"atom": "http://www.w3.org/2005/Atom"}
-    entries = root.findall("atom:entry", ns)
-    if not entries:
-        entries = root.findall("entry")
-    for entry in entries[:BLOG_POST_COUNT]:
+    atom_entries = root.findall("atom:entry", ns)
+    if not atom_entries:
+        atom_entries = root.findall("entry")
+    for entry in atom_entries[:BLOG_POST_COUNT]:
         title = entry.findtext("atom:title", None, ns)
         if title is None:
             title = entry.findtext("title", "Untitled")
@@ -203,6 +276,8 @@ def build_blog_section(posts):
     return "\n".join(lines)
 
 
+# --- Section updater ---
+
 def update_section(content, section_name, new_content):
     """Replace content between START_SECTION:<name> and END_SECTION:<name> markers."""
     pattern = rf"(<!--START_SECTION:{section_name}-->).*?(<!--END_SECTION:{section_name}-->)"
@@ -220,33 +295,31 @@ def main():
     originals = [r for r in included if not r["isFork"]]
     forks = [r for r in included if r["isFork"]]
 
-    print(f"Found {len(originals)} original repos, {len(forks)} forks")
-
-    # Build the combined section content
-    section_parts = []
-
-    # Original Projects table
-    section_parts.append("")
-    section_parts.append(build_original_table(originals))
-    section_parts.append("")
-
-    # FOSS Contributions heading + table
-    section_parts.append("### FOSS Contributions")
-    section_parts.append("")
-    section_parts.append(build_forks_table(forks))
-
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    section_parts.append("")
-    section_parts.append(f"*Last updated: {now}*")
-
-    section_content = "\n".join(section_parts)
+    print(f"Found {len(originals)} original repos, {len(forks)} forks (from {len(repos)} total)")
 
     with open(README_PATH, "r") as f:
         content = f.read()
 
-    content = update_section(content, "repos", section_content)
+    # Update activity section
+    activity = build_activity_section(originals)
+    content = update_section(content, "activity", activity)
+    print(f"Updated activity: {originals[0]['name'] if originals else 'none'}")
 
-    # Update blog section (gracefully skipped if feed is unavailable)
+    # Update repos section
+    section_parts = []
+    section_parts.append("")
+    section_parts.append(build_original_table(originals))
+    section_parts.append("")
+    section_parts.append("### FOSS Contributions")
+    section_parts.append("")
+    section_parts.append(build_forks_table(forks))
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    section_parts.append("")
+    section_parts.append(f"*Last updated: {now}*")
+    content = update_section(content, "repos", "\n".join(section_parts))
+    print(f"Updated repos: {min(len(originals), MAX_ORIGINAL_REPOS)} shown, {min(len(forks), MAX_FORKS)} forks")
+
+    # Update blog section
     blog_posts = fetch_blog_posts()
     if blog_posts:
         blog_content = build_blog_section(blog_posts)
@@ -258,7 +331,7 @@ def main():
     with open(README_PATH, "w") as f:
         f.write(content)
 
-    print(f"Updated README with {len(originals)} original repos and {len(forks)} forks")
+    print("Done.")
 
 
 if __name__ == "__main__":
