@@ -102,9 +102,9 @@ mindmap
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat)
-  A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - tinyland lab package
-  *Python · last push today*
+**Currently working on:** [pp](https://github.com/Jesssullivan/pp)
+  Tinyland Lab shell dashboard with waifu integration
+  *Go · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -136,10 +136,10 @@ mindmap
 
 | Repo | Description | Lang |
 |------|-------------|------|
+| [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | Go |
 | [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | HCL |
 | [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | Go |
 | [tinyland-kdbx](https://github.com/Jesssullivan/tinyland-kdbx) | Native KeePassXC KDBX reader with base58 transport | Python |
-| [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | Go |
 | [Ansible-DAG-Harness](https://github.com/Jesssullivan/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for "boxing up"Ansible iteration cycles in ... | Python |
 | [betterkvm](https://github.com/Jesssullivan/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | Nix |
 | [DarwinNicUtil](https://github.com/Jesssullivan/DarwinNicUtil) | Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... | Python |
@@ -206,7 +206,7 @@ mindmap
 
 *...and [45 more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*
 
-*Last updated: 2026-02-10 07:12 UTC*
+*Last updated: 2026-02-10 15:57 UTC*
 <!--END_SECTION:repos-->
 
 ---
