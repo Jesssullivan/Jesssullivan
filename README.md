@@ -76,7 +76,7 @@ mindmap
 | [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | Chapel |
 | [tinyscale-mikrotik](https://github.com/Jesssullivan/tinyscale-mikrotik) | Very small tailscale container for CRS310 class switches | Shell |
 | [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | Chapel |
-| [tinywaffle](https://github.com/Jesssullivan/tinywaffle) |  | Dockerfile |
+| [tinywaffle](https://github.com/Jesssullivan/tinywaffle) | Waffle-iron deployment orchestrator for Tinyland container workloads | Dockerfile |
 | [searchies](https://github.com/Jesssullivan/searchies) | hard AF searxng infra for uwu tinies | Jinja |
 | [ts-caddy](https://github.com/Jesssullivan/ts-caddy) | Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo | Jinja |
 | [HCI-notes](https://github.com/Jesssullivan/HCI-notes) | Misc. notes to share on switch to Proxmox from Harvester | HCL |
@@ -103,9 +103,9 @@ mindmap
 | ![](https://img.shields.io/github/stars/Jesssullivan/freenet-stdlib?style=social&label=freenet-stdlib) | [freenet/freenet-stdlib](https://github.com/freenet/freenet-stdlib) |
 | ![](https://img.shields.io/github/stars/Jesssullivan/chapel?style=social&label=chapel) | [chapel-lang/chapel](https://github.com/chapel-lang/chapel) |
 
-*...and [46 more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*
+*...and [47 more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*
 
-*Last updated: 2026-02-10 04:28 UTC*
+*Last updated: 2026-02-10 06:35 UTC*
 <!--END_SECTION:repos-->
 
 ---
