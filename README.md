@@ -2,7 +2,7 @@
 
 <img src="header_image.png" alt="Great Blue Heron" width="672" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Systems+Analyst+%7C+FOSS+Contributor+%7C+Hardware+Hacker;Chapel+%7C+Futhark+%7C+Haskell+%7C+Nix+%7C+Go;Merlin+Sound+ID+%7C+Birder+%7C+Maker+%7C+Musician)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Full+Stack+Engineer+%7C+DevSecOps+%7C+Agent+Orchestration+%7C+ML%2FHPC;Chapel+%7C+Haskell+%7C+Python+%7C+TypeScript+%7C+SvelteKit+%7C+Go;Computer+Vision+%7C+Fine-Grained+Classification+%7C+WASM+Inference;K8s+%7C+Ansible+%7C+GitLab+CI+%7C+Apache+Solr+%7C+Liqo;Merlin+Sound+ID+%7C+Birder+%7C+Musician+%7C+Baker+%7C+Bard)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
 
