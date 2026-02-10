@@ -23,15 +23,14 @@
 
 Full stack engineer, musician, and birdwatcher based in Lewiston, ME.
 
+
 I spent about a year completely offline — no LinkedIn, no blog, no social media.
-Late 2023 through the end of 2024. An intentional disconnect.
+Late 2023 through the end of 2024. An intentional disconnect.  I'm back to building in the open. 
 
-I'm back now, rebuilding in the open. I build infrastructure tooling, contribute to compilers
-and languages, hack on hardware, and maintain a lot of FOSS. Previously at Cornell's
-Macaulay Library, where I helped develop and launch
-[Merlin Sound ID](https://merlin.allaboutbirds.org/) — used by millions of birders worldwide.
+I build infrastructure tooling, contribute to compilers
+and languages, hack on hardware, and maintain a *lot* of FOSS. 
 
-**Lewiston, ME** · [transscendsurvival.org](https://transscendsurvival.org) · Pro
+
 
 </td><td valign="top" width="40%">
 
@@ -324,10 +323,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 ---
 
-**[xoxd.ai](https://xoxd.ai)** — Massively parallel, provable agent infrastructure. 130+ agents, 5 custom models, Chapel + Go + K8s.
+**[xoxd.ai](https://xoxd.ai)** — Massively parallel, provable, **ownable** agent infrastructure. 130+ agents, 5 custom models, Chapel + Go + K8s.
 ![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)
 
-**[Tinyland.dev](https://tinyland.dev)** — Semiautonomous infra maintenance for higher ed. SvelteKit 5, K8s native, i18n.
+**[Tinyland.dev](https://tinyland.dev)** — Tinyland is big, more to come very soon :tm:
 ![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
 ![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
 
