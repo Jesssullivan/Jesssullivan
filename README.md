@@ -81,6 +81,58 @@ mindmap
 
 ---
 
+### GitHub Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=dark&hide_border=true&count_private=true" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=radical&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=default&hide_border=true" />
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=dark&hide_border=true" />
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=radical&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=default&hide_border=true" />
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Jesssullivan&theme=dark&hide_border=true" />
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
+
+[![Trophy](https://github-profile-trophy.vercel.app/?username=Jesssullivan&theme=onedark&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=minimal&hide_border=true&area=true" />
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
+</picture>
+
+</div>
+
+---
+
 ### Experience & Ventures
 
 <table>
@@ -267,56 +319,22 @@ timeline
 ---
 
 <details>
-<summary><b>GitHub Stats</b></summary>
+<summary><b>Beyond Code</b></summary>
 <br>
 
-<div align="center">
+**Photography**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=dark&hide_border=true&count_private=true" />
-</picture>
+Cut my teeth professionally with world-renowned aerial photographer Alex MacLean and Mike Nyman Wedding Photography before going into business as J.S. Event Photography. Wrote and taught the youth photography curriculum at Joppa Flats and Drumlin Farm Mass Audubon Wildlife Sanctuaries — programs still going strong. Work featured at Celebrate Newton, Newton Public Library, Pease Public Library, Newtonville Cinema, Newton Camera Club, Broadmoor Wildlife Sanctuary, and in the Newton Tab. Did my own printing on a heavily modified inkjet printer. Completely burnt out from photography by end of 2017, sold all my gear by the end of college.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=radical&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=default&hide_border=true" />
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=dark&hide_border=true" />
-</picture>
+**Music**
 
-</div>
+20+ years of guitar — currently play a custom 9-string electric made for me in NH and a 12-string acoustic. 25+ years of piano/organ — primarily on a rotary Yamaha organ these days.
 
-<br>
+> *"If there were no computers I'd probably be a baker, a minstrel or a bard."*
 
-<div align="center">
+**Hospitality**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=radical&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=default&hide_border=true" />
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Jesssullivan&theme=dark&hide_border=true" />
-</picture>
-
-</div>
-
-<br>
-
-<div align="center">
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Jesssullivan&theme=onedark&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<br>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=minimal&hide_border=true&area=true" />
-  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
-</picture>
-
-</div>
+Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — organized monthly Goth Nights, art shows & private events. Bartender at The Downstairs Listening Room & Tavern and The Watershed in New York. Casual bagel baker at Tandem Bagel Co in Northampton, MA (Spring 2024).
 
 </details>
 
@@ -338,12 +356,77 @@ timeline
 
 ---
 
+### xoxd.ai
+
+![xoxd.ai](https://img.shields.io/badge/xoxd.ai-Orchestrating%20massively%20parallel%2C%20provable%20agent%20infrastructure-blueviolet?style=for-the-badge)
+
+> *We built something terrifyingly capable and we think it's cute* ^w^
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Components**
+- **Marolex** — K8s-native multicloud harness (Chapel + Go, Liqo topology)
+- **Huskycat** — Deterministic verification middleware (multithreaded githook SLM)
+- **Outbot** — Repo management agent (zone-wise git summaries, conflict resolution, host parity)
+- **FuzzyBot** — Chat TUI with native IDE integration (Chapel + Go, IntelliJ & Emacs)
+
+</td>
+<td width="50%" valign="top">
+
+**Built On**
+
+![Liqo](https://img.shields.io/badge/Liqo-0053A1?style=flat-square&logo=kubernetes&logoColor=white)
+![RKE2](https://img.shields.io/badge/RKE2-0075A8?style=flat-square&logo=rancher&logoColor=white)
+![CoreDNS](https://img.shields.io/badge/CoreDNS-253746?style=flat-square)
+![MetalLB](https://img.shields.io/badge/MetalLB-00B6E3?style=flat-square)
+![Apache Solr](https://img.shields.io/badge/Solr-D22128?style=flat-square&logo=apache&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-FF6F00?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+
+**Models**
+- 2x custom mxbai embeddings
+- Custom functiongemma SLM
+- Qwen v3, GLM 4.7
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Roadmap</b></summary>
+
+- **Q3 2026** — Outbot public beta
+- **Q1 2027** — Source dual-licensed (zlib + commercial)
+- **Q2 2027** — Outbot GA
+- Hiring: COO, Director of Enterprise Sales
+
+</details>
+
+---
+
+### Tinyland.dev
+
+C corporation behind the semiautonomous infrastructure maintenance platform for higher ed.
+
+- **SvelteKit 5** CMS with Svelte 5 runes, TypeScript, Vite
+- **K8s native** — Talos OS, Civo cloud, RKE2 + Rancher
+- **i18n** — 6 languages via Paraglide.js
+
+![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
+![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
+
+---
+
 <div align="center">
 
 [![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
 [![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
 [![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Jesssullivan-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Jesssullivan)
+[![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)](https://xoxd.ai)
 
 </div>
 
