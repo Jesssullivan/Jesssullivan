@@ -1,24 +1,22 @@
-name: Update Profile README
-
+name: Update README
 on:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
   push:
     branches: [main]
-
-permissions:
-  contents: write
+    paths: ['scripts/**', 'templates/**']
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests
       - run: python scripts/update_readme.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
