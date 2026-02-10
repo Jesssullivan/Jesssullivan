@@ -239,7 +239,7 @@ def render_svg(G, scaled_pos, dark=False):
     lines.append(
         f'  <text x="{SVG_WIDTH // 2}" y="24" font-family="system-ui, -apple-system, sans-serif" '
         f'font-size="13" fill="{text_muted}" text-anchor="middle" font-weight="500">'
-        f'Repo Relationship Graph &mdash; Pairwise Topic &amp; Language Similarity</text>'
+        f'Repo Relationship Graph &#x2014; Pairwise Topic &amp; Language Similarity</text>'
     )
 
     # Footer separator line
