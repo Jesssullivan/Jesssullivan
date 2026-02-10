@@ -39,7 +39,9 @@ mindmap
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
-*No recent posts loaded yet.*
+- [Hello World](https://transscendsurvival.org/blog/hello-world) — *Feb 09, 2026*
+- [What have I been up to these last few months?](https://transscendsurvival.org/blog/what-have-i-been-up-to-these-last-few-months) — *May 22, 2024*
+- [I wrote a mutual aid mental health service](https://transscendsurvival.org/blog/i-wrote-a-mutual-aid-mental-health-service) — *Feb 22, 2024*
 
 [Read more ->](https://jesssullivan.github.io/blog)
 <!--END_SECTION:blog-->
@@ -52,8 +54,8 @@ mindmap
 
 | Repo | Description | Lang |
 |------|-------------|------|
-| [GIS_Shortcuts](https://github.com/Jesssullivan/GIS_Shortcuts) | Jess's miscellaneous GIS notes and related tomfoolery  | R |
 | [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | HCL |
+| [GIS_Shortcuts](https://github.com/Jesssullivan/GIS_Shortcuts) | Jess's miscellaneous GIS notes and related tomfoolery  | R |
 | [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | Go |
 | [tinyland-kdbx](https://github.com/Jesssullivan/tinyland-kdbx) | Native KeePassXC KDBX reader with base58 transport | Python |
 | [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | Go |
@@ -154,7 +156,7 @@ mindmap
 | ![](https://img.shields.io/github/stars/Jesssullivan/VVV?style=social&label=VVV) | An open source Vagrant configuration for developing with WordPress |
 | ![](https://img.shields.io/github/stars/Jesssullivan/ajax-solr?style=social&label=ajax-solr) | A JavaScript framework for creating user interfaces to Solr. |
 
-*Last updated: 2026-02-10 03:14 UTC*
+*Last updated: 2026-02-10 04:00 UTC*
 <!--END_SECTION:repos-->
 
 ---
