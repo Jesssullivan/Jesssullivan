@@ -44,7 +44,20 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 </td></tr>
 </table>
 
+<table>
+<tr>
+<td align="center" valign="middle" width="50%">
+
+<img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="400" />
+
+</td>
+<td valign="middle" width="50%">
+
 > **As of 2025, I'm much more active in Tinyland with my robots** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -68,7 +81,11 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 ![purpl3F0x](https://img.shields.io/badge/purpl3F0x-9C27B0?style=for-the-badge&logo=githubsponsors&logoColor=white)
 ![Klipper](https://img.shields.io/badge/Klipper-B71C1C?style=for-the-badge&logo=klipper&logoColor=white)
 ![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
-![Liqo](https://img.shields.io/badge/Liqo-0288D1?style=for-the-badge&logoColor=white)
+![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=for-the-badge)
+![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=for-the-badge)
+![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=for-the-badge)
+
+*hehe gh chips are fun*
 
 ---
 
@@ -87,12 +104,6 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
   <source media="(prefers-color-scheme: light)" srcset="top-langs.svg" />
   <img alt="Top Languages" src="top-langs.svg" />
 </picture>
-
-</div>
-
-<div align="center">
-
-<img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="480" />
 
 </div>
 
@@ -295,11 +306,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 **[xoxd.ai](https://xoxd.ai)** — Massively parallel, provable, **ownable** agent infrastructure. 130+ agents, 5 custom models, Chapel + Go + K8s.
-![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)
 
 **[Tinyland.dev](https://tinyland.dev)** — Tinyland is big, more to come very soon :tm:
-![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
-![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
 
 <table>
 <tr>
