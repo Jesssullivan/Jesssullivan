@@ -7,6 +7,7 @@ Uses only stdlib + urllib (no pip installs needed).
 import json
 import os
 import re
+import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -432,6 +433,21 @@ def main():
     originals = [r for r in included if not r["isFork"]]
 
     print(f"Found {len(originals)} original repos (from {len(repos)} total)")
+
+    # Write repo data for graph generator
+    repos_json_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repos_data.json")
+    with open(repos_json_path, "w") as f:
+        json.dump(originals, f)
+    print(f"Wrote {len(originals)} repos to {repos_json_path}")
+
+    # Generate repo relationship graph
+    try:
+        import subprocess as _sp
+        graph_script = os.path.join(os.path.dirname(__file__), "generate_graph.py")
+        _sp.run([sys.executable, graph_script], check=True)
+        print("Generated repo relationship graphs")
+    except Exception as exc:
+        print(f"Warning: graph generation failed: {exc}")
 
     with open(README_PATH, "r") as f:
         content = f.read()

@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0d1117" rx="8" />
+  <text x="300" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#c9d1d9" text-anchor="middle" opacity="0.6">repo relationship graph</text>
+  <line x1="212.3" y1="176.1" x2="197.3" y2="190.5" stroke="#484f58" stroke-width="1.1" opacity="0.19" />
+  <line x1="212.3" y1="176.1" x2="219.5" y2="166.5" stroke="#484f58" stroke-width="1.9" opacity="0.68" />
+  <line x1="212.3" y1="176.1" x2="217.8" y2="195.0" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="212.3" y1="176.1" x2="210.8" y2="200.0" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="212.3" y1="176.1" x2="201.0" y2="197.0" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="212.3" y1="176.1" x2="207.1" y2="193.1" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="212.3" y1="176.1" x2="213.0" y2="187.8" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="212.3" y1="176.1" x2="219.9" y2="178.7" stroke="#484f58" stroke-width="1.1" opacity="0.19" />
+  <line x1="212.3" y1="176.1" x2="203.7" y2="173.6" stroke="#484f58" stroke-width="1.6" opacity="0.45" />
+  <line x1="175.8" y1="257.3" x2="167.1" y2="249.1" stroke="#484f58" stroke-width="1.1" opacity="0.21" />
+  <line x1="175.8" y1="257.3" x2="181.7" y2="231.6" stroke="#484f58" stroke-width="1.1" opacity="0.17" />
+  <line x1="175.8" y1="257.3" x2="167.4" y2="231.9" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="197.3" y1="190.5" x2="217.8" y2="195.0" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="197.3" y1="190.5" x2="210.8" y2="200.0" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="197.3" y1="190.5" x2="201.0" y2="197.0" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="197.3" y1="190.5" x2="207.1" y2="193.1" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="197.3" y1="190.5" x2="213.0" y2="187.8" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="197.3" y1="190.5" x2="219.9" y2="178.7" stroke="#484f58" stroke-width="1.1" opacity="0.17" />
+  <line x1="197.3" y1="190.5" x2="203.7" y2="173.6" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="197.3" y1="190.5" x2="175.8" y2="211.7" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="197.3" y1="190.5" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.1" opacity="0.17" />
+  <line x1="197.3" y1="190.5" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.19" />
+  <line x1="171.6" y1="235.6" x2="181.7" y2="231.6" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="171.6" y1="235.6" x2="167.4" y2="231.9" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="171.6" y1="235.6" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="171.6" y1="235.6" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.4" opacity="0.34" />
+  <line x1="171.6" y1="235.6" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="171.6" y1="235.6" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.1" opacity="0.17" />
+  <line x1="219.5" y1="166.5" x2="217.8" y2="195.0" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="219.5" y1="166.5" x2="219.9" y2="178.7" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="219.5" y1="166.5" x2="203.7" y2="173.6" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="217.8" y1="195.0" x2="210.8" y2="200.0" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="217.8" y1="195.0" x2="201.0" y2="197.0" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="217.8" y1="195.0" x2="207.1" y2="193.1" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="217.8" y1="195.0" x2="213.0" y2="187.8" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="217.8" y1="195.0" x2="203.7" y2="173.6" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="217.8" y1="195.0" x2="216.9" y2="207.4" stroke="#484f58" stroke-width="1.6" opacity="0.45" />
+  <line x1="217.8" y1="195.0" x2="223.1" y2="212.1" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="217.8" y1="195.0" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="217.8" y1="195.0" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="217.8" y1="195.0" x2="225.5" y2="203.8" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="217.8" y1="195.0" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="217.8" y1="195.0" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="210.8" y1="200.0" x2="201.0" y2="197.0" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="210.8" y1="200.0" x2="207.1" y2="193.1" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="210.8" y1="200.0" x2="213.0" y2="187.8" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="210.8" y1="200.0" x2="219.9" y2="178.7" stroke="#484f58" stroke-width="1.2" opacity="0.21" />
+  <line x1="210.8" y1="200.0" x2="203.7" y2="173.6" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="210.8" y1="200.0" x2="225.8" y2="233.7" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="210.8" y1="200.0" x2="211.3" y2="219.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="210.8" y1="200.0" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="210.8" y1="200.0" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="210.8" y1="200.0" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="210.8" y1="200.0" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="232.4" y1="226.0" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="232.4" y1="226.0" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.2" opacity="0.25" />
+  <line x1="201.0" y1="197.0" x2="207.1" y2="193.1" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="201.0" y1="197.0" x2="213.0" y2="187.8" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="201.0" y1="197.0" x2="219.9" y2="178.7" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="201.0" y1="197.0" x2="184.8" y2="216.4" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="201.0" y1="197.0" x2="195.5" y2="226.2" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="201.0" y1="197.0" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="201.0" y1="197.0" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="207.1" y1="193.1" x2="213.0" y2="187.8" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="207.1" y1="193.1" x2="219.9" y2="178.7" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="207.1" y1="193.1" x2="203.7" y2="173.6" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="207.1" y1="193.1" x2="211.3" y2="219.5" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="207.1" y1="193.1" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="207.1" y1="193.1" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="207.1" y1="193.1" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="213.0" y1="187.8" x2="219.9" y2="178.7" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="213.0" y1="187.8" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="213.0" y1="187.8" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="167.1" y1="249.1" x2="181.7" y2="231.6" stroke="#484f58" stroke-width="1.2" opacity="0.22" />
+  <line x1="167.1" y1="249.1" x2="167.4" y2="231.9" stroke="#484f58" stroke-width="1.2" opacity="0.25" />
+  <line x1="167.1" y1="249.1" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="203.7" y1="173.6" x2="180.3" y2="177.0" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="250.9" y1="247.0" x2="225.8" y2="233.7" stroke="#484f58" stroke-width="1.4" opacity="0.36" />
+  <line x1="250.9" y1="247.0" x2="251.6" y2="232.1" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="225.8" y1="233.7" x2="223.1" y2="212.1" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="225.8" y1="233.7" x2="211.3" y2="219.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="225.8" y1="233.7" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="225.8" y1="233.7" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="225.8" y1="233.7" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="225.8" y1="233.7" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="225.8" y1="233.7" x2="228.8" y2="287.5" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="225.8" y1="233.7" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="225.8" y1="233.7" x2="251.6" y2="232.1" stroke="#484f58" stroke-width="1.2" opacity="0.25" />
+  <line x1="253.5" y1="45.0" x2="260.2" y2="52.5" stroke="#484f58" stroke-width="1.6" opacity="0.49" />
+  <line x1="116.7" y1="249.8" x2="167.4" y2="231.9" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="116.7" y1="249.8" x2="89.2" y2="259.6" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="169.9" y1="216.6" x2="181.7" y2="231.6" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="169.9" y1="216.6" x2="167.4" y2="231.9" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="169.9" y1="216.6" x2="184.8" y2="216.4" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="169.9" y1="216.6" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="169.9" y1="216.6" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="169.9" y1="216.6" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="169.9" y1="216.6" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="169.9" y1="216.6" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="181.7" y1="231.6" x2="167.4" y2="231.9" stroke="#484f58" stroke-width="1.4" opacity="0.35" />
+  <line x1="181.7" y1="231.6" x2="181.6" y2="238.8" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="181.7" y1="231.6" x2="175.8" y2="211.7" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="181.7" y1="231.6" x2="184.8" y2="216.4" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="181.7" y1="231.6" x2="195.5" y2="226.2" stroke="#484f58" stroke-width="1.1" opacity="0.19" />
+  <line x1="181.7" y1="231.6" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.3" opacity="0.32" />
+  <line x1="181.7" y1="231.6" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.2" opacity="0.21" />
+  <line x1="181.7" y1="231.6" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.3" opacity="0.28" />
+  <line x1="181.7" y1="231.6" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="181.7" y1="231.6" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.1" opacity="0.21" />
+  <line x1="167.4" y1="231.9" x2="181.6" y2="238.8" stroke="#484f58" stroke-width="1.2" opacity="0.27" />
+  <line x1="167.4" y1="231.9" x2="175.8" y2="211.7" stroke="#484f58" stroke-width="1.1" opacity="0.17" />
+  <line x1="167.4" y1="231.9" x2="184.8" y2="216.4" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="167.4" y1="231.9" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.4" opacity="0.34" />
+  <line x1="167.4" y1="231.9" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="167.4" y1="231.9" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="167.4" y1="231.9" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.7" opacity="0.54" />
+  <line x1="216.9" y1="207.4" x2="223.1" y2="212.1" stroke="#484f58" stroke-width="1.6" opacity="0.45" />
+  <line x1="216.9" y1="207.4" x2="211.3" y2="219.5" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="216.9" y1="207.4" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="216.9" y1="207.4" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="216.9" y1="207.4" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="216.9" y1="207.4" x2="225.5" y2="203.8" stroke="#484f58" stroke-width="1.6" opacity="0.45" />
+  <line x1="216.9" y1="207.4" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="216.9" y1="207.4" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.6" opacity="0.45" />
+  <line x1="223.1" y1="212.1" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="223.1" y1="212.1" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="223.1" y1="212.1" x2="225.5" y2="203.8" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="223.1" y1="212.1" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="223.1" y1="212.1" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="181.6" y1="238.8" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="181.6" y1="238.8" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="181.6" y1="238.8" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="181.6" y1="238.8" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.4" opacity="0.34" />
+  <line x1="175.8" y1="211.7" x2="184.8" y2="216.4" stroke="#484f58" stroke-width="1.2" opacity="0.25" />
+  <line x1="175.8" y1="211.7" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.4" opacity="0.39" />
+  <line x1="175.8" y1="211.7" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="175.8" y1="211.7" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="184.8" y1="216.4" x2="195.5" y2="226.2" stroke="#484f58" stroke-width="1.2" opacity="0.24" />
+  <line x1="184.8" y1="216.4" x2="211.3" y2="219.5" stroke="#484f58" stroke-width="1.0" opacity="0.14" />
+  <line x1="184.8" y1="216.4" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="184.8" y1="216.4" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.3" opacity="0.33" />
+  <line x1="184.8" y1="216.4" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="184.8" y1="216.4" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="195.5" y1="226.2" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="195.5" y1="226.2" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.1" opacity="0.19" />
+  <line x1="195.5" y1="226.2" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="195.5" y1="226.2" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.19" />
+  <line x1="211.3" y1="219.5" x2="211.4" y2="212.6" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="211.3" y1="219.5" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="211.3" y1="219.5" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="211.3" y1="219.5" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="211.4" y1="212.6" x2="191.2" y2="218.5" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="211.4" y1="212.6" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="211.4" y1="212.6" x2="225.5" y2="203.8" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="211.4" y1="212.6" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="211.4" y1="212.6" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="211.4" y1="212.6" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="191.2" y1="218.5" x2="177.9" y2="222.1" stroke="#484f58" stroke-width="1.2" opacity="0.24" />
+  <line x1="191.2" y1="218.5" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.4" opacity="0.39" />
+  <line x1="191.2" y1="218.5" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.16" />
+  <line x1="191.2" y1="218.5" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="191.2" y1="218.5" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <line x1="177.9" y1="222.1" x2="199.2" y2="216.5" stroke="#484f58" stroke-width="1.3" opacity="0.28" />
+  <line x1="177.9" y1="222.1" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.1" opacity="0.21" />
+  <line x1="177.9" y1="222.1" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.1" opacity="0.21" />
+  <line x1="199.2" y1="216.5" x2="225.5" y2="203.8" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="199.2" y1="216.5" x2="208.0" y2="228.8" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="199.2" y1="216.5" x2="176.8" y2="227.4" stroke="#484f58" stroke-width="1.4" opacity="0.36" />
+  <line x1="199.2" y1="216.5" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.4" opacity="0.36" />
+  <line x1="199.2" y1="216.5" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="355.1" y1="99.3" x2="364.2" y2="109.3" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="225.5" y1="203.8" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="225.5" y1="203.8" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="225.6" y1="306.2" x2="222.7" y2="313.9" stroke="#484f58" stroke-width="1.6" opacity="0.45" />
+  <line x1="225.6" y1="306.2" x2="228.8" y2="287.5" stroke="#484f58" stroke-width="1.4" opacity="0.34" />
+  <line x1="222.7" y1="313.9" x2="228.8" y2="287.5" stroke="#484f58" stroke-width="1.1" opacity="0.20" />
+  <line x1="176.8" y1="227.4" x2="195.8" y2="203.8" stroke="#484f58" stroke-width="1.1" opacity="0.18" />
+  <line x1="195.8" y1="203.8" x2="180.3" y2="177.0" stroke="#484f58" stroke-width="1.3" opacity="0.30" />
+  <line x1="195.8" y1="203.8" x2="164.8" y2="174.1" stroke="#484f58" stroke-width="1.1" opacity="0.15" />
+  <line x1="195.8" y1="203.8" x2="228.6" y2="214.6" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="180.3" y1="177.0" x2="164.8" y2="174.1" stroke="#484f58" stroke-width="1.2" opacity="0.23" />
+  <line x1="228.6" y1="214.6" x2="251.6" y2="232.1" stroke="#484f58" stroke-width="1.2" opacity="0.26" />
+  <circle cx="212.3" cy="176.1" r="12.6" fill="#3498db" opacity="0.15" />
+  <circle cx="212.3" cy="176.1" r="9.6" fill="#3498db" opacity="0.85" />
+  <circle cx="175.8" cy="257.3" r="23" fill="#3498db" opacity="0.15" />
+  <circle cx="175.8" cy="257.3" r="20" fill="#3498db" opacity="0.85" />
+  <circle cx="197.3" cy="190.5" r="23" fill="#95a5a6" opacity="0.15" />
+  <circle cx="197.3" cy="190.5" r="20" fill="#95a5a6" opacity="0.85" />
+  <circle cx="171.6" cy="235.6" r="23" fill="#9b59b6" opacity="0.15" />
+  <circle cx="171.6" cy="235.6" r="20" fill="#9b59b6" opacity="0.85" />
+  <circle cx="219.5" cy="166.5" r="11.4" fill="#3498db" opacity="0.15" />
+  <circle cx="219.5" cy="166.5" r="8.4" fill="#3498db" opacity="0.85" />
+  <circle cx="217.8" cy="195.0" r="10.2" fill="#3498db" opacity="0.15" />
+  <circle cx="217.8" cy="195.0" r="7.2" fill="#3498db" opacity="0.85" />
+  <circle cx="210.8" cy="200.0" r="16.2" fill="#e67e22" opacity="0.15" />
+  <circle cx="210.8" cy="200.0" r="13.2" fill="#e67e22" opacity="0.85" />
+  <circle cx="232.4" cy="226.0" r="19.799999999999997" fill="#e67e22" opacity="0.15" />
+  <circle cx="232.4" cy="226.0" r="16.799999999999997" fill="#e67e22" opacity="0.85" />
+  <circle cx="201.0" cy="197.0" r="21.0" fill="#3498db" opacity="0.15" />
+  <circle cx="201.0" cy="197.0" r="18.0" fill="#3498db" opacity="0.85" />
+  <circle cx="207.1" cy="193.1" r="18.6" fill="#3498db" opacity="0.15" />
+  <circle cx="207.1" cy="193.1" r="15.6" fill="#3498db" opacity="0.85" />
+  <circle cx="213.0" cy="187.8" r="21.0" fill="#3498db" opacity="0.15" />
+  <circle cx="213.0" cy="187.8" r="18.0" fill="#3498db" opacity="0.85" />
+  <circle cx="219.9" cy="178.7" r="23" fill="#e74c3c" opacity="0.15" />
+  <circle cx="219.9" cy="178.7" r="20" fill="#e74c3c" opacity="0.85" />
+  <circle cx="167.1" cy="249.1" r="23" fill="#e74c3c" opacity="0.15" />
+  <circle cx="167.1" cy="249.1" r="20" fill="#e74c3c" opacity="0.85" />
+  <circle cx="203.7" cy="173.6" r="13.8" fill="#2ecc71" opacity="0.15" />
+  <circle cx="203.7" cy="173.6" r="10.8" fill="#2ecc71" opacity="0.85" />
+  <circle cx="250.9" cy="247.0" r="16.2" fill="#e74c3c" opacity="0.15" />
+  <circle cx="250.9" cy="247.0" r="13.2" fill="#e74c3c" opacity="0.85" />
+  <circle cx="354.3" cy="86.8" r="18.6" fill="#3498db" opacity="0.15" />
+  <circle cx="354.3" cy="86.8" r="15.6" fill="#3498db" opacity="0.85" />
+  <circle cx="225.8" cy="233.7" r="16.2" fill="#e74c3c" opacity="0.15" />
+  <circle cx="225.8" cy="233.7" r="13.2" fill="#e74c3c" opacity="0.85" />
+  <circle cx="392.1" cy="277.3" r="9" fill="#3498db" opacity="0.15" />
+  <circle cx="392.1" cy="277.3" r="6" fill="#3498db" opacity="0.85" />
+  <circle cx="253.5" cy="45.0" r="18.6" fill="#3498db" opacity="0.15" />
+  <circle cx="253.5" cy="45.0" r="15.6" fill="#3498db" opacity="0.85" />
+  <circle cx="260.2" cy="52.5" r="17.4" fill="#3498db" opacity="0.15" />
+  <circle cx="260.2" cy="52.5" r="14.4" fill="#3498db" opacity="0.85" />
+  <circle cx="116.7" cy="249.8" r="10.2" fill="#3498db" opacity="0.15" />
+  <circle cx="116.7" cy="249.8" r="7.2" fill="#3498db" opacity="0.85" />
+  <circle cx="169.9" cy="216.6" r="18.6" fill="#9b59b6" opacity="0.15" />
+  <circle cx="169.9" cy="216.6" r="15.6" fill="#9b59b6" opacity="0.85" />
+  <circle cx="181.7" cy="231.6" r="23" fill="#9b59b6" opacity="0.15" />
+  <circle cx="181.7" cy="231.6" r="20" fill="#9b59b6" opacity="0.85" />
+  <circle cx="167.4" cy="231.9" r="13.8" fill="#9b59b6" opacity="0.15" />
+  <circle cx="167.4" cy="231.9" r="10.8" fill="#9b59b6" opacity="0.85" />
+  <circle cx="216.9" cy="207.4" r="9" fill="#2ecc71" opacity="0.15" />
+  <circle cx="216.9" cy="207.4" r="6" fill="#2ecc71" opacity="0.85" />
+  <circle cx="223.1" cy="212.1" r="10.2" fill="#95a5a6" opacity="0.15" />
+  <circle cx="223.1" cy="212.1" r="7.2" fill="#95a5a6" opacity="0.85" />
+  <circle cx="181.6" cy="238.8" r="17.4" fill="#e67e22" opacity="0.15" />
+  <circle cx="181.6" cy="238.8" r="14.4" fill="#e67e22" opacity="0.85" />
+  <circle cx="175.8" cy="211.7" r="23" fill="#2ecc71" opacity="0.15" />
+  <circle cx="175.8" cy="211.7" r="20" fill="#2ecc71" opacity="0.85" />
+  <circle cx="89.2" cy="259.6" r="11.4" fill="#9b59b6" opacity="0.15" />
+  <circle cx="89.2" cy="259.6" r="8.4" fill="#9b59b6" opacity="0.85" />
+  <circle cx="45.0" cy="149.6" r="9" fill="#95a5a6" opacity="0.15" />
+  <circle cx="45.0" cy="149.6" r="6" fill="#95a5a6" opacity="0.85" />
+  <circle cx="157.6" cy="52.5" r="9" fill="#95a5a6" opacity="0.15" />
+  <circle cx="157.6" cy="52.5" r="6" fill="#95a5a6" opacity="0.85" />
+  <circle cx="184.8" cy="216.4" r="18.6" fill="#3498db" opacity="0.15" />
+  <circle cx="184.8" cy="216.4" r="15.6" fill="#3498db" opacity="0.85" />
+  <circle cx="195.5" cy="226.2" r="19.799999999999997" fill="#95a5a6" opacity="0.15" />
+  <circle cx="195.5" cy="226.2" r="16.799999999999997" fill="#95a5a6" opacity="0.85" />
+  <circle cx="211.3" cy="219.5" r="15.0" fill="#95a5a6" opacity="0.15" />
+  <circle cx="211.3" cy="219.5" r="12.0" fill="#95a5a6" opacity="0.85" />
+  <circle cx="117.8" cy="334.6" r="9" fill="#95a5a6" opacity="0.15" />
+  <circle cx="117.8" cy="334.6" r="6" fill="#95a5a6" opacity="0.85" />
+  <circle cx="211.4" cy="212.6" r="12.6" fill="#95a5a6" opacity="0.15" />
+  <circle cx="211.4" cy="212.6" r="9.6" fill="#95a5a6" opacity="0.85" />
+  <circle cx="191.2" cy="218.5" r="15.0" fill="#95a5a6" opacity="0.15" />
+  <circle cx="191.2" cy="218.5" r="12.0" fill="#95a5a6" opacity="0.85" />
+  <circle cx="177.9" cy="222.1" r="23" fill="#2ecc71" opacity="0.15" />
+  <circle cx="177.9" cy="222.1" r="20" fill="#2ecc71" opacity="0.85" />
+  <circle cx="199.2" cy="216.5" r="12.6" fill="#95a5a6" opacity="0.15" />
+  <circle cx="199.2" cy="216.5" r="9.6" fill="#95a5a6" opacity="0.85" />
+  <circle cx="355.1" cy="99.3" r="12.6" fill="#95a5a6" opacity="0.15" />
+  <circle cx="355.1" cy="99.3" r="9.6" fill="#95a5a6" opacity="0.85" />
+  <circle cx="410.0" cy="221.2" r="12.6" fill="#3498db" opacity="0.15" />
+  <circle cx="410.0" cy="221.2" r="9.6" fill="#3498db" opacity="0.85" />
+  <circle cx="225.5" cy="203.8" r="10.2" fill="#95a5a6" opacity="0.15" />
+  <circle cx="225.5" cy="203.8" r="7.2" fill="#95a5a6" opacity="0.85" />
+  <circle cx="225.6" cy="306.2" r="11.4" fill="#e67e22" opacity="0.15" />
+  <circle cx="225.6" cy="306.2" r="8.4" fill="#e67e22" opacity="0.85" />
+  <circle cx="222.7" cy="313.9" r="11.4" fill="#e67e22" opacity="0.15" />
+  <circle cx="222.7" cy="313.9" r="8.4" fill="#e67e22" opacity="0.85" />
+  <circle cx="208.0" cy="228.8" r="16.2" fill="#95a5a6" opacity="0.15" />
+  <circle cx="208.0" cy="228.8" r="13.2" fill="#95a5a6" opacity="0.85" />
+  <circle cx="228.8" cy="287.5" r="17.4" fill="#e67e22" opacity="0.15" />
+  <circle cx="228.8" cy="287.5" r="14.4" fill="#e67e22" opacity="0.85" />
+  <circle cx="364.2" cy="109.3" r="10.2" fill="#95a5a6" opacity="0.15" />
+  <circle cx="364.2" cy="109.3" r="7.2" fill="#95a5a6" opacity="0.85" />
+  <circle cx="176.8" cy="227.4" r="11.4" fill="#95a5a6" opacity="0.15" />
+  <circle cx="176.8" cy="227.4" r="8.4" fill="#95a5a6" opacity="0.85" />
+  <circle cx="195.8" cy="203.8" r="11.4" fill="#95a5a6" opacity="0.15" />
+  <circle cx="195.8" cy="203.8" r="8.4" fill="#95a5a6" opacity="0.85" />
+  <circle cx="180.3" cy="177.0" r="9" fill="#2ecc71" opacity="0.15" />
+  <circle cx="180.3" cy="177.0" r="6" fill="#2ecc71" opacity="0.85" />
+  <circle cx="164.8" cy="174.1" r="12.6" fill="#2ecc71" opacity="0.15" />
+  <circle cx="164.8" cy="174.1" r="9.6" fill="#2ecc71" opacity="0.85" />
+  <circle cx="228.6" cy="214.6" r="10.2" fill="#e74c3c" opacity="0.15" />
+  <circle cx="228.6" cy="214.6" r="7.2" fill="#e74c3c" opacity="0.85" />
+  <circle cx="251.6" cy="232.1" r="16.2" fill="#e74c3c" opacity="0.15" />
+  <circle cx="251.6" cy="232.1" r="13.2" fill="#e74c3c" opacity="0.85" />
+  <circle cx="197.0" cy="355.0" r="9" fill="#95a5a6" opacity="0.15" />
+  <circle cx="197.0" cy="355.0" r="6" fill="#95a5a6" opacity="0.85" />
+  <text x="223.9" y="237.8" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">pp</text>
+  <text x="197.8" y="311.2" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">GloriousFlywheel</text>
+  <text x="219.3" y="129.2" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">tinyland-huskycat</text>
+  <text x="193.6" y="261.2" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">GIS_Shortcuts</text>
+  <text x="229.9" y="98.0" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">tinyland-cleanup</text>
+  <text x="227.0" y="107.6" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">tinyland-kdbx</text>
+  <text x="226.0" y="207.6" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">XoxdWM</text>
+  <text x="251.2" y="229.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">hiberpower-ntfs</text>
+  <text x="221.0" y="257.8" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">Ansible-DAG-Harness</text>
+  <text x="224.7" y="149.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">betterkvm</text>
+  <text x="233.0" y="189.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">DarwinNicUtil</text>
+  <text x="241.9" y="154.2" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">RemoteJuggler</text>
+  <text x="189.1" y="261.3" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">pixelwise-research</text>
+  <text x="216.5" y="208.3" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">gnucashr</text>
+  <text x="266.1" y="238.9" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">quickchpl</text>
+  <text x="371.9" y="89.9" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">tinyscale-mikrotik</text>
+  <text x="241.0" y="132.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">aoc-2025</text>
+  <text x="400.1" y="280.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">tinywaffle</text>
+  <text x="271.1" y="45.9" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">searchies</text>
+  <text x="276.6" y="57.9" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">ts-caddy</text>
+  <text x="125.9" y="251.8" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">HCI-notes</text>
+  <text x="187.5" y="306.9" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">FastPhotoAPI</text>
+  <text x="203.7" y="300.5" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">timberbuddy</text>
+  <text x="180.2" y="233.1" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">tetrahedron</text>
+  <text x="224.9" y="208.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">AccuWixReport</text>
+  <text x="232.3" y="274.5" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">Jess-AOC-2023</text>
+  <text x="198.0" y="189.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">TurkeyProbe</text>
+  <text x="197.8" y="144.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">MerlinAI-Interpreters</text>
+  <text x="99.6" y="263.8" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">IntroTypeScript</text>
+  <text x="53.0" y="152.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">NyxBox</text>
+  <text x="165.6" y="55.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">IG-3DP-Profiles</text>
+  <text x="202.4" y="184.5" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">DLA-Flask</text>
+  <text x="214.3" y="238.0" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">USBoN</text>
+  <text x="225.3" y="269.6" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">chrome-remote-desktop-budgie</text>
+  <text x="125.8" y="337.8" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">OminousBeepingApp</text>
+  <text x="223.0" y="201.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">mo-image-identifier</text>
+  <text x="205.2" y="214.9" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">squirrel-leaflet-annotation</text>
+  <text x="199.9" y="250.0" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">Shiny-Apps</text>
+  <text x="210.8" y="119.6" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">bbox-jest-puppeteer</text>
+  <text x="366.7" y="102.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">DoverDisplay</text>
+  <text x="421.6" y="224.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">LeafletSync</text>
+  <text x="234.7" y="181.2" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">misc-roi-distance-notes</text>
+  <text x="236.0" y="333.8" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">Arduino_Coil_Winder</text>
+  <text x="233.1" y="342.3" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">momo</text>
+  <text x="223.2" y="294.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">clipi</text>
+  <text x="245.2" y="321.8" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">AeroTaz5_hotfix</text>
+  <text x="373.4" y="112.5" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">Funmat-HT-Notes</text>
+  <text x="187.2" y="226.9" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">static-site</text>
+  <text x="206.2" y="158.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">Flask-Manager</text>
+  <text x="188.3" y="282.7" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">FieldProcessing</text>
+  <text x="176.4" y="171.6" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">rJDKmanager</text>
+  <text x="237.8" y="170.4" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">tagnotes</text>
+  <text x="266.8" y="293.3" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">ChapelTests</text>
+  <text x="205.0" y="358.1" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#c9d1d9" text-anchor="start">home-wiki</text>
+  <rect x="447" y="277" width="145" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0.92" />
+  <circle cx="461" cy="291" r="4" fill="#e74c3c" opacity="0.85" />
+  <text x="469" y="294" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" fill="#c9d1d9">Languages &amp; Compilers</text>
+  <circle cx="461" cy="307" r="4" fill="#3498db" opacity="0.85" />
+  <text x="469" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" fill="#c9d1d9">Infrastructure &amp; DevOps</text>
+  <circle cx="461" cy="323" r="4" fill="#e67e22" opacity="0.85" />
+  <text x="469" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" fill="#c9d1d9">Hardware &amp; Maker</text>
+  <circle cx="461" cy="339" r="4" fill="#2ecc71" opacity="0.85" />
+  <text x="469" y="342" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" fill="#c9d1d9">ML &amp; Data</text>
+  <circle cx="461" cy="355" r="4" fill="#9b59b6" opacity="0.85" />
+  <text x="469" y="358" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" fill="#c9d1d9">Web &amp; Apps</text>
+  <circle cx="461" cy="371" r="4" fill="#95a5a6" opacity="0.85" />
+  <text x="469" y="374" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" fill="#c9d1d9">Other</text>
+</svg>

@@ -35,26 +35,11 @@ Macaulay Library, where I helped develop and launch
 
 </td><td valign="top" width="40%">
 
-```mermaid
-mindmap
-  root((interests))
-    Languages
-      Chapel
-      Futhark
-      Haskell
-    Hardware
-      Arduino
-      RPi
-      3D Print
-    ML & Ecology
-      Birdsong
-      Mushrooms
-      GIS
-    Infra
-      Ansible
-      K8s
-      GitLab CI
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="repo-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="repo-graph.svg" />
+  <img alt="Repository relationship graph" src="repo-graph.svg" width="100%" />
+</picture>
 
 </td></tr>
 </table>
