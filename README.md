@@ -262,6 +262,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | [tinyscale-mikrotik](https://github.com/Jesssullivan/tinyscale-mikrotik) | Very small tailscale container for CRS310 class switches | **Shell**, Makefile, Dockerfile, RouterOS Script | mikrotik, oci, tailscale, upx |
 | [tinywaffle](https://github.com/Jesssullivan/tinywaffle) | Waffle-iron deployment orchestrator for Tinyland container workloads | **Dockerfile** |  |
 | [searchies](https://github.com/Jesssullivan/searchies) | hard AF searxng infra for uwu tinies | **Jinja**, Shell | caddy, digitalocean, opentofu, rockylinux |
+| [ts-caddy](https://github.com/Jesssullivan/ts-caddy) | Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo | **Jinja**, Shell | ansible, caddy, digitalocean, dreamhost-dns |
+| [HCI-notes](https://github.com/Jesssullivan/HCI-notes) | Misc. notes to share on switch to Proxmox from Harvester | **HCL**, TypeScript |  |
 
 **Hardware & Maker**
 
@@ -269,27 +271,36 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 |------|-------------|-----------|--------|
 | [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Python, Just | dont-take-this-too-seriously |
 | [hiberpower-ntfs](https://github.com/Jesssullivan/hiberpower-ntfs) | ASM2362 NVMe recovery experiments and research around FTL corruption | **Zig**, Shell, JavaScript, Python | frida, ghidra, opcode-analysis, wine |
+| [TurkeyProbe](https://github.com/Jesssullivan/TurkeyProbe) | for probing the Turkey | **C++**, JavaScript, HTML, CSS | esp8266, steinhart-hart, thermistor, websocket |
 
 **ML & Data**
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
 | [gnucashr](https://github.com/Jesssullivan/gnucashr) | A high performance accounting and financial modeling R package for GNUCash | **R**, C++, Nix, Starlark |  |
+| [AccuWixReport](https://github.com/Jesssullivan/AccuWixReport) | A command line utility generating monthly transaction & superlative financial reports - migration... | **Python** |  |
 
 **Web & Apps**
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
 | [GIS_Shortcuts](https://github.com/Jesssullivan/GIS_Shortcuts) | Jess's miscellaneous GIS notes and related tomfoolery  | **R**, HTML, CSS, Stylus | gdal, gis, esri, wsl |
+| [FastPhotoAPI](https://github.com/Jesssullivan/FastPhotoAPI) | An efficient, flexible, flask-based image server using Lanczos resampling  | **Python**, HTML, CSS, Dockerfile | flask, lanczos, docker, koyeb |
+| [timberbuddy](https://github.com/Jesssullivan/timberbuddy) | Archive of Control Package work for Amish Sawmill | **TypeScript**, Svelte, Jinja, Cython | i2c, raspberry-pi, robotics, sveltekit |
+| [tetrahedron](https://github.com/Jesssullivan/tetrahedron) | Application for tetrahedron.gay mental health social service | **Svelte**, TypeScript, JavaScript, CSS |  |
+| [IntroTypeScript](https://github.com/Jesssullivan/IntroTypeScript) | Learn how to write a command line utility of your own in pure modern TypeScript | **TypeScript** | lesson, typescript, utilities |
 
 **Other**
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
 | [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - t... | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
+| [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
+| [NyxBox](https://github.com/Jesssullivan/NyxBox) | Posh & Fosh Litterbox |  |  |
 
+*...and [24 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-10 18:29 UTC*
+*Last updated: 2026-02-10 18:37 UTC*
 <!--END_SECTION:repos-->
 
 <details>
