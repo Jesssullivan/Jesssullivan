@@ -191,12 +191,20 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 <td width="50%" valign="top">
 
 **Tinyland.dev, Inc** *(2024–Present)*
-- Semiautonomous infra maintenance platform for higher ed
-- 5 bespoke SLMs, 100+ autonomous tools
-- Chapel, Python, Go, K8s (Liqo), Apache Solr
+- Funded, stealthmode
+
+**xoxd.ai** *(2024–Present)*
+- Seeking funding, stealthmode
 
 **Columbari.us LLC** *(2017–2021)*
-- Independent contractor in GIS & ML
+- Independent Gov. contractor in GIS & ML
+
+**Moonlight Coworking LLC** *(2024)*
+- Shelved rapidfab / HPC hackerspace initiative in NY
+
+**Kitten Spit Labs** *(2022-present)*
+- Ultrasonic phantom network gel synthasis.  *currently on mfg. pause*
+
 
 Clients:
 
