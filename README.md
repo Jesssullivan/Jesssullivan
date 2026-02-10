@@ -58,30 +58,66 @@ mindmap
 
 <!--START_SECTION:repos-->
 
+**Languages & Compilers**
+
+| Repo | Description | Lang |
+|------|-------------|------|
+| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | An identity management utility. Switch between multiple git identities with credential resolution... | Chapel |
+| [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | An experimental webGPU glyph compositor demonstration in Futhark | TypeScript |
+| [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | Chapel |
+| [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | Chapel |
+
+**Infrastructure & DevOps**
+
 | Repo | Description | Lang |
 |------|-------------|------|
 | [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | HCL |
-| [GIS_Shortcuts](https://github.com/Jesssullivan/GIS_Shortcuts) | Jess's miscellaneous GIS notes and related tomfoolery  | R |
 | [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | Go |
 | [tinyland-kdbx](https://github.com/Jesssullivan/tinyland-kdbx) | Native KeePassXC KDBX reader with base58 transport | Python |
 | [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | Go |
-| [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | Emacs Lisp |
-| [hiberpower-ntfs](https://github.com/Jesssullivan/hiberpower-ntfs) | ASM2362 NVMe recovery experiments and research around FTL corruption | Zig |
 | [Ansible-DAG-Harness](https://github.com/Jesssullivan/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for "boxing up"Ansible iteration cycles in ... | Python |
 | [betterkvm](https://github.com/Jesssullivan/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | Nix |
 | [DarwinNicUtil](https://github.com/Jesssullivan/DarwinNicUtil) | Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... | Python |
-| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | An identity management utility. Switch between multiple git identities with credential resolution... | Chapel |
-| [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | An experimental webGPU glyph compositor demonstration in Futhark | TypeScript |
-| [gnucashr](https://github.com/Jesssullivan/gnucashr) | A high performance accounting and financial modeling R package for GNUCash | R |
-| [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | Chapel |
 | [tinyscale-mikrotik](https://github.com/Jesssullivan/tinyscale-mikrotik) | Very small tailscale container for CRS310 class switches | Shell |
-| [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | Chapel |
 | [tinywaffle](https://github.com/Jesssullivan/tinywaffle) | Waffle-iron deployment orchestrator for Tinyland container workloads | Dockerfile |
 | [searchies](https://github.com/Jesssullivan/searchies) | hard AF searxng infra for uwu tinies | Jinja |
 | [ts-caddy](https://github.com/Jesssullivan/ts-caddy) | Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo | Jinja |
 | [HCI-notes](https://github.com/Jesssullivan/HCI-notes) | Misc. notes to share on switch to Proxmox from Harvester | HCL |
 
-*...and [11 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+**Hardware & Maker**
+
+| Repo | Description | Lang |
+|------|-------------|------|
+| [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | Emacs Lisp |
+| [hiberpower-ntfs](https://github.com/Jesssullivan/hiberpower-ntfs) | ASM2362 NVMe recovery experiments and research around FTL corruption | Zig |
+| [TurkeyProbe](https://github.com/Jesssullivan/TurkeyProbe) | for probing the Turkey | C++ |
+
+**ML & Data**
+
+| Repo | Description | Lang |
+|------|-------------|------|
+| [gnucashr](https://github.com/Jesssullivan/gnucashr) | A high performance accounting and financial modeling R package for GNUCash | R |
+| [AccuWixReport](https://github.com/Jesssullivan/AccuWixReport) | A command line utility generating monthly transaction & superlative financial reports - migration... | Python |
+
+**Web & Apps**
+
+| Repo | Description | Lang |
+|------|-------------|------|
+| [GIS_Shortcuts](https://github.com/Jesssullivan/GIS_Shortcuts) | Jess's miscellaneous GIS notes and related tomfoolery  | R |
+| [FastPhotoAPI](https://github.com/Jesssullivan/FastPhotoAPI) | An efficient, flexible, flask-based image server using Lanczos resampling  | Python |
+| [timberbuddy](https://github.com/Jesssullivan/timberbuddy) | Archive of Control Package work for Amish Sawmill | TypeScript |
+| [tetrahedron](https://github.com/Jesssullivan/tetrahedron) | Application for tetrahedron.gay mental health social service | Svelte |
+| [IntroTypeScript](https://github.com/Jesssullivan/IntroTypeScript) | Learn how to write a command line utility of your own in pure modern TypeScript | TypeScript |
+
+**Other**
+
+| Repo | Description | Lang |
+|------|-------------|------|
+| [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | Python |
+| [NyxBox](https://github.com/Jesssullivan/NyxBox) | Posh & Fosh Litterbox |  |
+| [IG-3DP-Profiles](https://github.com/Jesssullivan/IG-3DP-Profiles) | Ithaca Generator 3d printer profiles and notes |  |
+
+*...and [1 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
 ### FOSS Contributions
 
@@ -103,9 +139,9 @@ mindmap
 | ![](https://img.shields.io/github/stars/Jesssullivan/freenet-stdlib?style=social&label=freenet-stdlib) | [freenet/freenet-stdlib](https://github.com/freenet/freenet-stdlib) |
 | ![](https://img.shields.io/github/stars/Jesssullivan/chapel?style=social&label=chapel) | [chapel-lang/chapel](https://github.com/chapel-lang/chapel) |
 
-*...and [47 more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*
+*...and [46 more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*
 
-*Last updated: 2026-02-10 06:35 UTC*
+*Last updated: 2026-02-10 04:31 UTC*
 <!--END_SECTION:repos-->
 
 ---
