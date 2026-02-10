@@ -28,7 +28,6 @@ BLOCKLIST = {
 
 # Limits for table sizes
 MAX_ORIGINAL_REPOS = 30
-MAX_FORKS = 15
 
 # Category mappings: repo name -> category
 # Repos not listed here are auto-categorized by language
@@ -95,6 +94,14 @@ QUERY = """
         description
         url
         primaryLanguage { name }
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          nodes { name }
+        }
+        repositoryTopics(first: 10) {
+          nodes {
+            topic { name }
+          }
+        }
         stargazerCount
         isFork
         pushedAt
@@ -201,17 +208,34 @@ def build_original_table(repos):
             continue
         lines.append(f"**{cat}**")
         lines.append("")
-        lines.append("| Repo | Description | Lang |")
-        lines.append("|------|-------------|------|")
+        lines.append("| Repo | Description | Languages | Topics |")
+        lines.append("|------|-------------|-----------|--------|")
         for repo in cat_repos:
             name = repo["name"]
             desc = (repo["description"] or "").replace("|", "\\|")
             if len(desc) > 100:
                 desc = desc[:97] + "..."
-            lang = repo.get("primaryLanguage")
-            lang_name = lang["name"] if lang else ""
+
+            # Languages - primary bold, others normal
+            primary = repo.get("primaryLanguage")
+            primary_name = primary["name"] if primary else ""
+            all_langs = [n["name"] for n in repo.get("languages", {}).get("nodes", [])]
+            if primary_name and all_langs:
+                others = [l for l in all_langs if l != primary_name]
+                lang_str = f"**{primary_name}**"
+                if others:
+                    lang_str += ", " + ", ".join(others[:3])
+            elif primary_name:
+                lang_str = f"**{primary_name}**"
+            else:
+                lang_str = ""
+
+            # Topics
+            topics = [n["topic"]["name"] for n in repo.get("repositoryTopics", {}).get("nodes", [])]
+            topic_str = ", ".join(topics[:4]) if topics else ""
+
             url = repo["url"]
-            lines.append(f"| [{name}]({url}) | {desc} | {lang_name} |")
+            lines.append(f"| [{name}]({url}) | {desc} | {lang_str} | {topic_str} |")
         lines.append("")
 
     remaining = len(repos) - len(shown)
@@ -385,9 +409,8 @@ def main():
     repos = fetch_repos()
     included = [r for r in repos if should_include(r)]
     originals = [r for r in included if not r["isFork"]]
-    forks = [r for r in included if r["isFork"]]
 
-    print(f"Found {len(originals)} original repos, {len(forks)} forks (from {len(repos)} total)")
+    print(f"Found {len(originals)} original repos (from {len(repos)} total)")
 
     with open(README_PATH, "r") as f:
         content = f.read()
@@ -397,19 +420,15 @@ def main():
     content = update_section(content, "activity", activity)
     print(f"Updated activity: {originals[0]['name'] if originals else 'none'}")
 
-    # Update repos section
+    # Update repos section (original projects only, no forks)
     section_parts = []
     section_parts.append("")
     section_parts.append(build_original_table(originals))
-    section_parts.append("")
-    section_parts.append("### FOSS Contributions")
-    section_parts.append("")
-    section_parts.append(build_forks_table(forks))
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     section_parts.append("")
     section_parts.append(f"*Last updated: {now}*")
     content = update_section(content, "repos", "\n".join(section_parts))
-    print(f"Updated repos: {min(len(originals), MAX_ORIGINAL_REPOS)} shown, {min(len(forks), MAX_FORKS)} forks")
+    print(f"Updated repos: {min(len(originals), MAX_ORIGINAL_REPOS)} shown")
 
     # Update blog section
     blog_posts = fetch_blog_posts()
