@@ -65,7 +65,7 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 
 </details>
 
-> **As of 2025, I'm much more active on GitLab** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
+> **As of 2025, I'm much more active on GitLab playing in Tinyland with my robots** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
 
 ---
 
