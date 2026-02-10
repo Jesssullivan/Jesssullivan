@@ -137,10 +137,9 @@ mindmap
 
 <div align="center">
 <sub><i>from my computer vision work at Macaulay Library</i></sub>
-<br><br>
-<img src="https://latex.codecogs.com/svg.latex?\color{gray}Focal\;Length=\frac{ImageDimension}{2}\cdot\tan\left(\frac{FoV}{2}\right)" alt="Focal Length equation" />
-&emsp;&emsp;
-<img src="https://latex.codecogs.com/svg.latex?\color{gray}Distance=ActualDimension\cdot\frac{FocalLength}{ROIDimension}" alt="Distance equation" />
+
+$$Focal\ Length = \frac{ImageDimension}{2} \cdot \tan\left(\frac{FoV}{2}\right) \qquad\qquad Distance = ActualDimension \cdot \frac{FocalLength}{ROIDimension}$$
+
 </div>
 
 ---
