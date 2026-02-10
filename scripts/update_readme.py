@@ -88,7 +88,7 @@ LANG_CATEGORY = {
 QUERY = """
 {
   user(login: "Jesssullivan") {
-    repositories(first: 100, orderBy: {field: PUSHED_AT, direction: DESC}, privacy: PUBLIC) {
+    repositories(first: 50, orderBy: {field: PUSHED_AT, direction: DESC}, privacy: PUBLIC) {
       nodes {
         name
         description
@@ -114,16 +114,37 @@ QUERY = """
 
 
 def fetch_repos():
-    """Fetch public repos via GitHub GraphQL API using urllib."""
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Content-Type": "application/json",
-        "User-Agent": "profile-readme-updater",
-    }
-    payload = json.dumps({"query": QUERY}).encode("utf-8")
-    req = urllib.request.Request(GRAPHQL_URL, data=payload, headers=headers)
-    with urllib.request.urlopen(req) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
+    """Fetch public repos via GitHub GraphQL API.
+
+    Tries urllib first, falls back to `gh api graphql` subprocess.
+    """
+    import subprocess
+
+    # Try urllib first (works in GitHub Actions with GITHUB_TOKEN)
+    try:
+        headers = {
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
+            "Content-Type": "application/json",
+            "User-Agent": "profile-readme-updater",
+        }
+        payload = json.dumps({"query": QUERY}).encode("utf-8")
+        req = urllib.request.Request(GRAPHQL_URL, data=payload, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        if "errors" in data:
+            raise RuntimeError(f"GraphQL errors: {data['errors']}")
+        return data["data"]["user"]["repositories"]["nodes"]
+    except Exception as exc:
+        print(f"urllib failed ({exc}), trying gh cli...")
+
+    # Fallback: use gh cli (works locally with gh auth)
+    result = subprocess.run(
+        ["gh", "api", "graphql", "-f", f"query={QUERY}"],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"gh api failed: {result.stderr}")
+    data = json.loads(result.stdout)
     if "errors" in data:
         raise RuntimeError(f"GraphQL errors: {data['errors']}")
     return data["data"]["user"]["repositories"]["nodes"]
