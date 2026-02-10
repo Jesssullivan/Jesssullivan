@@ -131,10 +131,9 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 
 **Systems Analyst (DevSecOps)** — Bates College *(2024–Present)*
 - Legacy modernization, bespoke Ansible extensions, roles & plugins
-- Degree audit orchestration tooling (Haskell + Python, QuickCheck, Cabal, FPM)
-- Event management system overhaul (C#, Go, Ansible)
-- Apache Solr adoption, ACME cert management, SAML integrations
-- GitLab AutoDevOps, OpenTofu, RKE2 + Rancher
+- Apache Solr, ACME cert management, SAML integrations
+- GitLab AutoDevOps, RKE2 + Rancher, promoter of IaC practices :tm:
+- Orchestration, packaging & tooling work (Haskell + Python, QuickCheck, Cabal, FPM)
 
 **CV/ML Software Engineer** — Macaulay Library *(2018–2022)*
 - Developed & launched [Merlin Sound ID](https://merlin.allaboutbirds.org/) & The Machine Learning Blog
