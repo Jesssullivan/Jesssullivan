@@ -30,16 +30,16 @@ CATEGORY_COLORS = {
 sys.path.insert(0, os.path.dirname(__file__))
 from update_readme import REPO_CATEGORIES, LANG_CATEGORY
 
-SVG_WIDTH = 900
-SVG_HEIGHT = 540
+SVG_WIDTH = 960
+SVG_HEIGHT = 600
 MARGIN = 50
-FOOTER_HEIGHT = 50  # reserved for equations + CI link
-NODE_MIN_R = 4
-NODE_MAX_R = 14
+FOOTER_HEIGHT = 50  # reserved for info text
+NODE_MIN_R = 5
+NODE_MAX_R = 16
 SIMILARITY_THRESHOLD = 0.15
-FONT_SIZE = 11
-FONT_SIZE_SMALL = 8
-LABEL_CHAR_WIDTH = 6.6  # approx width per char at font-size 11
+FONT_SIZE = 12
+FONT_SIZE_SMALL = 9
+LABEL_CHAR_WIDTH = 7.2  # approx width per char at font-size 12
 LEGEND_WIDTH = 155
 LEGEND_HEIGHT = 120
 
@@ -249,30 +249,25 @@ def render_svg(G, scaled_pos, dark=False):
         f'stroke="{footer_color}" stroke-width="0.5" opacity="0.5" />'
     )
 
-    # Footer equations (decorative)
+    # Footer info
     eq_y1 = footer_y + 20
     eq_y2 = footer_y + 38
     lines.append(
-        f'  <text x="{MARGIN}" y="{eq_y1}" font-family="serif, Georgia, Times" '
-        f'font-size="10" fill="{eq_color}" font-style="italic" opacity="0.7">'
-        f'Focal Length = ImageDimension / 2 \u00b7 tan(FoV / 2)</text>'
-    )
-    lines.append(
-        f'  <text x="{MARGIN}" y="{eq_y2}" font-family="serif, Georgia, Times" '
-        f'font-size="10" fill="{eq_color}" font-style="italic" opacity="0.7">'
-        f'Distance = ActualDimension \u00b7 FocalLength / ROIDimension</text>'
-    )
-
-    # Footer CI note (right-aligned)
-    lines.append(
-        f'  <text x="{SVG_WIDTH - MARGIN}" y="{eq_y1}" font-family="system-ui, -apple-system, sans-serif" '
-        f'font-size="9" fill="{text_muted}" text-anchor="end" opacity="0.6">'
+        f'  <text x="{MARGIN}" y="{eq_y1}" font-family="system-ui, -apple-system, sans-serif" '
+        f'font-size="9" fill="{text_muted}" opacity="0.6">'
         f'Updated daily by GitHub Actions</text>'
     )
     lines.append(
-        f'  <text x="{SVG_WIDTH - MARGIN}" y="{eq_y2}" font-family="system-ui, -apple-system, sans-serif" '
-        f'font-size="9" fill="{text_muted}" text-anchor="end" opacity="0.6">'
+        f'  <text x="{MARGIN}" y="{eq_y2}" font-family="system-ui, -apple-system, sans-serif" '
+        f'font-size="9" fill="{text_muted}" opacity="0.6">'
         f'networkx spring_layout \u00b7 Jaccard similarity &gt; 0.15</text>'
+    )
+
+    # Node + edge count (right-aligned)
+    lines.append(
+        f'  <text x="{SVG_WIDTH - MARGIN}" y="{eq_y1}" font-family="system-ui, -apple-system, sans-serif" '
+        f'font-size="9" fill="{text_muted}" text-anchor="end" opacity="0.6">'
+        f'{len(G.nodes)} repos \u00b7 {len(G.edges)} edges</text>'
     )
 
     # Edges

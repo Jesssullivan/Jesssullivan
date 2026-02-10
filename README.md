@@ -8,14 +8,6 @@
 [![Hire me](https://img.shields.io/badge/Hire%20me-I%20have%20budget-2ea44f?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I%27d+like+to+hire+you&body=Hi+Jess%21%0A%0AWe+have+a+role+that+might+interest+you...%0A%0A**Company%3A**+%0A**Role%3A**+%0A**Compensation%3A**+&labels=opportunity)
 [![Work for me](https://img.shields.io/badge/Work%20for%20me-let%27s%20build%20together-blueviolet?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I+want+to+work+with+you&body=Hi+Jess%21%0A%0AI+saw+your+work+and+I%27d+love+to+collaborate...%0A%0A**About+me%3A**+%0A**What+I+bring%3A**+&labels=collaboration)
 
-[![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
-[![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
-[![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
-[![Sponsor](https://img.shields.io/badge/Sponsor-Jesssullivan-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Jesssullivan)
-[![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)](https://xoxd.ai)
-[![EFF](https://img.shields.io/badge/EFF-Member-red?style=flat-square&logo=eff&logoColor=white)](https://www.eff.org/)
-<a href="https://www.fightforthefuture.org/"><img src="idl_badge.png" alt="Member of The Internet Defense League" height="20" /></a>
-![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
 
 </div>
 
@@ -28,68 +20,43 @@ Full stack engineer, musician, and birdwatcher based in Lewiston, ME.
 
 
 I spent about a year completely offline — no LinkedIn, no blog, no social media.
-Late 2023 through the end of 2024. An intentional disconnect.  I'm back to building in the open. 
+Late 2023 through the end of 2024. An intentional disconnect.  I'm back to building in the open.
 
 I build infrastructure tooling, contribute to compilers
-and languages, hack on hardware, and maintain a *lot* of FOSS. 
+and languages, hack on hardware, and maintain a *lot* of FOSS.
 
 
 
 </td><td valign="top" width="40%">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="repo-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="repo-graph.svg" />
-  <img alt="Repository relationship graph" src="repo-graph.svg" width="100%" />
-</picture>
+[![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
+[![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
+[![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
+[![Sponsor](https://img.shields.io/badge/Sponsor-Jesssullivan-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Jesssullivan)
+[![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)](https://xoxd.ai)
+[![EFF](https://img.shields.io/badge/EFF-Member-red?style=flat-square&logo=eff&logoColor=white)](https://www.eff.org/)
+<a href="https://www.fightforthefuture.org/"><img src="idl_badge.png" alt="Member of The Internet Defense League" height="20" /></a>
+![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
 
 </td></tr>
 </table>
-
-<details>
-<summary><b>Expand Repo Graph</b> — full-size relationship map with Mermaid definition</summary>
-<br>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="repo-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="repo-graph.svg" />
-  <img alt="Repository relationship graph (full size)" src="repo-graph.svg" width="900" />
-</picture>
-
-</div>
-
-*Nodes colored by category, edges weighted by Jaccard similarity of topics + languages.*
-*[View Mermaid source](repo-graph.mmd) for textual examination of strong connections (>25% similarity).*
-
-</details>
 
 > **As of 2025, I'm much more active in Tinyland with my robots** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
 
 ---
 
-### Open Source & Memberships
+### FOSS & Sponsoring
 
 ![Rocky Linux](https://img.shields.io/badge/RESF-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
 ![Apache Solr](https://img.shields.io/badge/Apache%20Solr-D22128?style=for-the-badge&logo=apache&logoColor=white)
 ![Chapel](https://img.shields.io/badge/Chapel-3B4D61?style=for-the-badge&logoColor=white)
-![Liqo / CERN](https://img.shields.io/badge/Liqo%20%2F%20CERN-0053A1?style=for-the-badge&logo=cern&logoColor=white)
 ![Skeleton UI](https://img.shields.io/badge/Skeleton%20UI-EC4899?style=for-the-badge&logo=svelte&logoColor=white)
 ![SearXNG](https://img.shields.io/badge/SearXNG-2E8B57?style=for-the-badge&logo=searxng&logoColor=white)
 ![KeePassXC](https://img.shields.io/badge/KeePassXC-6CAC4D?style=for-the-badge&logo=keepassxc&logoColor=white)
 ![Futhark](https://img.shields.io/badge/Futhark-5e5086?style=for-the-badge&logoColor=white)
-![Klipper](https://img.shields.io/badge/Klipper-B71C1C?style=for-the-badge&logo=klipper&logoColor=white)
 ![Caddy](https://img.shields.io/badge/Caddy-1F88E5?style=for-the-badge&logo=caddy&logoColor=white)
-![BrainFlow](https://img.shields.io/badge/BrainFlow-7B1FA2?style=for-the-badge&logoColor=white)
-![EyeTrackVR](https://img.shields.io/badge/EyeTrackVR-FF6F00?style=for-the-badge&logoColor=white)
 ![fft.js](https://img.shields.io/badge/fft.js-333333?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Freenet](https://img.shields.io/badge/Freenet-1565C0?style=for-the-badge&logoColor=white)
-![MeshCore](https://img.shields.io/badge/MeshCore-00897B?style=for-the-badge&logoColor=white)
 ![libdns](https://img.shields.io/badge/libdns-00695C?style=for-the-badge&logo=go&logoColor=white)
-
-### Sponsoring
-
 ![The-Compiler](https://img.shields.io/badge/The--Compiler-Florian%20Bruhin-blueviolet?style=for-the-badge&logo=githubsponsors&logoColor=white)
 ![qutebrowser](https://img.shields.io/badge/qutebrowser-0D47A1?style=for-the-badge&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
@@ -130,6 +97,20 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
   <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
   <img alt="Snake animation" src="github-snake.svg" />
 </picture>
+
+</div>
+
+### Repository Similarity Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="repo-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="repo-graph.svg" />
+  <img alt="Repository Similarity Graph" src="repo-graph.svg" width="960" />
+</picture>
+
+*Jaccard similarity of repository language distributions. [View Mermaid version](repo-graph.mmd)*
 
 </div>
 
