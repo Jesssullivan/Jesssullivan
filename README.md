@@ -140,6 +140,8 @@ mindmap
 
 $$Focal\ Length = \frac{ImageDimension}{2} \cdot \tan\left(\frac{FoV}{2}\right) \qquad\qquad Distance = ActualDimension \cdot \frac{FocalLength}{ROIDimension}$$
 
+<img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="480" />
+
 </div>
 
 ---
