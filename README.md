@@ -6,6 +6,14 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
 
+[![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
+[![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
+[![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
+[![Sponsor](https://img.shields.io/badge/Sponsor-Jesssullivan-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Jesssullivan)
+[![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)](https://xoxd.ai)
+[![EFF](https://img.shields.io/badge/EFF-Member-red?style=flat-square&logo=eff&logoColor=white)](https://www.eff.org/)
+<a href="https://www.fightforthefuture.org/"><img src="idl_badge.png" alt="Member of The Internet Defense League" height="20" /></a>
+
 </div>
 
 <table style="border:0">
@@ -382,17 +390,5 @@ C corporation behind the semiautonomous infrastructure maintenance platform for 
 
 ![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
 ![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
-
----
-
-<div align="center">
-
-[![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
-[![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
-[![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
-[![Sponsor](https://img.shields.io/badge/Sponsor-Jesssullivan-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Jesssullivan)
-[![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)](https://xoxd.ai)
-
-</div>
 
 *This README is updated daily by a [GitHub Action](.github/workflows/update-readme.yml).*
