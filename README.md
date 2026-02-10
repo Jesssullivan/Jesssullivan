@@ -37,6 +37,9 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 [![EFF](https://img.shields.io/badge/EFF-Member-red?style=flat-square&logo=eff&logoColor=white)](https://www.eff.org/)
 <a href="https://www.fightforthefuture.org/"><img src="idl_badge.png" alt="Member of The Internet Defense League" height="20" /></a>
 ![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
+![bitbanger](https://img.shields.io/badge/bitbanger-333333?style=flat-square)
+![NAT wanderer](https://img.shields.io/badge/NAT%20wanderer-006D77?style=flat-square)
+![sillygoose](https://img.shields.io/badge/sillygoose-FF69B4?style=flat-square)
 
 </td></tr>
 </table>
@@ -54,15 +57,18 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 ![SearXNG](https://img.shields.io/badge/SearXNG-2E8B57?style=for-the-badge&logo=searxng&logoColor=white)
 ![KeePassXC](https://img.shields.io/badge/KeePassXC-6CAC4D?style=for-the-badge&logo=keepassxc&logoColor=white)
 ![Futhark](https://img.shields.io/badge/Futhark-5e5086?style=for-the-badge&logoColor=white)
-![Caddy](https://img.shields.io/badge/Caddy-1F88E5?style=for-the-badge&logo=caddy&logoColor=white)
+![xCaddy](https://img.shields.io/badge/xCaddy-1F88E5?style=for-the-badge&logo=caddy&logoColor=white)
 ![fft.js](https://img.shields.io/badge/fft.js-333333?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![libdns](https://img.shields.io/badge/libdns-00695C?style=for-the-badge&logo=go&logoColor=white)
-![The-Compiler](https://img.shields.io/badge/The--Compiler-Florian%20Bruhin-blueviolet?style=for-the-badge&logo=githubsponsors&logoColor=white)
+![The-Compiler](https://img.shields.io/badge/The--Compiler-Freya%20Bruhin-blueviolet?style=for-the-badge&logo=githubsponsors&logoColor=white)
 ![qutebrowser](https://img.shields.io/badge/qutebrowser-0D47A1?style=for-the-badge&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Xe Iaso](https://img.shields.io/badge/Xe%20Iaso%20%2F%20TequaroHQ-E91E63?style=for-the-badge&logo=githubsponsors&logoColor=white)
 ![Skeleton](https://img.shields.io/badge/Skeleton-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white)
 ![purpl3F0x](https://img.shields.io/badge/purpl3F0x-9C27B0?style=for-the-badge&logo=githubsponsors&logoColor=white)
+![Klipper](https://img.shields.io/badge/Klipper-B71C1C?style=for-the-badge&logo=klipper&logoColor=white)
+![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Liqo](https://img.shields.io/badge/Liqo-0288D1?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -71,9 +77,9 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=dark&hide_border=true&count_private=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=radical&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=default&hide_border=true" />
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=dark&hide_border=true" />
 </picture>
 
 <picture>
