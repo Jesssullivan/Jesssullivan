@@ -310,9 +310,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jesssullivan/Jesssullivan/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jesssullivan/Jesssullivan/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Jesssullivan/Jesssullivan/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="Snake animation" src="github-snake.svg" />
 </picture>
 
 </div>
