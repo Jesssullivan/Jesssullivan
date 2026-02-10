@@ -45,6 +45,9 @@
 
 </div>
 
+<table style="border:0">
+<tr><td valign="top" width="60%">
+
 ### Jess Sullivan
 
 Full stack engineer, musician, and birdwatcher based in Lewiston, ME.
@@ -55,19 +58,13 @@ Late 2023 through the end of 2024. An intentional disconnect.  I'm back to build
 I build infrastructure tooling, contribute to compilers
 and languages, hack on hardware, and maintain a *lot* of FOSS.
 
-<table>
-<tr>
-<td align="center" valign="middle" width="50%">
+</td><td valign="middle" width="40%">
 
 <img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="400" />
 
-</td>
-<td valign="middle" width="50%">
-
 > **As of 2025, I'm much more active in Tinyland with my robots** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
 
-</td>
-</tr>
+</td></tr>
 </table>
 
 ---
