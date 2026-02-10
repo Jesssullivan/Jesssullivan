@@ -4,15 +4,15 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Full+Stack+Engineer+%7C+DevSecOps+%7C+Agent+Orchestration+%7C+ML%2FHPC;Chapel+%7C+Haskell+%7C+Python+%7C+TypeScript+%7C+SvelteKit+%7C+Go;C%2B%2B+%7C+R+%7C+Zig+%7C+Nix+%7C+Rust+SIMD+%7C+Futhark+%7C+Emacs+Lisp;Computer+Vision+%7C+Fine-Grained+Classification+%7C+WASM+Inference;K8s+%7C+Ansible+%7C+GitLab+CI+%7C+Apache+Solr+%7C+Bazel;Global+DNS+%7C+k8gb+%7C+CoreDNS+%7C+NAT+Punching+%7C+MetalLB;GIS+%7C+Cartography+%7C+Remote+Sensing+%7C+R+%7C+QGIS;LangChain+%7C+LangGraph+%7C+pgvector+%7C+vLLM+%7C+Custom+Embeddings;Multilocal+Orchestration+%7C+RKE2+%7C+Rancher+%7C+OpenTofu;3D+Printing+%7C+OpenSCAD+%7C+Fusion+360+%7C+Arduino+%7C+RPi;TensorFlow+%7C+NumPy+%7C+Pandas+%7C+Flask+%7C+Docker+%7C+WebAssembly;9-String+Guitar+%7C+12-String+Acoustic+%7C+Rotary+Yamaha+Organ;ACME+Certs+%7C+SAML+%7C+KeePassXC+%7C+SearXNG+%7C+Caddy;Photography+%7C+Mass+Audubon+%7C+Goth+Nights+%7C+Bagel+Baker;Merlin+Sound+ID+%7C+Birder+%7C+Musician+%7C+Baker+%7C+Bard)](https://git.io/typing-svg)
 
+[![Ask me a question](https://img.shields.io/badge/Ask%20me%20a%20question-why%20are%20you%20so%20cool%3F-36BCF7?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=Why+are+you+so+cool%3F&body=%F0%9F%A4%94+No+but+seriously+though...&labels=question)
+[![Hire me](https://img.shields.io/badge/Hire%20me-I%20have%20budget-2ea44f?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I%27d+like+to+hire+you&body=Hi+Jess%21%0A%0AWe+have+a+role+that+might+interest+you...%0A%0A**Company%3A**+%0A**Role%3A**+%0A**Compensation%3A**+&labels=opportunity)
+[![Work for me](https://img.shields.io/badge/Work%20for%20me-let%27s%20build%20together-blueviolet?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I+want+to+work+with+you&body=Hi+Jess%21%0A%0AI+saw+your+work+and+I%27d+love+to+collaborate...%0A%0A**About+me%3A**+%0A**What+I+bring%3A**+&labels=collaboration)
+
 </div>
 
 <table>
 <tr>
 <td valign="top" width="60%">
-
-[![Ask me a question](https://img.shields.io/badge/Ask%20me%20a%20question-why%20are%20you%20so%20cool%3F-36BCF7?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=Why+are+you+so+cool%3F&body=%F0%9F%A4%94+No+but+seriously+though...&labels=question)
-[![Hire me](https://img.shields.io/badge/Hire%20me-I%20have%20budget-2ea44f?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I%27d+like+to+hire+you&body=Hi+Jess%21%0A%0AWe+have+a+role+that+might+interest+you...%0A%0A**Company%3A**+%0A**Role%3A**+%0A**Compensation%3A**+&labels=opportunity)
-[![Work for me](https://img.shields.io/badge/Work%20for%20me-let%27s%20build%20together-blueviolet?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I+want+to+work+with+you&body=Hi+Jess%21%0A%0AI+saw+your+work+and+I%27d+love+to+collaborate...%0A%0A**About+me%3A**+%0A**What+I+bring%3A**+&labels=collaboration)
 
 ### Jess Sullivan
 
