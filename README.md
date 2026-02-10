@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="header_image.png" alt="Great Blue Heron" width="672" />
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Systems+Analyst+%7C+FOSS+Contributor+%7C+Hardware+Hacker;Chapel+%7C+Futhark+%7C+Haskell+%7C+Nix+%7C+Go;Merlin+Sound+ID+%7C+Birder+%7C+Maker+%7C+Musician)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
@@ -49,9 +51,11 @@ mindmap
 </td></tr>
 </table>
 
+> **As of 2025, I'm much more active on GitLab** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
+
 ---
 
-### FOSS Contributions & Memberships
+### Open Source & Memberships
 
 ![Rocky Linux](https://img.shields.io/badge/RESF-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
 ![Apache Solr](https://img.shields.io/badge/Apache%20Solr-D22128?style=for-the-badge&logo=apache&logoColor=white)
@@ -78,6 +82,14 @@ mindmap
 ![Xe Iaso](https://img.shields.io/badge/Xe%20Iaso%20%2F%20TequaroHQ-E91E63?style=for-the-badge&logo=githubsponsors&logoColor=white)
 ![Skeleton](https://img.shields.io/badge/Skeleton-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white)
 ![purpl3F0x](https://img.shields.io/badge/purpl3F0x-9C27B0?style=for-the-badge&logo=githubsponsors&logoColor=white)
+
+<div align="center">
+
+[![Ask me a question](https://img.shields.io/badge/Ask%20me%20a%20question-why%20are%20you%20so%20cool%3F-36BCF7?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=Why+are+you+so+cool%3F&body=%F0%9F%A4%94+No+but+seriously+though...&labels=question)
+[![Hire me](https://img.shields.io/badge/Hire%20me-I%20have%20budget-2ea44f?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I%27d+like+to+hire+you&body=Hi+Jess%21%0A%0AWe+have+a+role+that+might+interest+you...%0A%0A**Company%3A**+%0A**Role%3A**+%0A**Compensation%3A**+&labels=opportunity)
+[![Work for me](https://img.shields.io/badge/Work%20for%20me-let%27s%20build%20together-blueviolet?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I+want+to+work+with+you&body=Hi+Jess%21%0A%0AI+saw+your+work+and+I%27d+love+to+collaborate...%0A%0A**About+me%3A**+%0A**What+I+bring%3A**+&labels=collaboration)
+
+</div>
 
 ---
 
@@ -108,14 +120,6 @@ mindmap
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=default&hide_border=true" />
   <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Jesssullivan&theme=dark&hide_border=true" />
 </picture>
-
-</div>
-
-<br>
-
-<div align="center">
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Jesssullivan&theme=onedark&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -185,6 +189,22 @@ Clients:
 - Taught Advanced GIS Programming & Intro to Electromechanics at PSU
 - **Membership Chair & 3D Printing Captain** — Ithaca Generator *(2020–2022)*
 - **COVID-19 PPE manufacturing coordination** across New England makerspaces
+
+### Beyond Code
+
+**Photography**
+
+Cut my teeth professionally with world-renowned aerial photographer Alex MacLean and Mike Nyman Wedding Photography before going into business as J.S. Event Photography. Wrote and taught the youth photography curriculum at Joppa Flats and Drumlin Farm Mass Audubon Wildlife Sanctuaries — programs still going strong. Work featured at Celebrate Newton, Newton Public Library, Pease Public Library, Newtonville Cinema, Newton Camera Club, Broadmoor Wildlife Sanctuary, and in the Newton Tab. Did my own printing on a heavily modified inkjet printer. Completely burnt out from photography by end of 2017, sold all my gear by the end of college.
+
+**Music**
+
+20+ years of guitar — currently play a custom 9-string electric made for me in NH and a 12-string acoustic. 25+ years of piano/organ — primarily on a rotary Yamaha organ these days.
+
+> *"If there were no computers I'd probably be a baker, a minstrel or a bard."*
+
+**Hospitality**
+
+Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — organized monthly Goth Nights, art shows & private events. Bartender at The Downstairs Listening Room & Tavern and The Watershed in New York. Casual bagel baker at Tandem Bagel Co in Northampton, MA (Spring 2024).
 
 ---
 
@@ -295,48 +315,6 @@ Clients:
 
 *Last updated: 2026-02-10 15:57 UTC*
 <!--END_SECTION:repos-->
-
----
-
-### Career Timeline
-
-```mermaid
-timeline
-    title Career
-    2017 : Columbari.us LLC
-         : D&M Makerspace Fellow
-    2018 : Macaulay Library
-         : CV/ML Engineer
-    2020 : Ithaca Generator
-         : COVID PPE coordination
-    2021 : Cornell CALS
-         : Fab Lab Manager
-    2024 : Bates College
-         : Systems Analyst
-         : Tinyland.dev Inc
-```
-
----
-
-<details>
-<summary><b>Beyond Code</b></summary>
-<br>
-
-**Photography**
-
-Cut my teeth professionally with world-renowned aerial photographer Alex MacLean and Mike Nyman Wedding Photography before going into business as J.S. Event Photography. Wrote and taught the youth photography curriculum at Joppa Flats and Drumlin Farm Mass Audubon Wildlife Sanctuaries — programs still going strong. Work featured at Celebrate Newton, Newton Public Library, Pease Public Library, Newtonville Cinema, Newton Camera Club, Broadmoor Wildlife Sanctuary, and in the Newton Tab. Did my own printing on a heavily modified inkjet printer. Completely burnt out from photography by end of 2017, sold all my gear by the end of college.
-
-**Music**
-
-20+ years of guitar — currently play a custom 9-string electric made for me in NH and a 12-string acoustic. 25+ years of piano/organ — primarily on a rotary Yamaha organ these days.
-
-> *"If there were no computers I'd probably be a baker, a minstrel or a bard."*
-
-**Hospitality**
-
-Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — organized monthly Goth Nights, art shows & private events. Bartender at The Downstairs Listening Room & Tavern and The Watershed in New York. Casual bagel baker at Tandem Bagel Co in Northampton, MA (Spring 2024).
-
-</details>
 
 <details>
 <summary><b>Contribution Snake</b></summary>
