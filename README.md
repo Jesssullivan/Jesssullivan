@@ -6,9 +6,9 @@
 
 </div>
 
-<table cellpadding="12">
+<table>
 <tr>
-<td valign="top" width="60%" style="padding: 12px;">
+<td valign="top" width="60%">
 
 [![Ask me a question](https://img.shields.io/badge/Ask%20me%20a%20question-why%20are%20you%20so%20cool%3F-36BCF7?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=Why+are+you+so+cool%3F&body=%F0%9F%A4%94+No+but+seriously+though...&labels=question)
 [![Hire me](https://img.shields.io/badge/Hire%20me-I%20have%20budget-2ea44f?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I%27d+like+to+hire+you&body=Hi+Jess%21%0A%0AWe+have+a+role+that+might+interest+you...%0A%0A**Company%3A**+%0A**Role%3A**+%0A**Compensation%3A**+&labels=opportunity)
@@ -25,7 +25,7 @@ I build infrastructure tooling, contribute to compilers
 and languages, hack on hardware, and maintain a *lot* of FOSS.
 
 </td>
-<td valign="top" width="40%" style="padding: 12px;">
+<td valign="top" width="40%">
 
 [![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
 [![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
@@ -64,12 +64,12 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 </td>
 </tr>
 <tr>
-<td align="center" valign="middle" style="padding: 12px;">
+<td align="center" valign="middle">
 
 <img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="400" />
 
 </td>
-<td valign="middle" style="padding: 12px;">
+<td valign="middle">
 
 > **As of 2025, I'm much more active in Tinyland with my robots** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
 
