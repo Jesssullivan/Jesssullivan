@@ -212,6 +212,11 @@ Clients:
 ![FHC](https://img.shields.io/badge/Foundation%20for%20Healthy%20Communities-1976D2?style=flat-square)
 ![GPRED](https://img.shields.io/badge/GPRED-5D4037?style=flat-square)
 ![NBRC](https://img.shields.io/badge/Northern%20Border%20Regional%20Commission-37474F?style=flat-square)
+![Massage Ithaca](https://img.shields.io/badge/Massage%20Ithaca-8E24AA?style=flat-square)
+![Tetrahedron](https://img.shields.io/badge/Tetrahedron-E91E63?style=flat-square)
+![Rossel](https://img.shields.io/badge/Rossel-FF8F00?style=flat-square)
+![STNWL](https://img.shields.io/badge/STNWL-546E7A?style=flat-square)
+![PSU](https://img.shields.io/badge/Plymouth%20State%20University-003DA5?style=flat-square)
 
 </td>
 </tr>
