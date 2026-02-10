@@ -117,30 +117,6 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 
 </div>
 
-<br>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=radical&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=default&hide_border=true" />
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Jesssullivan&theme=dark&hide_border=true" />
-</picture>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=minimal&hide_border=true&area=true" />
-  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
-</picture>
-
-</div>
-
 <div align="center">
 
 <img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="480" />
@@ -337,5 +313,28 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 **[Tinyland.dev](https://tinyland.dev)** — Tinyland is big, more to come very soon :tm:
 ![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
 ![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=radical&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=default&hide_border=true" />
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Jesssullivan&theme=dark&hide_border=true" width="100%" />
+</picture>
+
+</td>
+<td align="center" width="50%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=minimal&hide_border=true&area=true" />
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" width="100%" />
+</picture>
+
+</td>
+</tr>
+</table>
 
 *This README is updated daily by a [GitHub Action](.github/workflows/update-readme.yml).*
