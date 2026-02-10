@@ -37,9 +37,9 @@ mindmap
 </table>
 
 <!--START_SECTION:activity-->
-**Currently working on:** [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel)
-  Recursive IaC flywheel infrastructure system for Gitlab.
-  *HCL · last push today*
+**Currently working on:** [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat)
+  A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - tinyland lab package
+  *Python · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -113,11 +113,11 @@ mindmap
 
 | Repo | Description | Lang |
 |------|-------------|------|
+| [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - t... | Python |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | Python |
 | [NyxBox](https://github.com/Jesssullivan/NyxBox) | Posh & Fosh Litterbox |  |
-| [IG-3DP-Profiles](https://github.com/Jesssullivan/IG-3DP-Profiles) | Ithaca Generator 3d printer profiles and notes |  |
 
-*...and [1 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [2 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
 ### FOSS Contributions
 
@@ -139,9 +139,9 @@ mindmap
 | ![](https://img.shields.io/github/stars/Jesssullivan/freenet-stdlib?style=social&label=freenet-stdlib) | [freenet/freenet-stdlib](https://github.com/freenet/freenet-stdlib) |
 | ![](https://img.shields.io/github/stars/Jesssullivan/chapel?style=social&label=chapel) | [chapel-lang/chapel](https://github.com/chapel-lang/chapel) |
 
-*...and [46 more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*
+*...and [45 more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*
 
-*Last updated: 2026-02-10 04:31 UTC*
+*Last updated: 2026-02-10 07:12 UTC*
 <!--END_SECTION:repos-->
 
 ---
