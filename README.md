@@ -77,15 +77,15 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=radical&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=default&hide_border=true" />
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=dark&hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="github-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-stats.svg" />
+  <img alt="GitHub Stats" src="github-stats.svg" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=radical&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=default&hide_border=true" />
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=dark&hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="top-langs-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="top-langs.svg" />
+  <img alt="Top Languages" src="top-langs.svg" />
 </picture>
 
 </div>
@@ -289,7 +289,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [24 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-10 20:29 UTC*
+*Last updated: 2026-02-10 20:40 UTC*
 <!--END_SECTION:repos-->
 
 ---

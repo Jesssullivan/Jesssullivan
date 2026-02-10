@@ -59,8 +59,8 @@ def categorize_repo(repo):
 def get_tags(repo):
     """Get the set of topics + languages for a repo."""
     tags = set()
-    for node in repo.get("languages", {}).get("nodes", []):
-        tags.add(node["name"].lower())
+    for edge in repo.get("languages", {}).get("edges", []):
+        tags.add(edge["node"]["name"].lower())
     primary = repo.get("primaryLanguage")
     if primary:
         tags.add(primary["name"].lower())

@@ -100,7 +100,8 @@ QUERY_TEMPLATE = """
         url
         primaryLanguage {{ name }}
         languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
-          nodes {{ name }}
+          totalSize
+          edges {{ size node {{ name color }} }}
         }}
         repositoryTopics(first: 10) {{
           nodes {{
@@ -261,7 +262,7 @@ def build_original_table(repos):
             # Languages - primary bold, others normal
             primary = repo.get("primaryLanguage")
             primary_name = primary["name"] if primary else ""
-            all_langs = [n["name"] for n in repo.get("languages", {}).get("nodes", [])]
+            all_langs = [e["node"]["name"] for e in repo.get("languages", {}).get("edges", [])]
             if primary_name and all_langs:
                 others = [l for l in all_langs if l != primary_name]
                 lang_str = f"**{primary_name}**"
@@ -448,6 +449,15 @@ def main():
         print("Generated repo relationship graphs")
     except Exception as exc:
         print(f"Warning: graph generation failed: {exc}")
+
+    # Generate stats and language SVG cards
+    try:
+        import subprocess as _sp
+        stats_script = os.path.join(os.path.dirname(__file__), "generate_stats.py")
+        _sp.run([sys.executable, stats_script], check=True)
+        print("Generated stats SVG cards")
+    except Exception as exc:
+        print(f"Warning: stats generation failed: {exc}")
 
     with open(README_PATH, "r") as f:
         content = f.read()
