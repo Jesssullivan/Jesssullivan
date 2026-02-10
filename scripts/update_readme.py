@@ -27,8 +27,64 @@ BLOCKLIST = {
 }
 
 # Limits for table sizes
-MAX_ORIGINAL_REPOS = 20
+MAX_ORIGINAL_REPOS = 30
 MAX_FORKS = 15
+
+# Category mappings: repo name -> category
+# Repos not listed here are auto-categorized by language
+REPO_CATEGORIES = {
+    # Languages & Compilers
+    "quickchpl": "Languages & Compilers",
+    "aoc-2025": "Languages & Compilers",
+    "RemoteJuggler": "Languages & Compilers",
+    "pixelwise-research": "Languages & Compilers",
+    # Infrastructure & DevOps
+    "GloriousFlywheel": "Infrastructure & DevOps",
+    "Ansible-DAG-Harness": "Infrastructure & DevOps",
+    "betterkvm": "Infrastructure & DevOps",
+    "tinyscale-mikrotik": "Infrastructure & DevOps",
+    "searchies": "Infrastructure & DevOps",
+    "ts-caddy": "Infrastructure & DevOps",
+    "HCI-notes": "Infrastructure & DevOps",
+    "tinyland-cleanup": "Infrastructure & DevOps",
+    "tinyland-kdbx": "Infrastructure & DevOps",
+    "tinywaffle": "Infrastructure & DevOps",
+    "pp": "Infrastructure & DevOps",
+    "DarwinNicUtil": "Infrastructure & DevOps",
+    # Hardware & Maker
+    "XoxdWM": "Hardware & Maker",
+    "hiberpower-ntfs": "Hardware & Maker",
+    "TurkeyProbe": "Hardware & Maker",
+    "Arduino_Coil_Winder": "Hardware & Maker",
+    # ML & Ecology
+    "MerlinAI-Interpreters": "ML & Ecology",
+    "gnucashr": "ML & Data",
+    "AccuWixReport": "ML & Data",
+    # Web & Apps
+    "tetrahedron": "Web & Apps",
+    "FastPhotoAPI": "Web & Apps",
+    "timberbuddy": "Web & Apps",
+    "IntroTypeScript": "Web & Apps",
+    "GIS_Shortcuts": "Web & Apps",
+}
+
+# Language -> category fallback
+LANG_CATEGORY = {
+    "Chapel": "Languages & Compilers",
+    "Futhark": "Languages & Compilers",
+    "Haskell": "Languages & Compilers",
+    "HCL": "Infrastructure & DevOps",
+    "Nix": "Infrastructure & DevOps",
+    "Shell": "Infrastructure & DevOps",
+    "Dockerfile": "Infrastructure & DevOps",
+    "Jinja": "Infrastructure & DevOps",
+    "C++": "Hardware & Maker",
+    "C": "Hardware & Maker",
+    "Zig": "Hardware & Maker",
+    "Emacs Lisp": "Hardware & Maker",
+    "R": "ML & Data",
+    "Jupyter Notebook": "ML & Data",
+}
 
 QUERY = """
 {
@@ -107,23 +163,59 @@ def build_activity_section(repos):
     return "\n".join(lines)
 
 
+def _categorize_repo(repo):
+    """Assign a category to a repo based on name or language."""
+    name = repo["name"]
+    if name in REPO_CATEGORIES:
+        return REPO_CATEGORIES[name]
+    lang = repo.get("primaryLanguage")
+    lang_name = lang["name"] if lang else ""
+    if lang_name in LANG_CATEGORY:
+        return LANG_CATEGORY[lang_name]
+    return "Other"
+
+
 def build_original_table(repos):
-    """Build markdown table for non-fork (original) repos, limited to MAX_ORIGINAL_REPOS."""
+    """Build categorized repo showcase, limited to MAX_ORIGINAL_REPOS."""
     shown = repos[:MAX_ORIGINAL_REPOS]
-    lines = ["| Repo | Description | Lang |", "|------|-------------|------|"]
+
+    # Group by category
+    categories = {}
     for repo in shown:
-        name = repo["name"]
-        desc = (repo["description"] or "").replace("|", "\\|")
-        # Truncate long descriptions
-        if len(desc) > 100:
-            desc = desc[:97] + "..."
-        lang = repo.get("primaryLanguage")
-        lang_name = lang["name"] if lang else ""
-        url = repo["url"]
-        lines.append(f"| [{name}]({url}) | {desc} | {lang_name} |")
+        cat = _categorize_repo(repo)
+        categories.setdefault(cat, []).append(repo)
+
+    # Render in preferred order
+    cat_order = [
+        "Languages & Compilers",
+        "Infrastructure & DevOps",
+        "Hardware & Maker",
+        "ML & Data",
+        "Web & Apps",
+        "Other",
+    ]
+    lines = []
+    for cat in cat_order:
+        cat_repos = categories.get(cat, [])
+        if not cat_repos:
+            continue
+        lines.append(f"**{cat}**")
+        lines.append("")
+        lines.append("| Repo | Description | Lang |")
+        lines.append("|------|-------------|------|")
+        for repo in cat_repos:
+            name = repo["name"]
+            desc = (repo["description"] or "").replace("|", "\\|")
+            if len(desc) > 100:
+                desc = desc[:97] + "..."
+            lang = repo.get("primaryLanguage")
+            lang_name = lang["name"] if lang else ""
+            url = repo["url"]
+            lines.append(f"| [{name}]({url}) | {desc} | {lang_name} |")
+        lines.append("")
+
     remaining = len(repos) - len(shown)
     if remaining > 0:
-        lines.append("")
         lines.append(f"*...and [{remaining} more](https://github.com/Jesssullivan?tab=repositories&type=source)*")
     return "\n".join(lines)
 
