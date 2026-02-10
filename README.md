@@ -14,15 +14,15 @@
 <tr>
 <td valign="top" width="60%">
 
-### Jess Sullivan
+### Jess Sullivan / xoxd ^w^
 
-Full stack engineer, musician, and birdwatcher based in Lewiston, ME.
+Full stack **engineer**, ***musician***, and *birdwatcher* based in Lewiston, ME. 🏡
 
 I spent about a year completely offline — no LinkedIn, no blog, no social media.
 Late 2023 through the end of 2024. An intentional disconnect.  I'm back to building in the open.
 
-I build infrastructure tooling, contribute to compilers
-and languages, hack on hardware, and maintain a *lot* of FOSS.
+I build infrastructure tooling, digital automata, hack upon compilers, I love learning new languages, futz with hardware,
+occasionally attempt to run buisnesses and maintain a *lot* of fun projects here and elsewhere.  
 
 </td>
 <td valign="top" width="40%">
