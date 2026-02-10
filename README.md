@@ -40,6 +40,28 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 ![bitbanger](https://img.shields.io/badge/bitbanger-333333?style=flat-square)
 ![NAT wanderer](https://img.shields.io/badge/NAT%20wanderer-006D77?style=flat-square)
 ![sillygoose](https://img.shields.io/badge/sillygoose-FF69B4?style=flat-square)
+![Rocky Linux](https://img.shields.io/badge/RESF-10B981?style=flat-square&logo=rockylinux&logoColor=white)
+![Apache Solr](https://img.shields.io/badge/Apache%20Solr-D22128?style=flat-square&logo=apache&logoColor=white)
+![Chapel](https://img.shields.io/badge/Chapel-3B4D61?style=flat-square&logoColor=white)
+![Skeleton UI](https://img.shields.io/badge/Skeleton%20UI-EC4899?style=flat-square&logo=svelte&logoColor=white)
+![SearXNG](https://img.shields.io/badge/SearXNG-2E8B57?style=flat-square&logo=searxng&logoColor=white)
+![KeePassXC](https://img.shields.io/badge/KeePassXC-6CAC4D?style=flat-square&logo=keepassxc&logoColor=white)
+![Futhark](https://img.shields.io/badge/Futhark-5e5086?style=flat-square&logoColor=white)
+![xCaddy](https://img.shields.io/badge/xCaddy-1F88E5?style=flat-square&logo=caddy&logoColor=white)
+![fft.js](https://img.shields.io/badge/fft.js-333333?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![libdns](https://img.shields.io/badge/libdns-00695C?style=flat-square&logo=go&logoColor=white)
+![The-Compiler](https://img.shields.io/badge/The--Compiler-Freya%20Bruhin-blueviolet?style=flat-square&logo=githubsponsors&logoColor=white)
+![qutebrowser](https://img.shields.io/badge/qutebrowser-0D47A1?style=flat-square&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Xe Iaso](https://img.shields.io/badge/Xe%20Iaso%20%2F%20TequaroHQ-E91E63?style=flat-square&logo=githubsponsors&logoColor=white)
+![Skeleton](https://img.shields.io/badge/Skeleton-EC4899?style=flat-square&logo=githubsponsors&logoColor=white)
+![purpl3F0x](https://img.shields.io/badge/purpl3F0x-9C27B0?style=flat-square&logo=githubsponsors&logoColor=white)
+![Klipper](https://img.shields.io/badge/Klipper-B71C1C?style=flat-square&logo=klipper&logoColor=white)
+![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)
+![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
+![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
+*hehe gh chips are fun*
 
 </td></tr>
 </table>
@@ -58,34 +80,6 @@ and languages, hack on hardware, and maintain a *lot* of FOSS.
 </td>
 </tr>
 </table>
-
----
-
-### FOSS & Sponsoring
-
-![Rocky Linux](https://img.shields.io/badge/RESF-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
-![Apache Solr](https://img.shields.io/badge/Apache%20Solr-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![Chapel](https://img.shields.io/badge/Chapel-3B4D61?style=for-the-badge&logoColor=white)
-![Skeleton UI](https://img.shields.io/badge/Skeleton%20UI-EC4899?style=for-the-badge&logo=svelte&logoColor=white)
-![SearXNG](https://img.shields.io/badge/SearXNG-2E8B57?style=for-the-badge&logo=searxng&logoColor=white)
-![KeePassXC](https://img.shields.io/badge/KeePassXC-6CAC4D?style=for-the-badge&logo=keepassxc&logoColor=white)
-![Futhark](https://img.shields.io/badge/Futhark-5e5086?style=for-the-badge&logoColor=white)
-![xCaddy](https://img.shields.io/badge/xCaddy-1F88E5?style=for-the-badge&logo=caddy&logoColor=white)
-![fft.js](https://img.shields.io/badge/fft.js-333333?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![libdns](https://img.shields.io/badge/libdns-00695C?style=for-the-badge&logo=go&logoColor=white)
-![The-Compiler](https://img.shields.io/badge/The--Compiler-Freya%20Bruhin-blueviolet?style=for-the-badge&logo=githubsponsors&logoColor=white)
-![qutebrowser](https://img.shields.io/badge/qutebrowser-0D47A1?style=for-the-badge&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Xe Iaso](https://img.shields.io/badge/Xe%20Iaso%20%2F%20TequaroHQ-E91E63?style=for-the-badge&logo=githubsponsors&logoColor=white)
-![Skeleton](https://img.shields.io/badge/Skeleton-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white)
-![purpl3F0x](https://img.shields.io/badge/purpl3F0x-9C27B0?style=for-the-badge&logo=githubsponsors&logoColor=white)
-![Klipper](https://img.shields.io/badge/Klipper-B71C1C?style=for-the-badge&logo=klipper&logoColor=white)
-![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
-![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=for-the-badge)
-![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=for-the-badge)
-![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=for-the-badge)
-
-*hehe gh chips are fun*
 
 ---
 
