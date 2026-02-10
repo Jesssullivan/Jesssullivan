@@ -156,6 +156,16 @@ $$Focal\ Length = \frac{ImageDimension}{2} \cdot \tan\left(\frac{FoV}{2}\right) 
 
 </div>
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="Snake animation" src="github-snake.svg" />
+</picture>
+
+</div>
+
 ---
 
 ### Experience & Ventures
@@ -315,83 +325,12 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 *Last updated: 2026-02-10 19:04 UTC*
 <!--END_SECTION:repos-->
 
-<details>
-<summary><b>Contribution Snake</b></summary>
-<br>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="Snake animation" src="github-snake.svg" />
-</picture>
-
-</div>
-
-</details>
-
 ---
 
-### xoxd.ai
+**[xoxd.ai](https://xoxd.ai)** — Massively parallel, provable agent infrastructure. 130+ agents, 5 custom models, Chapel + Go + K8s.
+![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)
 
-![xoxd.ai](https://img.shields.io/badge/xoxd.ai-Orchestrating%20massively%20parallel%2C%20provable%20agent%20infrastructure-blueviolet?style=for-the-badge)
-
-> *We built something terrifyingly capable and we think it's cute* ^w^
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Components**
-- **Marolex** — K8s-native multicloud harness (Chapel + Go, Liqo topology)
-- **Huskycat** — Deterministic verification middleware (multithreaded githook SLM)
-- **Outbot** — Repo management agent (zone-wise git summaries, conflict resolution, host parity)
-- **FuzzyBot** — Chat TUI with native IDE integration (Chapel + Go, IntelliJ & Emacs)
-
-</td>
-<td width="50%" valign="top">
-
-**Built On**
-
-![Liqo](https://img.shields.io/badge/Liqo-0053A1?style=flat-square&logo=kubernetes&logoColor=white)
-![RKE2](https://img.shields.io/badge/RKE2-0075A8?style=flat-square&logo=rancher&logoColor=white)
-![CoreDNS](https://img.shields.io/badge/CoreDNS-4A6FA5?style=flat-square&logo=coredns&logoColor=white)
-![MetalLB](https://img.shields.io/badge/MetalLB-00B6E3?style=flat-square)
-![Apache Solr](https://img.shields.io/badge/Solr-D22128?style=flat-square&logo=apache&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-FF6F00?style=flat-square)
-![LangGraph](https://img.shields.io/badge/LangGraph-3D6B6B?style=flat-square)
-
-**Models**
-- 2x custom mxbai embeddings
-- Custom functiongemma SLM
-- Qwen v3, GLM 4.7
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>Roadmap</b></summary>
-
-- **Q3 2026** — Outbot public beta
-- **Q1 2027** — Source dual-licensed (zlib + commercial)
-- **Q2 2027** — Outbot GA
-- Hiring: COO, Director of Enterprise Sales
-
-</details>
-
----
-
-### Tinyland.dev
-
-C corporation behind the semiautonomous infrastructure maintenance platform for higher ed.
-
-- **SvelteKit 5** CMS with Svelte 5 runes, TypeScript, Vite
-- **K8s native** — Talos OS, Civo cloud, RKE2 + Rancher
-- **i18n** — 6 languages via Paraglide.js
-
+**[Tinyland.dev](https://tinyland.dev)** — Semiautonomous infra maintenance for higher ed. SvelteKit 5, K8s native, i18n.
 ![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
 ![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
 
