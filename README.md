@@ -148,9 +148,6 @@ Macaulay Library, where I helped develop and launch
 </div>
 
 <div align="center">
-<sub><i>from my computer vision work at Macaulay Library</i></sub>
-
-$$Focal\ Length = \frac{ImageDimension}{2} \cdot \tan\left(\frac{FoV}{2}\right) \qquad\qquad Distance = ActualDimension \cdot \frac{FocalLength}{ROIDimension}$$
 
 <img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="480" />
 
