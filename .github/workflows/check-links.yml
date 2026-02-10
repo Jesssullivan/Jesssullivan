@@ -1,0 +1,42 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'  # Weekly on Monday at noon
+  workflow_dispatch:
+  push:
+    branches: [feature/update-script]
+    paths: ['README.md']
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,204,301,302,403
+            --exclude-mail
+            --exclude 'git.io'
+            --exclude 'komarev.com'
+            --exclude 'readme-typing-svg.demolab.com'
+            --exclude 'streak-stats.demolab.com'
+            --exclude 'github-readme-stats.vercel.app'
+            --exclude 'github-readme-activity-graph.vercel.app'
+            --exclude 'img.shields.io'
+            --exclude 'latex.codecogs.com'
+            README.md
+          fail: true
+
+      - name: Create Issue on Failure
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Dead links found in README"
+          content-filepath: ./lychee/out.md
+          labels: bug,automated

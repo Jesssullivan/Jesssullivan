@@ -85,69 +85,89 @@ LANG_CATEGORY = {
     "Jupyter Notebook": "ML & Data",
 }
 
-QUERY = """
-{
-  user(login: "Jesssullivan") {
-    repositories(first: 50, orderBy: {field: PUSHED_AT, direction: DESC}, privacy: PUBLIC) {
-      nodes {
+QUERY_TEMPLATE = """
+{{
+  user(login: "Jesssullivan") {{
+    repositories(first: 50, orderBy: {{field: PUSHED_AT, direction: DESC}}, privacy: PUBLIC{after}) {{
+      pageInfo {{
+        hasNextPage
+        endCursor
+      }}
+      nodes {{
         name
         description
         url
-        primaryLanguage { name }
-        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
-          nodes { name }
-        }
-        repositoryTopics(first: 10) {
-          nodes {
-            topic { name }
-          }
-        }
+        primaryLanguage {{ name }}
+        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
+          nodes {{ name }}
+        }}
+        repositoryTopics(first: 10) {{
+          nodes {{
+            topic {{ name }}
+          }}
+        }}
         stargazerCount
         isFork
         pushedAt
-        parent { nameWithOwner }
-      }
-    }
-  }
-}
+        parent {{ nameWithOwner }}
+      }}
+    }}
+  }}
+}}
 """
 
 
 def fetch_repos():
-    """Fetch public repos via GitHub GraphQL API.
+    """Fetch all public repos via GitHub GraphQL API with pagination.
 
     Tries urllib first, falls back to `gh api graphql` subprocess.
     """
     import subprocess
 
-    # Try urllib first (works in GitHub Actions with GITHUB_TOKEN)
-    try:
-        headers = {
-            "Authorization": f"Bearer {GITHUB_TOKEN}",
-            "Content-Type": "application/json",
-            "User-Agent": "profile-readme-updater",
-        }
-        payload = json.dumps({"query": QUERY}).encode("utf-8")
-        req = urllib.request.Request(GRAPHQL_URL, data=payload, headers=headers)
-        with urllib.request.urlopen(req) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+    all_nodes = []
+    cursor = None
+
+    while True:
+        after = f', after: "{cursor}"' if cursor else ""
+        query = QUERY_TEMPLATE.format(after=after)
+
+        data = None
+        # Try urllib first (works in GitHub Actions with GITHUB_TOKEN)
+        try:
+            headers = {
+                "Authorization": f"Bearer {GITHUB_TOKEN}",
+                "Content-Type": "application/json",
+                "User-Agent": "profile-readme-updater",
+            }
+            payload = json.dumps({"query": query}).encode("utf-8")
+            req = urllib.request.Request(GRAPHQL_URL, data=payload, headers=headers)
+            with urllib.request.urlopen(req) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except Exception as exc:
+            print(f"urllib failed ({exc}), trying gh cli...")
+
+        # Fallback: use gh cli (works locally with gh auth)
+        if data is None:
+            result = subprocess.run(
+                ["gh", "api", "graphql", "-f", f"query={query}"],
+                capture_output=True, text=True,
+            )
+            if result.returncode != 0:
+                raise RuntimeError(f"gh api failed: {result.stderr}")
+            data = json.loads(result.stdout)
+
         if "errors" in data:
             raise RuntimeError(f"GraphQL errors: {data['errors']}")
-        return data["data"]["user"]["repositories"]["nodes"]
-    except Exception as exc:
-        print(f"urllib failed ({exc}), trying gh cli...")
 
-    # Fallback: use gh cli (works locally with gh auth)
-    result = subprocess.run(
-        ["gh", "api", "graphql", "-f", f"query={QUERY}"],
-        capture_output=True, text=True,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"gh api failed: {result.stderr}")
-    data = json.loads(result.stdout)
-    if "errors" in data:
-        raise RuntimeError(f"GraphQL errors: {data['errors']}")
-    return data["data"]["user"]["repositories"]["nodes"]
+        repos_data = data["data"]["user"]["repositories"]
+        all_nodes.extend(repos_data["nodes"])
+
+        page_info = repos_data["pageInfo"]
+        if not page_info["hasNextPage"]:
+            break
+        cursor = page_info["endCursor"]
+
+    return all_nodes
 
 
 def should_include(repo):
@@ -262,26 +282,6 @@ def build_original_table(repos):
     remaining = len(repos) - len(shown)
     if remaining > 0:
         lines.append(f"*...and [{remaining} more](https://github.com/Jesssullivan?tab=repositories&type=source)*")
-    return "\n".join(lines)
-
-
-def build_forks_table(repos):
-    """Build compact list for forked repos, limited to MAX_FORKS."""
-    # Prioritize forks with descriptions and stars
-    scored = sorted(repos, key=lambda r: (r.get("stargazerCount", 0), bool(r.get("description"))), reverse=True)
-    shown = scored[:MAX_FORKS]
-    lines = ["| Fork | Upstream |", "|------|----------|"]
-    for repo in shown:
-        name = repo["name"]
-        parent = repo.get("parent", {})
-        upstream = parent.get("nameWithOwner", "") if parent else ""
-        badge = f"![](https://img.shields.io/github/stars/Jesssullivan/{name}?style=social&label={name})"
-        upstream_link = f"[{upstream}](https://github.com/{upstream})" if upstream else ""
-        lines.append(f"| {badge} | {upstream_link} |")
-    remaining = len(repos) - len(shown)
-    if remaining > 0:
-        lines.append("")
-        lines.append(f"*...and [{remaining} more forks](https://github.com/Jesssullivan?tab=repositories&type=fork)*")
     return "\n".join(lines)
 
 
