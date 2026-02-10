@@ -36,6 +36,10 @@ jobs:
             --exclude '\.svg$'
             --exclude '\.png$'
             --exclude '\.mmd$'
+            --exclude 'transscendsurvival.org'
+            --exclude 'tinyland.dev'
+            --exclude 'xoxd.ai'
+            --exclude 'github.com/Jesssullivan/NyxBox'
             README.md
           fail: true
 
