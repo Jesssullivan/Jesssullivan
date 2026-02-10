@@ -44,6 +44,25 @@ Macaulay Library, where I helped develop and launch
 </td></tr>
 </table>
 
+<details>
+<summary><b>Expand Repo Graph</b> — full-size relationship map with Mermaid definition</summary>
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="repo-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="repo-graph.svg" />
+  <img alt="Repository relationship graph (full size)" src="repo-graph.svg" width="900" />
+</picture>
+
+</div>
+
+*Nodes colored by category, edges weighted by Jaccard similarity of topics + languages.*
+*[View Mermaid source](repo-graph.mmd) for textual examination of strong connections (>25% similarity).*
+
+</details>
+
 > **As of 2025, I'm much more active on GitLab** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
 
 ---
@@ -52,7 +71,7 @@ Macaulay Library, where I helped develop and launch
 
 ![Rocky Linux](https://img.shields.io/badge/RESF-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
 ![Apache Solr](https://img.shields.io/badge/Apache%20Solr-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![Chapel](https://img.shields.io/badge/Chapel-141C25?style=for-the-badge&logoColor=white)
+![Chapel](https://img.shields.io/badge/Chapel-3B4D61?style=for-the-badge&logoColor=white)
 ![Liqo / CERN](https://img.shields.io/badge/Liqo%20%2F%20CERN-0053A1?style=for-the-badge&logo=cern&logoColor=white)
 ![Skeleton UI](https://img.shields.io/badge/Skeleton%20UI-EC4899?style=for-the-badge&logo=svelte&logoColor=white)
 ![SearXNG](https://img.shields.io/badge/SearXNG-2E8B57?style=for-the-badge&logo=searxng&logoColor=white)
@@ -337,12 +356,12 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 ![Liqo](https://img.shields.io/badge/Liqo-0053A1?style=flat-square&logo=kubernetes&logoColor=white)
 ![RKE2](https://img.shields.io/badge/RKE2-0075A8?style=flat-square&logo=rancher&logoColor=white)
-![CoreDNS](https://img.shields.io/badge/CoreDNS-253746?style=flat-square)
+![CoreDNS](https://img.shields.io/badge/CoreDNS-4A6FA5?style=flat-square&logo=coredns&logoColor=white)
 ![MetalLB](https://img.shields.io/badge/MetalLB-00B6E3?style=flat-square)
 ![Apache Solr](https://img.shields.io/badge/Solr-D22128?style=flat-square&logo=apache&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![vLLM](https://img.shields.io/badge/vLLM-FF6F00?style=flat-square)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-3D6B6B?style=flat-square)
 
 **Models**
 - 2x custom mxbai embeddings

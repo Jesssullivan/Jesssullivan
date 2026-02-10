@@ -4,6 +4,7 @@
 Reads repo data from repos_data.json (or stdin / /tmp fallback), computes Jaccard
 similarity on topics + languages, then uses networkx spring_layout for
 force-directed positioning. Outputs repo-graph.svg and repo-graph-dark.svg.
+Also generates a Mermaid graph definition at repo-graph.mmd.
 """
 
 import json
@@ -22,23 +23,25 @@ CATEGORY_COLORS = {
     "ML & Data": "#2ecc71",
     "ML & Ecology": "#2ecc71",  # alias
     "Web & Apps": "#9b59b6",
-    "Other": "#95a5a6",
+    "Other": "#7f8c8d",
 }
 
 # Import category mappings from update_readme
 sys.path.insert(0, os.path.dirname(__file__))
 from update_readme import REPO_CATEGORIES, LANG_CATEGORY
 
-SVG_WIDTH = 600
-SVG_HEIGHT = 400
-MARGIN = 45
-LEGEND_WIDTH = 145
-LEGEND_HEIGHT = 115
-NODE_MIN_R = 6
-NODE_MAX_R = 20
+SVG_WIDTH = 900
+SVG_HEIGHT = 540
+MARGIN = 50
+FOOTER_HEIGHT = 50  # reserved for equations + CI link
+NODE_MIN_R = 4
+NODE_MAX_R = 14
 SIMILARITY_THRESHOLD = 0.15
-FONT_SIZE = 9
-LABEL_CHAR_WIDTH = 5.4  # approx width per char at font-size 9
+FONT_SIZE = 11
+FONT_SIZE_SMALL = 8
+LABEL_CHAR_WIDTH = 6.6  # approx width per char at font-size 11
+LEGEND_WIDTH = 155
+LEGEND_HEIGHT = 120
 
 
 def categorize_repo(repo):
@@ -97,7 +100,7 @@ def generate_graph(repos):
         name = repo["name"]
         category = categorize_repo(repo)
         tag_count = len(repo_tags[name])
-        radius = min(NODE_MAX_R, max(NODE_MIN_R, NODE_MIN_R + (tag_count - 1) * 1.2))
+        radius = min(NODE_MAX_R, max(NODE_MIN_R, NODE_MIN_R + (tag_count - 1) * 0.9))
         G.add_node(name, category=category, radius=radius, tag_count=tag_count)
 
     names = [r["name"] for r in repos]
@@ -111,18 +114,18 @@ def generate_graph(repos):
     if len(G.nodes) == 0:
         return G, {}
 
-    # Use higher k to spread nodes more, more iterations for convergence
+    # Higher k = more spread, more iterations for convergence
     pos = nx.spring_layout(
         G,
-        k=3.5 / math.sqrt(max(len(G.nodes), 1)),
-        iterations=200,
+        k=5.0 / math.sqrt(max(len(G.nodes), 1)),
+        iterations=300,
         seed=42,
         scale=1.0,
     )
 
-    # Scale positions to SVG coordinates, leaving room for legend
-    plot_w = SVG_WIDTH - 2 * MARGIN - LEGEND_WIDTH
-    plot_h = SVG_HEIGHT - 2 * MARGIN
+    # Scale positions to SVG coordinates — use FULL canvas width
+    plot_w = SVG_WIDTH - 2 * MARGIN
+    plot_h = SVG_HEIGHT - 2 * MARGIN - FOOTER_HEIGHT
 
     if pos:
         xs = [p[0] for p in pos.values()]
@@ -148,19 +151,19 @@ def resolve_label_positions(scaled_pos, G):
     labels = {}
     for name, (cx, cy) in scaled_pos.items():
         radius = G.nodes[name]["radius"]
-        # Place label to right by default, left if in right portion of canvas
-        if cx > (SVG_WIDTH - LEGEND_WIDTH - MARGIN):
-            lx = cx - radius - 2
+        # Place label to right by default, left if too far right
+        if cx > SVG_WIDTH - MARGIN - 120:
+            lx = cx - radius - 3
             anchor = "end"
         else:
-            lx = cx + radius + 2
+            lx = cx + radius + 3
             anchor = "start"
         ly = cy + FONT_SIZE * 0.35
         labels[name] = (lx, ly, anchor)
 
     # Iterative nudging: push overlapping labels apart vertically
     label_list = list(labels.keys())
-    for _ in range(30):
+    for _ in range(50):
         moved = False
         for i in range(len(label_list)):
             for j in range(i + 1, len(label_list)):
@@ -168,12 +171,10 @@ def resolve_label_positions(scaled_pos, G):
                 x1, y1, a1 = labels[n1]
                 x2, y2, a2 = labels[n2]
 
-                # Estimate label bounding boxes
                 w1 = len(n1) * LABEL_CHAR_WIDTH
                 w2 = len(n2) * LABEL_CHAR_WIDTH
-                h = FONT_SIZE + 1
+                h = FONT_SIZE + 2
 
-                # Check x overlap
                 if a1 == "start":
                     left1, right1 = x1, x1 + w1
                 else:
@@ -187,8 +188,7 @@ def resolve_label_positions(scaled_pos, G):
                 y_overlap = abs(y1 - y2) < h
 
                 if x_overlap and y_overlap:
-                    # Push labels apart vertically
-                    nudge = (h - abs(y1 - y2)) / 2 + 1
+                    nudge = (h - abs(y1 - y2)) / 2 + 1.5
                     if y1 <= y2:
                         labels[n1] = (x1, y1 - nudge, a1)
                         labels[n2] = (x2, y2 + nudge, a2)
@@ -206,16 +206,22 @@ def render_svg(G, scaled_pos, dark=False):
     """Render the graph as an SVG string."""
     if dark:
         bg_color = "#0d1117"
-        text_color = "#c9d1d9"
-        edge_color = "#484f58"
+        text_color = "#e6edf3"
+        text_muted = "#8b949e"
+        edge_color = "#6e7681"
         legend_bg = "#161b22"
         legend_border = "#30363d"
+        footer_color = "#484f58"
+        eq_color = "#8b949e"
     else:
         bg_color = "#ffffff"
-        text_color = "#24292f"
-        edge_color = "#d0d7de"
+        text_color = "#1f2328"
+        text_muted = "#656d76"
+        edge_color = "#bcc3cd"
         legend_bg = "#f6f8fa"
         legend_border = "#d0d7de"
+        footer_color = "#d0d7de"
+        eq_color = "#656d76"
 
     label_positions = resolve_label_positions(scaled_pos, G)
 
@@ -225,14 +231,48 @@ def render_svg(G, scaled_pos, dark=False):
         f'width="{SVG_WIDTH}" height="{SVG_HEIGHT}" '
         f'viewBox="0 0 {SVG_WIDTH} {SVG_HEIGHT}">'
     )
-    lines.append(f'  <rect width="{SVG_WIDTH}" height="{SVG_HEIGHT}" fill="{bg_color}" rx="8" />')
+    lines.append(
+        f'  <rect width="{SVG_WIDTH}" height="{SVG_HEIGHT}" fill="{bg_color}" rx="8" />'
+    )
 
     # Title
-    title_color = text_color
     lines.append(
-        f'  <text x="{SVG_WIDTH // 2}" y="20" font-family="system-ui, -apple-system, sans-serif" '
-        f'font-size="12" fill="{title_color}" text-anchor="middle" opacity="0.6">'
-        f'repo relationship graph</text>'
+        f'  <text x="{SVG_WIDTH // 2}" y="24" font-family="system-ui, -apple-system, sans-serif" '
+        f'font-size="13" fill="{text_muted}" text-anchor="middle" font-weight="500">'
+        f'Repo Relationship Graph &mdash; Pairwise Topic &amp; Language Similarity</text>'
+    )
+
+    # Footer separator line
+    footer_y = SVG_HEIGHT - FOOTER_HEIGHT
+    lines.append(
+        f'  <line x1="{MARGIN}" y1="{footer_y}" x2="{SVG_WIDTH - MARGIN}" y2="{footer_y}" '
+        f'stroke="{footer_color}" stroke-width="0.5" opacity="0.5" />'
+    )
+
+    # Footer equations (decorative)
+    eq_y1 = footer_y + 20
+    eq_y2 = footer_y + 38
+    lines.append(
+        f'  <text x="{MARGIN}" y="{eq_y1}" font-family="serif, Georgia, Times" '
+        f'font-size="10" fill="{eq_color}" font-style="italic" opacity="0.7">'
+        f'Focal Length = ImageDimension / 2 \u00b7 tan(FoV / 2)</text>'
+    )
+    lines.append(
+        f'  <text x="{MARGIN}" y="{eq_y2}" font-family="serif, Georgia, Times" '
+        f'font-size="10" fill="{eq_color}" font-style="italic" opacity="0.7">'
+        f'Distance = ActualDimension \u00b7 FocalLength / ROIDimension</text>'
+    )
+
+    # Footer CI note (right-aligned)
+    lines.append(
+        f'  <text x="{SVG_WIDTH - MARGIN}" y="{eq_y1}" font-family="system-ui, -apple-system, sans-serif" '
+        f'font-size="9" fill="{text_muted}" text-anchor="end" opacity="0.6">'
+        f'Updated daily by GitHub Actions</text>'
+    )
+    lines.append(
+        f'  <text x="{SVG_WIDTH - MARGIN}" y="{eq_y2}" font-family="system-ui, -apple-system, sans-serif" '
+        f'font-size="9" fill="{text_muted}" text-anchor="end" opacity="0.6">'
+        f'networkx spring_layout \u00b7 Jaccard similarity &gt; 0.15</text>'
     )
 
     # Edges
@@ -241,8 +281,8 @@ def render_svg(G, scaled_pos, dark=False):
             x1, y1 = scaled_pos[u]
             x2, y2 = scaled_pos[v]
             sim = data.get("weight", 0.2)
-            opacity = min(0.7, max(0.1, sim * 0.9))
-            stroke_w = 0.8 + sim * 1.5
+            opacity = min(0.8, max(0.15, sim * 1.1))
+            stroke_w = 0.6 + sim * 1.8
             lines.append(
                 f'  <line x1="{x1:.1f}" y1="{y1:.1f}" '
                 f'x2="{x2:.1f}" y2="{y2:.1f}" '
@@ -259,22 +299,33 @@ def render_svg(G, scaled_pos, dark=False):
         r = G.nodes[name]["radius"]
         color = CATEGORY_COLORS.get(cat, CATEGORY_COLORS["Other"])
         if dark:
-            # Subtle glow
+            # Glow effect
             lines.append(
-                f'  <circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r + 3}" '
-                f'fill="{color}" opacity="0.15" />'
+                f'  <circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r + 4}" '
+                f'fill="{color}" opacity="0.12" />'
             )
         lines.append(
             f'  <circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r}" '
-            f'fill="{color}" opacity="0.85" />'
+            f'fill="{color}" opacity="0.88" />'
         )
 
-    # Labels
+    # Labels with background for legibility
     for name in G.nodes:
         if name not in label_positions:
             continue
         lx, ly, anchor = label_positions[name]
         escaped = escape_xml(name)
+        text_w = len(name) * LABEL_CHAR_WIDTH
+        # Text background rect for readability
+        if anchor == "start":
+            rx = lx - 1
+        else:
+            rx = lx - text_w - 1
+        ry = ly - FONT_SIZE + 1
+        lines.append(
+            f'  <rect x="{rx:.1f}" y="{ry:.1f}" width="{text_w + 2:.1f}" '
+            f'height="{FONT_SIZE + 3}" fill="{bg_color}" opacity="0.75" rx="2" />'
+        )
         lines.append(
             f'  <text x="{lx:.1f}" y="{ly:.1f}" '
             f'font-family="system-ui, -apple-system, sans-serif" '
@@ -282,14 +333,14 @@ def render_svg(G, scaled_pos, dark=False):
             f'text-anchor="{anchor}">{escaped}</text>'
         )
 
-    # Legend
-    legend_x = SVG_WIDTH - LEGEND_WIDTH - 8
-    legend_y = SVG_HEIGHT - LEGEND_HEIGHT - 8
+    # Legend — overlay in top-right
+    legend_x = SVG_WIDTH - LEGEND_WIDTH - 12
+    legend_y = 36
     lines.append(
         f'  <rect x="{legend_x}" y="{legend_y}" '
         f'width="{LEGEND_WIDTH}" height="{LEGEND_HEIGHT}" '
         f'rx="6" fill="{legend_bg}" stroke="{legend_border}" '
-        f'stroke-width="1" opacity="0.92" />'
+        f'stroke-width="1" opacity="0.95" />'
     )
 
     legend_cats = [
@@ -298,22 +349,76 @@ def render_svg(G, scaled_pos, dark=False):
         ("Hardware & Maker", "#e67e22"),
         ("ML & Data", "#2ecc71"),
         ("Web & Apps", "#9b59b6"),
-        ("Other", "#95a5a6"),
+        ("Other", "#7f8c8d"),
     ]
     for i, (cat_name, cat_color) in enumerate(legend_cats):
-        ey = legend_y + 14 + i * 16
-        ex = legend_x + 10
+        ey = legend_y + 16 + i * 17
+        ex = legend_x + 12
         lines.append(
-            f'  <circle cx="{ex + 4}" cy="{ey}" r="4" '
-            f'fill="{cat_color}" opacity="0.85" />'
+            f'  <circle cx="{ex + 5}" cy="{ey}" r="5" '
+            f'fill="{cat_color}" opacity="0.88" />'
         )
         lines.append(
-            f'  <text x="{ex + 12}" y="{ey + 3}" '
+            f'  <text x="{ex + 15}" y="{ey + 4}" '
             f'font-family="system-ui, -apple-system, sans-serif" '
-            f'font-size="8.5" fill="{text_color}">{escape_xml(cat_name)}</text>'
+            f'font-size="10" fill="{text_color}">{escape_xml(cat_name)}</text>'
         )
 
+    # Node + edge count in legend footer
+    lines.append(
+        f'  <text x="{legend_x + LEGEND_WIDTH // 2}" y="{legend_y + LEGEND_HEIGHT - 6}" '
+        f'font-family="system-ui, -apple-system, sans-serif" '
+        f'font-size="8" fill="{text_muted}" text-anchor="middle">'
+        f'{len(G.nodes)} repos \u00b7 {len(G.edges)} edges</text>'
+    )
+
     lines.append("</svg>")
+    return "\n".join(lines)
+
+
+def generate_mermaid(G):
+    """Generate a Mermaid graph definition for textual examination."""
+    lines = ["graph LR"]
+
+    # Add nodes with category styling
+    cat_styles = {
+        "Languages & Compilers": "fill:#e74c3c,color:#fff",
+        "Infrastructure & DevOps": "fill:#3498db,color:#fff",
+        "Hardware & Maker": "fill:#e67e22,color:#fff",
+        "ML & Data": "fill:#2ecc71,color:#fff",
+        "Web & Apps": "fill:#9b59b6,color:#fff",
+        "Other": "fill:#7f8c8d,color:#fff",
+    }
+
+    # Sanitize node names for Mermaid (replace hyphens, dots)
+    def mermaid_id(name):
+        return name.replace("-", "_").replace(".", "_").replace(" ", "_")
+
+    # Add edges (only strong ones to keep readable)
+    strong_edges = [(u, v, d) for u, v, d in G.edges(data=True) if d.get("weight", 0) > 0.25]
+    for u, v, data in strong_edges:
+        w = data.get("weight", 0)
+        label = f"{w:.0%}"
+        lines.append(f"    {mermaid_id(u)}[\"{u}\"] ---|{label}| {mermaid_id(v)}[\"{v}\"]")
+
+    # Add isolated nodes
+    connected = set()
+    for u, v, _ in strong_edges:
+        connected.add(u)
+        connected.add(v)
+    for name in G.nodes:
+        if name not in connected:
+            lines.append(f"    {mermaid_id(name)}[\"{name}\"]")
+
+    # Style classes
+    lines.append("")
+    for cat, style in cat_styles.items():
+        class_name = cat.replace(" & ", "_").replace(" ", "_").lower()
+        members = [mermaid_id(n) for n in G.nodes if G.nodes[n].get("category") == cat]
+        if members:
+            lines.append(f"    classDef {class_name} {style}")
+            lines.append(f"    class {','.join(members)} {class_name}")
+
     return "\n".join(lines)
 
 
@@ -351,6 +456,13 @@ def main():
     with open(dark_path, "w") as f:
         f.write(dark_svg)
     print(f"Wrote {dark_path}")
+
+    # Generate Mermaid definition
+    mermaid = generate_mermaid(G)
+    mermaid_path = os.path.join(out_dir, "repo-graph.mmd")
+    with open(mermaid_path, "w") as f:
+        f.write(mermaid)
+    print(f"Wrote {mermaid_path}")
 
 
 if __name__ == "__main__":
