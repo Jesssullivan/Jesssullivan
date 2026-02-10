@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="header_image.png" alt="Great Blue Heron" width="672" />
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Systems+Analyst+%7C+FOSS+Contributor+%7C+Hardware+Hacker;Chapel+%7C+Futhark+%7C+Haskell+%7C+Nix+%7C+Go;Merlin+Sound+ID+%7C+Birder+%7C+Maker+%7C+Musician)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
