@@ -265,7 +265,7 @@ def _format_iso_date(date_str):
 
 # --- Blog feed ---
 
-BLOG_FEED_URL = "https://jesssullivan.github.io/feed.xml"
+BLOG_FEED_URL = "https://transscendsurvival.org/feed.xml"
 BLOG_POST_COUNT = 3
 
 
@@ -364,7 +364,7 @@ def build_blog_section(posts):
         date_part = f" — *{post['date']}*" if post["date"] else ""
         lines.append(f"- [{post['title']}]({post['link']}){date_part}")
     lines.append("")
-    lines.append("[Read more ->](https://jesssullivan.github.io/blog)")
+    lines.append("[Read more ->](https://transscendsurvival.org/blog)")
     return "\n".join(lines)
 
 

@@ -1,3 +1,11 @@
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Systems+Analyst+%7C+FOSS+Contributor;Chapel+%7C+Futhark+%7C+Haskell+%7C+Nix;Hardware+Hacker+%7C+Birder+%7C+Maker)](https://git.io/typing-svg)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
+
+</div>
+
 <table style="border:0">
 <tr><td valign="top" width="60%">
 
@@ -36,6 +44,63 @@ mindmap
 </td></tr>
 </table>
 
+---
+
+### Affiliations & Memberships
+
+![Rocky Linux](https://img.shields.io/badge/RESF-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache%20Solr-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![Chapel](https://img.shields.io/badge/Chapel-141C25?style=for-the-badge&logoColor=white)
+![Liqo / CERN](https://img.shields.io/badge/Liqo%20%2F%20CERN-0053A1?style=for-the-badge&logo=cern&logoColor=white)
+![Skeleton UI](https://img.shields.io/badge/Skeleton%20UI-EC4899?style=for-the-badge&logo=svelte&logoColor=white)
+![SearXNG](https://img.shields.io/badge/SearXNG-2E8B57?style=for-the-badge&logo=searxng&logoColor=white)
+![KeePassXC](https://img.shields.io/badge/KeePassXC-6CAC4D?style=for-the-badge&logo=keepassxc&logoColor=white)
+![Futhark](https://img.shields.io/badge/Futhark-5e5086?style=for-the-badge&logoColor=white)
+
+---
+
+### Experience & Ventures
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Systems Analyst (DevSecOps)** — Bates College *(2024–Present)*
+- Legacy modernization, Ansible, degree audit orchestration (Haskell + Python)
+- Apache Solr adoption, ACME cert management, SAML integrations
+- GitLab AutoDevOps, OpenTofu, RKE2 + Rancher
+
+**CV/ML Software Engineer** — Macaulay Library *(2018–2022)*
+- Developed & launched Merlin Sound ID
+- ML annotation tools, model evaluation APIs
+- Python, TensorFlow, Flask, TypeScript, Docker, WASM
+
+</td>
+<td width="50%" valign="top">
+
+**Tinyland.dev, Inc** *(2024–Present)*
+- Semiautonomous infra maintenance platform for higher ed
+- 5 bespoke SLMs, 100+ autonomous tools
+- Chapel, Python, Go, K8s (Liqo), Apache Solr
+
+**Columbari.us LLC** *(2017–2021)*
+- GIS & ML contractor
+- NPS, Foundation for Healthy Communities, GPRED, NBRC
+
+</td>
+</tr>
+</table>
+
+### Community
+
+- **RESF Community Member** — Rocky Enterprise Linux Foundation
+- **First Fellow** — D&M Makerspace, Plymouth State University *(2017–2020)*
+- **Membership Chair & 3D Printing Captain** — Ithaca Generator *(2020–2022)*
+- **COVID-19 PPE coordination** across New England makerspaces
+- Taught Advanced GIS Programming & Intro to Electromechanics at PSU
+
+---
+
 <!--START_SECTION:activity-->
 **Currently working on:** [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat)
   A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - tinyland lab package
@@ -49,7 +114,7 @@ mindmap
 - [What have I been up to these last few months?](https://transscendsurvival.org/blog/what-have-i-been-up-to-these-last-few-months) — *May 22, 2024*
 - [I wrote a mutual aid mental health service](https://transscendsurvival.org/blog/i-wrote-a-mutual-aid-mental-health-service) — *Feb 22, 2024*
 
-[Read more ->](https://jesssullivan.github.io/blog)
+[Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
 
 ---
@@ -146,16 +211,104 @@ mindmap
 
 ---
 
+### Career Timeline
+
+```mermaid
+timeline
+    title Career
+    2017 : Columbari.us LLC
+         : D&M Makerspace Fellow
+    2018 : Macaulay Library
+         : CV/ML Engineer
+    2020 : Ithaca Generator
+         : COVID PPE coordination
+    2021 : Cornell CALS
+         : Fab Lab Manager
+    2024 : Bates College
+         : Systems Analyst
+         : Tinyland.dev Inc
+```
+
+---
+
 <details>
-<summary>GitHub Stats</summary>
+<summary><b>GitHub Stats</b></summary>
+<br>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=dark&hide_border=true&count_private=true)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=dark&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Jesssullivan&show_icons=true&theme=dark&hide_border=true&count_private=true" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=radical&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=default&hide_border=true" />
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jesssullivan&layout=compact&theme=dark&hide_border=true" />
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=radical&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=default&hide_border=true" />
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Jesssullivan&theme=dark&hide_border=true" />
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
+
+[![Trophy](https://github-profile-trophy.vercel.app/?username=Jesssullivan&theme=onedark&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=minimal&hide_border=true&area=true" />
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
+</picture>
+
+</div>
+
+</details>
+
+<details>
+<summary><b>Contribution Snake</b></summary>
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jesssullivan/Jesssullivan/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jesssullivan/Jesssullivan/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Jesssullivan/Jesssullivan/output/github-snake.svg" />
+</picture>
+
+</div>
 
 </details>
 
 ---
 
-*This README is updated daily by a [GitHub Action](.github/workflows/update-readme.yml).*
+<div align="center">
 
+[![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
+[![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
+[![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
+
+</div>
+
+*This README is updated daily by a [GitHub Action](.github/workflows/update-readme.yml).*
