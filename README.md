@@ -207,9 +207,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [XoxdWM](https://github.com/Jesssullivan/XoxdWM)
-  Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs
-  *Emacs Lisp · last push today*
+**Currently working on:** [pp](https://github.com/Jesssullivan/pp)
+  Tinyland Lab shell dashboard with waifu integration
+  *Go · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -289,7 +289,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [24 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-10 21:01 UTC*
+*Last updated: 2026-02-11 06:34 UTC*
 <!--END_SECTION:repos-->
 
 ---
