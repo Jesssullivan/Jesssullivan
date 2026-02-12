@@ -148,20 +148,21 @@ occasionally attempt to run buisnesses and maintain a *lot* of fun projects here
 </td>
 <td width="50%" valign="top">
 
-**Tinyland.dev, Inc** *(2024–Present)*
-- Funded, stealthmode
-
-**xoxd.ai** *(2024–Present)*
+**[xoxd.ai](https://xoxd.ai)** *(2024–Present)*
+- Massively parallel, provable, **ownable** agent infrastructure
 - Seeking funding, stealthmode
+
+**[Tinyland.dev, Inc](https://tinyland.dev)** *(2024–Present)*
+- Funded hackerspace initiative, stealthmode
+
+**Kitten Spit Labs** *(2022–Present)*
+- Ultrasonic phantom network gel synthesis. *currently on mfg. pause*
 
 **Columbari.us LLC** *(2017–2021)*
 - Independent Gov. contractor in GIS & ML
 
 **Moonlight Coworking LLC** *(2024)*
 - Shelved rapidfab / HPC hackerspace initiative in NY
-
-**Kitten Spit Labs** *(2022-present)*
-- Ultrasonic phantom network gel synthasis.  *currently on mfg. pause*
 
 
 Clients:
