@@ -207,17 +207,17 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [pp](https://github.com/Jesssullivan/pp)
-  Tinyland Lab shell dashboard with waifu integration
-  *Go · last push today*
+**Currently working on:** [XoxdWM](https://github.com/Jesssullivan/XoxdWM)
+  Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs
+  *Emacs Lisp · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
-- [Hello World](https://transscendsurvival.org/blog/hello-world) — *Feb 09, 2026*
 - [What have I been up to these last few months?](https://transscendsurvival.org/blog/what-have-i-been-up-to-these-last-few-months) — *May 22, 2024*
 - [I wrote a mutual aid mental health service](https://transscendsurvival.org/blog/i-wrote-a-mutual-aid-mental-health-service) — *Feb 22, 2024*
+- [AccuWix Report CLI](https://transscendsurvival.org/blog/accuwix) — *Jan 02, 2024*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -232,8 +232,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... | **TypeScript**, JavaScript, Svelte, HTML | boundary-detection, emscripten, esdt, futhark |
 | [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | An identity management utility. Switch between multiple git identities with credential resolution... | **Chapel**, C, Shell, Python | acp, agentic-workflow, gpg, identity-management |
-| [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | An experimental webGPU glyph compositor demonstration in Futhark | **TypeScript**, Svelte, JavaScript, HTML | boundary-detection, emscripten, esdt, futhark |
 | [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | **Chapel**, Shell, Dockerfile | chapel-language, mason, property-based-testing, parl |
 | [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | **Chapel**, Python, Makefile, Shell | advent-of-code, chapel-language, property-based-testing |
 
@@ -258,7 +258,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Python, Just | dont-take-this-too-seriously |
+| [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Nix, JavaScript | dont-take-this-too-seriously, but-actually-this-is-for-real |
 | [hiberpower-ntfs](https://github.com/Jesssullivan/hiberpower-ntfs) | ASM2362 NVMe recovery experiments and research around FTL corruption | **Zig**, Shell, JavaScript, Python | frida, ghidra, opcode-analysis, wine |
 | [TurkeyProbe](https://github.com/Jesssullivan/TurkeyProbe) | for probing the Turkey | **C++**, JavaScript, HTML, CSS | esp8266, steinhart-hart, thermistor, websocket |
 
@@ -289,7 +289,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [24 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-11 06:34 UTC*
+*Last updated: 2026-02-12 06:34 UTC*
 <!--END_SECTION:repos-->
 
 ---
