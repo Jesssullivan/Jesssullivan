@@ -208,9 +208,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [XoxdWM](https://github.com/Jesssullivan/XoxdWM)
-  Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs
-  *Emacs Lisp · last push today*
+**Currently working on:** [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh)
+  LoRa infrastructure projects for Southern Maine.
+  *Svelte · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -284,13 +284,13 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
 | [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - t... | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
-| [IG-3DP-Profiles](https://github.com/Jesssullivan/IG-3DP-Profiles) | Ithaca Generator 3d printer profiles and notes |  |  |
 
-*...and [24 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [25 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-12 06:34 UTC*
+*Last updated: 2026-02-13 06:31 UTC*
 <!--END_SECTION:repos-->
 
 ---
