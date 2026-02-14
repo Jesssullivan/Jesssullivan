@@ -208,9 +208,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh)
-  LoRa infrastructure projects for Southern Maine.
-  *Svelte · last push today*
+**Currently working on:** [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel)
+  Recursive IaC flywheel infrastructure system for Gitlab.
+  *HCL · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -242,8 +242,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix |  |
 | [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
+| [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix |  |
 | [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | **Go**, Starlark, Nix |  |
 | [tinyland-kdbx](https://github.com/Jesssullivan/tinyland-kdbx) | Native KeePassXC KDBX reader with base58 transport | **Python**, Nix |  |
 | [Ansible-DAG-Harness](https://github.com/Jesssullivan/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for "boxing up"Ansible iteration cycles in ... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
@@ -290,7 +290,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [25 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-13 06:31 UTC*
+*Last updated: 2026-02-14 06:23 UTC*
 <!--END_SECTION:repos-->
 
 ---
