@@ -210,7 +210,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:activity-->
 **Currently working on:** [pp](https://github.com/Jesssullivan/pp)
   Tinyland Lab shell dashboard with waifu integration
-  *Go · last push 2 days ago*
+  *Go · last push 3 days ago*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -290,7 +290,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [25 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-17 06:30 UTC*
+*Last updated: 2026-02-18 06:33 UTC*
 <!--END_SECTION:repos-->
 
 ---
