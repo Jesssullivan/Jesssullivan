@@ -18,11 +18,12 @@
 
 Full stack **engineer**, ***musician***, and *birdwatcher* based in Lewiston, ME. 🏡
 
-I spent about a year completely offline — no LinkedIn, no blog, no social media.
-Late 2023 through the end of 2024. An intentional disconnect.  I'm back to building in the open.
+I spent about a year completely offline — no social media, no blog, no public sites or public development, no Linkedin, nothing.
+ I'm back to building in the open.
 
-I build infrastructure tooling, digital automata, hack upon compilers, I love learning new languages, futz with hardware,
-occasionally attempt to run buisnesses and maintain a *lot* of fun projects here and elsewhere.  
+I build planet scale infrastructure tooling for fun, architect and enchant digital automata, hack upon compilers :thinking: I love learning new languages, futzing around with hardware, occasionally attempt to run buisnesses and maintain a *lot* of fun projects here and elsewhere.  
+
+
 
 </td>
 <td valign="top" width="40%">
