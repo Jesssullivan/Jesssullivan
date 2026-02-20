@@ -208,9 +208,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler)
-  A HPC agent identity management utility. Traverse git identities with credential resolution, GPG + ssh signing, localized kdbx, be you a swarm of ten thousand clankers or even a human with a DE and a todolist.
-  *Chapel · last push today*
+**Currently working on:** [pp](https://github.com/Jesssullivan/pp)
+  Tinyland Lab shell dashboard with waifu integration
+  *Go · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -233,7 +233,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | A HPC agent identity management utility. Traverse git identities with credential resolution, GPG ... | **Chapel**, Python, Shell, C | acp, agentic-workflow, gpg, identity-management |
+| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | A HPC agent identity management utility. Traverse git identities with credential resolution, GPG ... | **Chapel**, Shell, Python, C | acp, agentic-workflow, gpg, identity-management |
 | [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... | **TypeScript**, JavaScript, Svelte, HTML | boundary-detection, emscripten, esdt, futhark |
 | [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | **Chapel**, Shell, Dockerfile | chapel-language, mason, property-based-testing, parl |
 | [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | **Chapel**, Python, Makefile, Shell | advent-of-code, chapel-language, property-based-testing |
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-20 09:06 UTC*
+*Last updated: 2026-02-20 17:36 UTC*
 <!--END_SECTION:repos-->
 
 ---
