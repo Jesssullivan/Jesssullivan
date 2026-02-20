@@ -208,17 +208,17 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel)
-  Recursive IaC flywheel infrastructure system for Gitlab.
-  *HCL · last push today*
+**Currently working on:** [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler)
+  A HPC agent identity management utility. Traverse git identities with credential resolution, GPG + ssh signing, localized kdbx, be you a swarm of ten thousand clankers or even a human with a DE and a todolist.
+  *Chapel · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
+- [Ligature Test Fixture](https://transscendsurvival.org/blog/ligature-test-fixture) — *Dec 31, 2024*
 - [What have I been up to these last few months?](https://transscendsurvival.org/blog/what-have-i-been-up-to-these-last-few-months) — *May 22, 2024*
 - [I wrote a mutual aid mental health service](https://transscendsurvival.org/blog/i-wrote-a-mutual-aid-mental-health-service) — *Feb 22, 2024*
-- [AccuWix Report CLI](https://transscendsurvival.org/blog/accuwix) — *Jan 02, 2024*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -233,8 +233,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | A HPC agent identity management utility. Traverse git identities with credential resolution, GPG ... | **Chapel**, Python, C, Shell | acp, agentic-workflow, gpg, identity-management |
 | [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... | **TypeScript**, JavaScript, Svelte, HTML | boundary-detection, emscripten, esdt, futhark |
-| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | An identity management utility. Switch between multiple git identities with credential resolution... | **Chapel**, C, Shell, Python | acp, agentic-workflow, gpg, identity-management |
 | [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | **Chapel**, Shell, Dockerfile | chapel-language, mason, property-based-testing, parl |
 | [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | **Chapel**, Python, Makefile, Shell | advent-of-code, chapel-language, property-based-testing |
 
@@ -242,8 +242,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
 | [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix |  |
+| [tinyland-infra](https://github.com/Jesssullivan/tinyland-infra) | Tinyland overlay for the GloriousFlywheel (attic-iac) upstream IaC module. Deploys Nix binary cac... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
+| [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
 | [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | **Go**, Starlark, Nix |  |
 | [tinyland-kdbx](https://github.com/Jesssullivan/tinyland-kdbx) | Native KeePassXC KDBX reader with base58 transport | **Python**, Nix |  |
 | [Ansible-DAG-Harness](https://github.com/Jesssullivan/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for "boxing up"Ansible iteration cycles in ... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
@@ -278,19 +279,19 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | [FastPhotoAPI](https://github.com/Jesssullivan/FastPhotoAPI) | An efficient, flexible, flask-based image server using Lanczos resampling  | **Python**, HTML, CSS, Dockerfile | flask, lanczos, docker, koyeb |
 | [timberbuddy](https://github.com/Jesssullivan/timberbuddy) | Archive of Control Package work for Amish Sawmill | **TypeScript**, Svelte, Jinja, Cython | i2c, raspberry-pi, robotics, sveltekit |
 | [tetrahedron](https://github.com/Jesssullivan/tetrahedron) | Application for tetrahedron.gay mental health social service | **Svelte**, TypeScript, JavaScript, CSS |  |
-| [IntroTypeScript](https://github.com/Jesssullivan/IntroTypeScript) | Learn how to write a command line utility of your own in pure modern TypeScript | **TypeScript** | lesson, typescript, utilities |
 
 **Other**
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [tinyland-calendar](https://github.com/Jesssullivan/tinyland-calendar) | Calendar system with CalDAV, iCal, RRULE, and timezone support | **TypeScript** |  |
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
 | [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - t... | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
 
-*...and [25 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-19 06:32 UTC*
+*Last updated: 2026-02-20 06:28 UTC*
 <!--END_SECTION:repos-->
 
 ---
