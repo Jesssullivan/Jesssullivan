@@ -208,9 +208,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [pp](https://github.com/Jesssullivan/pp)
-  Tinyland Lab shell dashboard with waifu integration
-  *Go · last push today*
+**Currently working on:** [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler)
+  A HPC agent identity management utility. Traverse git identities with credential resolution, GPG + ssh signing, localized kdbx, be you a swarm of ten thousand clankers or even a human with a DE and a todolist.
+  *Chapel · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-20 08:26 UTC*
+*Last updated: 2026-02-20 09:06 UTC*
 <!--END_SECTION:repos-->
 
 ---
