@@ -208,9 +208,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler)
-  A HPC agent identity management utility. Traverse git identities with credential resolution, GPG + ssh signing, localized kdbx, be you a swarm of ten thousand clankers or even a human with a DE and a todolist.
-  *Chapel · last push today*
+**Currently working on:** [pp](https://github.com/Jesssullivan/pp)
+  Tinyland Lab shell dashboard with waifu integration
+  *Go · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -233,7 +233,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | A HPC agent identity management utility. Traverse git identities with credential resolution, GPG ... | **Chapel**, Python, C, Shell | acp, agentic-workflow, gpg, identity-management |
+| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | A HPC agent identity management utility. Traverse git identities with credential resolution, GPG ... | **Chapel**, Python, Shell, C | acp, agentic-workflow, gpg, identity-management |
 | [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... | **TypeScript**, JavaScript, Svelte, HTML | boundary-detection, emscripten, esdt, futhark |
 | [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | **Chapel**, Shell, Dockerfile | chapel-language, mason, property-based-testing, parl |
 | [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | **Chapel**, Python, Makefile, Shell | advent-of-code, chapel-language, property-based-testing |
@@ -251,7 +251,6 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | [betterkvm](https://github.com/Jesssullivan/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
 | [DarwinNicUtil](https://github.com/Jesssullivan/DarwinNicUtil) | Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... | **Python**, Nix, Just, Shell | airgapped-security, compliance, developer-experience, nat-punchthrough |
 | [tinyscale-mikrotik](https://github.com/Jesssullivan/tinyscale-mikrotik) | Very small tailscale container for CRS310 class switches | **Shell**, Makefile, Dockerfile, RouterOS Script | mikrotik, oci, tailscale, upx |
-| [tinywaffle](https://github.com/Jesssullivan/tinywaffle) | Waffle-iron deployment orchestrator for Tinyland container workloads | **Dockerfile** |  |
 | [searchies](https://github.com/Jesssullivan/searchies) | hard AF searxng infra for uwu tinies | **Jinja**, Shell | caddy, digitalocean, opentofu, rockylinux |
 | [ts-caddy](https://github.com/Jesssullivan/ts-caddy) | Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo | **Jinja**, Shell | ansible, caddy, digitalocean, dreamhost-dns |
 | [HCI-notes](https://github.com/Jesssullivan/HCI-notes) | Misc. notes to share on switch to Proxmox from Harvester | **HCL**, TypeScript |  |
@@ -284,6 +283,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [waifu-mirror](https://github.com/Jesssullivan/waifu-mirror) | waifu API consumer cache with terminal-optimized pre-processing | **Go**, HCL, Nix, Dockerfile | build-weird-stuff, unusual-terminal-activities |
 | [tinyland-calendar](https://github.com/Jesssullivan/tinyland-calendar) | Calendar system with CalDAV, iCal, RRULE, and timezone support | **TypeScript** |  |
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
 | [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - t... | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-20 06:28 UTC*
+*Last updated: 2026-02-20 07:50 UTC*
 <!--END_SECTION:repos-->
 
 ---
