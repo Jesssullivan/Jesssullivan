@@ -208,8 +208,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [pp](https://github.com/Jesssullivan/pp)
-  Tinyland Lab shell dashboard with waifu integration
+**Currently working on:** [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup)
+  Cross-platform disk cleanup daemon with graduated thresholds
   *Go · last push today*
 <!--END_SECTION:activity-->
 
@@ -242,10 +242,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | **Go**, Starlark, Nix |  |
 | [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix |  |
 | [tinyland-infra](https://github.com/Jesssullivan/tinyland-infra) | Tinyland overlay for the GloriousFlywheel (attic-iac) upstream IaC module. Deploys Nix binary cac... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
 | [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
-| [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | **Go**, Starlark, Nix |  |
 | [tinyland-kdbx](https://github.com/Jesssullivan/tinyland-kdbx) | Native KeePassXC KDBX reader with base58 transport | **Python**, Nix |  |
 | [Ansible-DAG-Harness](https://github.com/Jesssullivan/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for "boxing up"Ansible iteration cycles in ... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
 | [betterkvm](https://github.com/Jesssullivan/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-20 18:40 UTC*
+*Last updated: 2026-02-20 19:14 UTC*
 <!--END_SECTION:repos-->
 
 ---
