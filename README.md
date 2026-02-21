@@ -209,8 +209,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup)
-  Cross-platform disk cleanup daemon with graduated thresholds
+**Currently working on:** [pp](https://github.com/tinyland-inc/pp)
+  Tinyland Lab shell dashboard with waifu integration
   *Go · last push today*
 <!--END_SECTION:activity-->
 
@@ -234,7 +234,6 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [RemoteJuggler](https://github.com/Jesssullivan/RemoteJuggler) | A HPC agent identity management utility. Traverse git identities with credential resolution, GPG ... | **Chapel**, Shell, Python, C | acp, agentic-workflow, gpg, identity-management |
 | [pixelwise-research](https://github.com/Jesssullivan/pixelwise-research) | WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... | **TypeScript**, JavaScript, Svelte, HTML | boundary-detection, emscripten, esdt, futhark |
 | [quickchpl](https://github.com/Jesssullivan/quickchpl) | Simple Property-Based Testing for Chapel Language | **Chapel**, Shell, Dockerfile | chapel-language, mason, property-based-testing, parl |
 | [aoc-2025](https://github.com/Jesssullivan/aoc-2025) | Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI | **Chapel**, Python, Makefile, Shell | advent-of-code, chapel-language, property-based-testing |
@@ -243,13 +242,12 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [tinyland-cleanup](https://github.com/Jesssullivan/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | **Go**, Starlark, Nix |  |
-| [pp](https://github.com/Jesssullivan/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix |  |
-| [tinyland-infra](https://github.com/Jesssullivan/tinyland-infra) | Tinyland overlay for the GloriousFlywheel (attic-iac) upstream IaC module. Deploys Nix binary cac... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
-| [GloriousFlywheel](https://github.com/Jesssullivan/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
-| [tinyland-kdbx](https://github.com/Jesssullivan/tinyland-kdbx) | Native KeePassXC KDBX reader with base58 transport | **Python**, Nix |  |
-| [Ansible-DAG-Harness](https://github.com/Jesssullivan/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for "boxing up"Ansible iteration cycles in ... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
-| [betterkvm](https://github.com/Jesssullivan/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
+| [pp](https://github.com/tinyland-inc/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix |  |
+| [tinyland-cleanup](https://github.com/tinyland-inc/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds | **Go**, Starlark, Nix |  |
+| [tinyland-infra](https://github.com/tinyland-inc/tinyland-infra) | Tinyland overlay for the GloriousFlywheel (attic-iac) upstream IaC module. Deploys Nix binary cac... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
+| [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for Gitlab. | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
+| [Ansible-DAG-Harness](https://github.com/tinyland-inc/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for "boxing up"Ansible iteration cycles in ... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
+| [betterkvm](https://github.com/tinyland-inc/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
 | [DarwinNicUtil](https://github.com/Jesssullivan/DarwinNicUtil) | Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... | **Python**, Nix, Just, Shell | airgapped-security, compliance, developer-experience, nat-punchthrough |
 | [tinyscale-mikrotik](https://github.com/Jesssullivan/tinyscale-mikrotik) | Very small tailscale container for CRS310 class switches | **Shell**, Makefile, Dockerfile, RouterOS Script | mikrotik, oci, tailscale, upx |
 | [searchies](https://github.com/Jesssullivan/searchies) | hard AF searxng infra for uwu tinies | **Jinja**, Shell | caddy, digitalocean, opentofu, rockylinux |
@@ -279,20 +277,21 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | [FastPhotoAPI](https://github.com/Jesssullivan/FastPhotoAPI) | An efficient, flexible, flask-based image server using Lanczos resampling  | **Python**, HTML, CSS, Dockerfile | flask, lanczos, docker, koyeb |
 | [timberbuddy](https://github.com/Jesssullivan/timberbuddy) | Archive of Control Package work for Amish Sawmill | **TypeScript**, Svelte, Jinja, Cython | i2c, raspberry-pi, robotics, sveltekit |
 | [tetrahedron](https://github.com/Jesssullivan/tetrahedron) | Application for tetrahedron.gay mental health social service | **Svelte**, TypeScript, JavaScript, CSS |  |
+| [IntroTypeScript](https://github.com/Jesssullivan/IntroTypeScript) | Learn how to write a command line utility of your own in pure modern TypeScript | **TypeScript** | lesson, typescript, utilities |
 
 **Other**
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [waifu-mirror](https://github.com/Jesssullivan/waifu-mirror) | waifu API consumer cache with terminal-optimized pre-processing | **Go**, HCL, Nix, Dockerfile | build-weird-stuff, unusual-terminal-activities |
-| [tinyland-calendar](https://github.com/Jesssullivan/tinyland-calendar) | Calendar system with CalDAV, iCal, RRULE, and timezone support | **TypeScript** |  |
+| [waifu-mirror](https://github.com/tinyland-inc/waifu-mirror) | waifu API consumer cache with terminal-optimized pre-processing | **Go**, HCL, Nix, Dockerfile | build-weird-stuff, unusual-terminal-activities |
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
-| [tinyland-huskycat](https://github.com/Jesssullivan/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - t... | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
+| [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration - t... | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
+| [IG-3DP-Profiles](https://github.com/Jesssullivan/IG-3DP-Profiles) | Ithaca Generator 3d printer profiles and notes |  |  |
 
-*...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [24 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-20 19:14 UTC*
+*Last updated: 2026-02-21 06:21 UTC*
 <!--END_SECTION:repos-->
 
 ---
