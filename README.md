@@ -21,7 +21,7 @@ Full stack **engineer**, ***musician***, and *birdwatcher* based in Lewiston, ME
 I spent about a year completely offline — no social media, no blog, no public sites or public development, no Linkedin, nothing.
  I'm back to building in the open.
 
-I build planet scale infrastructure tooling for fun, architect and enchant digital automata, hack upon compilers :thinking: I love learning new languages, futzing around with hardware, occasionally attempt to run buisnesses and maintain a *lot* of fun projects here and elsewhere.  
+I build planet scale infrastructure tooling for fun, architect and enchant digital automata, hack upon compilers :thinking: I love learning new languages, futzing around with hardware, occasionally attempt to run businesses and maintain a *lot* of fun projects here and elsewhere.  
 
 
 
