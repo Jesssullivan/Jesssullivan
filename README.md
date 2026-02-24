@@ -209,9 +209,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [tummycrypt](https://github.com/tinyland-inc/tummycrypt)
-  An secure, distributable end-to-end personal data solution 
-  *Rust · last push today*
+**Currently working on:** [pp](https://github.com/tinyland-inc/pp)
+  Tinyland Lab shell dashboard with waifu integration
+  *Go · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -244,8 +244,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 |------|-------------|-----------|--------|
 | [pp](https://github.com/tinyland-inc/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix | build-weird-stuff |
 | [tinyland-cleanup](https://github.com/tinyland-inc/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd | **Go**, Starlark, Nix | cleanup, daemon, disk-management, go |
-| [tinyland-infra](https://github.com/tinyland-inc/tinyland-infra) | Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and Bazel r... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
 | [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
+| [tinyland-infra](https://github.com/tinyland-inc/tinyland-infra) | Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and Bazel r... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
 | [Ansible-DAG-Harness](https://github.com/tinyland-inc/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
 | [betterkvm](https://github.com/tinyland-inc/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
 | [DarwinNicUtil](https://github.com/Jesssullivan/DarwinNicUtil) | Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... | **Python**, Nix, Just, Shell | airgapped-security, compliance, developer-experience, nat-punchthrough |
@@ -283,7 +283,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [tummycrypt](https://github.com/tinyland-inc/tummycrypt) | An secure, distributable end-to-end personal data solution  | **Rust**, HCL, Jinja, Shell |  |
+| [tummycrypt](https://github.com/tinyland-inc/tummycrypt) | FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... | **Rust**, HCL, Jinja, Shell | encryption, fuse, kubernetes, nats |
 | [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
 | [waifu-mirror](https://github.com/tinyland-inc/waifu-mirror) | waifu API consumer cache with terminal-optimized pre-processing | **Go**, HCL, Nix, Dockerfile | build-weird-stuff, unusual-terminal-activities |
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [25 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-23 06:35 UTC*
+*Last updated: 2026-02-24 06:31 UTC*
 <!--END_SECTION:repos-->
 
 ---
