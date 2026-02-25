@@ -277,21 +277,21 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | [FastPhotoAPI](https://github.com/Jesssullivan/FastPhotoAPI) | An efficient, flexible, flask-based image server using Lanczos resampling  | **Python**, HTML, CSS, Dockerfile | flask, lanczos, docker, koyeb |
 | [timberbuddy](https://github.com/Jesssullivan/timberbuddy) | Archive of Control Package work for Amish Sawmill | **TypeScript**, Svelte, Jinja, Cython | i2c, raspberry-pi, robotics, sveltekit |
 | [tetrahedron](https://github.com/Jesssullivan/tetrahedron) | Application for tetrahedron.gay mental health social service | **Svelte**, TypeScript, JavaScript, CSS |  |
-| [IntroTypeScript](https://github.com/Jesssullivan/IntroTypeScript) | Learn how to write a command line utility of your own in pure modern TypeScript | **TypeScript** | lesson, typescript, utilities |
 
 **Other**
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [tailnet-acl](https://github.com/Jesssullivan/tailnet-acl) | Dhall-typed Tailscale ACL Management, to learn Dhall ^w^ | **Dhall**, Python, Just, HCL | dhall-lang, tailscale-aperture, ephemera, flake |
 | [tummycrypt](https://github.com/tinyland-inc/tummycrypt) | FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... | **Rust**, HCL, Jinja, Shell | encryption, fuse, kubernetes, nats |
 | [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
 | [waifu-mirror](https://github.com/tinyland-inc/waifu-mirror) | waifu API consumer cache with terminal-optimized pre-processing | **Go**, HCL, Nix, Dockerfile | build-weird-stuff, unusual-terminal-activities |
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
 
-*...and [25 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [26 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-24 06:31 UTC*
+*Last updated: 2026-02-25 06:33 UTC*
 <!--END_SECTION:repos-->
 
 ---
