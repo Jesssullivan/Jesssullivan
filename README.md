@@ -209,9 +209,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [pp](https://github.com/tinyland-inc/pp)
-  Tinyland Lab shell dashboard with waifu integration
-  *Go · last push today*
+**Currently working on:** [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel)
+  Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache
+  *HCL · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -242,9 +242,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
 | [pp](https://github.com/tinyland-inc/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix | build-weird-stuff |
 | [tinyland-cleanup](https://github.com/tinyland-inc/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd | **Go**, Starlark, Nix | cleanup, daemon, disk-management, go |
-| [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
 | [tinyland-infra](https://github.com/tinyland-inc/tinyland-infra) | Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and Bazel r... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
 | [Ansible-DAG-Harness](https://github.com/tinyland-inc/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
 | [betterkvm](https://github.com/tinyland-inc/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [26 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-25 06:33 UTC*
+*Last updated: 2026-02-26 06:30 UTC*
 <!--END_SECTION:repos-->
 
 ---
