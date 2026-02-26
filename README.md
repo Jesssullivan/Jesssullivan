@@ -59,8 +59,7 @@ I build planet scale infrastructure tooling for fun, architect and enchant digit
 ![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=flat-square&logo=svelte&logoColor=white)
 ![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)
 ![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
-![Trans Pride](https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-Trans%20Pride-5BCEFA?style=flat-square)
-![hehe gh chips are fun](https://img.shields.io/badge/hehe%20gh%20chips%20are%20fun-FF69B4?style=flat-square)
+
 
 </td>
 </tr>
