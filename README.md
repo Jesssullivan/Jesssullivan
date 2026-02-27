@@ -208,17 +208,17 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel)
-  Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache
-  *HCL · last push today*
+**Currently working on:** [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat)
+  A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration
+  *Python · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
+- [Aperture and the Tagged-Device Identity Gap](https://transscendsurvival.org/blog/aperture-and-the-tagged-device-identity-gap) — *Feb 26, 2026*
+- [Bootstrapping Aperture Config with tsnet](https://transscendsurvival.org/blog/bootstrapping-aperture-config-with-tsnet) — *Feb 26, 2026*
 - [Ligature Test Fixture](https://transscendsurvival.org/blog/ligature-test-fixture) — *Dec 31, 2024*
-- [What have I been up to these last few months?](https://transscendsurvival.org/blog/what-have-i-been-up-to-these-last-few-months) — *May 22, 2024*
-- [I wrote a mutual aid mental health service](https://transscendsurvival.org/blog/i-wrote-a-mutual-aid-mental-health-service) — *Feb 22, 2024*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -242,9 +242,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
 | [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
-| [pp](https://github.com/tinyland-inc/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix | build-weird-stuff |
 | [tinyland-cleanup](https://github.com/tinyland-inc/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd | **Go**, Starlark, Nix | cleanup, daemon, disk-management, go |
-| [tinyland-infra](https://github.com/tinyland-inc/tinyland-infra) | Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and Bazel r... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
+| [pp](https://github.com/tinyland-inc/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix | build-weird-stuff |
+| [tinyland-infra](https://github.com/tinyland-inc/tinyland-infra) | Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
 | [Ansible-DAG-Harness](https://github.com/tinyland-inc/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
 | [betterkvm](https://github.com/tinyland-inc/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
 | [DarwinNicUtil](https://github.com/Jesssullivan/DarwinNicUtil) | Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... | **Python**, Nix, Just, Shell | airgapped-security, compliance, developer-experience, nat-punchthrough |
@@ -281,16 +281,17 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
+| [aperture-bootstrap](https://github.com/Jesssullivan/aperture-bootstrap) | Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... | **Go**, Dhall, Just, Nix | dhall, nix, tailscale, tailscale-aperture |
 | [tailnet-acl](https://github.com/Jesssullivan/tailnet-acl) | Dhall-typed Tailscale ACL Management, to learn Dhall ^w^ | **Dhall**, Python, Just, HCL | dhall-lang, tailscale-aperture, ephemera, flake |
 | [tummycrypt](https://github.com/tinyland-inc/tummycrypt) | FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... | **Rust**, HCL, Jinja, Shell | encryption, fuse, kubernetes, nats |
-| [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
 | [waifu-mirror](https://github.com/tinyland-inc/waifu-mirror) | waifu API consumer cache with terminal-optimized pre-processing | **Go**, HCL, Nix, Dockerfile | build-weird-stuff, unusual-terminal-activities |
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
 
-*...and [26 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-26 06:30 UTC*
+*Last updated: 2026-02-27 06:27 UTC*
 <!--END_SECTION:repos-->
 
 ---
