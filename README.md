@@ -241,12 +241,12 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
+| [betterkvm](https://github.com/tinyland-inc/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Just**, Nix, Python, Shell | pikvm, remote-development, riscv, serial-over-ip |
 | [tinyland-cleanup](https://github.com/tinyland-inc/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd | **Go**, Starlark, Nix | cleanup, daemon, disk-management, go |
 | [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
 | [pp](https://github.com/tinyland-inc/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix | build-weird-stuff |
 | [tinyland-infra](https://github.com/tinyland-inc/tinyland-infra) | Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... | **HCL**, Just, Starlark, Shell | bazel, bzlmod, civo, gitlab-runners |
 | [Ansible-DAG-Harness](https://github.com/tinyland-inc/Ansible-DAG-Harness) | A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... | **Python**, Shell, Just, Jinja | ansible-role, dag, gitlab, harness |
-| [betterkvm](https://github.com/tinyland-inc/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Nix**, Just, Shell, Python | pikvm, remote-development, riscv, serial-over-ip |
 | [DarwinNicUtil](https://github.com/Jesssullivan/DarwinNicUtil) | Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... | **Python**, Nix, Just, Shell | airgapped-security, compliance, developer-experience, nat-punchthrough |
 | [tinyscale-mikrotik](https://github.com/Jesssullivan/tinyscale-mikrotik) | Very small tailscale container for CRS310 class switches | **Shell**, Makefile, Dockerfile, RouterOS Script | mikrotik, oci, tailscale, upx |
 | [searchies](https://github.com/Jesssullivan/searchies) | hard AF searxng infra for uwu tinies | **Jinja**, Shell | caddy, digitalocean, opentofu, rockylinux |
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-02-28 06:17 UTC*
+*Last updated: 2026-03-01 06:24 UTC*
 <!--END_SECTION:repos-->
 
 ---
