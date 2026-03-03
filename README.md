@@ -264,7 +264,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [gnucashr](https://github.com/Jesssullivan/gnucashr) | A high performance accounting and financial modeling R package for GNUCash | **R**, C++, Nix, Starlark |  |
+| [gnucashr](https://github.com/Jesssullivan/gnucashr) | A high performance accounting and financial modeling R package and MCP tool surface for GNUCash, ... | **C++**, R, Dhall, Nix | agent-skills, finops, gnucash, mcp |
 | [AccuWixReport](https://github.com/Jesssullivan/AccuWixReport) | A command line utility generating monthly transaction & superlative financial reports - migration... | **Python** |  |
 
 **Web & Apps**
@@ -281,7 +281,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
 | [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
-| [outbot-ci](https://github.com/Jesssullivan/outbot-ci) | Warning!  Danger!  WIP!  Kleisli composition oriented code object infrastructure scheduler for di... | **Python**, Haskell, Shell, Dhall | experimental, gitlab-enterprise, global-optimization-algorithms, massively-parallel |
+| [outbot-ci](https://github.com/Jesssullivan/outbot-ci) | A git scheduler for distributed systems *and* humans.   Greater downstream publishing safety at e... | **Python**, Haskell, Shell, Dhall | experimental, gitlab-enterprise, global-optimization-algorithms, massively-parallel |
 | [aperture-bootstrap](https://github.com/Jesssullivan/aperture-bootstrap) | Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... | **Go**, Dhall, Just, Nix | dhall, nix, tailscale, tailscale-aperture |
 | [tailnet-acl](https://github.com/Jesssullivan/tailnet-acl) | Dhall-typed Tailscale ACL Management, to learn Dhall ^w^ | **Dhall**, Python, Just, HCL | dhall-lang, tailscale-aperture, ephemera, flake |
 | [tummycrypt](https://github.com/tinyland-inc/tummycrypt) | FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... | **Rust**, HCL, Jinja, Shell | encryption, fuse, kubernetes, nats |
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [28 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-03-02 06:30 UTC*
+*Last updated: 2026-03-03 06:26 UTC*
 <!--END_SECTION:repos-->
 
 ---
