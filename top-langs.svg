@@ -11,13 +11,13 @@
     </clipPath>
   </defs>
   <g clip-path="url(#bar-clip)">
-    <rect x="25.0" y="50" width="121.9" height="8" fill="#3572A5" />
-    <rect x="146.9" y="50" width="56.5" height="8" fill="#f34b7d" />
+    <rect x="25.0" y="50" width="121.8" height="8" fill="#3572A5" />
+    <rect x="146.8" y="50" width="56.5" height="8" fill="#f34b7d" />
     <rect x="203.3" y="50" width="17.0" height="8" fill="#555555" />
-    <rect x="220.4" y="50" width="14.1" height="8" fill="#00ADD8" />
+    <rect x="220.3" y="50" width="14.1" height="8" fill="#00ADD8" />
     <rect x="234.4" y="50" width="13.4" height="8" fill="#3178c6" />
-    <rect x="247.8" y="50" width="11.7" height="8" fill="#c065db" />
-    <rect x="259.5" y="50" width="10.3" height="8" fill="#dea584" />
+    <rect x="247.7" y="50" width="11.7" height="8" fill="#c065db" />
+    <rect x="259.4" y="50" width="10.4" height="8" fill="#dea584" />
     <rect x="269.8" y="50" width="5.2" height="8" fill="#198CE7" />
   </g>
   <circle cx="30" cy="78" r="5" fill="#3572A5" />
@@ -33,7 +33,7 @@
   <circle cx="155" cy="118" r="5" fill="#c065db" />
   <text x="165" y="122" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Emacs Lisp 4.7%</text>
   <circle cx="30" cy="138" r="5" fill="#dea584" />
-  <text x="40" y="142" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Rust 4.1%</text>
+  <text x="40" y="142" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Rust 4.2%</text>
   <circle cx="155" cy="138" r="5" fill="#198CE7" />
   <text x="165" y="142" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">R 2.1%</text>
 </svg>
