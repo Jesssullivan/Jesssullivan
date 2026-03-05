@@ -216,9 +216,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
-- [Aperture and the Tagged-Device Identity Gap](https://transscendsurvival.org/blog/aperture-and-the-tagged-device-identity-gap) — *Feb 26, 2026*
-- [Bootstrapping Aperture Config with tsnet](https://transscendsurvival.org/blog/bootstrapping-aperture-config-with-tsnet) — *Feb 26, 2026*
-- [Ligature Test Fixture](https://transscendsurvival.org/blog/ligature-test-fixture) — *Dec 31, 2024*
+- [From Bricked to Recovered: The Story of Hacking an NVMe SSD Back to Life](https://transscendsurvival.org/blog/from-bricked-to-recovered-the-story-of-hacking-an-nvme-ssd-back-to-life) — *Mar 04, 2026*
+- [Week Notes: Cyborgs, Servers, and Sending](https://transscendsurvival.org/blog/week-notes-cyborgs-servers-and-sending) — *Mar 04, 2026*
+- [XRAM Injection: Bypassing USB Bridge Whitelists to Recover NVMe Drives](https://transscendsurvival.org/blog/xram-injection-bypassing-usb-bridge-whitelists-to-recover-nvme-drives) — *Mar 04, 2026*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -257,8 +257,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Nix, JavaScript | dont-take-this-too-seriously, but-actually-this-is-for-real, getting-rusty-with-it |
+| [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Nix, Shell | dont-take-this-too-seriously, but-actually-this-is-for-real, getting-rusty-with-it |
 | [hiberpower-ntfs](https://github.com/Jesssullivan/hiberpower-ntfs) | ASM2362 NVMe recovery experiments and research around FTL corruption | **Zig**, Shell, JavaScript, Python | opcode-analysis, opcode-manipulation, frida-capture, queue-attack |
+| [TurkeyProbe](https://github.com/Jesssullivan/TurkeyProbe) | for probing the Turkey | **C++**, JavaScript, HTML, CSS | esp8266, steinhart-hart, thermistor, websocket |
 
 **ML & Data**
 
@@ -281,17 +282,16 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
 | [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat) | A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration | **Python**, Shell, Nix, Just | asychronous, autoverification, domain-driven-design, githook |
-| [tummycrypt](https://github.com/tinyland-inc/tummycrypt) | FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... | **Rust**, HCL, Jinja, Shell | encryption, fuse, kubernetes, nats |
-| [outbot-ci](https://github.com/Jesssullivan/outbot-ci) | A git scheduler for distributed systems *and* humans.   Greater downstream publishing safety at e... | **Python**, Haskell, Shell, Dhall | experimental, gitlab-enterprise, global-optimization-algorithms, massively-parallel |
+| [tummycrypt](https://github.com/tinyland-inc/tummycrypt) | FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... | **Rust**, HCL, Shell, Jinja | encryption, fuse, kubernetes, nats |
 | [aperture-bootstrap](https://github.com/Jesssullivan/aperture-bootstrap) | Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... | **Go**, Dhall, Just, Nix | dhall, nix, tailscale, tailscale-aperture |
 | [tailnet-acl](https://github.com/Jesssullivan/tailnet-acl) | Dhall-typed Tailscale ACL Management, to learn Dhall ^w^ | **Dhall**, Python, Just, HCL | dhall-lang, tailscale-aperture, ephemera, flake |
 | [waifu-mirror](https://github.com/tinyland-inc/waifu-mirror) | waifu API consumer cache with terminal-optimized pre-processing | **Go**, HCL, Nix, Dockerfile | build-weird-stuff, unusual-terminal-activities |
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
 
-*...and [28 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-03-04 06:24 UTC*
+*Last updated: 2026-03-05 06:26 UTC*
 <!--END_SECTION:repos-->
 
 ---
