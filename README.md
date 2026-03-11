@@ -208,9 +208,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat)
-  A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration
-  *Python · last push today*
+**Currently working on:** [XoxdWM](https://github.com/tinyland-inc/XoxdWM)
+  Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs
+  *Emacs Lisp · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -257,7 +257,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [XoxdWM](https://github.com/Jesssullivan/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Shell, Nix | dont-take-this-too-seriously, but-actually-this-is-for-real, getting-rusty-with-it |
+| [XoxdWM](https://github.com/tinyland-inc/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Shell, Nix | dont-take-this-too-seriously, but-actually-this-is-for-real, getting-rusty-with-it |
 | [hiberpower-ntfs](https://github.com/Jesssullivan/hiberpower-ntfs) | ASM2362 NVMe recovery experiments and research around FTL corruption | **Zig**, Shell, JavaScript, Python | opcode-analysis, opcode-manipulation, frida-capture, queue-attack |
 | [TurkeyProbe](https://github.com/Jesssullivan/TurkeyProbe) | for probing the Turkey | **C++**, JavaScript, HTML, CSS | esp8266, steinhart-hart, thermistor, websocket |
 
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-03-10 06:25 UTC*
+*Last updated: 2026-03-11 06:26 UTC*
 <!--END_SECTION:repos-->
 
 ---
