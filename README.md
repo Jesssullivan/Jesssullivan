@@ -216,9 +216,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
+- [Updated Resume & CV — March 2026](https://transscendsurvival.org/blog/updated-resume-and-cv) — *Mar 12, 2026*
 - [From Bricked to Recovered: The Story of Hacking an NVMe SSD Back to Life](https://transscendsurvival.org/blog/from-bricked-to-recovered-the-story-of-hacking-an-nvme-ssd-back-to-life) — *Mar 04, 2026*
 - [Week Notes: Cyborgs, Servers, and Sending](https://transscendsurvival.org/blog/week-notes-cyborgs-servers-and-sending) — *Mar 04, 2026*
-- [XRAM Injection: Bypassing USB Bridge Whitelists to Recover NVMe Drives](https://transscendsurvival.org/blog/xram-injection-bypassing-usb-bridge-whitelists-to-recover-nvme-drives) — *Mar 04, 2026*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-03-12 06:28 UTC*
+*Last updated: 2026-03-13 06:27 UTC*
 <!--END_SECTION:repos-->
 
 ---
