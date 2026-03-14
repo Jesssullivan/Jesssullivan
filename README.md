@@ -216,9 +216,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
+- [WinRM Quotas, Plugin Confusion, and Why PSRP Has Been the Answer Since 2018](https://transscendsurvival.org/blog/winrm-quotas-hidden-plugin-layers-and-why-psrp-has-been-the-answer-since-2018) — *Mar 13, 2026*
 - [Updated Resume & CV — March 2026](https://transscendsurvival.org/blog/updated-resume-and-cv) — *Mar 12, 2026*
 - [From Bricked to Recovered: The Story of Hacking an NVMe SSD Back to Life](https://transscendsurvival.org/blog/from-bricked-to-recovered-the-story-of-hacking-an-nvme-ssd-back-to-life) — *Mar 04, 2026*
-- [Week Notes: Cyborgs, Servers, and Sending](https://transscendsurvival.org/blog/week-notes-cyborgs-servers-and-sending) — *Mar 04, 2026*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -241,7 +241,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 | Repo | Description | Languages | Topics |
 |------|-------------|-----------|--------|
-| [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system for GitLab — Nix, Bazel, Civo K8s, Attic cache | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
+| [GloriousFlywheel](https://github.com/tinyland-inc/GloriousFlywheel) | Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache | **HCL**, TypeScript, Svelte, Shell | attic, bazel, bazel-cache, bzlmod |
+| [winrm-molecule-forkbomb-demo](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) | Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong | **Jinja**, Shell, Python, Dhall |  |
 | [pp](https://github.com/tinyland-inc/pp) | Tinyland Lab shell dashboard with waifu integration | **Go**, Starlark, Shell, Nix | build-weird-stuff |
 | [tinyland-cleanup](https://github.com/tinyland-inc/tinyland-cleanup) | Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd | **Go**, Starlark, Nix | cleanup, daemon, disk-management, go |
 | [betterkvm](https://github.com/tinyland-inc/betterkvm) | The converged multiarch KVM for Tinyland NoneX86 contributions | **Just**, Nix, Python, Shell | pikvm, remote-development, riscv, serial-over-ip |
@@ -259,7 +260,6 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 |------|-------------|-----------|--------|
 | [XoxdWM](https://github.com/tinyland-inc/XoxdWM) | Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs | **Emacs Lisp**, Rust, Shell, Nix | dont-take-this-too-seriously, but-actually-this-is-for-real, getting-rusty-with-it |
 | [hiberpower-ntfs](https://github.com/Jesssullivan/hiberpower-ntfs) | ASM2362 NVMe recovery experiments and research around FTL corruption | **Zig**, Shell, JavaScript, Python | opcode-analysis, opcode-manipulation, frida-capture, queue-attack |
-| [TurkeyProbe](https://github.com/Jesssullivan/TurkeyProbe) | for probing the Turkey | **C++**, JavaScript, HTML, CSS | esp8266, steinhart-hart, thermistor, websocket |
 
 **ML & Data**
 
@@ -289,9 +289,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 | [LA-Mesh](https://github.com/Jesssullivan/LA-Mesh) | LoRa infrastructure projects for Southern Maine. | **Svelte**, Shell, Python, Just | comms, curriculum, lora, sdr |
 | [Jess-AOC-2023](https://github.com/Jesssullivan/Jess-AOC-2023) | Jess's solutions to the 2023 Advent of Code | **Python** | advent-of-code |
 
-*...and [27 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*...and [28 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-03-13 06:27 UTC*
+*Last updated: 2026-03-14 06:25 UTC*
 <!--END_SECTION:repos-->
 
 ---
