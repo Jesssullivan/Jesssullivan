@@ -214,6 +214,7 @@ def render_project_list(grouped, config):
 
     Skips repos with no description.
     """
+    total_shown = 0
     lines = []
     for cat in config.category_order:
         cat_repos = grouped.get(cat, [])
@@ -223,7 +224,10 @@ def render_project_list(grouped, config):
             continue
         # Sort by pushed_at descending within category
         cat_repos = sorted(cat_repos, key=lambda cr: cr.repo.pushed_at, reverse=True)
-        lines.append(f"**{cat}**")
+        total_shown += len(cat_repos)
+        lines.append(f"<details>")
+        lines.append(f"<summary><strong>{cat}</strong> ({len(cat_repos)})</summary>")
+        lines.append("")
         for cr in cat_repos:
             r = cr.repo
             desc = r.description.replace("|", "\\|")
@@ -243,8 +247,10 @@ def render_project_list(grouped, config):
             else:
                 lines.append(f"- [**{r.name}**]({r.url}){meta}")
         lines.append("")
+        lines.append("</details>")
+        lines.append("")
 
-    remaining = sum(len(v) for v in grouped.values()) - config.max_repos
+    remaining = sum(len(v) for v in grouped.values()) - total_shown
     if remaining > 0:
         lines.append(
             f"*...and [{remaining} more](https://github.com/{config.user}?tab=repositories&type=source)*"
@@ -283,13 +289,19 @@ def render_foss_section(foss_list, user):
     # Sort each group: stars descending, then alphabetically
     external.sort(key=lambda f: (-f.stars, f.name_with_owner.lower()))
 
-    lines = ["### FOSS Contributions", ""]
+    lines = [
+        "<details>",
+        f"<summary><strong>FOSS Contributions</strong> ({len(external)})</summary>",
+        "",
+    ]
     for f in external:
         lang_part = f" *({f.primary_language})*" if f.primary_language else ""
         desc = f.description
         if len(desc) > 80:
             desc = desc[:77] + "..."
         lines.append(f"- [**{f.name_with_owner}**]({f.url}) \u2014 {desc}{lang_part}")
+    lines.append("")
+    lines.append("</details>")
     return "\n".join(lines)
 
 
