@@ -260,17 +260,17 @@
   <circle cx="661.8" cy="161.5" r="15.8" fill="#7f8c8d" opacity="0.88" />
   <circle cx="666.2" cy="196.8" r="16" fill="#3498db" opacity="0.88" />
   <circle cx="687.7" cy="157.9" r="11.3" fill="#3498db" opacity="0.88" />
-  <circle cx="630.1" cy="159.4" r="16" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="630.1" cy="159.4" r="16" fill="#3498db" opacity="0.88" />
   <circle cx="694.7" cy="120.5" r="13.1" fill="#e67e22" opacity="0.88" />
   <circle cx="601.3" cy="145.7" r="8.6" fill="#3498db" opacity="0.88" />
   <circle cx="509.2" cy="130.0" r="11.3" fill="#3498db" opacity="0.88" />
   <circle cx="596.9" cy="167.3" r="16" fill="#2ecc71" opacity="0.88" />
   <circle cx="671.8" cy="148.9" r="12.2" fill="#3498db" opacity="0.88" />
-  <circle cx="601.2" cy="130.7" r="12.2" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="601.2" cy="130.7" r="12.2" fill="#3498db" opacity="0.88" />
   <circle cx="640.4" cy="148.6" r="14.9" fill="#7f8c8d" opacity="0.88" />
   <circle cx="538.9" cy="124.2" r="9.5" fill="#7f8c8d" opacity="0.88" />
   <circle cx="627.4" cy="178.0" r="14.9" fill="#3498db" opacity="0.88" />
-  <circle cx="683.2" cy="171.7" r="16" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="683.2" cy="171.7" r="16" fill="#9b59b6" opacity="0.88" />
   <circle cx="699.4" cy="202.8" r="16" fill="#e74c3c" opacity="0.88" />
   <circle cx="761.4" cy="198.5" r="16" fill="#9b59b6" opacity="0.88" />
   <circle cx="692.1" cy="148.3" r="14.0" fill="#3498db" opacity="0.88" />
@@ -285,28 +285,28 @@
   <circle cx="729.7" cy="178.2" r="15.8" fill="#9b59b6" opacity="0.88" />
   <circle cx="711.6" cy="172.3" r="8.6" fill="#9b59b6" opacity="0.88" />
   <circle cx="775.1" cy="126.7" r="5" fill="#2ecc71" opacity="0.88" />
-  <circle cx="770.0" cy="114.4" r="5.9" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="770.0" cy="114.4" r="5.9" fill="#e74c3c" opacity="0.88" />
   <circle cx="773.6" cy="189.9" r="11.3" fill="#e67e22" opacity="0.88" />
   <circle cx="711.2" cy="184.6" r="16" fill="#2ecc71" opacity="0.88" />
   <circle cx="552.3" cy="50.0" r="6.8" fill="#9b59b6" opacity="0.88" />
   <circle cx="151.8" cy="395.9" r="5" fill="#7f8c8d" opacity="0.88" />
   <circle cx="731.5" cy="164.9" r="12.2" fill="#3498db" opacity="0.88" />
-  <circle cx="763.5" cy="156.8" r="13.1" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="763.5" cy="156.8" r="13.1" fill="#9b59b6" opacity="0.88" />
   <circle cx="724.6" cy="126.8" r="9.5" fill="#7f8c8d" opacity="0.88" />
   <circle cx="779.0" cy="474.0" r="5" fill="#7f8c8d" opacity="0.88" />
   <circle cx="741.6" cy="132.7" r="7.7" fill="#7f8c8d" opacity="0.88" />
-  <circle cx="736.6" cy="159.1" r="9.5" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="736.6" cy="159.1" r="9.5" fill="#9b59b6" opacity="0.88" />
   <circle cx="755.7" cy="172.8" r="15.8" fill="#2ecc71" opacity="0.88" />
-  <circle cx="734.1" cy="150.5" r="7.7" fill="#7f8c8d" opacity="0.88" />
-  <circle cx="116.4" cy="83.0" r="7.7" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="734.1" cy="150.5" r="7.7" fill="#9b59b6" opacity="0.88" />
+  <circle cx="116.4" cy="83.0" r="7.7" fill="#e67e22" opacity="0.88" />
   <circle cx="811.2" cy="82.3" r="7.7" fill="#3498db" opacity="0.88" />
   <circle cx="792.3" cy="120.3" r="5.9" fill="#7f8c8d" opacity="0.88" />
   <circle cx="451.3" cy="171.8" r="6.8" fill="#e67e22" opacity="0.88" />
   <circle cx="488.7" cy="174.7" r="6.8" fill="#e67e22" opacity="0.88" />
   <circle cx="759.0" cy="140.8" r="10.4" fill="#7f8c8d" opacity="0.88" />
   <circle cx="523.7" cy="150.6" r="11.3" fill="#e67e22" opacity="0.88" />
-  <circle cx="85.4" cy="97.3" r="5.9" fill="#7f8c8d" opacity="0.88" />
-  <circle cx="747.1" cy="181.1" r="6.8" fill="#7f8c8d" opacity="0.88" />
+  <circle cx="85.4" cy="97.3" r="5.9" fill="#e67e22" opacity="0.88" />
+  <circle cx="747.1" cy="181.1" r="6.8" fill="#9b59b6" opacity="0.88" />
   <circle cx="801.0" cy="145.6" r="6.8" fill="#7f8c8d" opacity="0.88" />
   <circle cx="893.7" cy="146.3" r="5" fill="#2ecc71" opacity="0.88" />
   <circle cx="910.0" cy="165.7" r="7.7" fill="#2ecc71" opacity="0.88" />
