@@ -208,9 +208,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 ---
 
 <!--START_SECTION:activity-->
-**Currently working on:** [tinyland-huskycat](https://github.com/tinyland-inc/tinyland-huskycat)
-  A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration
-  *Python · last push today*
+**Currently working on:** [XoxdWM](https://github.com/tinyland-inc/XoxdWM)
+  Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs
+  *Emacs Lisp · last push today*
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:blog-->
@@ -291,7 +291,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [28 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 
-*Last updated: 2026-03-14 06:25 UTC*
+*Last updated: 2026-03-15 06:30 UTC*
 <!--END_SECTION:repos-->
 
 ---
