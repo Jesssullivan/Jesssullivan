@@ -223,7 +223,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 <!--START_SECTION:repos-->
 
-**Languages & Compilers**
+<details>
+<summary><strong>Languages & Compilers</strong> (6)</summary>
+
 - [**pixelwise-research**](https://github.com/Jesssullivan/pixelwise-research) — WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... *(TypeScript · 1 ★ · Feb 2026)*
 - [**quickchpl**](https://github.com/Jesssullivan/quickchpl) — Simple Property-Based Testing for Chapel Language *(Chapel · 2 ★ · Jan 2026)*
 - [**aoc-2025**](https://github.com/Jesssullivan/aoc-2025) — Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI *(Chapel · Jan 2026)*
@@ -231,7 +233,11 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**tagnotes**](https://github.com/Jesssullivan/tagnotes) — Google Calendar API with Chapel & Python *(Chapel · Sep 2019)*
 - [**ChapelTests**](https://github.com/Jesssullivan/ChapelTests) — Dupe Checking, String Iteration, Parallel Evaluation in Chapel-language & Python3 *(Chapel · Sep 2019)*
 
-**Infrastructure & DevOps**
+</details>
+
+<details>
+<summary><strong>Infrastructure & DevOps</strong> (16)</summary>
+
 - [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · yesterday)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · yesterday)*
 - [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 4 days ago)*
@@ -249,7 +255,11 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**DLA-Flask**](https://github.com/DLA-Makerspace/DLA-Flask) — Lightweight & responsive web dashboard application for DLA Makerspace *(Jinja · Aug 2022)*
 - [**LeafletSync**](https://github.com/Jesssullivan/LeafletSync) — Chindōgu utility prompt & CLI for fetching private releases & files from GitHub & BitBucket *(Shell · Jan 2021)*
 
-**Hardware & Maker**
+</details>
+
+<details>
+<summary><strong>Hardware & Maker</strong> (8)</summary>
+
 - [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · today)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 1 week ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
@@ -259,11 +269,14 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**AeroTaz5_hotfix**](https://github.com/Jesssullivan/AeroTaz5_hotfix) — @ D&M Makerspace *(C++ · Jul 2020)*
 - [**Funmat-HT-Notes**](https://github.com/Jesssullivan/Funmat-HT-Notes) — misc notes, files for Funmat HT (late, pre-enhanced) 3d printer *(Jun 2020)*
 
-*Last updated: 2026-03-15 09:54 UTC*
+</details>
+
+*Last updated: 2026-03-15 09:56 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
-### FOSS Contributions
+<details>
+<summary><strong>FOSS Contributions</strong> (25)</summary>
 
 - [**keepassxreboot/keepassxc**](https://github.com/keepassxreboot/keepassxc) — KeePassXC is a cross-platform community-driven port of the Windows applicatio... *(C++)*
 - [**charmbracelet/crush**](https://github.com/charmbracelet/crush) — Glamourous agentic coding for all 💘 *(Go)*
@@ -290,6 +303,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**tinyland-inc/tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-... *(Rust)*
 - [**tinyland-inc/waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — waifu API consumer cache with terminal-optimized pre-processing *(Go)*
 - [**tinyland-inc/XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp)*
+
+</details>
 <!--END_SECTION:foss-->
 
 ---
