@@ -65,7 +65,7 @@
     }
   ],
   "stats": {
-    "include_foss_in_lang_stats": true,
+    "include_foss_in_lang_stats": false,
     "language_normalization": "bytes"
   }
 }

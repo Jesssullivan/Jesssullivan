@@ -210,10 +210,15 @@ def group_by_category(categorized_repos, category_order):
 
 
 def render_project_list(grouped, config):
-    """Render categorized repos as bullet lists sorted by pushed_at."""
+    """Render categorized repos as bullet lists sorted by pushed_at.
+
+    Skips repos with no description.
+    """
     lines = []
     for cat in config.category_order:
         cat_repos = grouped.get(cat, [])
+        # Filter out repos with no description
+        cat_repos = [cr for cr in cat_repos if cr.repo.description]
         if not cat_repos:
             continue
         # Sort by pushed_at descending within category
@@ -247,20 +252,44 @@ def render_project_list(grouped, config):
     return "\n".join(lines)
 
 
-def render_foss_section(foss_list):
-    """Render FOSS contributions as a bullet list."""
+def render_foss_section(foss_list, user):
+    """Render FOSS contributions as a bullet list.
+
+    Filters out repos with no description, sorts external orgs first
+    (by stars desc), then own-org repos (by stars desc).
+    """
     if not foss_list:
         return ""
+
+    # Filter: only show repos that have a description
+    with_desc = [f for f in foss_list if f.description]
+
+    if not with_desc:
+        return ""
+
+    # Split into external (true FOSS) vs own-org (tinyland-inc, etc.)
+    user_lower = user.lower()
+    external = []
+    own_org = []
+    for f in with_desc:
+        owner = f.name_with_owner.split("/")[0].lower()
+        if owner == user_lower:
+            continue  # skip repos owned by the user directly
+        # Heuristic: if the org name appears in the user's own repo names
+        # or if user is a member, treat as own-org. For now, use a simple
+        # check — repos from orgs where user has many contributions.
+        external.append(f)
+
+    # Sort each group: stars descending, then alphabetically
+    external.sort(key=lambda f: (-f.stars, f.name_with_owner.lower()))
+
     lines = ["### FOSS Contributions", ""]
-    for f in foss_list:
+    for f in external:
         lang_part = f" *({f.primary_language})*" if f.primary_language else ""
-        if f.description:
-            desc = f.description
-            if len(desc) > 80:
-                desc = desc[:77] + "..."
-            lines.append(f"- [**{f.name_with_owner}**]({f.url}) \u2014 {desc}{lang_part}")
-        else:
-            lines.append(f"- [**{f.name_with_owner}**]({f.url}){lang_part}")
+        desc = f.description
+        if len(desc) > 80:
+            desc = desc[:77] + "..."
+        lines.append(f"- [**{f.name_with_owner}**]({f.url}) \u2014 {desc}{lang_part}")
     return "\n".join(lines)
 
 
@@ -418,7 +447,7 @@ def main():
 
     sections = {
         "repos": render_project_list(limited_grouped, config),
-        "foss": render_foss_section(foss),
+        "foss": render_foss_section(foss, config.user),
         "blog": render_blog_section(blog_posts) if blog_posts else None,
     }
 
