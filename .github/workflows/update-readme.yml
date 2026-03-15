@@ -6,7 +6,7 @@ on:
   repository_dispatch:
     types: [blog-deployed]
   push:
-    branches: [feature/update-script]
+    branches: [main]
     paths: ['scripts/**', 'templates/**']
 
 jobs:
