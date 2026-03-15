@@ -10,12 +10,12 @@ Uses only stdlib — no pip installs needed.
 
 import json
 import os
-import subprocess
 import sys
-import urllib.request
+
+sys.path.insert(0, os.path.dirname(__file__))
+from shared import escape_xml, graphql_request, load_config
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GRAPHQL_URL = "https://api.github.com/graphql"
 OUT_DIR = os.path.dirname(os.path.dirname(__file__))
 
 # Octicon SVG paths (16x16 viewBox)
@@ -97,58 +97,17 @@ CONTRIB_QUERY = """
 """
 
 
-def escape_xml(text):
-    """Escape special XML characters."""
-    return (
-        text.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-        .replace('"', "&quot;")
-        .replace("'", "&apos;")
-    )
-
-
-def graphql_request(query):
-    """Execute a GraphQL query. Tries urllib first, falls back to gh CLI."""
-    data = None
-    if GITHUB_TOKEN:
-        try:
-            headers = {
-                "Authorization": f"Bearer {GITHUB_TOKEN}",
-                "Content-Type": "application/json",
-                "User-Agent": "profile-readme-updater",
-            }
-            payload = json.dumps({"query": query}).encode("utf-8")
-            req = urllib.request.Request(GRAPHQL_URL, data=payload, headers=headers)
-            with urllib.request.urlopen(req) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-        except Exception as exc:
-            print(f"urllib failed ({exc}), trying gh cli...")
-
-    if data is None:
-        result = subprocess.run(
-            ["gh", "api", "graphql", "-f", f"query={query}"],
-            capture_output=True, text=True,
-        )
-        if result.returncode != 0:
-            raise RuntimeError(f"gh api failed: {result.stderr}")
-        data = json.loads(result.stdout)
-
-    if "errors" in data:
-        raise RuntimeError(f"GraphQL errors: {data['errors']}")
-    return data
-
-
-def fetch_contribution_stats():
+def fetch_contribution_stats(foss_count=None):
     """Fetch contribution stats from GitHub GraphQL API."""
-    data = graphql_request(CONTRIB_QUERY)
+    data = graphql_request(GITHUB_TOKEN, CONTRIB_QUERY)
     user = data["data"]["user"]
     cc = user["contributionsCollection"]
+    contributed_to = foss_count if foss_count is not None else user["repositoriesContributedTo"]["totalCount"]
     return {
         "commits": cc["totalCommitContributions"],
         "prs": user["pullRequests"]["totalCount"],
         "issues": user["openIssues"]["totalCount"] + user["closedIssues"]["totalCount"],
-        "contributed_to": user["repositoriesContributedTo"]["totalCount"],
+        "contributed_to": contributed_to,
     }
 
 
@@ -186,11 +145,11 @@ def render_stats_svg(stats, theme_name):
     w, h = 450, 195
 
     rows = [
-        ("Total Stars", str(stats["stars"]), ICON_STAR),
+        ("Stars Earned", str(stats["stars"]), ICON_STAR),
         ("Total Commits (this year)", str(stats["commits"]), ICON_COMMIT),
         ("Total PRs", str(stats["prs"]), ICON_PR),
         ("Total Issues", str(stats["issues"]), ICON_ISSUE),
-        ("Contributed to (last year)", str(stats["contributed_to"]), ICON_CONTRIB),
+        ("Contributed to (FOSS)", str(stats["contributed_to"]), ICON_CONTRIB),
     ]
 
     lines = [
@@ -309,7 +268,32 @@ def render_langs_svg(lang_stats, theme_name):
     return "\n".join(lines)
 
 
+def compute_language_stats_with_foss(repos, foss_repos):
+    """Aggregate language bytes from both own repos and FOSS contributions."""
+    lang_bytes = {}
+    lang_colors = {}
+    for repo_list in [repos, foss_repos]:
+        for repo in repo_list:
+            langs = repo.get("languages", {})
+            for edge in langs.get("edges", []):
+                name = edge["node"]["name"]
+                size = edge.get("size", 0)
+                color = edge["node"].get("color")
+                lang_bytes[name] = lang_bytes.get(name, 0) + size
+                if color and name not in lang_colors:
+                    lang_colors[name] = color
+
+    sorted_langs = sorted(lang_bytes.items(), key=lambda x: x[1], reverse=True)
+    result = []
+    for name, size in sorted_langs:
+        color = lang_colors.get(name) or LANG_COLORS.get(name, "#8b8b8b")
+        result.append((name, size, color))
+    return result
+
+
 def main():
+    config = load_config()
+
     # Load repo data
     repos_path = os.path.join(OUT_DIR, "repos_data.json")
     if not os.path.exists(repos_path):
@@ -321,9 +305,18 @@ def main():
 
     print(f"Loaded {len(repos)} repos from repos_data.json")
 
-    # Fetch contribution stats
+    # Load FOSS data if available
+    foss_path = os.path.join(OUT_DIR, "foss_data.json")
+    foss_repos = []
+    if os.path.exists(foss_path):
+        with open(foss_path) as f:
+            foss_repos = json.load(f)
+        print(f"Loaded {len(foss_repos)} FOSS contributions from foss_data.json")
+
+    # Fetch contribution stats, using FOSS data count for consistency
     print("Fetching contribution stats...")
-    contrib = fetch_contribution_stats()
+    foss_count = len(foss_repos) if foss_repos else None
+    contrib = fetch_contribution_stats(foss_count=foss_count)
     total_stars = compute_total_stars(repos)
 
     stats = {
@@ -336,8 +329,13 @@ def main():
     print(f"Stats: {stats}")
 
     # Compute language stats
-    lang_stats = compute_language_stats(repos)
-    print(f"Languages: {len(lang_stats)} total, top 8: {[l[0] for l in lang_stats[:8]]}")
+    include_foss = config.stats.get("include_foss_in_lang_stats", False)
+    if include_foss and foss_repos:
+        lang_stats = compute_language_stats_with_foss(repos, foss_repos)
+        print(f"Languages (with FOSS): {len(lang_stats)} total, top 8: {[l[0] for l in lang_stats[:8]]}")
+    else:
+        lang_stats = compute_language_stats(repos)
+        print(f"Languages: {len(lang_stats)} total, top 8: {[l[0] for l in lang_stats[:8]]}")
 
     # Generate stats cards
     for theme, suffix in [("light", ""), ("dark", "-dark")]:

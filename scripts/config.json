@@ -1,0 +1,71 @@
+{
+  "user": "Jesssullivan",
+  "blog_feed_url": "https://transscendsurvival.org/feed.xml",
+  "blog_post_count": 3,
+  "max_repos": 30,
+  "blocklist": [
+    "test", "testing", "test-repo", "hello-world",
+    "Jesssullivan",
+    "jesssullivan.github.io",
+    "misc", "sk-blog-1", "cal-com-testing",
+    "TarrytownNY-Notes", "MembershipWorks-Migration",
+    "DLADocs", "dla-hugo", "pages_columbari",
+    "stub_mo_image_classify", "tmpUI"
+  ],
+  "category_order": [
+    "Languages & Compilers",
+    "Infrastructure & DevOps",
+    "Hardware & Maker",
+    "ML & Data",
+    "Web & Apps",
+    "Other"
+  ],
+  "categories": [
+    {
+      "name": "Languages & Compilers",
+      "match_topics": ["chapel-language", "property-based-testing", "futhark", "compiler", "advent-of-code"],
+      "match_languages": ["Chapel", "Futhark", "Haskell"],
+      "match_repos": ["quickchpl", "aoc-2025", "RemoteJuggler", "pixelwise-research"],
+      "weight": 10
+    },
+    {
+      "name": "Infrastructure & DevOps",
+      "match_topics": ["ansible", "ansible-role", "bazel", "caddy", "digitalocean", "docker", "gitlab", "kubernetes", "mikrotik", "nix", "opentofu", "pikvm", "rockylinux", "tailscale"],
+      "match_languages": ["HCL", "Nix", "Shell", "Dockerfile", "Jinja"],
+      "match_repos": ["GloriousFlywheel", "Ansible-DAG-Harness", "betterkvm", "tinyscale-mikrotik", "searchies", "ts-caddy", "HCI-notes", "tinyland-cleanup", "tinyland-kdbx", "tinywaffle", "pp", "DarwinNicUtil"],
+      "weight": 10
+    },
+    {
+      "name": "Hardware & Maker",
+      "match_topics": ["esp8266", "arduino", "3d-printing", "klipper", "ghidra", "opcode-analysis"],
+      "match_languages": ["C++", "C", "Zig", "Emacs Lisp"],
+      "match_repos": ["XoxdWM", "hiberpower-ntfs", "TurkeyProbe", "Arduino_Coil_Winder"],
+      "weight": 10
+    },
+    {
+      "name": "ML & Data",
+      "match_topics": ["machine-learning", "tensorflow", "classification", "data-science"],
+      "match_languages": ["R", "Jupyter Notebook"],
+      "match_repos": ["MerlinAI-Interpreters", "gnucashr", "AccuWixReport"],
+      "weight": 10
+    },
+    {
+      "name": "Web & Apps",
+      "match_topics": ["flask", "sveltekit", "react", "web", "docker", "koyeb"],
+      "match_languages": ["Svelte", "TypeScript", "JavaScript", "CSS", "HTML"],
+      "match_repos": ["tetrahedron", "FastPhotoAPI", "timberbuddy", "IntroTypeScript", "GIS_Shortcuts"],
+      "weight": 5
+    },
+    {
+      "name": "Other",
+      "match_topics": [],
+      "match_languages": [],
+      "match_repos": [],
+      "weight": 0
+    }
+  ],
+  "stats": {
+    "include_foss_in_lang_stats": true,
+    "language_normalization": "bytes"
+  }
+}

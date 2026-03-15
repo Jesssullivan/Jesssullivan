@@ -1,94 +1,40 @@
 #!/usr/bin/env python3
 """Update the profile README with latest repo data from GitHub GraphQL API.
 
+FP pipeline: effects at edges, pure transforms in the middle.
 Uses only stdlib + urllib (no pip installs needed).
 """
 
 import json
 import os
 import re
+import subprocess
 import sys
-import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GRAPHQL_URL = "https://api.github.com/graphql"
+from shared import (
+    BlogPost,
+    CategorizedRepo,
+    FossContribution,
+    categorize_repo,
+    format_atom_date,
+    format_iso_date,
+    format_rss_date,
+    graphql_request,
+    load_config,
+    parse_repo,
+    pipe,
+)
+
 README_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "README.md")
 
-# Repos to exclude from the README entirely
-BLOCKLIST = {
-    "test", "testing", "test-repo", "hello-world",
-    "Jesssullivan",  # profile repo itself
-    "jesssullivan.github.io",  # blog repo (shown separately)
-    "misc", "sk-blog-1", "cal-com-testing",
-    "TarrytownNY-Notes", "MembershipWorks-Migration",
-    "DLADocs", "dla-hugo", "pages_columbari",
-    "stub_mo_image_classify", "tmpUI",
-}
 
-# Limits for table sizes
-MAX_ORIGINAL_REPOS = 30
+# --- GraphQL queries ---
 
-# Category mappings: repo name -> category
-# Repos not listed here are auto-categorized by language
-REPO_CATEGORIES = {
-    # Languages & Compilers
-    "quickchpl": "Languages & Compilers",
-    "aoc-2025": "Languages & Compilers",
-    "RemoteJuggler": "Languages & Compilers",
-    "pixelwise-research": "Languages & Compilers",
-    # Infrastructure & DevOps
-    "GloriousFlywheel": "Infrastructure & DevOps",
-    "Ansible-DAG-Harness": "Infrastructure & DevOps",
-    "betterkvm": "Infrastructure & DevOps",
-    "tinyscale-mikrotik": "Infrastructure & DevOps",
-    "searchies": "Infrastructure & DevOps",
-    "ts-caddy": "Infrastructure & DevOps",
-    "HCI-notes": "Infrastructure & DevOps",
-    "tinyland-cleanup": "Infrastructure & DevOps",
-    "tinyland-kdbx": "Infrastructure & DevOps",
-    "tinywaffle": "Infrastructure & DevOps",
-    "pp": "Infrastructure & DevOps",
-    "DarwinNicUtil": "Infrastructure & DevOps",
-    # Hardware & Maker
-    "XoxdWM": "Hardware & Maker",
-    "hiberpower-ntfs": "Hardware & Maker",
-    "TurkeyProbe": "Hardware & Maker",
-    "Arduino_Coil_Winder": "Hardware & Maker",
-    # ML & Ecology
-    "MerlinAI-Interpreters": "ML & Ecology",
-    "gnucashr": "ML & Data",
-    "AccuWixReport": "ML & Data",
-    # Web & Apps
-    "tetrahedron": "Web & Apps",
-    "FastPhotoAPI": "Web & Apps",
-    "timberbuddy": "Web & Apps",
-    "IntroTypeScript": "Web & Apps",
-    "GIS_Shortcuts": "Web & Apps",
-}
-
-# Language -> category fallback
-LANG_CATEGORY = {
-    "Chapel": "Languages & Compilers",
-    "Futhark": "Languages & Compilers",
-    "Haskell": "Languages & Compilers",
-    "HCL": "Infrastructure & DevOps",
-    "Nix": "Infrastructure & DevOps",
-    "Shell": "Infrastructure & DevOps",
-    "Dockerfile": "Infrastructure & DevOps",
-    "Jinja": "Infrastructure & DevOps",
-    "C++": "Hardware & Maker",
-    "C": "Hardware & Maker",
-    "Zig": "Hardware & Maker",
-    "Emacs Lisp": "Hardware & Maker",
-    "R": "ML & Data",
-    "Jupyter Notebook": "ML & Data",
-}
-
-QUERY_TEMPLATE = """
+REPOS_QUERY = """
 {{
-  user(login: "Jesssullivan") {{
+  user(login: "{user}") {{
     repositories(first: 50, orderBy: {{field: PUSHED_AT, direction: DESC}}, privacy: PUBLIC{after}) {{
       pageInfo {{
         hasNextPage
@@ -118,209 +64,66 @@ QUERY_TEMPLATE = """
 }}
 """
 
+FOSS_QUERY = """
+{{
+  user(login: "{user}") {{
+    repositoriesContributedTo(
+      first: 100,
+      includeUserRepositories: false,
+      contributionTypes: [COMMIT, PULL_REQUEST, PULL_REQUEST_REVIEW]
+    ) {{
+      totalCount
+      nodes {{
+        nameWithOwner
+        name
+        url
+        description
+        primaryLanguage {{ name }}
+        languages(first: 5, orderBy: {{field: SIZE, direction: DESC}}) {{
+          edges {{ size node {{ name color }} }}
+        }}
+        stargazerCount
+      }}
+    }}
+  }}
+}}
+"""
 
-def fetch_repos():
-    """Fetch all public repos via GitHub GraphQL API with pagination.
 
-    Tries urllib first, falls back to `gh api graphql` subprocess.
-    """
-    import subprocess
+# --- Fetch functions (effects boundary) ---
 
+
+def fetch_own_repos(config, token):
+    """Fetch all public repos via paginated GraphQL."""
     all_nodes = []
     cursor = None
-
     while True:
         after = f', after: "{cursor}"' if cursor else ""
-        query = QUERY_TEMPLATE.format(after=after)
-
-        data = None
-        # Try urllib first (works in GitHub Actions with GITHUB_TOKEN)
-        try:
-            headers = {
-                "Authorization": f"Bearer {GITHUB_TOKEN}",
-                "Content-Type": "application/json",
-                "User-Agent": "profile-readme-updater",
-            }
-            payload = json.dumps({"query": query}).encode("utf-8")
-            req = urllib.request.Request(GRAPHQL_URL, data=payload, headers=headers)
-            with urllib.request.urlopen(req) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-        except Exception as exc:
-            print(f"urllib failed ({exc}), trying gh cli...")
-
-        # Fallback: use gh cli (works locally with gh auth)
-        if data is None:
-            result = subprocess.run(
-                ["gh", "api", "graphql", "-f", f"query={query}"],
-                capture_output=True, text=True,
-            )
-            if result.returncode != 0:
-                raise RuntimeError(f"gh api failed: {result.stderr}")
-            data = json.loads(result.stdout)
-
-        if "errors" in data:
-            raise RuntimeError(f"GraphQL errors: {data['errors']}")
-
+        query = REPOS_QUERY.format(user=config.user, after=after)
+        data = graphql_request(token, query)
         repos_data = data["data"]["user"]["repositories"]
         all_nodes.extend(repos_data["nodes"])
-
         page_info = repos_data["pageInfo"]
         if not page_info["hasNextPage"]:
             break
         cursor = page_info["endCursor"]
-
     return all_nodes
 
 
-def should_include(repo):
-    """Return True if the repo should appear in the README."""
-    name = repo["name"]
-    if name.lower() in {b.lower() for b in BLOCKLIST}:
-        return False
-    # Exclude repos with no description AND no primary language
-    has_desc = bool(repo.get("description"))
-    has_lang = bool(repo.get("primaryLanguage"))
-    if not has_desc and not has_lang:
-        return False
-    return True
+def fetch_foss_contributions(config, token):
+    """Fetch repos contributed to (excluding own repos)."""
+    query = FOSS_QUERY.format(user=config.user)
+    data = graphql_request(token, query)
+    return data["data"]["user"]["repositoriesContributedTo"]["nodes"]
 
 
-def build_activity_section(repos):
-    """Build the 'Currently working on' section from the most recently pushed repo."""
-    if not repos:
-        return ""
-    top = repos[0]
-    name = top["name"]
-    url = top["url"]
-    desc = top.get("description") or ""
-    lang = top.get("primaryLanguage")
-    lang_name = lang["name"] if lang else ""
-    pushed = top.get("pushedAt", "")
-    pushed_nice = _format_iso_date(pushed) if pushed else ""
+def fetch_blog_posts(config):
+    """Fetch latest blog posts from RSS/Atom feed."""
+    import urllib.request
 
-    lines = [
-        f"**Currently working on:** [{name}]({url})",
-    ]
-    if desc:
-        lines.append(f"  {desc}")
-    parts = []
-    if lang_name:
-        parts.append(lang_name)
-    if pushed_nice:
-        parts.append(f"last push {pushed_nice}")
-    if parts:
-        lines.append(f"  *{' · '.join(parts)}*")
-    return "\n".join(lines)
-
-
-def _categorize_repo(repo):
-    """Assign a category to a repo based on name or language."""
-    name = repo["name"]
-    if name in REPO_CATEGORIES:
-        return REPO_CATEGORIES[name]
-    lang = repo.get("primaryLanguage")
-    lang_name = lang["name"] if lang else ""
-    if lang_name in LANG_CATEGORY:
-        return LANG_CATEGORY[lang_name]
-    return "Other"
-
-
-def build_original_table(repos):
-    """Build categorized repo showcase, limited to MAX_ORIGINAL_REPOS."""
-    shown = repos[:MAX_ORIGINAL_REPOS]
-
-    # Group by category
-    categories = {}
-    for repo in shown:
-        cat = _categorize_repo(repo)
-        categories.setdefault(cat, []).append(repo)
-
-    # Render in preferred order
-    cat_order = [
-        "Languages & Compilers",
-        "Infrastructure & DevOps",
-        "Hardware & Maker",
-        "ML & Data",
-        "Web & Apps",
-        "Other",
-    ]
-    lines = []
-    for cat in cat_order:
-        cat_repos = categories.get(cat, [])
-        if not cat_repos:
-            continue
-        lines.append(f"**{cat}**")
-        lines.append("")
-        lines.append("| Repo | Description | Languages | Topics |")
-        lines.append("|------|-------------|-----------|--------|")
-        for repo in cat_repos:
-            name = repo["name"]
-            desc = (repo["description"] or "").replace("|", "\\|")
-            if len(desc) > 100:
-                desc = desc[:97] + "..."
-
-            # Languages - primary bold, others normal
-            primary = repo.get("primaryLanguage")
-            primary_name = primary["name"] if primary else ""
-            all_langs = [e["node"]["name"] for e in repo.get("languages", {}).get("edges", [])]
-            if primary_name and all_langs:
-                others = [l for l in all_langs if l != primary_name]
-                lang_str = f"**{primary_name}**"
-                if others:
-                    lang_str += ", " + ", ".join(others[:3])
-            elif primary_name:
-                lang_str = f"**{primary_name}**"
-            else:
-                lang_str = ""
-
-            # Topics
-            topics = [n["topic"]["name"] for n in repo.get("repositoryTopics", {}).get("nodes", [])]
-            topic_str = ", ".join(topics[:4]) if topics else ""
-
-            url = repo["url"]
-            lines.append(f"| [{name}]({url}) | {desc} | {lang_str} | {topic_str} |")
-        lines.append("")
-
-    remaining = len(repos) - len(shown)
-    if remaining > 0:
-        lines.append(f"*...and [{remaining} more](https://github.com/Jesssullivan?tab=repositories&type=source)*")
-    return "\n".join(lines)
-
-
-def _format_iso_date(date_str):
-    """Format an ISO 8601 date string into a relative or readable date."""
-    if not date_str:
-        return ""
-    try:
-        dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
-        now = datetime.now(timezone.utc)
-        delta = now - dt
-        if delta.days == 0:
-            return "today"
-        elif delta.days == 1:
-            return "yesterday"
-        elif delta.days < 7:
-            return f"{delta.days} days ago"
-        elif delta.days < 30:
-            weeks = delta.days // 7
-            return f"{weeks} week{'s' if weeks > 1 else ''} ago"
-        else:
-            return dt.strftime("%b %d, %Y")
-    except (ValueError, TypeError):
-        return date_str[:10]
-
-
-# --- Blog feed ---
-
-BLOG_FEED_URL = "https://transscendsurvival.org/feed.xml"
-BLOG_POST_COUNT = 3
-
-
-def fetch_blog_posts():
-    """Fetch the latest blog posts from the RSS feed."""
     try:
         req = urllib.request.Request(
-            BLOG_FEED_URL,
+            config.blog_feed_url,
             headers={"User-Agent": "profile-readme-updater"},
         )
         with urllib.request.urlopen(req, timeout=10) as resp:
@@ -336,80 +139,137 @@ def fetch_blog_posts():
         return []
 
     posts = []
+    count = config.blog_post_count
 
     # Try RSS 2.0 first
     channel = root.find("channel")
     if channel is not None:
-        items = channel.findall("item")
-        for item in items[:BLOG_POST_COUNT]:
+        for item in channel.findall("item")[:count]:
             title = item.findtext("title", "Untitled")
             link = item.findtext("link", "")
             pub_date = item.findtext("pubDate", "")
-            posts.append({"title": title, "link": link, "date": _format_rss_date(pub_date)})
+            posts.append(BlogPost(title=title, link=link, date=format_rss_date(pub_date)))
         return posts
 
     # Try Atom format
     ns = {"atom": "http://www.w3.org/2005/Atom"}
-    atom_entries = root.findall("atom:entry", ns)
-    if not atom_entries:
-        atom_entries = root.findall("entry")
-    for entry in atom_entries[:BLOG_POST_COUNT]:
+    entries = root.findall("atom:entry", ns) or root.findall("entry")
+    for entry in entries[:count]:
         title = entry.findtext("atom:title", None, ns)
         if title is None:
             title = entry.findtext("title", "Untitled")
-        link_el = entry.find("atom:link", ns)
-        if link_el is None:
-            link_el = entry.find("link")
+        link_el = entry.find("atom:link", ns) or entry.find("link")
         link = link_el.get("href", "") if link_el is not None else ""
-        updated = entry.findtext("atom:updated", None, ns)
-        if updated is None:
-            updated = entry.findtext("updated", "")
-        published = entry.findtext("atom:published", None, ns)
-        if published is None:
-            published = entry.findtext("published", updated)
-        posts.append({"title": title, "link": link, "date": _format_atom_date(published)})
+        updated = entry.findtext("atom:updated", None, ns) or entry.findtext("updated", "")
+        published = entry.findtext("atom:published", None, ns) or entry.findtext("published", updated)
+        posts.append(BlogPost(title=title, link=link, date=format_atom_date(published)))
 
     return posts
 
 
-def _format_rss_date(date_str):
-    """Parse an RSS pubDate string into a readable format like 'Jan 15, 2026'."""
-    if not date_str:
-        return ""
-    for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z"):
-        try:
-            dt = datetime.strptime(date_str.strip(), fmt)
-            return dt.strftime("%b %d, %Y")
-        except ValueError:
+# --- Pure filter/transform ---
+
+
+def should_include(repo, blocklist):
+    """Return True if the repo should appear in the README."""
+    blocklist_lower = {b.lower() for b in blocklist}
+    if repo.name.lower() in blocklist_lower:
+        return False
+    if not repo.description and not repo.primary_language:
+        return False
+    return True
+
+
+def parse_foss(node):
+    """Convert a raw GraphQL FOSS contribution node to FossContribution."""
+    primary = node.get("primaryLanguage")
+    langs = [
+        (e["node"]["name"], e.get("size", 0), e["node"].get("color", ""))
+        for e in node.get("languages", {}).get("edges", [])
+    ]
+    return FossContribution(
+        name=node["name"],
+        name_with_owner=node["nameWithOwner"],
+        url=node["url"],
+        description=node.get("description") or "",
+        primary_language=primary["name"] if primary else "",
+        languages=langs,
+        stars=node.get("stargazerCount", 0),
+    )
+
+
+def group_by_category(categorized_repos, category_order):
+    """Group CategorizedRepo list by category, preserving order."""
+    groups = {cat: [] for cat in category_order}
+    for cr in categorized_repos:
+        groups.setdefault(cr.category, []).append(cr)
+    return groups
+
+
+# --- Renderers (pure) ---
+
+
+def render_project_list(grouped, config):
+    """Render categorized repos as bullet lists sorted by pushed_at."""
+    lines = []
+    for cat in config.category_order:
+        cat_repos = grouped.get(cat, [])
+        if not cat_repos:
             continue
-    return date_str.strip()
+        # Sort by pushed_at descending within category
+        cat_repos = sorted(cat_repos, key=lambda cr: cr.repo.pushed_at, reverse=True)
+        lines.append(f"**{cat}**")
+        for cr in cat_repos:
+            r = cr.repo
+            desc = r.description.replace("|", "\\|")
+            if len(desc) > 100:
+                desc = desc[:97] + "..."
+            meta_parts = []
+            if r.primary_language:
+                meta_parts.append(r.primary_language)
+            if r.stars > 0:
+                meta_parts.append(f"{r.stars} \u2605")
+            pushed = format_iso_date(r.pushed_at)
+            if pushed:
+                meta_parts.append(pushed)
+            meta = f" *({' \u00b7 '.join(meta_parts)})*" if meta_parts else ""
+            if desc:
+                lines.append(f"- [**{r.name}**]({r.url}) \u2014 {desc}{meta}")
+            else:
+                lines.append(f"- [**{r.name}**]({r.url}){meta}")
+        lines.append("")
+
+    remaining = sum(len(v) for v in grouped.values()) - config.max_repos
+    if remaining > 0:
+        lines.append(
+            f"*...and [{remaining} more](https://github.com/{config.user}?tab=repositories&type=source)*"
+        )
+    return "\n".join(lines)
 
 
-def _format_atom_date(date_str):
-    """Parse an Atom date string (ISO 8601) into a readable format."""
-    if not date_str:
+def render_foss_section(foss_list):
+    """Render FOSS contributions as a bullet list."""
+    if not foss_list:
         return ""
-    cleaned = date_str.strip()
-    try:
-        dt = datetime.fromisoformat(cleaned)
-        return dt.strftime("%b %d, %Y")
-    except ValueError:
-        pass
-    for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
-        try:
-            dt = datetime.strptime(cleaned[:19 if "T" in fmt else 10], fmt)
-            return dt.strftime("%b %d, %Y")
-        except ValueError:
-            continue
-    return cleaned
+    lines = ["### FOSS Contributions", ""]
+    for f in foss_list:
+        lang_part = f" *({f.primary_language})*" if f.primary_language else ""
+        if f.description:
+            desc = f.description
+            if len(desc) > 80:
+                desc = desc[:77] + "..."
+            lines.append(f"- [**{f.name_with_owner}**]({f.url}) \u2014 {desc}{lang_part}")
+        else:
+            lines.append(f"- [**{f.name_with_owner}**]({f.url}){lang_part}")
+    return "\n".join(lines)
 
 
-def build_blog_section(posts):
-    """Build the markdown content for the blog section."""
+def render_blog_section(posts):
+    """Render blog posts as a bullet list."""
     lines = ["### Latest Blog Posts", ""]
     for post in posts:
-        date_part = f" — *{post['date']}*" if post["date"] else ""
-        lines.append(f"- [{post['title']}]({post['link']}){date_part}")
+        date_part = f" \u2014 *{post.date}*" if post.date else ""
+        lines.append(f"- [{post.title}]({post.link}){date_part}")
     lines.append("")
     lines.append("[Read more ->](https://transscendsurvival.org/blog)")
     return "\n".join(lines)
@@ -417,72 +277,168 @@ def build_blog_section(posts):
 
 # --- Section updater ---
 
+
 def update_section(content, section_name, new_content):
-    """Replace content between START_SECTION:<name> and END_SECTION:<name> markers."""
+    """Replace content between START_SECTION and END_SECTION markers."""
     pattern = rf"(<!--START_SECTION:{section_name}-->).*?(<!--END_SECTION:{section_name}-->)"
     replacement = rf"\1\n{new_content}\n\2"
     return re.sub(pattern, replacement, content, flags=re.DOTALL)
 
 
+# --- JSON serialization helpers ---
+
+
+def repo_to_dict(repo):
+    """Convert Repo dataclass back to the JSON format expected by graph/stats scripts."""
+    return {
+        "name": repo.name,
+        "description": repo.description,
+        "url": repo.url,
+        "primaryLanguage": {"name": repo.primary_language} if repo.primary_language else None,
+        "languages": {
+            "totalSize": repo.total_lang_size,
+            "edges": [
+                {"size": size, "node": {"name": name, "color": color}}
+                for name, size, color in repo.languages
+            ],
+        },
+        "repositoryTopics": {
+            "nodes": [{"topic": {"name": t}} for t in repo.topics]
+        },
+        "stargazerCount": repo.stars,
+        "isFork": repo.is_fork,
+        "pushedAt": repo.pushed_at,
+        "parent": {"nameWithOwner": repo.parent} if repo.parent else None,
+    }
+
+
+def categorized_to_dict(cr):
+    """Convert CategorizedRepo to JSON-serializable dict."""
+    d = repo_to_dict(cr.repo)
+    d["category"] = cr.category
+    return d
+
+
+# --- Main pipeline ---
+
+
 def main():
-    if not GITHUB_TOKEN:
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if not token:
         print("Error: GITHUB_TOKEN not set")
         return
 
-    repos = fetch_repos()
-    included = [r for r in repos if should_include(r)]
-    originals = [r for r in included if not r["isFork"]]
+    config = load_config()
 
-    print(f"Found {len(originals)} original repos (from {len(repos)} total)")
+    # Effects boundary: fetch
+    print("Fetching repos...")
+    raw_repos = fetch_own_repos(config, token)
+    print(f"Fetched {len(raw_repos)} repos")
 
-    # Write repo data for graph generator
-    repos_json_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repos_data.json")
+    print("Fetching FOSS contributions...")
+    raw_foss = fetch_foss_contributions(config, token)
+    print(f"Fetched {len(raw_foss)} FOSS contributions")
+
+    blog_posts = fetch_blog_posts(config)
+    print(f"Fetched {len(blog_posts)} blog posts")
+
+    # Pure pipeline
+    result = pipe(
+        raw_repos,
+        lambda nodes: [parse_repo(n) for n in nodes],
+        lambda repos: [r for r in repos if should_include(r, config.blocklist)],
+        lambda repos: [r for r in repos if not r.is_fork],
+        lambda repos: [categorize_repo(r, config) for r in repos],
+    )
+
+    foss = [parse_foss(n) for n in raw_foss]
+    grouped = group_by_category(result, config.category_order)
+
+    print(f"Categorized {len(result)} repos into {len([k for k, v in grouped.items() if v])} categories")
+
+    # Effects boundary: write intermediate data
+    out_dir = os.path.dirname(os.path.dirname(__file__))
+    repos_json_path = os.path.join(out_dir, "repos_data.json")
     with open(repos_json_path, "w") as f:
-        json.dump(originals, f)
-    print(f"Wrote {len(originals)} repos to {repos_json_path}")
+        json.dump([repo_to_dict(cr.repo) for cr in result], f)
+    print(f"Wrote {len(result)} repos to repos_data.json")
 
-    # Generate repo relationship graph
+    categorized_json_path = os.path.join(out_dir, "categorized_repos.json")
+    with open(categorized_json_path, "w") as f:
+        json.dump([categorized_to_dict(cr) for cr in result], f)
+    print(f"Wrote categorized_repos.json")
+
+    # Write FOSS data for stats script
+    foss_json_path = os.path.join(out_dir, "foss_data.json")
+    foss_dicts = []
+    for fc in foss:
+        foss_dicts.append({
+            "nameWithOwner": fc.name_with_owner,
+            "name": fc.name,
+            "url": fc.url,
+            "description": fc.description,
+            "primaryLanguage": {"name": fc.primary_language} if fc.primary_language else None,
+            "languages": {
+                "edges": [
+                    {"size": size, "node": {"name": name, "color": color}}
+                    for name, size, color in fc.languages
+                ]
+            },
+            "stargazerCount": fc.stars,
+        })
+    with open(foss_json_path, "w") as f:
+        json.dump(foss_dicts, f)
+    print(f"Wrote {len(foss)} FOSS contributions to foss_data.json")
+
+    # Subprocess: graph & stats generation
+    scripts_dir = os.path.dirname(__file__)
     try:
-        import subprocess as _sp
-        graph_script = os.path.join(os.path.dirname(__file__), "generate_graph.py")
-        _sp.run([sys.executable, graph_script], check=True)
+        subprocess.run([sys.executable, os.path.join(scripts_dir, "generate_graph.py")], check=True)
         print("Generated repo relationship graphs")
     except Exception as exc:
         print(f"Warning: graph generation failed: {exc}")
 
-    # Generate stats and language SVG cards
     try:
-        import subprocess as _sp
-        stats_script = os.path.join(os.path.dirname(__file__), "generate_stats.py")
-        _sp.run([sys.executable, stats_script], check=True)
+        subprocess.run([sys.executable, os.path.join(scripts_dir, "generate_stats.py")], check=True)
         print("Generated stats SVG cards")
     except Exception as exc:
         print(f"Warning: stats generation failed: {exc}")
 
+    # Pure: render sections
+    # Limit display to max_repos
+    limited_grouped = {}
+    shown = 0
+    for cat in config.category_order:
+        cat_repos = grouped.get(cat, [])
+        take = min(len(cat_repos), config.max_repos - shown)
+        limited_grouped[cat] = cat_repos[:take]
+        shown += take
+        if shown >= config.max_repos:
+            break
+
+    sections = {
+        "repos": render_project_list(limited_grouped, config),
+        "foss": render_foss_section(foss),
+        "blog": render_blog_section(blog_posts) if blog_posts else None,
+    }
+
+    # Effects boundary: write README
     with open(README_PATH, "r") as f:
         content = f.read()
 
-    # Update activity section
-    activity = build_activity_section(originals)
-    content = update_section(content, "activity", activity)
-    print(f"Updated activity: {originals[0]['name'] if originals else 'none'}")
-
-    # Update repos section (original projects only, no forks)
-    section_parts = []
-    section_parts.append("")
-    section_parts.append(build_original_table(originals))
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    section_parts.append("")
-    section_parts.append(f"*Last updated: {now}*")
-    content = update_section(content, "repos", "\n".join(section_parts))
-    print(f"Updated repos: {min(len(originals), MAX_ORIGINAL_REPOS)} shown")
 
-    # Update blog section
-    blog_posts = fetch_blog_posts()
-    if blog_posts:
-        blog_content = build_blog_section(blog_posts)
-        content = update_section(content, "blog", blog_content)
-        print(f"Updated blog section with {len(blog_posts)} posts")
+    repo_content = "\n" + sections["repos"] + "\n" + f"*Last updated: {now}*"
+    content = update_section(content, "repos", repo_content)
+    print(f"Updated repos section: {shown} shown")
+
+    if sections["foss"]:
+        content = update_section(content, "foss", sections["foss"])
+        print(f"Updated FOSS section: {len(foss)} contributions")
+
+    if sections["blog"]:
+        content = update_section(content, "blog", sections["blog"])
+        print(f"Updated blog section: {len(blog_posts)} posts")
     else:
         print("Skipping blog section update (no posts fetched)")
 

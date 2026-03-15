@@ -26,9 +26,8 @@ CATEGORY_COLORS = {
     "Other": "#7f8c8d",
 }
 
-# Import category mappings from update_readme
 sys.path.insert(0, os.path.dirname(__file__))
-from update_readme import REPO_CATEGORIES, LANG_CATEGORY
+from shared import escape_xml
 
 SVG_WIDTH = 960
 SVG_HEIGHT = 600
@@ -42,18 +41,6 @@ FONT_SIZE_SMALL = 9
 LABEL_CHAR_WIDTH = 7.2  # approx width per char at font-size 12
 LEGEND_WIDTH = 155
 LEGEND_HEIGHT = 120
-
-
-def categorize_repo(repo):
-    """Assign a category to a repo."""
-    name = repo["name"]
-    if name in REPO_CATEGORIES:
-        return REPO_CATEGORIES[name]
-    lang = repo.get("primaryLanguage")
-    lang_name = lang["name"] if lang else ""
-    if lang_name in LANG_CATEGORY:
-        return LANG_CATEGORY[lang_name]
-    return "Other"
 
 
 def get_tags(repo):
@@ -78,17 +65,6 @@ def jaccard_similarity(set_a, set_b):
     return intersection / union if union > 0 else 0.0
 
 
-def escape_xml(text):
-    """Escape special XML characters."""
-    return (
-        text.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-        .replace('"', "&quot;")
-        .replace("'", "&apos;")
-    )
-
-
 def generate_graph(repos):
     """Build the networkx graph and compute layout."""
     repo_tags = {}
@@ -98,7 +74,7 @@ def generate_graph(repos):
     G = nx.Graph()
     for repo in repos:
         name = repo["name"]
-        category = categorize_repo(repo)
+        category = repo.get("category", "Other")
         tag_count = len(repo_tags[name])
         radius = min(NODE_MAX_R, max(NODE_MIN_R, NODE_MIN_R + (tag_count - 1) * 0.9))
         G.add_node(name, category=category, radius=radius, tag_count=tag_count)
@@ -418,10 +394,15 @@ def generate_mermaid(G):
 
 
 def main():
-    data_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repos_data.json")
+    out_dir = os.path.dirname(os.path.dirname(__file__))
+    categorized_path = os.path.join(out_dir, "categorized_repos.json")
+    data_path = os.path.join(out_dir, "repos_data.json")
     tmp_path = "/tmp/repos_data.json"
 
-    if os.path.exists(data_path):
+    if os.path.exists(categorized_path):
+        with open(categorized_path) as f:
+            repos = json.load(f)
+    elif os.path.exists(data_path):
         with open(data_path) as f:
             repos = json.load(f)
     elif not sys.stdin.isatty():
@@ -430,7 +411,7 @@ def main():
         with open(tmp_path) as f:
             repos = json.load(f)
     else:
-        print("Error: no repo data found. Pipe JSON via stdin or provide repos_data.json", file=sys.stderr)
+        print("Error: no repo data found. Provide categorized_repos.json or repos_data.json", file=sys.stderr)
         sys.exit(1)
 
     print(f"Generating graph for {len(repos)} repos...")

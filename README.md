@@ -207,12 +207,6 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 ---
 
-<!--START_SECTION:activity-->
-**Currently working on:** [XoxdWM](https://github.com/tinyland-inc/XoxdWM)
-  Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs
-  *Emacs Lisp · last push today*
-<!--END_SECTION:activity-->
-
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
@@ -293,6 +287,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *Last updated: 2026-03-15 06:30 UTC*
 <!--END_SECTION:repos-->
+
+<!--START_SECTION:foss-->
+<!--END_SECTION:foss-->
 
 ---
 
