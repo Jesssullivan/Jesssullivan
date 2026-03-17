@@ -239,8 +239,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Infrastructure & DevOps</strong> (16)</summary>
 
 - [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · today)*
-- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 2 days ago)*
-- [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 5 days ago)*
+- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 3 days ago)*
+- [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 6 days ago)*
 - [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 1 week ago)*
 - [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 week ago)*
 - [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 2 weeks ago)*
@@ -271,12 +271,12 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 </details>
 
-*Last updated: 2026-03-16 06:43 UTC*
+*Last updated: 2026-03-17 06:33 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
 <details>
-<summary><strong>FOSS Contributions</strong> (25)</summary>
+<summary><strong>FOSS Contributions</strong> (26)</summary>
 
 - [**keepassxreboot/keepassxc**](https://github.com/keepassxreboot/keepassxc) — KeePassXC is a cross-platform community-driven port of the Windows applicatio... *(C++)*
 - [**charmbracelet/crush**](https://github.com/charmbracelet/crush) — Glamourous agentic coding for all 💘 *(Go)*
@@ -286,12 +286,13 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**apache/solr**](https://github.com/apache/solr) — Apache Solr open-source search software *(Java)*
 - [**liqotech/liqo**](https://github.com/liqotech/liqo) — Enable dynamic and seamless Kubernetes multi-cluster topologies *(Go)*
 - [**caddyserver/xcaddy**](https://github.com/caddyserver/xcaddy) — Build Caddy with plugins *(Go)*
-- [**charmbracelet/fantasy**](https://github.com/charmbracelet/fantasy) — Build AI agents with Go. Multiple providers, multiple models, one API 🧙 *(Go)*
+- [**charmbracelet/fantasy**](https://github.com/charmbracelet/fantasy) — Build AI agents with Go. Multiple providers, multiple models, one API. 🧙 *(Go)*
 - [**chapel-lang/mason-registry**](https://github.com/chapel-lang/mason-registry) — Package registry for mason, Chapel's package manager *(Shell)*
 - [**tinyland-inc/GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL)*
 - [**tinyland-inc/.github**](https://github.com/tinyland-inc/.github) — Tinyland is big.  You don't know about this yet.
 - [**tinyland-inc/Ansible-DAG-Harness**](https://github.com/tinyland-inc/Ansible-DAG-Harness) — A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible i... *(Python)*
 - [**tinyland-inc/betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just)*
+- [**tinyland-inc/linux-xr**](https://github.com/tinyland-inc/linux-xr) — XR-optimized Linux kernel source tree *(C)*
 - [**tinyland-inc/pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go)*
 - [**tinyland-inc/prompt-pulse-tui**](https://github.com/tinyland-inc/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust)*
 - [**tinyland-inc/tinyclaw**](https://github.com/tinyland-inc/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive developmen... *(Go)*
