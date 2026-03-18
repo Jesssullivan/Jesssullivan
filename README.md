@@ -239,10 +239,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Infrastructure & DevOps</strong> (16)</summary>
 
 - [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · today)*
-- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 3 days ago)*
-- [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 6 days ago)*
-- [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 1 week ago)*
-- [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 week ago)*
+- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 4 days ago)*
+- [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 1 week ago)*
+- [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 2 weeks ago)*
+- [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 2 weeks ago)*
 - [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 2 weeks ago)*
 - [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 2 weeks ago)*
 - [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · 3 weeks ago)*
@@ -260,7 +260,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (8)</summary>
 
-- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · today)*
+- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · yesterday)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 1 week ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
@@ -271,7 +271,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 </details>
 
-*Last updated: 2026-03-17 06:33 UTC*
+*Last updated: 2026-03-18 06:34 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
