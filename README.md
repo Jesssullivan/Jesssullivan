@@ -236,16 +236,18 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 </details>
 
 <details>
-<summary><strong>Infrastructure & DevOps</strong> (16)</summary>
+<summary><strong>Infrastructure & DevOps</strong> (18)</summary>
 
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · yesterday)*
-- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 5 days ago)*
+- [**waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite catalog. *(Go · today)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · today)*
+- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 2 days ago)*
+- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 6 days ago)*
 - [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 1 week ago)*
 - [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 2 weeks ago)*
 - [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 2 weeks ago)*
 - [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 2 weeks ago)*
-- [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 2 weeks ago)*
-- [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · 3 weeks ago)*
+- [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 3 weeks ago)*
+- [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · 4 weeks ago)*
 - [**Ansible-DAG-Harness**](https://github.com/tinyland-inc/Ansible-DAG-Harness) — A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... *(Python · Feb 2026)*
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... *(Python · 1 ★ · Feb 2026)*
 - [**tinyscale-mikrotik**](https://github.com/Jesssullivan/tinyscale-mikrotik) — Very small tailscale container for CRS310 class switches *(Shell · Jan 2026)*
@@ -258,20 +260,18 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 </details>
 
 <details>
-<summary><strong>Hardware & Maker</strong> (8)</summary>
+<summary><strong>Hardware & Maker</strong> (6)</summary>
 
-- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · today)*
-- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 1 ★ · 1 week ago)*
+- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · yesterday)*
+- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 2 ★ · 1 week ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
 - [**Arduino_Coil_Winder**](https://github.com/Jesssullivan/Arduino_Coil_Winder) — Investigating open-source stepper hardware for coil winding  *(C++ · 7 ★ · Dec 2020)*
 - [**momo**](https://github.com/Jesssullivan/momo) — @ D&M Makerspace *(C++ · Nov 2020)*
-- [**AeroTaz5_hotfix**](https://github.com/Jesssullivan/AeroTaz5_hotfix) — @ D&M Makerspace *(C++ · Jul 2020)*
-- [**Funmat-HT-Notes**](https://github.com/Jesssullivan/Funmat-HT-Notes) — misc notes, files for Funmat HT (late, pre-enhanced) 3d printer *(Jun 2020)*
 
 </details>
 
-*Last updated: 2026-03-19 06:31 UTC*
+*Last updated: 2026-03-20 06:28 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
@@ -302,7 +302,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**tinyland-inc/tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, ... *(HCL)*
 - [**tinyland-inc/tinyland-kdbx**](https://github.com/tinyland-inc/tinyland-kdbx) — Native KeePassXC KDBX reader with base58 transport *(Python)*
 - [**tinyland-inc/tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-... *(Rust)*
-- [**tinyland-inc/waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — waifu API consumer cache with terminal-optimized pre-processing *(Go)*
+- [**tinyland-inc/waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite... *(Go)*
 - [**tinyland-inc/XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp)*
 
 </details>
