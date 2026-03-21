@@ -238,10 +238,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Infrastructure & DevOps</strong> (18)</summary>
 
-- [**waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite catalog. *(Go · today)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · today)*
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 2 days ago)*
-- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 6 days ago)*
+- [**waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite catalog. *(Go · yesterday)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · yesterday)*
+- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 3 days ago)*
+- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 week ago)*
 - [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 1 week ago)*
 - [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 2 weeks ago)*
 - [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 2 weeks ago)*
@@ -262,8 +262,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (6)</summary>
 
-- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · yesterday)*
-- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 2 ★ · 1 week ago)*
+- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 2 days ago)*
+- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 2 ★ · 2 weeks ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
 - [**Arduino_Coil_Winder**](https://github.com/Jesssullivan/Arduino_Coil_Winder) — Investigating open-source stepper hardware for coil winding  *(C++ · 7 ★ · Dec 2020)*
@@ -271,15 +271,16 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 </details>
 
-*Last updated: 2026-03-20 06:28 UTC*
+*Last updated: 2026-03-21 06:21 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
 <details>
-<summary><strong>FOSS Contributions</strong> (26)</summary>
+<summary><strong>FOSS Contributions</strong> (27)</summary>
 
 - [**keepassxreboot/keepassxc**](https://github.com/keepassxreboot/keepassxc) — KeePassXC is a cross-platform community-driven port of the Windows applicatio... *(C++)*
 - [**charmbracelet/crush**](https://github.com/charmbracelet/crush) — Glamourous agentic coding for all 💘 *(Go)*
+- [**manaflow-ai/cmux**](https://github.com/manaflow-ai/cmux) — Ghostty-based macOS terminal with vertical tabs and notifications for AI codi... *(Swift)*
 - [**ciscoheat/sveltekit-superforms**](https://github.com/ciscoheat/sveltekit-superforms) — Making SvelteKit forms a pleasure to use! *(TypeScript)*
 - [**diku-dk/futhark**](https://github.com/diku-dk/futhark) — :boom::computer::boom: A data-parallel functional programming language *(Haskell)*
 - [**rspamd/rspamd**](https://github.com/rspamd/rspamd) — Rapid spam filtering system. *(C)*
