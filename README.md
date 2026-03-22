@@ -32,7 +32,6 @@ I build planet scale infrastructure tooling for fun, architect and enchant digit
 [![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
 [![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Jesssullivan-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Jesssullivan)
-[![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)](https://xoxd.ai)
 [![EFF](https://img.shields.io/badge/EFF-Member-red?style=flat-square&logo=eff&logoColor=white)](https://www.eff.org/)
 <a href="https://www.fightforthefuture.org/"><img src="idl_badge.png" alt="Member of The Internet Defense League" height="20" /></a>
 ![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
@@ -50,15 +49,14 @@ I build planet scale infrastructure tooling for fun, architect and enchant digit
 ![fft.js](https://img.shields.io/badge/fft.js-333333?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![libdns](https://img.shields.io/badge/libdns-00695C?style=flat-square&logo=go&logoColor=white)
 ![The-Compiler](https://img.shields.io/badge/The--Compiler-Freya%20Bruhin-blueviolet?style=flat-square&logo=githubsponsors&logoColor=white)
-![qutebrowser](https://img.shields.io/badge/qutebrowser-0D47A1?style=flat-square&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Xe Iaso](https://img.shields.io/badge/Xe%20Iaso%20%2F%20TequaroHQ-E91E63?style=flat-square&logo=githubsponsors&logoColor=white)
+[![Xe Iaso](https://img.shields.io/badge/xeiaso.net-blueviolet?style=flat-square)](https://xeiaso.net/)
+![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+[![Gabby](https://img.shields.io/badge/haskellforall.com-blueviolet?style=flat-square)](https://haskellforall.com/)
 ![Skeleton](https://img.shields.io/badge/Skeleton-EC4899?style=flat-square&logo=githubsponsors&logoColor=white)
 ![purpl3F0x](https://img.shields.io/badge/purpl3F0x-9C27B0?style=flat-square&logo=githubsponsors&logoColor=white)
 ![Klipper](https://img.shields.io/badge/Klipper-B71C1C?style=flat-square&logo=klipper&logoColor=white)
-![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![xoxd.ai](https://img.shields.io/badge/xoxd.ai-blueviolet?style=flat-square)
-![Coming Soon](https://img.shields.io/badge/Coming%20Soon-tinyland.dev-36BCF7?style=flat-square)
+
 
 
 </td>
@@ -148,11 +146,11 @@ I build planet scale infrastructure tooling for fun, architect and enchant digit
 </td>
 <td width="50%" valign="top">
 
-**[xoxd.ai](https://xoxd.ai)** *(2024–Present)*
+**xoxd.ai** *(2024–Present)*
 - Massively parallel, provable, **ownable** agent infrastructure
 - Seeking funding, stealthmode
 
-**[Tinyland.dev, Inc](https://tinyland.dev)** *(2024–Present)*
+**Tinyland.dev, Inc** *(2024–Present)*
 - Funded hackerspace initiative, stealthmode
 
 **Kitten Spit Labs** *(2022–Present)*
