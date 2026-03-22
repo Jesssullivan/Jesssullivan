@@ -16,7 +16,7 @@
 
 ### Jess Sullivan / xoxd ^w^
 
-Full stack **engineer**, ***musician***, and *birdwatcher* based in Lewiston, ME. 🏡
+Full stack **engineer**, ***musician***, and *birdwatcher* based in ~~ipv6 squat space~~ New England (Lewiston, ME + Boston, MA). 🏡
 
 I spent about a year completely offline — no social media, no blog, no public sites or public development, no Linkedin, nothing.
  I'm back to building in the open on github and codeberg, though I am still largely airgapped from social media.
