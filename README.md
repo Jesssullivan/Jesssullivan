@@ -210,9 +210,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
+- [Week Notes: Indeterminism, Passkeys, and Spring](https://transscendsurvival.org/blog/week-notes-indeterminism-passkeys-and-spring) — *Mar 21, 2026*
 - [WinRM Quotas, Plugin Confusion, and Why PSRP Has Been the Answer Since 2018](https://transscendsurvival.org/blog/winrm-quotas-hidden-plugin-layers-and-why-psrp-has-been-the-answer-since-2018) — *Mar 13, 2026*
 - [Updated Resume & CV — March 2026](https://transscendsurvival.org/blog/updated-resume-and-cv) — *Mar 12, 2026*
-- [From Bricked to Recovered: The Story of Hacking an NVMe SSD Back to Life](https://transscendsurvival.org/blog/from-bricked-to-recovered-the-story-of-hacking-an-nvme-ssd-back-to-life) — *Mar 04, 2026*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -238,16 +238,16 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Infrastructure & DevOps</strong> (18)</summary>
 
-- [**waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite catalog. *(Go · yesterday)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · yesterday)*
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 3 days ago)*
+- [**waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite catalog. *(Go · 2 days ago)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · 2 days ago)*
+- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 4 days ago)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 week ago)*
 - [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 1 week ago)*
 - [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 2 weeks ago)*
 - [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 2 weeks ago)*
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 2 weeks ago)*
+- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 3 weeks ago)*
 - [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 3 weeks ago)*
-- [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · 4 weeks ago)*
+- [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · Feb 2026)*
 - [**Ansible-DAG-Harness**](https://github.com/tinyland-inc/Ansible-DAG-Harness) — A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... *(Python · Feb 2026)*
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... *(Python · 1 ★ · Feb 2026)*
 - [**tinyscale-mikrotik**](https://github.com/Jesssullivan/tinyscale-mikrotik) — Very small tailscale container for CRS310 class switches *(Shell · Jan 2026)*
@@ -262,16 +262,16 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (6)</summary>
 
-- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 2 days ago)*
+- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple entitlem... *(Zig · today)*
+- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 3 days ago)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 2 ★ · 2 weeks ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
 - [**Arduino_Coil_Winder**](https://github.com/Jesssullivan/Arduino_Coil_Winder) — Investigating open-source stepper hardware for coil winding  *(C++ · 7 ★ · Dec 2020)*
-- [**momo**](https://github.com/Jesssullivan/momo) — @ D&M Makerspace *(C++ · Nov 2020)*
 
 </details>
 
-*Last updated: 2026-03-21 06:21 UTC*
+*Last updated: 2026-03-22 06:26 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
