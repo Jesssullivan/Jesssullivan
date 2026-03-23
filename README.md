@@ -222,8 +222,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:repos-->
 
 <details>
-<summary><strong>Languages & Compilers</strong> (6)</summary>
+<summary><strong>Languages & Compilers</strong> (7)</summary>
 
+- [**scheduling-kit**](https://github.com/tinyland-inc/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript · today)*
 - [**pixelwise-research**](https://github.com/Jesssullivan/pixelwise-research) — WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... *(TypeScript · 1 ★ · Feb 2026)*
 - [**quickchpl**](https://github.com/Jesssullivan/quickchpl) — Simple Property-Based Testing for Chapel Language *(Chapel · 2 ★ · Jan 2026)*
 - [**aoc-2025**](https://github.com/Jesssullivan/aoc-2025) — Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI *(Chapel · Jan 2026)*
@@ -234,11 +235,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 </details>
 
 <details>
-<summary><strong>Infrastructure & DevOps</strong> (18)</summary>
+<summary><strong>Infrastructure & DevOps</strong> (17)</summary>
 
-- [**waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite catalog. *(Go · 2 days ago)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · 2 days ago)*
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 4 days ago)*
+- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · today)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · 3 days ago)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 week ago)*
 - [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 1 week ago)*
 - [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 2 weeks ago)*
@@ -260,21 +260,21 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (6)</summary>
 
-- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple entitlem... *(Zig · today)*
-- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 3 days ago)*
-- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 2 ★ · 2 weeks ago)*
+- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — WIP!  Portable CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple en... *(Zig · today)*
+- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 4 days ago)*
+- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 3 ★ · 2 weeks ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
 - [**Arduino_Coil_Winder**](https://github.com/Jesssullivan/Arduino_Coil_Winder) — Investigating open-source stepper hardware for coil winding  *(C++ · 7 ★ · Dec 2020)*
 
 </details>
 
-*Last updated: 2026-03-22 06:26 UTC*
+*Last updated: 2026-03-23 06:38 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
 <details>
-<summary><strong>FOSS Contributions</strong> (27)</summary>
+<summary><strong>FOSS Contributions</strong> (31)</summary>
 
 - [**keepassxreboot/keepassxc**](https://github.com/keepassxreboot/keepassxc) — KeePassXC is a cross-platform community-driven port of the Windows applicatio... *(C++)*
 - [**charmbracelet/crush**](https://github.com/charmbracelet/crush) — Glamourous agentic coding for all 💘 *(Go)*
@@ -289,19 +289,23 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**chapel-lang/mason-registry**](https://github.com/chapel-lang/mason-registry) — Package registry for mason, Chapel's package manager *(Shell)*
 - [**tinyland-inc/GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL)*
 - [**tinyland-inc/.github**](https://github.com/tinyland-inc/.github) — Tinyland is big.  You don't know about this yet.
+- [**tinyland-inc/acuity-admin-skills**](https://github.com/tinyland-inc/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland... *(TypeScript)*
+- [**tinyland-inc/acuity-middleware**](https://github.com/tinyland-inc/acuity-middleware) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?... *(TypeScript)*
 - [**tinyland-inc/Ansible-DAG-Harness**](https://github.com/tinyland-inc/Ansible-DAG-Harness) — A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible i... *(Python)*
 - [**tinyland-inc/betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just)*
 - [**tinyland-inc/linux-xr**](https://github.com/tinyland-inc/linux-xr) — XR-optimized Linux kernel source tree *(C)*
 - [**tinyland-inc/pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go)*
 - [**tinyland-inc/prompt-pulse-tui**](https://github.com/tinyland-inc/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust)*
+- [**tinyland-inc/scheduling-kit**](https://github.com/tinyland-inc/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript)*
 - [**tinyland-inc/tinyclaw**](https://github.com/tinyland-inc/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive developmen... *(Go)*
+- [**tinyland-inc/tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript)*
+- [**tinyland-inc/tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript)*
 - [**tinyland-inc/tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, syste... *(Go)*
 - [**tinyland-inc/tinyland-hexstrunk**](https://github.com/tinyland-inc/tinyland-hexstrunk) — Formal, tracable, auditable tool surface for playing the bad guy *(Python)*
 - [**tinyland-inc/tinyland-huskycat**](https://github.com/tinyland-inc/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-... *(Python)*
 - [**tinyland-inc/tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, ... *(HCL)*
 - [**tinyland-inc/tinyland-kdbx**](https://github.com/tinyland-inc/tinyland-kdbx) — Native KeePassXC KDBX reader with base58 transport *(Python)*
 - [**tinyland-inc/tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-... *(Rust)*
-- [**tinyland-inc/waifu-mirror**](https://github.com/tinyland-inc/waifu-mirror) — Tailnet-only image mirror: waifu, birds, booru. GIF passthrough, tags, SQLite... *(Go)*
 - [**tinyland-inc/XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp)*
 
 </details>
