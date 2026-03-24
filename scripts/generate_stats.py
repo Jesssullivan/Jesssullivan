@@ -105,6 +105,7 @@ def fetch_contribution_stats(user, foss_count=None):
     cc = user["contributionsCollection"]
     contributed_to = foss_count if foss_count is not None else user["repositoriesContributedTo"]["totalCount"]
     return {
+        "contributions": cc["contributionCalendar"]["totalContributions"],
         "commits": cc["totalCommitContributions"],
         "prs": user["pullRequests"]["totalCount"],
         "issues": user["openIssues"]["totalCount"] + user["closedIssues"]["totalCount"],
@@ -143,11 +144,12 @@ def compute_language_stats(repos):
 def render_stats_svg(stats, theme_name):
     """Render the GitHub stats card as SVG."""
     t = THEMES[theme_name]
-    w, h = 450, 195
+    w, h = 450, 220
 
     rows = [
         ("Stars Earned", str(stats["stars"]), ICON_STAR),
-        ("Total Commits (this year)", str(stats["commits"]), ICON_COMMIT),
+        ("Contributions (this year)", f"{stats['contributions']:,}", ICON_COMMIT),
+        ("Commits (this year)", f"{stats['commits']:,}", ICON_COMMIT),
         ("Total PRs", str(stats["prs"]), ICON_PR),
         ("Total Issues", str(stats["issues"]), ICON_ISSUE),
         ("Contributed to (FOSS)", str(stats["contributed_to"]), ICON_CONTRIB),
@@ -332,6 +334,7 @@ def main():
 
     stats = {
         "stars": total_stars,
+        "contributions": contrib["contributions"],
         "commits": contrib["commits"],
         "prs": contrib["prs"],
         "issues": contrib["issues"],
