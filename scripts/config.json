@@ -2,7 +2,9 @@
   "user": "Jesssullivan",
   "blog_feed_url": "https://transscendsurvival.org/feed.xml",
   "blog_post_count": 3,
-  "max_repos": 30,
+  "max_repos": 0,
+  "orgs": ["tinyland-inc"],
+  "org_exclusions_for_foss": ["tinyland-inc"],
   "blocklist": [
     "test", "testing", "test-repo", "hello-world",
     "Jesssullivan",
@@ -66,6 +68,7 @@
   ],
   "stats": {
     "include_foss_in_lang_stats": false,
+    "include_org_in_lang_stats": true,
     "language_normalization": "bytes"
   }
 }

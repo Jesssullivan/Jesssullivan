@@ -26,4 +26,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update profile README'
-          file_pattern: 'README.md repo-graph.svg repo-graph-dark.svg repos_data.json categorized_repos.json foss_data.json github-stats.svg github-stats-dark.svg top-langs.svg top-langs-dark.svg'
+          file_pattern: 'README.md repo-graph.svg repo-graph-dark.svg repos_data.json org_repos_data.json categorized_repos.json foss_data.json github-stats.svg github-stats-dark.svg top-langs.svg top-langs-dark.svg'

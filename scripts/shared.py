@@ -76,6 +76,8 @@ class PipelineConfig:
     blog_post_count: int
     max_repos: int
     blocklist: list = field(default_factory=list)
+    orgs: list = field(default_factory=list)
+    org_exclusions_for_foss: list = field(default_factory=list)
     category_order: list = field(default_factory=list)
     categories: list = field(default_factory=list)  # [CategoryConfig]
     stats: dict = field(default_factory=dict)
@@ -104,8 +106,10 @@ def load_config(path=None):
         user=raw["user"],
         blog_feed_url=raw["blog_feed_url"],
         blog_post_count=raw.get("blog_post_count", 3),
-        max_repos=raw.get("max_repos", 30),
+        max_repos=raw.get("max_repos", 0),
         blocklist=raw.get("blocklist", []),
+        orgs=raw.get("orgs", []),
+        org_exclusions_for_foss=raw.get("org_exclusions_for_foss", []),
         category_order=raw.get("category_order", []),
         categories=cats,
         stats=raw.get("stats", {}),

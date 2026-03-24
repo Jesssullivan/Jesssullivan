@@ -76,30 +76,31 @@ LANG_COLORS = {
     "Cython": "#fedf5b",
 }
 
-CONTRIB_QUERY = """
-{
-  user(login: "Jesssullivan") {
-    contributionsCollection {
+CONTRIB_QUERY_TEMPLATE = """
+{{
+  user(login: "{user}") {{
+    contributionsCollection {{
       totalCommitContributions
       totalPullRequestContributions
       totalIssueContributions
       totalRepositoryContributions
-      contributionCalendar { totalContributions }
-    }
-    repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) {
+      contributionCalendar {{ totalContributions }}
+    }}
+    repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) {{
       totalCount
-    }
-    pullRequests(first: 1) { totalCount }
-    openIssues: issues(states: OPEN) { totalCount }
-    closedIssues: issues(states: CLOSED) { totalCount }
-  }
-}
+    }}
+    pullRequests(first: 1) {{ totalCount }}
+    openIssues: issues(states: OPEN) {{ totalCount }}
+    closedIssues: issues(states: CLOSED) {{ totalCount }}
+  }}
+}}
 """
 
 
-def fetch_contribution_stats(foss_count=None):
+def fetch_contribution_stats(user, foss_count=None):
     """Fetch contribution stats from GitHub GraphQL API."""
-    data = graphql_request(GITHUB_TOKEN, CONTRIB_QUERY)
+    query = CONTRIB_QUERY_TEMPLATE.format(user=user)
+    data = graphql_request(GITHUB_TOKEN, query)
     user = data["data"]["user"]
     cc = user["contributionsCollection"]
     contributed_to = foss_count if foss_count is not None else user["repositoriesContributedTo"]["totalCount"]
@@ -313,10 +314,20 @@ def main():
             foss_repos = json.load(f)
         print(f"Loaded {len(foss_repos)} FOSS contributions from foss_data.json")
 
+    # Load org repo data if available
+    org_path = os.path.join(OUT_DIR, "org_repos_data.json")
+    org_repos = []
+    if os.path.exists(org_path):
+        with open(org_path) as f:
+            org_repos = json.load(f)
+        print(f"Loaded {len(org_repos)} org repos from org_repos_data.json")
+
     # Fetch contribution stats, using FOSS data count for consistency
     print("Fetching contribution stats...")
     foss_count = len(foss_repos) if foss_repos else None
-    contrib = fetch_contribution_stats(foss_count=foss_count)
+    contrib = fetch_contribution_stats(config.user, foss_count=foss_count)
+
+    # Stars from personal repos only
     total_stars = compute_total_stars(repos)
 
     stats = {
@@ -328,14 +339,18 @@ def main():
     }
     print(f"Stats: {stats}")
 
-    # Compute language stats
+    # Compute language stats — merge sources based on config
+    lang_source = list(repos)  # always start with personal repos
+    include_org = config.stats.get("include_org_in_lang_stats", False)
     include_foss = config.stats.get("include_foss_in_lang_stats", False)
+    if include_org and org_repos:
+        lang_source = lang_source + org_repos
+        print(f"Including {len(org_repos)} org repos in language stats")
     if include_foss and foss_repos:
-        lang_stats = compute_language_stats_with_foss(repos, foss_repos)
-        print(f"Languages (with FOSS): {len(lang_stats)} total, top 8: {[l[0] for l in lang_stats[:8]]}")
-    else:
-        lang_stats = compute_language_stats(repos)
-        print(f"Languages: {len(lang_stats)} total, top 8: {[l[0] for l in lang_stats[:8]]}")
+        lang_source = lang_source + foss_repos
+        print(f"Including {len(foss_repos)} FOSS repos in language stats")
+    lang_stats = compute_language_stats(lang_source)
+    print(f"Languages: {len(lang_stats)} total, top 8: {[l[0] for l in lang_stats[:8]]}")
 
     # Generate stats cards
     for theme, suffix in [("light", ""), ("dark", "-dark")]:

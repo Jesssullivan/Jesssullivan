@@ -35,7 +35,7 @@ README_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "README.m
 REPOS_QUERY = """
 {{
   user(login: "{user}") {{
-    repositories(first: 50, orderBy: {{field: PUSHED_AT, direction: DESC}}, privacy: PUBLIC{after}) {{
+    repositories(first: 50, ownerAffiliations: [OWNER], orderBy: {{field: PUSHED_AT, direction: DESC}}, privacy: PUBLIC{after}) {{
       pageInfo {{
         hasNextPage
         endCursor
@@ -90,6 +90,39 @@ FOSS_QUERY = """
 """
 
 
+ORG_REPOS_QUERY = """
+{{
+  organization(login: "{org}") {{
+    repositories(first: 50, orderBy: {{field: PUSHED_AT, direction: DESC}}, privacy: PUBLIC{after}) {{
+      pageInfo {{
+        hasNextPage
+        endCursor
+      }}
+      nodes {{
+        name
+        description
+        url
+        primaryLanguage {{ name }}
+        languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
+          totalSize
+          edges {{ size node {{ name color }} }}
+        }}
+        repositoryTopics(first: 10) {{
+          nodes {{
+            topic {{ name }}
+          }}
+        }}
+        stargazerCount
+        isFork
+        pushedAt
+        parent {{ nameWithOwner }}
+      }}
+    }}
+  }}
+}}
+"""
+
+
 # --- Fetch functions (effects boundary) ---
 
 
@@ -102,6 +135,23 @@ def fetch_own_repos(config, token):
         query = REPOS_QUERY.format(user=config.user, after=after)
         data = graphql_request(token, query)
         repos_data = data["data"]["user"]["repositories"]
+        all_nodes.extend(repos_data["nodes"])
+        page_info = repos_data["pageInfo"]
+        if not page_info["hasNextPage"]:
+            break
+        cursor = page_info["endCursor"]
+    return all_nodes
+
+
+def fetch_org_repos(org, token):
+    """Fetch all public repos for an organization via paginated GraphQL."""
+    all_nodes = []
+    cursor = None
+    while True:
+        after = f', after: "{cursor}"' if cursor else ""
+        query = ORG_REPOS_QUERY.format(org=org, after=after)
+        data = graphql_request(token, query)
+        repos_data = data["data"]["organization"]["repositories"]
         all_nodes.extend(repos_data["nodes"])
         page_info = repos_data["pageInfo"]
         if not page_info["hasNextPage"]:
@@ -209,10 +259,11 @@ def group_by_category(categorized_repos, category_order):
 # --- Renderers (pure) ---
 
 
-def render_project_list(grouped, config):
+def render_project_list(grouped, config, org_label=None):
     """Render categorized repos as bullet lists sorted by pushed_at.
 
-    Skips repos with no description.
+    Skips repos with no description. If org_label is set, prefixes
+    category names with the org (e.g. "tinyland-inc / Infrastructure & DevOps").
     """
     total_shown = 0
     lines = []
@@ -225,8 +276,9 @@ def render_project_list(grouped, config):
         # Sort by pushed_at descending within category
         cat_repos = sorted(cat_repos, key=lambda cr: cr.repo.pushed_at, reverse=True)
         total_shown += len(cat_repos)
+        label = f"{org_label} / {cat}" if org_label else cat
         lines.append(f"<details>")
-        lines.append(f"<summary><strong>{cat}</strong> ({len(cat_repos)})</summary>")
+        lines.append(f"<summary><strong>{label}</strong> ({len(cat_repos)})</summary>")
         lines.append("")
         for cr in cat_repos:
             r = cr.repo
@@ -363,6 +415,35 @@ def categorized_to_dict(cr):
 # --- Main pipeline ---
 
 
+def _run_pipeline(nodes, config):
+    """Shared parse/filter/categorize pipeline for a list of raw repo nodes."""
+    return pipe(
+        nodes,
+        lambda ns: [parse_repo(n) for n in ns],
+        lambda repos: [r for r in repos if should_include(r, config.blocklist)],
+        lambda repos: [r for r in repos if not r.is_fork],
+        lambda repos: [categorize_repo(r, config) for r in repos],
+    )
+
+
+def _foss_to_dict(fc):
+    """Convert FossContribution to JSON-serializable dict."""
+    return {
+        "nameWithOwner": fc.name_with_owner,
+        "name": fc.name,
+        "url": fc.url,
+        "description": fc.description,
+        "primaryLanguage": {"name": fc.primary_language} if fc.primary_language else None,
+        "languages": {
+            "edges": [
+                {"size": size, "node": {"name": name, "color": color}}
+                for name, size, color in fc.languages
+            ]
+        },
+        "stargazerCount": fc.stars,
+    }
+
+
 def main():
     token = os.environ.get("GITHUB_TOKEN", "")
     if not token:
@@ -371,65 +452,76 @@ def main():
 
     config = load_config()
 
-    # Effects boundary: fetch
-    print("Fetching repos...")
+    # Effects boundary: fetch personal repos
+    print("Fetching personal repos...")
     raw_repos = fetch_own_repos(config, token)
-    print(f"Fetched {len(raw_repos)} repos")
+    print(f"Fetched {len(raw_repos)} personal repos")
 
+    # Fetch org repos
+    raw_org_repos = {}
+    for org in config.orgs:
+        print(f"Fetching {org} repos...")
+        raw_org_repos[org] = fetch_org_repos(org, token)
+        print(f"Fetched {len(raw_org_repos[org])} repos from {org}")
+
+    # Fetch FOSS contributions
     print("Fetching FOSS contributions...")
     raw_foss = fetch_foss_contributions(config, token)
-    print(f"Fetched {len(raw_foss)} FOSS contributions")
+    print(f"Fetched {len(raw_foss)} FOSS contributions (raw)")
 
     blog_posts = fetch_blog_posts(config)
     print(f"Fetched {len(blog_posts)} blog posts")
 
-    # Pure pipeline
-    result = pipe(
-        raw_repos,
-        lambda nodes: [parse_repo(n) for n in nodes],
-        lambda repos: [r for r in repos if should_include(r, config.blocklist)],
-        lambda repos: [r for r in repos if not r.is_fork],
-        lambda repos: [categorize_repo(r, config) for r in repos],
-    )
+    # Pure pipeline — personal repos
+    personal_result = _run_pipeline(raw_repos, config)
+    personal_grouped = group_by_category(personal_result, config.category_order)
+    print(f"Personal: {len(personal_result)} repos in {len([k for k, v in personal_grouped.items() if v])} categories")
 
-    foss = [parse_foss(n) for n in raw_foss]
-    grouped = group_by_category(result, config.category_order)
+    # Pure pipeline — org repos
+    org_results = {}
+    for org, nodes in raw_org_repos.items():
+        org_results[org] = _run_pipeline(nodes, config)
+        print(f"Org {org}: {len(org_results[org])} repos")
 
-    print(f"Categorized {len(result)} repos into {len([k for k, v in grouped.items() if v])} categories")
+    # FOSS: parse all for stats count, filter for display
+    all_foss = [parse_foss(n) for n in raw_foss]
+    exclusions_lower = {o.lower() for o in config.org_exclusions_for_foss}
+    foss_display = [
+        f for f in all_foss
+        if f.name_with_owner.split("/")[0].lower() not in exclusions_lower
+    ]
+    print(f"FOSS: {len(all_foss)} total, {len(foss_display)} external (excluding {list(exclusions_lower)})")
 
     # Effects boundary: write intermediate data
     out_dir = os.path.dirname(os.path.dirname(__file__))
+
+    # repos_data.json — personal only (feeds star count + language stats)
     repos_json_path = os.path.join(out_dir, "repos_data.json")
     with open(repos_json_path, "w") as f:
-        json.dump([repo_to_dict(cr.repo) for cr in result], f)
-    print(f"Wrote {len(result)} repos to repos_data.json")
+        json.dump([repo_to_dict(cr.repo) for cr in personal_result], f)
+    print(f"Wrote {len(personal_result)} personal repos to repos_data.json")
 
+    # org_repos_data.json — org repos (optional lang stats inclusion)
+    all_org_categorized = []
+    for org_list in org_results.values():
+        all_org_categorized.extend(org_list)
+    org_repos_json_path = os.path.join(out_dir, "org_repos_data.json")
+    with open(org_repos_json_path, "w") as f:
+        json.dump([repo_to_dict(cr.repo) for cr in all_org_categorized], f)
+    print(f"Wrote {len(all_org_categorized)} org repos to org_repos_data.json")
+
+    # categorized_repos.json — personal + org combined (feeds graph)
+    all_categorized = list(personal_result) + all_org_categorized
     categorized_json_path = os.path.join(out_dir, "categorized_repos.json")
     with open(categorized_json_path, "w") as f:
-        json.dump([categorized_to_dict(cr) for cr in result], f)
-    print(f"Wrote categorized_repos.json")
+        json.dump([categorized_to_dict(cr) for cr in all_categorized], f)
+    print(f"Wrote {len(all_categorized)} total repos to categorized_repos.json")
 
-    # Write FOSS data for stats script
+    # foss_data.json — ALL FOSS (full count for stats card)
     foss_json_path = os.path.join(out_dir, "foss_data.json")
-    foss_dicts = []
-    for fc in foss:
-        foss_dicts.append({
-            "nameWithOwner": fc.name_with_owner,
-            "name": fc.name,
-            "url": fc.url,
-            "description": fc.description,
-            "primaryLanguage": {"name": fc.primary_language} if fc.primary_language else None,
-            "languages": {
-                "edges": [
-                    {"size": size, "node": {"name": name, "color": color}}
-                    for name, size, color in fc.languages
-                ]
-            },
-            "stargazerCount": fc.stars,
-        })
     with open(foss_json_path, "w") as f:
-        json.dump(foss_dicts, f)
-    print(f"Wrote {len(foss)} FOSS contributions to foss_data.json")
+        json.dump([_foss_to_dict(fc) for fc in all_foss], f)
+    print(f"Wrote {len(all_foss)} FOSS contributions to foss_data.json")
 
     # Subprocess: graph & stats generation
     scripts_dir = os.path.dirname(__file__)
@@ -446,20 +538,38 @@ def main():
         print(f"Warning: stats generation failed: {exc}")
 
     # Pure: render sections
-    # Limit display to max_repos
-    limited_grouped = {}
-    shown = 0
-    for cat in config.category_order:
-        cat_repos = grouped.get(cat, [])
-        take = min(len(cat_repos), config.max_repos - shown)
-        limited_grouped[cat] = cat_repos[:take]
-        shown += take
-        if shown >= config.max_repos:
-            break
+    # Apply max_repos cap if nonzero
+    if config.max_repos > 0:
+        limited_grouped = {}
+        shown = 0
+        for cat in config.category_order:
+            cat_repos = personal_grouped.get(cat, [])
+            take = min(len(cat_repos), config.max_repos - shown)
+            limited_grouped[cat] = cat_repos[:take]
+            shown += take
+            if shown >= config.max_repos:
+                break
+    else:
+        limited_grouped = personal_grouped
+
+    # Render personal repos
+    personal_section = render_project_list(limited_grouped, config)
+
+    # Render org repos as separate accordion groups per org
+    org_section_parts = []
+    for org, org_list in org_results.items():
+        org_grouped = group_by_category(org_list, config.category_order)
+        org_rendered = render_project_list(org_grouped, config, org_label=org)
+        if org_rendered.strip():
+            org_section_parts.append(org_rendered)
+
+    repos_section = personal_section
+    if org_section_parts:
+        repos_section += "\n" + "\n".join(org_section_parts)
 
     sections = {
-        "repos": render_project_list(limited_grouped, config),
-        "foss": render_foss_section(foss, config.user),
+        "repos": repos_section,
+        "foss": render_foss_section(foss_display, config.user),
         "blog": render_blog_section(blog_posts) if blog_posts else None,
     }
 
@@ -469,13 +579,14 @@ def main():
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
+    total_shown = len(personal_result) + len(all_org_categorized)
     repo_content = "\n" + sections["repos"] + "\n" + f"*Last updated: {now}*"
     content = update_section(content, "repos", repo_content)
-    print(f"Updated repos section: {shown} shown")
+    print(f"Updated repos section: {total_shown} shown")
 
     if sections["foss"]:
         content = update_section(content, "foss", sections["foss"])
-        print(f"Updated FOSS section: {len(foss)} contributions")
+        print(f"Updated FOSS section: {len(foss_display)} displayed, {len(all_foss)} total")
 
     if sections["blog"]:
         content = update_section(content, "blog", sections["blog"])
