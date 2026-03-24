@@ -238,9 +238,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Infrastructure & DevOps</strong> (17)</summary>
 
 - [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · today)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · 3 days ago)*
+- [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · today)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · 4 days ago)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 week ago)*
-- [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 1 week ago)*
 - [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 2 weeks ago)*
 - [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 2 weeks ago)*
 - [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 3 weeks ago)*
@@ -260,16 +260,16 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (6)</summary>
 
-- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — WIP!  Portable CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple en... *(Zig · today)*
-- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 4 days ago)*
-- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 3 ★ · 2 weeks ago)*
+- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — WIP!  Portable CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple en... *(Zig · yesterday)*
+- [**XoxdWM**](https://github.com/tinyland-inc/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 5 days ago)*
+- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 4 ★ · 2 weeks ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
 - [**Arduino_Coil_Winder**](https://github.com/Jesssullivan/Arduino_Coil_Winder) — Investigating open-source stepper hardware for coil winding  *(C++ · 7 ★ · Dec 2020)*
 
 </details>
 
-*Last updated: 2026-03-23 06:38 UTC*
+*Last updated: 2026-03-24 06:33 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
