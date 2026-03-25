@@ -12,10 +12,10 @@
   </defs>
   <g clip-path="url(#bar-clip)">
     <rect x="25.0" y="50" width="63.9" height="8" fill="#f34b7d" />
-    <rect x="88.9" y="50" width="53.2" height="8" fill="#3178c6" />
-    <rect x="142.1" y="50" width="44.8" height="8" fill="#3572A5" />
-    <rect x="186.9" y="50" width="27.7" height="8" fill="#00ADD8" />
-    <rect x="214.6" y="50" width="19.7" height="8" fill="#dea584" />
+    <rect x="88.9" y="50" width="53.1" height="8" fill="#3178c6" />
+    <rect x="142.0" y="50" width="44.8" height="8" fill="#3572A5" />
+    <rect x="186.8" y="50" width="27.7" height="8" fill="#00ADD8" />
+    <rect x="214.5" y="50" width="19.8" height="8" fill="#dea584" />
     <rect x="234.3" y="50" width="19.7" height="8" fill="#555555" />
     <rect x="253.9" y="50" width="15.2" height="8" fill="#c065db" />
     <rect x="269.2" y="50" width="5.8" height="8" fill="#198CE7" />
