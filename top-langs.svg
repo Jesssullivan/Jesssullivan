@@ -11,11 +11,11 @@
     </clipPath>
   </defs>
   <g clip-path="url(#bar-clip)">
-    <rect x="25.0" y="50" width="63.1" height="8" fill="#f34b7d" />
-    <rect x="88.1" y="50" width="52.5" height="8" fill="#3178c6" />
-    <rect x="140.6" y="50" width="47.4" height="8" fill="#3572A5" />
-    <rect x="187.9" y="50" width="27.3" height="8" fill="#00ADD8" />
-    <rect x="215.2" y="50" width="19.6" height="8" fill="#dea584" />
+    <rect x="25.0" y="50" width="63.0" height="8" fill="#f34b7d" />
+    <rect x="88.0" y="50" width="52.4" height="8" fill="#3178c6" />
+    <rect x="140.5" y="50" width="47.3" height="8" fill="#3572A5" />
+    <rect x="187.8" y="50" width="27.3" height="8" fill="#00ADD8" />
+    <rect x="215.1" y="50" width="19.7" height="8" fill="#dea584" />
     <rect x="234.8" y="50" width="19.4" height="8" fill="#555555" />
     <rect x="254.2" y="50" width="15.0" height="8" fill="#c065db" />
     <rect x="269.2" y="50" width="5.8" height="8" fill="#198CE7" />
@@ -29,7 +29,7 @@
   <circle cx="155" cy="98" r="5" fill="#00ADD8" />
   <text x="165" y="102" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Go 10.9%</text>
   <circle cx="30" cy="118" r="5" fill="#dea584" />
-  <text x="40" y="122" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Rust 7.8%</text>
+  <text x="40" y="122" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Rust 7.9%</text>
   <circle cx="155" cy="118" r="5" fill="#555555" />
   <text x="165" y="122" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">C 7.8%</text>
   <circle cx="30" cy="138" r="5" fill="#c065db" />
