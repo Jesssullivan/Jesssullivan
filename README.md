@@ -239,7 +239,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 - [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy + OpenTofu infrastructure *(Dhall · 1 week ago)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 2 weeks ago)*
-- [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 4 weeks ago)*
+- [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · Feb 2026)*
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... *(Python · 1 ★ · Feb 2026)*
 - [**tinyscale-mikrotik**](https://github.com/Jesssullivan/tinyscale-mikrotik) — Very small tailscale container for CRS310 class switches *(Shell · Jan 2026)*
 - [**searchies**](https://github.com/Jesssullivan/searchies) — hard AF searxng infra for uwu tinies *(Jinja · Apr 2025)*
@@ -253,7 +253,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Hardware & Maker</strong> (9)</summary>
 
 - [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Hermetic CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple entitlem... *(Zig · today)*
-- [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable cryptographic primitives in Zig — SHA-256, HMAC, AES-CBC, PBKDF2, CSPRNG. C FFI for cros... *(Zig · today)*
+- [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable cryptographic primitives in Zig — SHA-256, HMAC, AES-CBC, PBKDF2, CSPRNG. C FFI for cros... *(Zig · yesterday)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 5 ★ · 3 weeks ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
@@ -296,7 +296,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Other</strong> (10)</summary>
 
 - [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Portable keychain/secrets abstraction in Zig — macOS SecItem + Linux libsecret. C FFI for cross-p... *(Python · today)*
-- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Portable notification abstractions — macOS UNUserNotificationCenter + Linux libnotify/D-Bus. C FF... *(Python · today)*
+- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Portable notification abstractions — macOS UNUserNotificationCenter + Linux libnotify/D-Bus. C FF... *(Python · yesterday)*
 - [**IG-3DP-Profiles**](https://github.com/Jesssullivan/IG-3DP-Profiles) — Ithaca Generator 3d printer profiles and notes *(Sep 2022)*
 - [**chrome-remote-desktop-budgie**](https://github.com/Jesssullivan/chrome-remote-desktop-budgie) — Fully automated patching for Chrome Remote Desktop on Ubuntu Budgie & GNOME-based desktop environ... *(Python · 6 ★ · Sep 2021)*
 - [**OminousBeepingApp**](https://github.com/Jesssullivan/OminousBeepingApp) — Rick and Morty S4E2 *(Swift · Jul 2021)*
@@ -313,10 +313,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (8)</summary>
 
 - [**tummycrypt**](https://github.com/tinyland-inc/tummycrypt) — FOSS self-hosted odrive replacement — FUSE file sync with E2E encryption, on-demand hydration, an... *(Rust · 1 ★ · today)*
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · yesterday)*
+- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · today)*
 - [**pp**](https://github.com/tinyland-inc/pp) — Tinyland Lab shell dashboard with waifu integration *(Go · 3 weeks ago)*
 - [**tinyland-cleanup**](https://github.com/tinyland-inc/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 3 weeks ago)*
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 3 weeks ago)*
+- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 4 weeks ago)*
 - [**tinyland-kdbx**](https://github.com/tinyland-inc/tinyland-kdbx) — Native KeePassXC KDBX reader with base58 transport *(Python · Feb 2026)*
 - [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · Feb 2026)*
 - [**Ansible-DAG-Harness**](https://github.com/tinyland-inc/Ansible-DAG-Harness) — A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... *(Python · Feb 2026)*
@@ -333,9 +333,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Web & Apps</strong> (3)</summary>
 
-- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 4 days ago)*
-- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 4 days ago)*
-- [**acuity-admin-skills**](https://github.com/tinyland-inc/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 5 days ago)*
+- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 5 days ago)*
+- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 5 days ago)*
+- [**acuity-admin-skills**](https://github.com/tinyland-inc/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 6 days ago)*
 
 </details>
 
@@ -343,24 +343,25 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>tinyland-inc / Other</strong> (5)</summary>
 
 - [**tinyland-huskycat**](https://github.com/tinyland-inc/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration *(Python · today)*
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Private Bazel Central Registry for @tummycrypt packages *(Starlark · 3 days ago)*
+- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Private Bazel Central Registry for @tummycrypt packages *(Starlark · 4 days ago)*
 - [**tinyclaw**](https://github.com/tinyland-inc/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive development cadence   *(Go · 3 weeks ago)*
-- [**tinyland-hexstrunk**](https://github.com/tinyland-inc/tinyland-hexstrunk) — Formal, tracable, auditable tool surface for playing the bad guy *(Python · 4 weeks ago)*
+- [**tinyland-hexstrunk**](https://github.com/tinyland-inc/tinyland-hexstrunk) — Formal, tracable, auditable tool surface for playing the bad guy *(Python · Feb 2026)*
 - [**prompt-pulse-tui**](https://github.com/tinyland-inc/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · Feb 2026)*
 
 </details>
 
 *...and [44 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-03-28 06:30 UTC*
+*Last updated: 2026-03-29 06:34 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
 <details>
-<summary><strong>FOSS Contributions</strong> (11)</summary>
+<summary><strong>FOSS Contributions</strong> (12)</summary>
 
 - [**keepassxreboot/keepassxc**](https://github.com/keepassxreboot/keepassxc) — KeePassXC is a cross-platform community-driven port of the Windows applicatio... *(C++)*
 - [**charmbracelet/crush**](https://github.com/charmbracelet/crush) — Glamourous agentic coding for all 💘 *(Go)*
 - [**manaflow-ai/cmux**](https://github.com/manaflow-ai/cmux) — Ghostty-based macOS terminal with vertical tabs and notifications for AI codi... *(Swift)*
+- [**tidyverse/ggplot2**](https://github.com/tidyverse/ggplot2) — An implementation of the Grammar of Graphics in R *(R)*
 - [**ciscoheat/sveltekit-superforms**](https://github.com/ciscoheat/sveltekit-superforms) — Making SvelteKit forms a pleasure to use! *(TypeScript)*
 - [**diku-dk/futhark**](https://github.com/diku-dk/futhark) — :boom::computer::boom: A data-parallel functional programming language *(Haskell)*
 - [**rspamd/rspamd**](https://github.com/rspamd/rspamd) — Rapid spam filtering system. *(C)*
