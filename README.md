@@ -67,11 +67,7 @@ I build planet scale infrastructure tooling for fun, architect and enchant digit
 <img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="400" />
 
 </td>
-<td valign="middle">
 
-> **As of 2025, I'm much more active in Tinyland with my robots** — find me at [`jesssullivan`](https://gitlab.com/jesssullivan) and [`jsullivan2_bates`](https://gitlab.com/jsullivan2_bates)
-
-</td>
 </tr>
 </table>
 
@@ -131,7 +127,7 @@ I build planet scale infrastructure tooling for fun, architect and enchant digit
 - Legacy modernization, bespoke Ansible extensions, roles & plugins
 - Apache Solr, ACME cert management, SAML integrations
 - GitLab AutoDevOps, RKE2 + Rancher, promoter of IaC practices :tm:
-- Orchestration, packaging & tooling work (Haskell + Python, QuickCheck, Cabal, FPM)
+- Orchestration, packaging & tooling work
 
 **CV/ML Software Engineer** — Macaulay Library *(2018–2022)*
 - Developed & launched [Merlin Sound ID](https://merlin.allaboutbirds.org/) & The Machine Learning Blog
