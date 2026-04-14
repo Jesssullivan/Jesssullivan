@@ -297,9 +297,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Other</strong> (16)</summary>
 
 - [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — Self-hosted encrypted file sync with on-demand hydration and fleet sync. FOSS odrive replacement. *(Rust · 3 ★ · today)*
-- [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · today)*
-- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Portable notification abstractions — macOS UNUserNotificationCenter + Linux libnotify/D-Bus. C FF... *(Python · yesterday)*
-- [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 5 days ago)*
+- [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · yesterday)*
+- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Portable notification abstractions — macOS UNUserNotificationCenter + Linux libnotify/D-Bus. C FF... *(Python · 2 days ago)*
+- [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 6 days ago)*
 - [**tinyland-huskycat**](https://github.com/Jesssullivan/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration *(Python · 1 week ago)*
 - [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Portable keychain/secrets abstraction in Zig — macOS SecItem + Linux libsecret. C FFI for cross-p... *(Python · 2 weeks ago)*
 - [**tinyclaw**](https://github.com/Jesssullivan/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive development cadence   *(Go · Mar 2026)*
@@ -319,7 +319,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (3)</summary>
 
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · yesterday)*
+- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 2 days ago)*
 - [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 1 week ago)*
 - [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · 1 week ago)*
 
@@ -328,22 +328,22 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Web & Apps</strong> (2)</summary>
 
-- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 6 days ago)*
-- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 6 days ago)*
+- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 1 week ago)*
+- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 1 week ago)*
 
 </details>
 
 <details>
 <summary><strong>tinyland-inc / Other</strong> (3)</summary>
 
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(today)*
+- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(yesterday)*
 - [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Private Bazel Central Registry for @tummycrypt packages *(Starlark · 2 weeks ago)*
 - [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · Mar 2026)*
 
 </details>
 
 *...and [44 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-04-13 06:58 UTC*
+*Last updated: 2026-04-14 06:49 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
