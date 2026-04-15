@@ -251,7 +251,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (10)</summary>
 
-- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · today)*
+- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · yesterday)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 5 ★ · 1 week ago)*
 - [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Hermetic CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple entitlem... *(Zig · 1 week ago)*
 - [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable cryptographic primitives in Zig — SHA-256, HMAC, AES-CBC, PBKDF2, CSPRNG. C FFI for cros... *(Zig · 2 weeks ago)*
@@ -267,7 +267,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>ML & Data</strong> (6)</summary>
 
-- [**MerlinAI-Interpreters**](https://github.com/Jesssullivan/MerlinAI-Interpreters) — Experiments, interpreter implementations, demos, data ingress tangents and lots of notes for bird... *(TypeScript · 4 ★ · 1 week ago)*
+- [**MerlinAI-Interpreters**](https://github.com/Jesssullivan/MerlinAI-Interpreters) — Experiments, interpreter implementations, demos, data ingress tangents and lots of notes for bird... *(TypeScript · 4 ★ · 2 weeks ago)*
 - [**gnucashr**](https://github.com/Jesssullivan/gnucashr) — A high performance accounting and financial modeling R package and MCP tool surface for GNUCash, ... *(C++ · 1 ★ · 3 weeks ago)*
 - [**AccuWixReport**](https://github.com/Jesssullivan/AccuWixReport) — A command line utility generating monthly transaction & superlative financial reports - migration... *(Python · Jan 2024)*
 - [**Shiny-Apps**](https://github.com/Jesssullivan/Shiny-Apps) — Old R / Shiny KML Geoprocessing Tools & Deployment Framework Ideas *(R · 1 ★ · Feb 2021)*
@@ -297,9 +297,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Other</strong> (16)</summary>
 
 - [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — Self-hosted encrypted file sync with on-demand hydration and fleet sync. FOSS odrive replacement. *(Rust · 3 ★ · today)*
-- [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · yesterday)*
-- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Portable notification abstractions — macOS UNUserNotificationCenter + Linux libnotify/D-Bus. C FF... *(Python · 2 days ago)*
-- [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 6 days ago)*
+- [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · 2 days ago)*
+- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Portable notification abstractions — macOS UNUserNotificationCenter + Linux libnotify/D-Bus. C FF... *(Python · 3 days ago)*
+- [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 1 week ago)*
 - [**tinyland-huskycat**](https://github.com/Jesssullivan/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration *(Python · 1 week ago)*
 - [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Portable keychain/secrets abstraction in Zig — macOS SecItem + Linux libsecret. C FFI for cross-p... *(Python · 2 weeks ago)*
 - [**tinyclaw**](https://github.com/Jesssullivan/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive development cadence   *(Go · Mar 2026)*
@@ -319,7 +319,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (3)</summary>
 
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 2 days ago)*
+- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 3 days ago)*
 - [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 1 ★ · 1 week ago)*
 - [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · 1 week ago)*
 
@@ -336,14 +336,14 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Other</strong> (3)</summary>
 
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(yesterday)*
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Private Bazel Central Registry for @tummycrypt packages *(Starlark · 2 weeks ago)*
+- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(2 days ago)*
+- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Private Bazel Central Registry for @tummycrypt packages *(Starlark · 3 weeks ago)*
 - [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · Mar 2026)*
 
 </details>
 
 *...and [44 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-04-14 06:49 UTC*
+*Last updated: 2026-04-15 06:50 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
