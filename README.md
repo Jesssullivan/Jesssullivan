@@ -220,8 +220,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Languages & Compilers</strong> (7)</summary>
 
-- [**scheduling-kit**](https://github.com/Jesssullivan/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript · 3 days ago)*
-- [**pixelwise-research**](https://github.com/Jesssullivan/pixelwise-research) — WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... *(TypeScript · 1 ★ · Feb 2026)*
+- [**pixelwise-research**](https://github.com/Jesssullivan/pixelwise-research) — WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... *(TypeScript · 1 ★ · today)*
+- [**scheduling-kit**](https://github.com/Jesssullivan/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript · 4 days ago)*
 - [**quickchpl**](https://github.com/Jesssullivan/quickchpl) — Simple Property-Based Testing for Chapel Language *(Chapel · 2 ★ · Jan 2026)*
 - [**aoc-2025**](https://github.com/Jesssullivan/aoc-2025) — Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI *(Chapel · Jan 2026)*
 - [**Jess-AOC-2023**](https://github.com/Jesssullivan/Jess-AOC-2023) — Jess's solutions to the 2023 Advent of Code *(Python · Dec 2023)*
@@ -242,7 +242,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible TUI utility for dealing with out-of-band management / air gapped network devices, most... *(Python · 1 ★ · Feb 2026)*
 - [**tinyscale-mikrotik**](https://github.com/Jesssullivan/tinyscale-mikrotik) — Very small tailscale container for CRS310 class switches *(Shell · Jan 2026)*
 - [**searchies**](https://github.com/Jesssullivan/searchies) — hard AF searxng infra for uwu tinies *(Jinja · Apr 2025)*
-- [**ts-caddy**](https://github.com/Jesssullivan/ts-caddy) — Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo *(Jinja · 1 ★ · Mar 2025)*
+- [**ts-caddy**](https://github.com/Jesssullivan/ts-caddy) — Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo *(Jinja · Mar 2025)*
 - [**HCI-notes**](https://github.com/Jesssullivan/HCI-notes) — Misc. notes to share on switch to Proxmox from Harvester *(HCL · Feb 2025)*
 - [**LeafletSync**](https://github.com/Jesssullivan/LeafletSync) — Chindōgu utility prompt & CLI for fetching private releases & files from GitHub & BitBucket *(Shell · Jan 2021)*
 
@@ -251,8 +251,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (10)</summary>
 
-- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 5 ★ · today)*
 - [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · today)*
+- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 5 ★ · yesterday)*
 - [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Hermetic CTAP2/FIDO2 library in Zig — direct USB HID for YubiKey/security keys, no Apple entitlem... *(Zig · 2 weeks ago)*
 - [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable cryptographic primitives in Zig — SHA-256, HMAC, AES-CBC, PBKDF2, CSPRNG. C FFI for cros... *(Zig · 3 weeks ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
@@ -279,7 +279,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Web & Apps</strong> (11)</summary>
 
-- [**acuity-middleware**](https://github.com/Jesssullivan/acuity-middleware) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?  Playwright-based M... *(TypeScript · 2 days ago)*
+- [**acuity-middleware**](https://github.com/Jesssullivan/acuity-middleware) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?  Playwright-based M... *(TypeScript · 3 days ago)*
 - [**acuity-admin-skills**](https://github.com/Jesssullivan/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · Mar 2026)*
 - [**LA-Mesh**](https://github.com/Jesssullivan/LA-Mesh) — LoRa infrastructure projects for Southern Maine. *(Svelte · Feb 2026)*
 - [**GIS_Shortcuts**](https://github.com/Jesssullivan/GIS_Shortcuts) — Jess's miscellaneous GIS notes and related tomfoolery  *(R · 1 ★ · Feb 2026)*
@@ -296,9 +296,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Other</strong> (16)</summary>
 
-- [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — Self-hosted encrypted file sync with on-demand hydration and fleet sync. FOSS odrive replacement. *(Rust · 3 ★ · 3 days ago)*
-- [**tinyclaw**](https://github.com/Jesssullivan/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive development cadence   *(Go · 6 days ago)*
-- [**tinyland-huskycat**](https://github.com/Jesssullivan/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration *(Python · 6 days ago)*
+- [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — Self-hosted encrypted file sync with on-demand hydration and fleet sync. FOSS odrive replacement. *(Rust · 3 ★ · 4 days ago)*
+- [**tinyclaw**](https://github.com/Jesssullivan/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive development cadence   *(Go · 1 week ago)*
+- [**tinyland-huskycat**](https://github.com/Jesssullivan/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration *(Python · 1 week ago)*
 - [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · 1 week ago)*
 - [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Portable notification abstractions — macOS UNUserNotificationCenter + Linux libnotify/D-Bus. C FF... *(Python · 1 week ago)*
 - [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 2 weeks ago)*
@@ -317,18 +317,18 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 *...and [1 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
 <details>
-<summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (3)</summary>
+<summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (2)</summary>
 
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, Civo K8s, Attic cache *(HCL · 2 ★ · today)*
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · yesterday)*
+- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Just · 2 days ago)*
 - [**tinyland-infra**](https://github.com/tinyland-inc/tinyland-infra) — Demo - Tinyland IaC overlay for GloriousFlywheel — deploys Nix binary cache, GitLab runners, and ... *(HCL · 2 weeks ago)*
 
 </details>
 
 <details>
-<summary><strong>tinyland-inc / Web & Apps</strong> (2)</summary>
+<summary><strong>tinyland-inc / Web & Apps</strong> (3)</summary>
 
-- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 4 days ago)*
+- [**linear-gsuite**](https://github.com/tinyland-inc/linear-gsuite) — minimal Linear and Google Workspace automation surface for calenderable actions *(TypeScript · today)*
+- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · today)*
 - [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 2 weeks ago)*
 
 </details>
@@ -336,14 +336,14 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Other</strong> (3)</summary>
 
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(3 days ago)*
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Private Bazel Central Registry for @tummycrypt packages *(Starlark · 5 days ago)*
+- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(4 days ago)*
+- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Private Bazel Central Registry for @tummycrypt packages *(Starlark · 6 days ago)*
 - [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · Mar 2026)*
 
 </details>
 
-*...and [44 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-04-22 06:51 UTC*
+*...and [47 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
+*Last updated: 2026-04-23 06:51 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
