@@ -204,9 +204,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
+- [Smol DarwinNicUtil Has Docs and installers now, yay](https://transscendsurvival.org/blog/darwin-nic-docs-are-live) — *Apr 28, 2026*
 - [Host Characterization with Chapel, Fancy Testing & Dhall](https://transscendsurvival.org/blog/reproducible-host-probes-nix-chapel-dhall) — *Apr 25, 2026*
 - [Week Notes: Indeterminism, Passkeys, and Spring](https://transscendsurvival.org/blog/week-notes-indeterminism-passkeys-and-spring) — *Mar 21, 2026*
-- [WinRM Quotas, Plugin Confusion, and Why PSRP Has Been the Answer Since 2018](https://transscendsurvival.org/blog/winrm-quotas-hidden-plugin-layers-and-why-psrp-has-been-the-answer-since-2018) — *Mar 13, 2026*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -221,7 +221,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Languages & Compilers</strong> (7)</summary>
 
 - [**scheduling-kit**](https://github.com/Jesssullivan/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript · today)*
-- [**pixelwise-research**](https://github.com/Jesssullivan/pixelwise-research) — WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... *(TypeScript · 1 ★ · 5 days ago)*
+- [**pixelwise-research**](https://github.com/Jesssullivan/pixelwise-research) — WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... *(TypeScript · 1 ★ · 6 days ago)*
 - [**quickchpl**](https://github.com/Jesssullivan/quickchpl) — Simple Property-Based Testing for Chapel Language *(Chapel · 2 ★ · Jan 2026)*
 - [**aoc-2025**](https://github.com/Jesssullivan/aoc-2025) — Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI *(Chapel · Jan 2026)*
 - [**Jess-AOC-2023**](https://github.com/Jesssullivan/Jess-AOC-2023) — Jess's solutions to the 2023 Advent of Code *(Python · Dec 2023)*
@@ -234,8 +234,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Infrastructure & DevOps</strong> (11)</summary>
 
 - [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · today)*
-- [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible utility for dealing with out-of-band management / air gapped network devices, mostly f... *(Python · 1 ★ · 2 days ago)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · 3 weeks ago)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · today)*
+- [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible utility for dealing with out-of-band management / air gapped network devices, mostly f... *(Python · 1 ★ · 3 days ago)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · Mar 2026)*
 - [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · Feb 2026)*
 - [**tinyland-kdbx**](https://github.com/Jesssullivan/tinyland-kdbx) — Native KeePassXC KDBX reader with base58 transport *(Python · Feb 2026)*
@@ -250,10 +250,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (10)</summary>
 
-- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 5 ★ · today)*
-- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · yesterday)*
-- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 2 days ago)*
-- [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable cryptographic primitives in Zig with C FFI — SHA-256, AES, ECDH, Ed25519, HMAC, PBKDF2. ... *(Zig · 2 days ago)*
+- [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable cryptographic primitives in Zig: SHA-256, AES, ECDH, Ed25519, HMAC, PBKDF2. No OpenSSL. *(Zig · today)*
+- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 5 ★ · yesterday)*
+- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 2 days ago)*
+- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 3 days ago)*
 - [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
 - [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
 - [**Arduino_Coil_Winder**](https://github.com/Jesssullivan/Arduino_Coil_Winder) — Investigating open-source stepper hardware for coil winding  *(C++ · 7 ★ · Dec 2020)*
@@ -266,7 +266,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>ML & Data</strong> (6)</summary>
 
-- [**MerlinAI-Interpreters**](https://github.com/Jesssullivan/MerlinAI-Interpreters) — Experiments, interpreter implementations, demos, data ingress tangents and lots of notes for bird... *(TypeScript · 4 ★ · 3 weeks ago)*
+- [**MerlinAI-Interpreters**](https://github.com/Jesssullivan/MerlinAI-Interpreters) — Experiments, interpreter implementations, demos, data ingress tangents and lots of notes for bird... *(TypeScript · 4 ★ · 4 weeks ago)*
 - [**gnucashr**](https://github.com/Jesssullivan/gnucashr) — A high performance accounting and financial modeling R package and MCP tool surface for GNUCash, ... *(C++ · 1 ★ · Mar 2026)*
 - [**AccuWixReport**](https://github.com/Jesssullivan/AccuWixReport) — A command line utility generating monthly transaction & superlative financial reports - migration... *(Python · Jan 2024)*
 - [**Shiny-Apps**](https://github.com/Jesssullivan/Shiny-Apps) — Old R / Shiny KML Geoprocessing Tools & Deployment Framework Ideas *(R · 1 ★ · Feb 2021)*
@@ -296,9 +296,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Other</strong> (16)</summary>
 
 - [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — Self-hosted encrypted file sync with on-demand hydration and fleet sync. FOSS odrive replacement. *(Rust · 3 ★ · today)*
-- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Cross-platform notifications in Zig with C FFI — macOS osascript / Linux libnotify *(Python · 2 days ago)*
-- [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Cross-platform keychain abstraction in Zig with C FFI — macOS SecItem / Linux libsecret *(Python · 2 days ago)*
-- [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 4 days ago)*
+- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Cross-platform notifications in Zig with C FFI — macOS osascript / Linux libnotify *(Python · 3 days ago)*
+- [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Cross-platform keychain abstraction in Zig with C FFI — macOS SecItem / Linux libsecret *(Python · 3 days ago)*
+- [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 5 days ago)*
 - [**tinyclaw**](https://github.com/Jesssullivan/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive development cadence   *(Go · 1 week ago)*
 - [**tinyland-huskycat**](https://github.com/Jesssullivan/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration *(Python · 1 week ago)*
 - [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · 2 weeks ago)*
@@ -317,30 +317,30 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (1)</summary>
 
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 3 days ago)*
+- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 1 ★ · today)*
 
 </details>
 
 <details>
 <summary><strong>tinyland-inc / Web & Apps</strong> (3)</summary>
 
-- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · yesterday)*
-- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · yesterday)*
-- [**linear-gsuite**](https://github.com/tinyland-inc/linear-gsuite) — minimal Linear and Google Workspace automation surface for calenderable actions *(TypeScript · 2 days ago)*
+- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · today)*
+- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · today)*
+- [**linear-gsuite**](https://github.com/tinyland-inc/linear-gsuite) — minimal Linear and Google Workspace automation surface for calenderable actions *(TypeScript · 3 days ago)*
 
 </details>
 
 <details>
 <summary><strong>tinyland-inc / Other</strong> (3)</summary>
 
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · today)*
 - [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(today)*
-- [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · 4 days ago)*
+- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · today)*
+- [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · 5 days ago)*
 
 </details>
 
 *...and [51 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-04-28 07:08 UTC*
+*Last updated: 2026-04-29 07:03 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
