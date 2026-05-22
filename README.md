@@ -234,8 +234,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Infrastructure & DevOps</strong> (12)</summary>
 
-- [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · yesterday)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · 1 ★ · 2 days ago)*
+- [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · 2 days ago)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · 1 ★ · 3 days ago)*
 - [**Dell-7810**](https://github.com/Jesssullivan/Dell-7810) — Notes, instrumentation, configuration and monkey jabber on taking Dell 7810 servers way, way too far *(Shell · 1 week ago)*
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible utility for dealing with out-of-band management / air gapped network devices, mostly f... *(Python · 2 ★ · 3 weeks ago)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 ★ · Mar 2026)*
@@ -252,9 +252,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (12)</summary>
 
-- [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 2 ★ · yesterday)*
-- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 1 ★ · 3 days ago)*
-- [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · 3 days ago)*
+- [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 2 ★ · today)*
+- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 1 ★ · 4 days ago)*
+- [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · 4 days ago)*
 - [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 1 ★ · 3 weeks ago)*
 - [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable Zig crypto primitives with a stable C FFI: SHA-256, HMAC, AES-CBC, PBKDF2, P-256, Ed2551... *(Zig · 1 ★ · 3 weeks ago)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 6 ★ · 3 weeks ago)*
@@ -282,7 +282,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Web & Apps</strong> (11)</summary>
 
-- [**scheduling-bridge**](https://github.com/Jesssullivan/scheduling-bridge) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?  Serverside, headle... *(TypeScript · 1 ★ · 6 days ago)*
+- [**scheduling-bridge**](https://github.com/Jesssullivan/scheduling-bridge) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?  Serverside, headle... *(TypeScript · 1 ★ · 1 week ago)*
 - [**acuity-admin-skills**](https://github.com/Jesssullivan/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 1 ★ · Mar 2026)*
 - [**LA-Mesh**](https://github.com/Jesssullivan/LA-Mesh) — LoRa infrastructure projects for Southern Maine. *(Svelte · 1 ★ · Feb 2026)*
 - [**GIS_Shortcuts**](https://github.com/Jesssullivan/GIS_Shortcuts) — Jess's miscellaneous GIS notes and related tomfoolery  *(R · 2 ★ · Feb 2026)*
@@ -300,7 +300,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Other</strong> (18)</summary>
 
 - [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — WIP self-hosted encrypted file sync with on-demand hydration and fleet sync. Odrive/Dropbox-style... *(Rust · 4 ★ · today)*
-- [**homebrew-omux**](https://github.com/Jesssullivan/homebrew-omux) — Public Homebrew tap for oauth-mux *(Ruby · 1 ★ · 2 days ago)*
+- [**homebrew-omux**](https://github.com/Jesssullivan/homebrew-omux) — Public Homebrew tap for oauth-mux *(Ruby · 1 ★ · 3 days ago)*
 - [**tailnet-trashmonitor**](https://github.com/Jesssullivan/tailnet-trashmonitor) — Tailscale + trash-based webcam streaming solution for monitoring the things; I actually use this ... *(Just · 1 week ago)*
 - [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 1 ★ · 2 weeks ago)*
 - [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Cross-platform keychain abstraction in Zig with C FFI — macOS SecItem / Linux libsecret *(Python · 1 ★ · 3 weeks ago)*
@@ -324,7 +324,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (3)</summary>
 
 - [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, K8s HPA *(Python · 1 ★ · today)*
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · 4 days ago)*
+- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · 5 days ago)*
 - [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 1 ★ · 3 weeks ago)*
 
 </details>
@@ -341,13 +341,13 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Other</strong> (2)</summary>
 
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Python · today)*
-- [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · 3 weeks ago)*
+- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Python · yesterday)*
+- [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · 4 weeks ago)*
 
 </details>
 
 *...and [53 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-05-21 07:33 UTC*
+*Last updated: 2026-05-22 07:29 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
