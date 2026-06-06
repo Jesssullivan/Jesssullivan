@@ -12,9 +12,9 @@
   </defs>
   <g clip-path="url(#bar-clip)">
     <rect x="25.0" y="50" width="67.5" height="8" fill="#555555" />
-    <rect x="92.5" y="50" width="41.1" height="8" fill="#3178c6" />
+    <rect x="92.5" y="50" width="41.2" height="8" fill="#3178c6" />
     <rect x="133.7" y="50" width="38.2" height="8" fill="#3572A5" />
-    <rect x="171.8" y="50" width="35.6" height="8" fill="#f34b7d" />
+    <rect x="171.9" y="50" width="35.6" height="8" fill="#f34b7d" />
     <rect x="207.4" y="50" width="22.6" height="8" fill="#00ADD8" />
     <rect x="230.0" y="50" width="16.9" height="8" fill="#dea584" />
     <rect x="246.9" y="50" width="16.4" height="8" fill="#89e051" />
