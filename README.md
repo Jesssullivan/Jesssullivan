@@ -204,9 +204,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <!--START_SECTION:blog-->
 ### Latest Blog Posts
 
-- [Gingersnap Cookies (from a milk-free, soy-free recipe card)](https://transscendsurvival.org/blog/gingersnap-cookies) — *May 29, 2026*
-- [Trashmonitor to oggle my goggles and behold the blinkenlights](https://transscendsurvival.org/blog/trashmonitor-tailnet-window-into-the-hardware-pile) — *May 11, 2026*
-- [Hacking around with XGS-PON: Fiber ISPs, WAS-110 Modules & Mikrotik](https://transscendsurvival.org/blog/was110-fidium-gonetspeed-omci-personalities) — *May 03, 2026*
+- [Hacking Canon MegaTank and clearing 5B00 Lock: A Native, Key-Free Waste-Ink Reset over USB with Ghidra, Frida and friends](https://transscendsurvival.org/blog/clearing-canon-5b00-lock-native-key-free-megatank-reset) — *Jun 09, 2026*
+- [Glue You Can See in UV](https://transscendsurvival.org/blog/glue-you-can-see-in-uv) — *Jun 08, 2026*
+- [Week Notes: scroll wheels, spring legs, and chasing the sun](https://transscendsurvival.org/blog/week-notes-scroll-wheels-and-chasing-the-sun) — *Jun 08, 2026*
 
 [Read more ->](https://transscendsurvival.org/blog)
 <!--END_SECTION:blog-->
@@ -234,9 +234,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Infrastructure & DevOps</strong> (12)</summary>
 
-- [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · 6 days ago)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · 1 ★ · 2 weeks ago)*
-- [**Dell-7810**](https://github.com/Jesssullivan/Dell-7810) — Notes, instrumentation, configuration and monkey jabber on taking Dell 7810 servers way, way too far *(Shell · 4 weeks ago)*
+- [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · 1 week ago)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · 1 ★ · 3 weeks ago)*
+- [**Dell-7810**](https://github.com/Jesssullivan/Dell-7810) — Notes, instrumentation, configuration and monkey jabber on taking Dell 7810 servers way, way too far *(Shell · May 2026)*
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible utility for dealing with out-of-band management / air gapped network devices, mostly f... *(Python · 2 ★ · Apr 2026)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 ★ · Mar 2026)*
 - [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 1 ★ · Feb 2026)*
@@ -252,10 +252,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (13)</summary>
 
-- [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · today)*
-- [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 3 ★ · yesterday)*
-- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 1 ★ · 2 weeks ago)*
-- [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · 2 weeks ago)*
+- [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · 2 days ago)*
+- [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 3 ★ · 3 days ago)*
+- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 1 ★ · 3 weeks ago)*
+- [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · 3 weeks ago)*
 - [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 1 ★ · Apr 2026)*
 - [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable Zig crypto primitives with a stable C FFI: SHA-256, HMAC, AES-CBC, PBKDF2, P-256, Ed2551... *(Zig · 1 ★ · Apr 2026)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 6 ★ · Apr 2026)*
@@ -302,10 +302,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Other</strong> (20)</summary>
 
 - [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — WIP self-hosted encrypted file sync with on-demand hydration and fleet sync. Odrive/Dropbox-style... *(Rust · 4 ★ · today)*
-- [**canon-megatank-reset**](https://github.com/Jesssullivan/canon-megatank-reset) — Native-Linux, key-free, cloud-free reset for the Canon G-series MegaTank 5B00 'ink absorber full'... *(Python · 4 days ago)*
+- [**canon-megatank-reset**](https://github.com/Jesssullivan/canon-megatank-reset) — Native-Linux, key-free, cloud-free reset for the Canon G-series MegaTank 5B00 'ink absorber full'... *(Python · 1 ★ · 6 days ago)*
 - [**rules_tectonic**](https://github.com/Jesssullivan/rules_tectonic) — Bazel rules for compiling LaTeX to PDF with tectonic *(Starlark · 1 week ago)*
 - [**homebrew-omux**](https://github.com/Jesssullivan/homebrew-omux) — Public Homebrew tap for oauth-mux *(Ruby · 1 ★ · 1 week ago)*
-- [**tailnet-trashmonitor**](https://github.com/Jesssullivan/tailnet-trashmonitor) — Tailscale + trash-based webcam streaming solution for monitoring the things; I actually use this ... *(Just · 3 weeks ago)*
+- [**tailnet-trashmonitor**](https://github.com/Jesssullivan/tailnet-trashmonitor) — Tailscale + trash-based webcam streaming solution for monitoring the things; I actually use this ... *(Just · 4 weeks ago)*
 - [**prompt-pulse-tui**](https://github.com/Jesssullivan/prompt-pulse-tui) — Ratatui terminal dashboard for prompt-pulse system monitoring *(Rust · 1 ★ · May 2026)*
 - [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Cross-platform keychain abstraction in Zig with C FFI — macOS SecItem / Linux libsecret *(Python · 1 ★ · Apr 2026)*
 - [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Cross-platform notifications in Zig with C FFI — macOS osascript / Linux libnotify *(Python · 1 ★ · Apr 2026)*
@@ -345,13 +345,13 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Other</strong> (2)</summary>
 
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Python · 5 days ago)*
+- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Python · 1 week ago)*
 - [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · Apr 2026)*
 
 </details>
 
 *...and [53 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-06-07 07:37 UTC*
+*Last updated: 2026-06-09 07:30 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
