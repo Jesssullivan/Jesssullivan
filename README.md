@@ -252,7 +252,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (13)</summary>
 
-- [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · 4 days ago)*
+- [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · 5 days ago)*
 - [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 3 ★ · 1 week ago)*
 - [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 1 ★ · May 2026)*
 - [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · May 2026)*
@@ -283,7 +283,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Web & Apps</strong> (12)</summary>
 
-- [**darkmap.phasi.space**](https://github.com/Jesssullivan/darkmap.phasi.space) — Public dark-sky planning map for astronomy, field sensing, cycling, hiking, and low-light logistics *(TypeScript · yesterday)*
+- [**darkmap.phasi.space**](https://github.com/Jesssullivan/darkmap.phasi.space) — Public dark-sky planning map for astronomy, field sensing, cycling, hiking, and low-light logistics *(TypeScript · 2 days ago)*
 - [**scheduling-bridge**](https://github.com/Jesssullivan/scheduling-bridge) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?  Serverside, headle... *(TypeScript · 1 ★ · 1 week ago)*
 - [**acuity-admin-skills**](https://github.com/Jesssullivan/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 1 ★ · Mar 2026)*
 - [**LA-Mesh**](https://github.com/Jesssullivan/LA-Mesh) — LoRa infrastructure projects for Southern Maine. *(Svelte · 1 ★ · Feb 2026)*
@@ -328,8 +328,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (3)</summary>
 
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, K8s HPA *(Python · 1 ★ · 6 days ago)*
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · 6 days ago)*
+- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, K8s HPA *(Python · 1 ★ · today)*
+- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · 1 week ago)*
 - [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 1 ★ · Apr 2026)*
 
 </details>
@@ -346,13 +346,13 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Other</strong> (2)</summary>
 
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Python · 6 days ago)*
+- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Python · 1 week ago)*
 - [**prompt-pulse**](https://github.com/tinyland-inc/prompt-pulse) — Tinyland Lab shell dashboard with waifu integration *(Go · Apr 2026)*
 
 </details>
 
 *...and [53 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-06-22 08:22 UTC*
+*Last updated: 2026-06-23 07:30 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->

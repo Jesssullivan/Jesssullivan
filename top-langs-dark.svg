@@ -13,11 +13,11 @@
   <g clip-path="url(#bar-clip)">
     <rect x="25.0" y="50" width="64.7" height="8" fill="#555555" />
     <rect x="89.7" y="50" width="43.3" height="8" fill="#3178c6" />
-    <rect x="133.0" y="50" width="37.3" height="8" fill="#3572A5" />
+    <rect x="132.9" y="50" width="37.2" height="8" fill="#3572A5" />
     <rect x="170.2" y="50" width="34.1" height="8" fill="#f34b7d" />
-    <rect x="204.3" y="50" width="21.9" height="8" fill="#00ADD8" />
+    <rect x="204.2" y="50" width="22.0" height="8" fill="#00ADD8" />
     <rect x="226.2" y="50" width="17.5" height="8" fill="#89e051" />
-    <rect x="243.7" y="50" width="17.4" height="8" fill="#dea584" />
+    <rect x="243.7" y="50" width="17.3" height="8" fill="#dea584" />
     <rect x="261.1" y="50" width="13.9" height="8" fill="#ec915c" />
   </g>
   <circle cx="30" cy="78" r="5" fill="#555555" />
