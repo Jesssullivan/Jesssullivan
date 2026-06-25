@@ -11,12 +11,12 @@
     </clipPath>
   </defs>
   <g clip-path="url(#bar-clip)">
-    <rect x="25.0" y="50" width="64.5" height="8" fill="#555555" />
-    <rect x="89.5" y="50" width="43.2" height="8" fill="#3178c6" />
+    <rect x="25.0" y="50" width="64.4" height="8" fill="#555555" />
+    <rect x="89.4" y="50" width="43.1" height="8" fill="#3178c6" />
     <rect x="132.6" y="50" width="37.2" height="8" fill="#3572A5" />
-    <rect x="169.8" y="50" width="33.9" height="8" fill="#f34b7d" />
-    <rect x="203.7" y="50" width="22.3" height="8" fill="#00ADD8" />
-    <rect x="226.1" y="50" width="17.7" height="8" fill="#89e051" />
+    <rect x="169.7" y="50" width="33.9" height="8" fill="#f34b7d" />
+    <rect x="203.6" y="50" width="22.3" height="8" fill="#00ADD8" />
+    <rect x="226.0" y="50" width="17.9" height="8" fill="#89e051" />
     <rect x="243.8" y="50" width="17.3" height="8" fill="#dea584" />
     <rect x="261.1" y="50" width="13.9" height="8" fill="#ec915c" />
   </g>
