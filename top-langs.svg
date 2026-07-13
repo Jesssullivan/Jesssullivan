@@ -11,14 +11,14 @@
     </clipPath>
   </defs>
   <g clip-path="url(#bar-clip)">
-    <rect x="25.0" y="50" width="62.0" height="8" fill="#555555" />
-    <rect x="87.0" y="50" width="43.8" height="8" fill="#3178c6" />
-    <rect x="130.8" y="50" width="38.4" height="8" fill="#3572A5" />
-    <rect x="169.1" y="50" width="32.6" height="8" fill="#f34b7d" />
-    <rect x="201.8" y="50" width="21.8" height="8" fill="#00ADD8" />
-    <rect x="223.6" y="50" width="18.4" height="8" fill="#89e051" />
-    <rect x="241.9" y="50" width="18.2" height="8" fill="#dea584" />
-    <rect x="260.2" y="50" width="14.8" height="8" fill="#ec915c" />
+    <rect x="25.0" y="50" width="61.9" height="8" fill="#555555" />
+    <rect x="86.9" y="50" width="43.7" height="8" fill="#3178c6" />
+    <rect x="130.6" y="50" width="38.3" height="8" fill="#3572A5" />
+    <rect x="169.0" y="50" width="32.6" height="8" fill="#f34b7d" />
+    <rect x="201.6" y="50" width="21.8" height="8" fill="#00ADD8" />
+    <rect x="223.3" y="50" width="18.5" height="8" fill="#89e051" />
+    <rect x="241.8" y="50" width="18.2" height="8" fill="#dea584" />
+    <rect x="260.0" y="50" width="15.0" height="8" fill="#ec915c" />
   </g>
   <circle cx="30" cy="78" r="5" fill="#555555" />
   <text x="40" y="82" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">C 24.8%</text>
@@ -27,13 +27,13 @@
   <circle cx="30" cy="98" r="5" fill="#3572A5" />
   <text x="40" y="102" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Python 15.3%</text>
   <circle cx="155" cy="98" r="5" fill="#f34b7d" />
-  <text x="165" y="102" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">C++ 13.1%</text>
+  <text x="165" y="102" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">C++ 13.0%</text>
   <circle cx="30" cy="118" r="5" fill="#00ADD8" />
   <text x="40" y="122" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Go 8.7%</text>
   <circle cx="155" cy="118" r="5" fill="#89e051" />
-  <text x="165" y="122" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Shell 7.3%</text>
+  <text x="165" y="122" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Shell 7.4%</text>
   <circle cx="30" cy="138" r="5" fill="#dea584" />
   <text x="40" y="142" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Rust 7.3%</text>
   <circle cx="155" cy="138" r="5" fill="#ec915c" />
-  <text x="165" y="142" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Zig 5.9%</text>
+  <text x="165" y="142" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Zig 6.0%</text>
 </svg>
