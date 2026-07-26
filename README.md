@@ -232,17 +232,16 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 </details>
 
 <details>
-<summary><strong>Infrastructure & DevOps</strong> (12)</summary>
+<summary><strong>Infrastructure & DevOps</strong> (11)</summary>
 
-- [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · 6 days ago)*
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · 1 ★ · 6 days ago)*
+- [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · 1 week ago)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Dhall · 1 ★ · 1 week ago)*
 - [**Dell-7810**](https://github.com/Jesssullivan/Dell-7810) — Notes, instrumentation, configuration and monkey jabber on taking Dell 7810 servers way, way too far *(Shell · 1 ★ · 1 week ago)*
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible utility for dealing with out-of-band management / air gapped network devices, mostly f... *(Python · 2 ★ · Apr 2026)*
 - [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 ★ · Mar 2026)*
 - [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 1 ★ · Feb 2026)*
 - [**tinyland-kdbx**](https://github.com/Jesssullivan/tinyland-kdbx) — Native KeePassXC KDBX reader with base58 transport *(Python · 1 ★ · Feb 2026)*
 - [**Ansible-DAG-Harness**](https://github.com/Jesssullivan/Ansible-DAG-Harness) — A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... *(Python · 1 ★ · Feb 2026)*
-- [**searchies**](https://github.com/Jesssullivan/searchies) — hard AF searxng infra for uwu tinies *(Jinja · Apr 2025)*
 - [**ts-caddy**](https://github.com/Jesssullivan/ts-caddy) — Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo *(Jinja · Mar 2025)*
 - [**HCI-notes**](https://github.com/Jesssullivan/HCI-notes) — Misc. notes to share on switch to Proxmox from Harvester *(HCL · Feb 2025)*
 - [**LeafletSync**](https://github.com/Jesssullivan/LeafletSync) — Chindōgu utility prompt & CLI for fetching private releases & files from GitHub & BitBucket *(Shell · Jan 2021)*
@@ -252,11 +251,11 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (14)</summary>
 
-- [**prompt-toon**](https://github.com/Jesssullivan/prompt-toon) — Local agent research condenser with provenance-preserving prompt minimization and measured TOON s... *(C · yesterday)*
-- [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · 3 days ago)*
-- [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 3 ★ · 5 days ago)*
-- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 1 ★ · 6 days ago)*
-- [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable Zig crypto primitives with a stable C FFI: SHA-256, HMAC, AES-CBC, PBKDF2, P-256, Ed2551... *(Zig · 1 ★ · 6 days ago)*
+- [**prompt-toon**](https://github.com/Jesssullivan/prompt-toon) — Local agent research condenser with provenance-preserving prompt minimization and measured TOON s... *(C · 2 days ago)*
+- [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · 4 days ago)*
+- [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 3 ★ · 6 days ago)*
+- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 1 ★ · 1 week ago)*
+- [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable Zig crypto primitives with a stable C FFI: SHA-256, HMAC, AES-CBC, PBKDF2, P-256, Ed2551... *(Zig · 1 ★ · 1 week ago)*
 - [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · 1 week ago)*
 - [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 2 ★ · 3 weeks ago)*
 - [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 6 ★ · Apr 2026)*
@@ -284,9 +283,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Web & Apps</strong> (13)</summary>
 
+- [**darkmap.phasi.space**](https://github.com/Jesssullivan/darkmap.phasi.space) — Public dark-sky planning map for astronomy, field sensing, cycling, hiking, and low-light logistics *(TypeScript · today)*
 - [**dsa-woodshed.space**](https://github.com/Jesssullivan/dsa-woodshed.space) — Editor-first technical interview practice in Codespaces: ordinary reasoning comments, candidate-o... *(TypeScript · today)*
-- [**acuity-admin-skills**](https://github.com/Jesssullivan/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 1 ★ · 6 days ago)*
-- [**darkmap.phasi.space**](https://github.com/Jesssullivan/darkmap.phasi.space) — Public dark-sky planning map for astronomy, field sensing, cycling, hiking, and low-light logistics *(TypeScript · 1 week ago)*
+- [**acuity-admin-skills**](https://github.com/Jesssullivan/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 1 ★ · 1 week ago)*
 - [**minolta-x370-repair**](https://github.com/Jesssullivan/minolta-x370-repair) — x370 wind lever repair, nothing to see here *(TypeScript · 2 weeks ago)*
 - [**transfemme-tailoring**](https://github.com/Jesssullivan/transfemme-tailoring) — Build log + interactive alteration calculators for refitting masculine-cut formalwear into a tran... *(Svelte · 3 weeks ago)*
 - [**GIS_Shortcuts**](https://github.com/Jesssullivan/GIS_Shortcuts) — Jess's miscellaneous GIS notes and related tomfoolery  *(R · 2 ★ · Feb 2026)*
@@ -305,8 +304,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 
 - [**dsa-study-packet**](https://github.com/Jesssullivan/dsa-study-packet) — Company-neutral technical interview practice in a real editor: reason in comments, implement, wri... *(Python · today)*
 - [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — WIP.   *(Rust · 4 ★ · today)*
-- [**tailnet-trashmonitor**](https://github.com/Jesssullivan/tailnet-trashmonitor) — Tailscale + trash-based webcam streaming solution for monitoring the things; I actually use this ... *(Just · 6 days ago)*
-- [**canon-megatank-reset**](https://github.com/Jesssullivan/canon-megatank-reset) — Native-Linux, key-free, cloud-free reset for the Canon G-series MegaTank 5B00 'ink absorber full'... *(Python · 1 ★ · 6 days ago)*
+- [**tailnet-trashmonitor**](https://github.com/Jesssullivan/tailnet-trashmonitor) — Tailscale + trash-based webcam streaming solution for monitoring the things; I actually use this ... *(Just · 1 week ago)*
+- [**canon-megatank-reset**](https://github.com/Jesssullivan/canon-megatank-reset) — Native-Linux, key-free, cloud-free reset for the Canon G-series MegaTank 5B00 'ink absorber full'... *(Python · 1 ★ · 1 week ago)*
 - [**rules_tectonic**](https://github.com/Jesssullivan/rules_tectonic) — Bazel rules for compiling LaTeX to PDF with tectonic *(Starlark · 1 week ago)*
 - [**homebrew-omux**](https://github.com/Jesssullivan/homebrew-omux) — Public Homebrew tap for oauth-mux *(Ruby · 1 ★ · 2 weeks ago)*
 - [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · 1 ★ · 3 weeks ago)*
@@ -331,18 +330,18 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (4)</summary>
 
-- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, K8s HPA *(Shell · 2 ★ · today)*
 - [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · today)*
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Shell · 5 days ago)*
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 1 ★ · 6 days ago)*
+- [**GloriousFlywheel**](https://github.com/tinyland-inc/GloriousFlywheel) — Recursive IaC flywheel infrastructure system — Nix, Bazel, K8s HPA *(Shell · 2 ★ · today)*
+- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Shell · 6 days ago)*
+- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 1 ★ · 1 week ago)*
 
 </details>
 
 <details>
 <summary><strong>tinyland-inc / Web & Apps</strong> (5)</summary>
 
-- [**scheduling-bridge**](https://github.com/tinyland-inc/scheduling-bridge) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?  Serverside, headle... *(TypeScript · 1 ★ · yesterday)*
-- [**scheduling-bridge.tinyland.dev**](https://github.com/tinyland-inc/scheduling-bridge.tinyland.dev) — Brand site for scheduling-bridge — monadic booking middleware for hostile calendar stacks (brand ... *(Svelte · yesterday)*
+- [**scheduling-bridge**](https://github.com/tinyland-inc/scheduling-bridge) — Why pay for an API to rebuild a closed source wizard when you *are* a wizard?  Serverside, headle... *(TypeScript · 1 ★ · 2 days ago)*
+- [**scheduling-bridge.tinyland.dev**](https://github.com/tinyland-inc/scheduling-bridge.tinyland.dev) — Brand site for scheduling-bridge — monadic booking middleware for hostile calendar stacks (brand ... *(Svelte · 2 days ago)*
 - [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 1 week ago)*
 - [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 2 weeks ago)*
 - [**linear-gsuite**](https://github.com/tinyland-inc/linear-gsuite) — minimal Linear and Google Workspace automation surface for calenderable actions *(TypeScript · Apr 2026)*
@@ -357,7 +356,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 </details>
 
 *...and [53 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-07-25 06:56 UTC*
+*Last updated: 2026-07-26 07:04 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
@@ -383,7 +382,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 - [**Great-Falls-Tool-Bus/LA-Mesh**](https://github.com/Great-Falls-Tool-Bus/LA-Mesh) — LoRa infrastructure projects for Southern Maine. *(Svelte)*
 - [**DSA-Woodshed/.github**](https://github.com/DSA-Woodshed/.github) — Org profile for The DSA Woodshed
 - [**DSA-Woodshed/dsa-woodshed-infra**](https://github.com/DSA-Woodshed/dsa-woodshed-infra) — Reserved implementation overlay for The DSA Woodshed's remote-everything setup
-- [**DSA-Woodshed/dsa-woodshed-track-cpp**](https://github.com/DSA-Woodshed/dsa-woodshed-track-cpp) — Reserved track template for The DSA Woodshed (C++: DSA depth and bit-level fl...
+- [**DSA-Woodshed/dsa-woodshed-track-cpp**](https://github.com/DSA-Woodshed/dsa-woodshed-track-cpp) — Reserved track template for The DSA Woodshed (C++: memory layout, cache behav...
 - [**DSA-Woodshed/dsa-woodshed-track-r**](https://github.com/DSA-Woodshed/dsa-woodshed-track-r) — Reserved track template for The DSA Woodshed (R: array and matrix fluency wit...
 - [**DSA-Woodshed/dsa-woodshed-track-ts**](https://github.com/DSA-Woodshed/dsa-woodshed-track-ts) — Reserved track template for The DSA Woodshed (TypeScript/React: UX reasoning ...
 - [**Great-Falls-Tool-Bus/.github**](https://github.com/Great-Falls-Tool-Bus/.github) — Org profile stub oWo
