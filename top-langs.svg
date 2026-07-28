@@ -11,14 +11,14 @@
     </clipPath>
   </defs>
   <g clip-path="url(#bar-clip)">
-    <rect x="25.0" y="50" width="67.1" height="8" fill="#555555" />
-    <rect x="92.1" y="50" width="40.9" height="8" fill="#3572A5" />
-    <rect x="133.0" y="50" width="36.8" height="8" fill="#3178c6" />
+    <rect x="25.0" y="50" width="67.0" height="8" fill="#555555" />
+    <rect x="92.0" y="50" width="41.0" height="8" fill="#3572A5" />
+    <rect x="133.0" y="50" width="36.7" height="8" fill="#3178c6" />
     <rect x="169.8" y="50" width="26.8" height="8" fill="#f34b7d" />
-    <rect x="196.6" y="50" width="20.9" height="8" fill="#89e051" />
+    <rect x="196.6" y="50" width="21.0" height="8" fill="#89e051" />
     <rect x="217.6" y="50" width="20.8" height="8" fill="#00ADD8" />
-    <rect x="238.4" y="50" width="20.2" height="8" fill="#dea584" />
-    <rect x="258.5" y="50" width="16.5" height="8" fill="#ec915c" />
+    <rect x="238.4" y="50" width="20.1" height="8" fill="#dea584" />
+    <rect x="258.6" y="50" width="16.4" height="8" fill="#ec915c" />
   </g>
   <circle cx="30" cy="78" r="5" fill="#555555" />
   <text x="40" y="82" class="lang-name" fill="#434d58" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">C 26.8%</text>
