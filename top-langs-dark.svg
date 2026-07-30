@@ -29,7 +29,7 @@
   <circle cx="155" cy="98" r="5" fill="#f34b7d" />
   <text x="165" y="102" class="lang-name" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">C++ 10.7%</text>
   <circle cx="30" cy="118" r="5" fill="#89e051" />
-  <text x="40" y="122" class="lang-name" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Shell 8.4%</text>
+  <text x="40" y="122" class="lang-name" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Shell 8.5%</text>
   <circle cx="155" cy="118" r="5" fill="#00ADD8" />
   <text x="165" y="122" class="lang-name" fill="#a9fef7" font-size="11" font-family="'Segoe UI', Ubuntu, Sans-Serif">Go 8.3%</text>
   <circle cx="30" cy="138" r="5" fill="#dea584" />
