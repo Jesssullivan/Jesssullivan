@@ -13,7 +13,7 @@
   <g clip-path="url(#bar-clip)">
     <rect x="25.0" y="50" width="70.8" height="8" fill="#555555" />
     <rect x="95.8" y="50" width="38.7" height="8" fill="#f34b7d" />
-    <rect x="134.5" y="50" width="37.0" height="8" fill="#3572A5" />
+    <rect x="134.4" y="50" width="37.0" height="8" fill="#3572A5" />
     <rect x="171.5" y="50" width="33.1" height="8" fill="#3178c6" />
     <rect x="204.6" y="50" width="20.4" height="8" fill="#dea584" />
     <rect x="225.0" y="50" width="19.9" height="8" fill="#ec915c" />
