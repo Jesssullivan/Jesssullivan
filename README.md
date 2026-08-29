@@ -234,7 +234,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Infrastructure & DevOps</strong> (11)</summary>
 
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Python · 1 ★ · yesterday)*
+- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Python · 1 ★ · 2 days ago)*
 - [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · 2 weeks ago)*
 - [**Dell-7810**](https://github.com/Jesssullivan/Dell-7810) — Notes, instrumentation, configuration and monkey jabber on taking Dell 7810 servers way, way too far *(Shell · 1 ★ · Jul 2026)*
 - [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible utility for dealing with out-of-band management / air gapped network devices, mostly f... *(Python · 2 ★ · Apr 2026)*
@@ -251,10 +251,10 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>Hardware & Maker</strong> (14)</summary>
 
+- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 2 ★ · today)*
 - [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 3 ★ · today)*
-- [**prompt-toon**](https://github.com/Jesssullivan/prompt-toon) — Local agent research condenser with provenance-preserving prompt minimization and measured TOON s... *(C · 3 days ago)*
+- [**prompt-toon**](https://github.com/Jesssullivan/prompt-toon) — Local agent research condenser with provenance-preserving prompt minimization and measured TOON s... *(C · 4 days ago)*
 - [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · 1 week ago)*
-- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 2 ★ · 3 weeks ago)*
 - [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 1 ★ · Jul 2026)*
 - [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable Zig crypto primitives with a stable C FFI: SHA-256, HMAC, AES-CBC, PBKDF2, P-256, Ed2551... *(Zig · 1 ★ · Jul 2026)*
 - [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · Jul 2026)*
@@ -284,8 +284,8 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>Web & Apps</strong> (13)</summary>
 
 - [**darkmap.phasi.space**](https://github.com/Jesssullivan/darkmap.phasi.space) — Public dark-sky planning map for astronomy, field sensing, cycling, hiking, and low-light logistics *(TypeScript · today)*
-- [**dsa-woodshed.space**](https://github.com/Jesssullivan/dsa-woodshed.space) — Editor-first technical interview practice in Codespaces: ordinary reasoning comments, candidate-o... *(TypeScript · 2 days ago)*
-- [**transfemme-tailoring**](https://github.com/Jesssullivan/transfemme-tailoring) — Build log + interactive alteration calculators for refitting masculine-cut formalwear into a tran... *(Svelte · 2 weeks ago)*
+- [**dsa-woodshed.space**](https://github.com/Jesssullivan/dsa-woodshed.space) — Editor-first technical interview practice in Codespaces: ordinary reasoning comments, candidate-o... *(TypeScript · 3 days ago)*
+- [**transfemme-tailoring**](https://github.com/Jesssullivan/transfemme-tailoring) — Build log + interactive alteration calculators for refitting masculine-cut formalwear into a tran... *(Svelte · 3 weeks ago)*
 - [**acuity-admin-skills**](https://github.com/Jesssullivan/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 1 ★ · Jul 2026)*
 - [**minolta-x370-repair**](https://github.com/Jesssullivan/minolta-x370-repair) — x370 wind lever repair, nothing to see here *(TypeScript · Jul 2026)*
 - [**GIS_Shortcuts**](https://github.com/Jesssullivan/GIS_Shortcuts) — Jess's miscellaneous GIS notes and related tomfoolery  *(R · 2 ★ · Feb 2026)*
@@ -329,7 +329,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Languages & Compilers</strong> (1)</summary>
 
-- [**scheduling-kit**](https://github.com/tinyland-inc/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript · 1 ★ · today)*
+- [**scheduling-kit**](https://github.com/tinyland-inc/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript · 1 ★ · yesterday)*
 
 </details>
 
@@ -337,7 +337,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (2)</summary>
 
 - [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 1 ★ · today)*
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · today)*
+- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · yesterday)*
 
 </details>
 
@@ -352,9 +352,9 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 <details>
 <summary><strong>tinyland-inc / Web & Apps</strong> (4)</summary>
 
-- [**scheduling-bridge.tinyland.dev**](https://github.com/tinyland-inc/scheduling-bridge.tinyland.dev) — Brand site for scheduling-bridge — monadic booking middleware for hostile calendar stacks (brand ... *(Svelte · today)*
-- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 1 week ago)*
-- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 1 week ago)*
+- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · today)*
+- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · today)*
+- [**scheduling-bridge.tinyland.dev**](https://github.com/tinyland-inc/scheduling-bridge.tinyland.dev) — Brand site for scheduling-bridge — monadic booking middleware for hostile calendar stacks (brand ... *(Svelte · yesterday)*
 - [**linear-gsuite**](https://github.com/tinyland-inc/linear-gsuite) — minimal Linear and Google Workspace automation surface for calenderable actions *(TypeScript · Apr 2026)*
 
 </details>
@@ -368,7 +368,7 @@ Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca — org
 </details>
 
 *...and [53 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-08-28 09:22 UTC*
+*Last updated: 2026-08-29 06:28 UTC*
 <!--END_SECTION:repos-->
 
 <!--START_SECTION:foss-->
