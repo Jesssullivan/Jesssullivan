@@ -7,7 +7,7 @@
   <img alt="Jess Sullivan: Senior Full-Stack & Systems Engineer · 8+ years. Full-Stack & Product · DevSecOps · ML / Computer Vision · Compilers & HPC · Kernel & Security Research." src="svg/header-light.svg" width="100%">
 </picture>
 
-[GitHub](https://github.com/Jesssullivan) · [Blog](https://transscendsurvival.org) · [CV](https://transscendsurvival.org/cv) · [LinkedIn](https://www.linkedin.com/in/jess-sullivan-11032a367/) · [xoxd.ai](https://xoxd.ai) · [xoxd.ai on GitHub](https://github.com/xoxd-ai) · [Great Falls Tool Bus](https://greatfallstoolbus.org) · [Email](mailto:jess@sulliwood.org) · <a href="https://www.fightforthefuture.org/"><img alt="Member of The Internet Defense League" src="img/idl_badge.png" height="20"></a>
+[GitHub](https://github.com/Jesssullivan) · [Blog](https://transscendsurvival.org) · [CV](https://transscendsurvival.org/cv) · [AAG poster](https://transscendsurvival.org/aag) · [LinkedIn](https://www.linkedin.com/in/jess-sullivan-11032a367/) · [xoxd.ai](https://xoxd.ai) · [xoxd.ai on GitHub](https://github.com/xoxd-ai) · [Great Falls Tool Bus](https://greatfallstoolbus.org) · [Email](mailto:jess@sulliwood.org) · <a href="https://www.fightforthefuture.org/"><img alt="Member of The Internet Defense League" src="img/idl_badge.png" height="20"></a>
 
 Senior full-stack and systems engineer with 8+ years building software across TypeScript/SvelteKit, Python, Go, C++, Rust, Zig, Chapel, Haskell, and Nix-first infrastructure.
 
