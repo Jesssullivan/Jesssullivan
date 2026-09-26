@@ -93,7 +93,7 @@ Senior full-stack and systems engineer with 8+ years building software across Ty
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="svg/upstream-dark.svg">
-  <img alt="Merged upstream work, one mark per project at its latest merge date: llama.cpp (2026-09-25); nixpkgs (2026-06-04); KeePassXC (2026-05-27, committer); ShikiJS textmate-grammars-themes (2026-05-19); numtide/nix-vm-test (2026-04-22); cmux (2026-03-21); rspamd (2026-03-09, committer); svelte-superforms (2026-02-22); Futhark (2026-02-10); Chapel Mason registry (2026-01-16, committer); xCaddy (2025-05-05); Klipper (2023-03-28). Counted as projects, not pull requests." src="svg/upstream-light.svg" width="100%">
+  <img alt="Merged upstream work, one mark per project at its latest merge date: llama.cpp (2026-09-25); nixpkgs (2026-06-04); KeePassXC (2026-05-27, committer); ShikiJS textmate-grammars-themes (2026-05-19); numtide/nix-vm-test (2026-04-22); cmux (2026-03-21); rspamd (2026-03-09, committer); svelte-superforms (2026-02-22); Futhark (2026-02-10); Chapel Mason registry (2026-01-16, committer); xCaddy (2025-05-05); Klipper (2023-03-28); FFT.js (2021-01-11); Joplin (2020-08-02). Counted as projects, not pull requests." src="svg/upstream-light.svg" width="100%">
 </picture>
 
 <details><summary>Data</summary>
@@ -112,6 +112,8 @@ Senior full-stack and systems engineer with 8+ years building software across Ty
 | Chapel Mason registry | 2026-01-16 | Committer | [pull request](https://github.com/chapel-lang/mason-registry/pull/77) |
 | xCaddy | 2025-05-05 | Merged pull request | [pull request](https://github.com/caddyserver/xcaddy/pull/238) |
 | Klipper | 2023-03-28 | Merged pull request | [pull request](https://github.com/Klipper3d/klipper/pull/6112) |
+| FFT.js | 2021-01-11 | Merged pull request | [pull request](https://github.com/indutny/fft.js/pull/13) |
+| Joplin | 2020-08-02 | Merged pull request | [pull request](https://github.com/laurent22/joplin/pull/3570) |
 
 </details>
 
