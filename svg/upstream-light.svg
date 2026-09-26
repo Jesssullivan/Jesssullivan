@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 594" width="960" height="594" role="img" aria-labelledby="upstream-light-t" aria-describedby="upstream-light-d"><title id="upstream-light-t">Merged upstream work</title><desc id="upstream-light-d">Upstream open-source projects where Jess's changes merged, one mark per project at its latest merge date: llama.cpp (2026-09-25); nixpkgs (2026-06-04); KeePassXC (2026-05-27, committer); ShikiJS textmate-grammars-themes (2026-05-19); numtide/nix-vm-test (2026-04-22); cmux (2026-03-21); rspamd (2026-03-09, committer); svelte-superforms (2026-02-22); Futhark (2026-02-10); Chapel Mason registry (2026-01-16, committer); xCaddy (2025-05-05); Klipper (2023-03-28); FFT.js (2021-01-11); Joplin (2020-08-02). Projects are counted, not pull requests; open pull requests are not shown.</desc><style>text{font-family:'Inter', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#1d2218}.t-title{font-size:20px;font-weight:700;fill:#6c5933}.t-sub{font-size:13px;fill:#56554f}.t-cap{font-size:11.5px;fill:#56554f;font-style:italic;font-family:'Crimson Pro', Georgia, 'Times New Roman', serif}.t-lab{font-size:12px;fill:#1d2218}.t-small{font-size:11px;fill:#56554f}.t-hd{font-size:11px;font-weight:700;letter-spacing:.06em;fill:#56554f}.t-mono{font-family:'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:11px;fill:#56554f}.fade{animation:fade 500ms ease-out backwards}@keyframes fade{from{opacity:0}}.pop{transform-box:fill-box;transform-origin:center;animation:pop 500ms cubic-bezier(.2,.8,.2,1) backwards}@keyframes pop{from{opacity:0;transform:scale(.2)}}@media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}</style><rect x=".5" y=".5" width="959" height="593" fill="#edede5" stroke="#acb6a1"/><text x="24" y="38" class="t-title">Merged upstream work</text>
+<text x="24" y="60" class="t-sub">One mark per project, at its latest merge date. Projects, not pull-request counts.</text>
+<g transform="translate(30 80)"><path d="M0 -6.6L6.6 0L0 6.6L-6.6 0Z" fill="#914473"/></g>
+<text x="40" y="84" class="t-small">Committer</text>
+<g transform="translate(123.2 80)"><path d="M-5 0A5 5 0 1 0 5 0A5 5 0 1 0 -5 0Z" fill="#91743f"/></g>
+<text x="133.2" y="84" class="t-small">Merged pull request</text>
+<line x1="300" y1="96" x2="300" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<text x="344.3" y="542" class="t-mono" text-anchor="middle">2020</text>
+<line x1="388.6" y1="96" x2="388.6" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<text x="432.9" y="542" class="t-mono" text-anchor="middle">2021</text>
+<line x1="477.1" y1="96" x2="477.1" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<text x="521.4" y="542" class="t-mono" text-anchor="middle">2022</text>
+<line x1="565.7" y1="96" x2="565.7" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<text x="610" y="542" class="t-mono" text-anchor="middle">2023</text>
+<line x1="654.3" y1="96" x2="654.3" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<text x="698.6" y="542" class="t-mono" text-anchor="middle">2024</text>
+<line x1="742.9" y1="96" x2="742.9" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<text x="787.1" y="542" class="t-mono" text-anchor="middle">2025</text>
+<line x1="831.4" y1="96" x2="831.4" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<text x="875.7" y="542" class="t-mono" text-anchor="middle">2026</text>
+<line x1="920" y1="96" x2="920" y2="524" stroke="#c3c8ba" stroke-width="1"/>
+<line x1="300" y1="119" x2="920" y2="119" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="123" class="t-lab fade" style="animation-delay:150ms">llama.cpp</text>
+<g transform="translate(896.2 119)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:400ms"/></g>
+<line x1="300" y1="149" x2="920" y2="149" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="153" class="t-lab fade" style="animation-delay:220ms">nixpkgs</text>
+<g transform="translate(868.8 149)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:470ms"/></g>
+<line x1="300" y1="179" x2="920" y2="179" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="183" class="t-lab fade" style="animation-delay:290ms">KeePassXC</text>
+<g transform="translate(866.9 179)"><path class="pop" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#914473" style="animation-delay:540ms"/></g>
+<line x1="300" y1="209" x2="920" y2="209" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="213" class="t-lab fade" style="animation-delay:360ms">ShikiJS textmate-grammars-themes</text>
+<g transform="translate(864.9 209)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:610ms"/></g>
+<line x1="300" y1="239" x2="920" y2="239" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="243" class="t-lab fade" style="animation-delay:430ms">numtide/nix-vm-test</text>
+<g transform="translate(858.4 239)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:680ms"/></g>
+<line x1="300" y1="269" x2="920" y2="269" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="273" class="t-lab fade" style="animation-delay:500ms">cmux</text>
+<g transform="translate(850.6 269)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:750ms"/></g>
+<line x1="300" y1="299" x2="920" y2="299" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="303" class="t-lab fade" style="animation-delay:570ms">rspamd</text>
+<g transform="translate(847.7 299)"><path class="pop" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#914473" style="animation-delay:820ms"/></g>
+<line x1="300" y1="329" x2="920" y2="329" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="333" class="t-lab fade" style="animation-delay:640ms">svelte-superforms</text>
+<g transform="translate(844 329)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:890ms"/></g>
+<line x1="300" y1="359" x2="920" y2="359" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="363" class="t-lab fade" style="animation-delay:710ms">Futhark</text>
+<g transform="translate(841.1 359)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:960ms"/></g>
+<line x1="300" y1="389" x2="920" y2="389" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="393" class="t-lab fade" style="animation-delay:780ms">Chapel Mason registry</text>
+<g transform="translate(835.1 389)"><path class="pop" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#914473" style="animation-delay:1030ms"/></g>
+<line x1="300" y1="419" x2="920" y2="419" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="423" class="t-lab fade" style="animation-delay:850ms">xCaddy</text>
+<g transform="translate(772.9 419)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:1100ms"/></g>
+<line x1="300" y1="449" x2="920" y2="449" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="453" class="t-lab fade" style="animation-delay:920ms">Klipper</text>
+<g transform="translate(586.6 449)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:1170ms"/></g>
+<line x1="300" y1="479" x2="920" y2="479" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="483" class="t-lab fade" style="animation-delay:990ms">FFT.js</text>
+<g transform="translate(391 479)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:1240ms"/></g>
+<line x1="300" y1="509" x2="920" y2="509" stroke="#c3c8ba" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="24" y="513" class="t-lab fade" style="animation-delay:1060ms">Joplin</text>
+<g transform="translate(351.8 509)"><path class="pop" d="M-5.5 0A5.5 5.5 0 1 0 5.5 0A5.5 5.5 0 1 0 -5.5 0Z" fill="#91743f" style="animation-delay:1310ms"/></g>
+<text x="24" y="578" class="t-cap">Open pull requests are not shown.</text></svg>
