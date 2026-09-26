@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 402" width="960" height="402" role="img" aria-labelledby="languages-dark-t" aria-describedby="languages-dark-d"><title id="languages-dark-t">Language mix</title><desc id="languages-dark-d">Language mix across the mapped public repositories, each repository weighted equally: TypeScript 31%; Python 22%; C 6%; Zig 5%; Starlark 4%; Shell 4%; Chapel 3%; R 3%; Other 22%.</desc><style>text{font-family:'Inter', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#d8dbd4}.t-title{font-size:20px;font-weight:700;fill:#c3aa84}.t-sub{font-size:13px;fill:#97a489}.t-cap{font-size:11.5px;fill:#97a489;font-style:italic;font-family:'Crimson Pro', Georgia, 'Times New Roman', serif}.t-lab{font-size:12px;fill:#d8dbd4}.t-small{font-size:11px;fill:#97a489}.t-hd{font-size:11px;font-weight:700;letter-spacing:.06em;fill:#97a489}.t-mono{font-family:'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:11px;fill:#97a489}.bar{transform-box:fill-box;transform-origin:0 50%;animation:grow 800ms cubic-bezier(.2,.8,.2,1) backwards}@keyframes grow{from{transform:scaleX(0)}}.fade{animation:fade 500ms ease-out backwards}@keyframes fade{from{opacity:0}}@media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}</style><rect x=".5" y=".5" width="959" height="401" fill="#1d2218" stroke="#3d4635"/><text x="24" y="38" class="t-title">Language mix</text>
+<text x="24" y="60" class="t-sub">Share of code by language across the mapped repositories, each repository weighted equally.</text>
+<text x="158" y="103" class="t-lab" text-anchor="end">TypeScript</text>
+<rect class="bar" x="170" y="93" width="690" height="14" fill="#c3aa84" style="animation-delay:150ms"/>
+<text x="868" y="104" class="t-mono fade" style="animation-delay:650ms">31%</text>
+<text x="158" y="133" class="t-lab" text-anchor="end">Python</text>
+<rect class="bar" x="170" y="123" width="491.4" height="14" fill="#c3aa84" style="animation-delay:240ms"/>
+<text x="669.4" y="134" class="t-mono fade" style="animation-delay:740ms">22%</text>
+<text x="158" y="163" class="t-lab" text-anchor="end">C</text>
+<rect class="bar" x="170" y="153" width="126.3" height="14" fill="#c3aa84" style="animation-delay:330ms"/>
+<text x="304.3" y="164" class="t-mono fade" style="animation-delay:830ms">6%</text>
+<text x="158" y="193" class="t-lab" text-anchor="end">Zig</text>
+<rect class="bar" x="170" y="183" width="118.4" height="14" fill="#c3aa84" style="animation-delay:420ms"/>
+<text x="296.4" y="194" class="t-mono fade" style="animation-delay:920ms">5%</text>
+<text x="158" y="223" class="t-lab" text-anchor="end">Starlark</text>
+<rect class="bar" x="170" y="213" width="85.2" height="14" fill="#c3aa84" style="animation-delay:510ms"/>
+<text x="263.2" y="224" class="t-mono fade" style="animation-delay:1010ms">4%</text>
+<text x="158" y="253" class="t-lab" text-anchor="end">Shell</text>
+<rect class="bar" x="170" y="243" width="82.3" height="14" fill="#c3aa84" style="animation-delay:600ms"/>
+<text x="260.3" y="254" class="t-mono fade" style="animation-delay:1100ms">4%</text>
+<text x="158" y="283" class="t-lab" text-anchor="end">Chapel</text>
+<rect class="bar" x="170" y="273" width="65.4" height="14" fill="#c3aa84" style="animation-delay:690ms"/>
+<text x="243.4" y="284" class="t-mono fade" style="animation-delay:1190ms">3%</text>
+<text x="158" y="313" class="t-lab" text-anchor="end">R</text>
+<rect class="bar" x="170" y="303" width="63.1" height="14" fill="#c3aa84" style="animation-delay:780ms"/>
+<text x="241.1" y="314" class="t-mono fade" style="animation-delay:1280ms">3%</text>
+<text x="158" y="343" class="t-lab" text-anchor="end">Other</text>
+<rect class="bar" x="170" y="333" width="480" height="14" fill="#97a489" style="animation-delay:870ms"/>
+<text x="658" y="344" class="t-mono fade" style="animation-delay:1370ms">22%</text>
+<text x="24" y="386" class="t-cap">From a committed snapshot of GitHub language data. Percentages only.</text></svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 740" width="960" height="740" role="img" aria-labelledby="project-map-dark-t" aria-describedby="project-map-dark-d"><title id="project-map-dark-t">Project map</title><desc id="project-map-dark-d">A map of the public repositories on this profile, each drawn as a marker whose color and shape give its claim category: Applied ML &amp; classification; Kernel, firmware &amp; security research; Compilers, HPC &amp; functional compute; Systems libraries &amp; tools; Build systems &amp; infrastructure; Software-lifecycle automation; Web product &amp; libraries; GIS, fabrication &amp; community. Nearby markers have similar README, description and topic text; the axes and the distances between groups carry no meaning. The full list is in the Data table under the image.</desc><style>text{font-family:'Inter', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#d8dbd4}.t-title{font-size:20px;font-weight:700;fill:#c3aa84}.t-sub{font-size:13px;fill:#97a489}.t-cap{font-size:11.5px;fill:#97a489;font-style:italic;font-family:'Crimson Pro', Georgia, 'Times New Roman', serif}.t-lab{font-size:12px;fill:#d8dbd4}.t-small{font-size:11px;fill:#97a489}.t-hd{font-size:11px;font-weight:700;letter-spacing:.06em;fill:#97a489}.t-mono{font-family:'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:11px;fill:#97a489}.pt{stroke:#d8dbd4;stroke-width:1;transform-box:fill-box;transform-origin:center;animation:pt-in 900ms cubic-bezier(.2,.8,.2,1) backwards}@keyframes pt-in{from{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.3)}}.dim{opacity:.28}.sw{stroke:#d8dbd4;stroke-width:1}.fade{animation:fade 600ms ease-out backwards}@keyframes fade{from{opacity:0}}.rise{animation:rise 600ms ease-out backwards}@keyframes rise{from{opacity:0;transform:translateY(6px)}}.ld{fill:none;stroke:#97a489;stroke-width:1;stroke-dasharray:1;animation:draw 500ms ease-out backwards}@keyframes draw{from{stroke-dashoffset:1}}@media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}</style><rect x=".5" y=".5" width="959" height="739" fill="#1d2218" stroke="#3d4635"/><text x="24" y="38" class="t-title">Project map</text>
+<text x="24" y="60" class="t-sub">Public repositories placed by the text of their READMEs, descriptions and topics.</text>
+<g transform="translate(556 301.7)"><path class="pt" d="M-6.5 0A6.5 6.5 0 1 0 6.5 0A6.5 6.5 0 1 0 -6.5 0Z" fill="#ad5d8e" style="--dx:9.9px;--dy:-0.3px;animation-delay:200ms"/></g>
+<g transform="translate(568.2 291.3)"><path class="pt" d="M-6.5 0A6.5 6.5 0 1 0 6.5 0A6.5 6.5 0 1 0 -6.5 0Z" fill="#ad5d8e" style="--dx:-2.3px;--dy:10.2px;animation-delay:230ms"/></g>
+<g transform="translate(573.4 311.4)"><path class="pt" d="M-6.5 0A6.5 6.5 0 1 0 6.5 0A6.5 6.5 0 1 0 -6.5 0Z" fill="#ad5d8e" style="--dx:-7.5px;--dy:-9.9px;animation-delay:260ms"/></g>
+<g transform="translate(328.6 154.3)"><path class="pt" d="M-5.6 -5.6L5.6 -5.6L5.6 5.6L-5.6 5.6Z" fill="#df2225" style="--dx:14.7px;--dy:-25.1px;animation-delay:440ms"/></g>
+<g transform="translate(331.1 129.7)"><path class="pt" d="M-5.6 -5.6L5.6 -5.6L5.6 5.6L-5.6 5.6Z" fill="#df2225" style="--dx:12.1px;--dy:-0.4px;animation-delay:470ms"/></g>
+<g transform="translate(343.4 104)"><path class="pt" d="M-5.6 -5.6L5.6 -5.6L5.6 5.6L-5.6 5.6Z" fill="#df2225" style="--dx:-0.2px;--dy:25.3px;animation-delay:500ms"/></g>
+<g transform="translate(351.6 122.8)"><path class="pt" d="M-5.6 -5.6L5.6 -5.6L5.6 5.6L-5.6 5.6Z" fill="#df2225" style="--dx:-8.4px;--dy:6.4px;animation-delay:530ms"/></g>
+<g transform="translate(361.4 135.5)"><path class="pt" d="M-5.6 -5.6L5.6 -5.6L5.6 5.6L-5.6 5.6Z" fill="#df2225" style="--dx:-18.2px;--dy:-6.2px;animation-delay:560ms"/></g>
+<g transform="translate(323.8 375.4)"><path class="pt" d="M0 -7.8L7.4 5.5L-7.4 5.5Z" fill="#00a0a6" style="--dx:14.6px;--dy:2.1px;animation-delay:680ms"/></g>
+<g transform="translate(324.6 359.4)"><path class="pt" d="M0 -7.8L7.4 5.5L-7.4 5.5Z" fill="#00a0a6" style="--dx:13.8px;--dy:18.1px;animation-delay:710ms"/></g>
+<g transform="translate(351.8 395.6)"><path class="pt" d="M0 -7.8L7.4 5.5L-7.4 5.5Z" fill="#00a0a6" style="--dx:-13.3px;--dy:-18.1px;animation-delay:740ms"/></g>
+<g transform="translate(353.6 379.7)"><path class="pt" d="M0 -7.8L7.4 5.5L-7.4 5.5Z" fill="#00a0a6" style="--dx:-15.2px;--dy:-2.2px;animation-delay:770ms"/></g>
+<g transform="translate(223.3 255.9)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:32.5px;--dy:-23.4px;animation-delay:920ms"/></g>
+<g transform="translate(237.3 242.7)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:18.5px;--dy:-10.1px;animation-delay:950ms"/></g>
+<g transform="translate(239.8 206.2)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:16.1px;--dy:26.4px;animation-delay:980ms"/></g>
+<g transform="translate(240.8 265.7)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:15.1px;--dy:-33.1px;animation-delay:1010ms"/></g>
+<g transform="translate(253 246.1)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:2.9px;--dy:-13.5px;animation-delay:1040ms"/></g>
+<g transform="translate(279.8 235.9)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:-23.9px;--dy:-3.3px;animation-delay:1070ms"/></g>
+<g transform="translate(281.8 210.6)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:-25.9px;--dy:22px;animation-delay:1100ms"/></g>
+<g transform="translate(291.2 197.6)"><path class="pt" d="M0 -7.8L7.8 0L0 7.8L-7.8 0Z" fill="#b08134" style="--dx:-35.3px;--dy:35px;animation-delay:1130ms"/></g>
+<g transform="translate(495 162.4)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:35.7px;--dy:-22.2px;animation-delay:1160ms"/></g>
+<g transform="translate(499.5 127.1)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:31.2px;--dy:13.1px;animation-delay:1190ms"/></g>
+<g transform="translate(510.7 165.7)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:20px;--dy:-25.5px;animation-delay:1220ms"/></g>
+<g transform="translate(521.6 130.2)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:9.1px;--dy:10px;animation-delay:1250ms"/></g>
+<g transform="translate(535.4 151.2)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:-4.7px;--dy:-11px;animation-delay:1280ms"/></g>
+<g transform="translate(550.8 113.2)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:-20.1px;--dy:27px;animation-delay:1310ms"/></g>
+<g transform="translate(560.2 141)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:-29.5px;--dy:-0.8px;animation-delay:1340ms"/></g>
+<g transform="translate(572.3 130.6)"><path class="pt" d="M0 7.8L7.4 -5.5L-7.4 -5.5Z" fill="#007e9a" style="--dx:-41.6px;--dy:9.6px;animation-delay:1370ms"/></g>
+<g transform="translate(395.3 261.6)"><path class="pt" d="M5.9 3.4L0 6.8L-5.9 3.4L-5.9 -3.4L0 -6.8L5.9 -3.4Z" fill="#b26df6" style="--dx:28.2px;--dy:3.2px;animation-delay:1400ms"/></g>
+<g transform="translate(414.7 242.7)"><path class="pt" d="M5.9 3.4L0 6.8L-5.9 3.4L-5.9 -3.4L0 -6.8L5.9 -3.4Z" fill="#b26df6" style="--dx:8.8px;--dy:22.1px;animation-delay:1430ms"/></g>
+<g transform="translate(419.4 271.9)"><path class="pt" d="M5.9 3.4L0 6.8L-5.9 3.4L-5.9 -3.4L0 -6.8L5.9 -3.4Z" fill="#b26df6" style="--dx:4.1px;--dy:-7px;animation-delay:1460ms"/></g>
+<g transform="translate(427.2 252.7)"><path class="pt" d="M5.9 3.4L0 6.8L-5.9 3.4L-5.9 -3.4L0 -6.8L5.9 -3.4Z" fill="#b26df6" style="--dx:-3.7px;--dy:12.1px;animation-delay:1490ms"/></g>
+<g transform="translate(434.3 289.8)"><path class="pt" d="M5.9 3.4L0 6.8L-5.9 3.4L-5.9 -3.4L0 -6.8L5.9 -3.4Z" fill="#b26df6" style="--dx:-10.8px;--dy:-25px;animation-delay:1520ms"/></g>
+<g transform="translate(450.2 270.3)"><path class="pt" d="M5.9 3.4L0 6.8L-5.9 3.4L-5.9 -3.4L0 -6.8L5.9 -3.4Z" fill="#b26df6" style="--dx:-26.7px;--dy:-5.5px;animation-delay:1550ms"/></g>
+<g transform="translate(381.7 572.6)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:78.4px;--dy:-36.1px;animation-delay:1640ms"/></g>
+<g transform="translate(384.2 556.8)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:75.9px;--dy:-20.3px;animation-delay:1670ms"/></g>
+<g transform="translate(408.1 493.6)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:52px;--dy:42.9px;animation-delay:1700ms"/></g>
+<g transform="translate(410.2 564.5)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:49.9px;--dy:-28px;animation-delay:1730ms"/></g>
+<g transform="translate(431.6 497.5)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:28.5px;--dy:39px;animation-delay:1760ms"/></g>
+<g transform="translate(439.4 604)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:20.7px;--dy:-67.5px;animation-delay:1790ms"/></g>
+<g transform="translate(446.8 502.6)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:13.3px;--dy:33.9px;animation-delay:1820ms"/></g>
+<g transform="translate(449.7 531.1)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:10.4px;--dy:5.4px;animation-delay:1850ms"/></g>
+<g transform="translate(451.8 549.1)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:8.3px;--dy:-12.6px;animation-delay:1880ms"/></g>
+<g transform="translate(455.4 604)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:4.7px;--dy:-67.5px;animation-delay:1910ms"/></g>
+<g transform="translate(477.9 510.1)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-17.8px;--dy:26.4px;animation-delay:1940ms"/></g>
+<g transform="translate(478.5 603.5)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-18.3px;--dy:-67px;animation-delay:1970ms"/></g>
+<g transform="translate(480.5 461.8)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-20.4px;--dy:74.7px;animation-delay:2000ms"/></g>
+<g transform="translate(487.7 548.6)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-27.6px;--dy:-12.1px;animation-delay:2030ms"/></g>
+<g transform="translate(490.9 489.2)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-30.7px;--dy:47.3px;animation-delay:2060ms"/></g>
+<g transform="translate(495.9 588.6)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-35.8px;--dy:-52.1px;animation-delay:2090ms"/></g>
+<g transform="translate(505.6 495.5)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-45.5px;--dy:41px;animation-delay:2120ms"/></g>
+<g transform="translate(531.9 502.4)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-71.8px;--dy:34.1px;animation-delay:2150ms"/></g>
+<g transform="translate(534.4 518.2)"><path class="pt" d="M0 -8.1L2.1 -2.9L7.7 -2.5L3.4 1.1L4.8 6.6L0 3.6L-4.8 6.6L-3.4 1.1L-7.7 -2.5L-2.1 -2.9Z" fill="#9c4700" style="--dx:-74.3px;--dy:18.3px;animation-delay:2180ms"/></g>
+<g transform="translate(679.2 260.8)"><path class="pt" d="M-2.5 -7.2L2.5 -7.2L2.5 -2.5L7.2 -2.5L7.2 2.5L2.5 2.5L2.5 7.2L-2.5 7.2L-2.5 2.5L-7.2 2.5L-7.2 -2.5L-2.5 -2.5Z" fill="#159b05" style="--dx:26.5px;--dy:14.7px;animation-delay:1880ms"/></g>
+<g transform="translate(679.2 276.8)"><path class="pt" d="M-2.5 -7.2L2.5 -7.2L2.5 -2.5L7.2 -2.5L7.2 2.5L2.5 2.5L2.5 7.2L-2.5 7.2L-2.5 2.5L-7.2 2.5L-7.2 -2.5L-2.5 -2.5Z" fill="#159b05" style="--dx:26.5px;--dy:-1.3px;animation-delay:1910ms"/></g>
+<g transform="translate(700.7 303.2)"><path class="pt" d="M-2.5 -7.2L2.5 -7.2L2.5 -2.5L7.2 -2.5L7.2 2.5L2.5 2.5L2.5 7.2L-2.5 7.2L-2.5 2.5L-7.2 2.5L-7.2 -2.5L-2.5 -2.5Z" fill="#159b05" style="--dx:5px;--dy:-27.7px;animation-delay:1940ms"/></g>
+<g transform="translate(712 266.2)"><path class="pt" d="M-2.5 -7.2L2.5 -7.2L2.5 -2.5L7.2 -2.5L7.2 2.5L2.5 2.5L2.5 7.2L-2.5 7.2L-2.5 2.5L-7.2 2.5L-7.2 -2.5L-2.5 -2.5Z" fill="#159b05" style="--dx:-6.3px;--dy:9.2px;animation-delay:1970ms"/></g>
+<g transform="translate(712 291.9)"><path class="pt" d="M-2.5 -7.2L2.5 -7.2L2.5 -2.5L7.2 -2.5L7.2 2.5L2.5 2.5L2.5 7.2L-2.5 7.2L-2.5 2.5L-7.2 2.5L-7.2 -2.5L-2.5 -2.5Z" fill="#159b05" style="--dx:-6.3px;--dy:-16.4px;animation-delay:2000ms"/></g>
+<g transform="translate(720.2 251.8)"><path class="pt" d="M-2.5 -7.2L2.5 -7.2L2.5 -2.5L7.2 -2.5L7.2 2.5L2.5 2.5L2.5 7.2L-2.5 7.2L-2.5 2.5L-7.2 2.5L-7.2 -2.5L-2.5 -2.5Z" fill="#159b05" style="--dx:-14.5px;--dy:23.6px;animation-delay:2030ms"/></g>
+<g transform="translate(736.7 277.5)"><path class="pt" d="M-2.5 -7.2L2.5 -7.2L2.5 -2.5L7.2 -2.5L7.2 2.5L2.5 2.5L2.5 7.2L-2.5 7.2L-2.5 2.5L-7.2 2.5L-7.2 -2.5L-2.5 -2.5Z" fill="#159b05" style="--dx:-30.9px;--dy:-2.1px;animation-delay:2060ms"/></g>
+<text x="565.9" y="277.3" text-anchor="middle" class="t-hd rise" style="animation-delay:580ms">Applied ML &amp; classification</text>
+<text x="343.2" y="90" text-anchor="middle" class="t-hd rise" style="animation-delay:820ms">Kernel, firmware &amp; security research</text>
+<text x="338.4" y="345.4" text-anchor="middle" class="t-hd rise" style="animation-delay:1060ms">Compilers, HPC &amp; functional compute</text>
+<text x="255.9" y="183.6" text-anchor="middle" class="t-hd rise" style="animation-delay:1300ms">Systems libraries &amp; tools</text>
+<text x="563.3" y="93.4" text-anchor="middle" class="t-hd rise" style="animation-delay:1540ms">Build systems &amp; infrastructure</text>
+<text x="423.5" y="228.7" text-anchor="middle" class="t-hd rise" style="animation-delay:1780ms">Software-lifecycle automation</text>
+<text x="460.1" y="447.8" text-anchor="middle" class="t-hd rise" style="animation-delay:2020ms">Web product &amp; libraries</text>
+<text x="705.7" y="237.8" text-anchor="middle" class="t-hd rise" style="animation-delay:2260ms">GIS, fabrication &amp; community</text>
+<path class="ld" pathLength="1" d="M574.5 295.4L607.1 316.5" style="animation-delay:2620ms"/>
+<text x="611.1" y="330.5" class="t-lab fade" style="animation-delay:2920ms"><tspan x="611.1" dy="0">birdsong-identification interpreter</tspan><tspan x="611.1" dy="14.5">experiments and demos</tspan></text>
+<path class="ld" pathLength="1" d="M577.1 317.9L592.6 346" style="animation-delay:2760ms"/>
+<text x="596.6" y="360" class="t-lab fade" style="animation-delay:3060ms"><tspan x="596.6" dy="0">image-based mushroom</tspan><tspan x="596.6" dy="14.5">identification experiments for</tspan><tspan x="596.6" dy="14.5">MushroomObserver</tspan></text>
+<path class="ld" pathLength="1" d="M368.9 136L574.9 150.2" style="animation-delay:2900ms"/>
+<text x="578.9" y="164.2" class="t-lab fade" style="animation-delay:3200ms"><tspan x="578.9" dy="0">ASM2362 NVMe recovery</tspan><tspan x="578.9" dy="14.5">experiments and FTL-corruption</tspan><tspan x="578.9" dy="14.5">research</tspan></text>
+<path class="ld" pathLength="1" d="M344.1 122.8L317.8 122.8" style="animation-delay:3040ms"/>
+<text x="313.8" y="119.9" text-anchor="end" class="t-lab fade" style="animation-delay:3340ms"><tspan x="313.8" dy="0">key-free, native-Linux recovery</tspan><tspan x="313.8" dy="14.5">tooling for Canon MegaTank printers'</tspan><tspan x="313.8" dy="14.5">ink-absorber lockout</tspan></text>
+<path class="ld" pathLength="1" d="M361.1 379.7L371.6 379.7" style="animation-delay:3180ms"/>
+<text x="375.6" y="385.7" class="t-lab fade" style="animation-delay:3480ms"><tspan x="375.6" dy="0">property-based testing package for</tspan><tspan x="375.6" dy="14.5">Chapel</tspan></text>
+<path class="ld" pathLength="1" d="M317.1 359.4L306.6 359.4" style="animation-delay:3320ms"/>
+<text x="302.6" y="365.4" text-anchor="end" class="t-lab fade" style="animation-delay:3620ms"><tspan x="302.6" dy="0">provenance-clean Bessel functions</tspan><tspan x="302.6" dy="14.5">(J0, J1 and J1 roots) for Futhark</tspan></text>
+<path class="ld" pathLength="1" d="M240.8 258.2L240.8 233.9" style="animation-delay:3460ms"/>
+<path class="ld" pathLength="1" d="M223.3 248.4L223.3 233.9" style="animation-delay:3460ms"/>
+<text x="252.8" y="228.4" text-anchor="end" class="t-lab fade" style="animation-delay:3760ms"><tspan x="252.8" dy="0">Zig capability libraries with C ABIs</tspan></text>
+<path class="ld" pathLength="1" d="M289.3 210.6L335.8 210.6" style="animation-delay:3600ms"/>
+<text x="339.8" y="184.1" class="t-lab fade" style="animation-delay:3900ms"><tspan x="339.8" dy="0">in-progress encrypted sync</tspan><tspan x="339.8" dy="14.5">filesystem (Linux FUSE + macOS</tspan><tspan x="339.8" dy="14.5">FileProvider)</tspan></text>
+<path class="ld" pathLength="1" d="M518 164.1L582.2 149.9" style="animation-delay:3740ms"/>
+<text x="586.2" y="129.9" class="t-lab fade" style="animation-delay:4040ms"><tspan x="586.2" dy="0">Bazel rules for compiling LaTeX to</tspan><tspan x="586.2" dy="14.5">PDF with Tectonic</tspan></text>
+<path class="ld" pathLength="1" d="M407.4 244.6L268.1 279.5" style="animation-delay:3880ms"/>
+<text x="264.1" y="293.5" text-anchor="end" class="t-lab fade" style="animation-delay:4180ms"><tspan x="264.1" dy="0">reusable GitHub Actions composite</tspan><tspan x="264.1" dy="14.5">actions for Nix, Attic cache and</tspan><tspan x="264.1" dy="14.5">CI/CD</tspan></text>
+<path class="ld" pathLength="1" d="M425.6 502L412.3 511.8" style="animation-delay:4020ms"/>
+<text x="408.3" y="525.8" text-anchor="end" class="t-lab fade" style="animation-delay:4320ms"><tspan x="408.3" dy="0">the Great Falls Tool Bus apex site</tspan><tspan x="408.3" dy="14.5">for Lewiston-Auburn, Maine</tspan></text>
+<text x="723.5" y="298.4" class="t-lab fade" style="animation-delay:4460ms"><tspan x="723.5" dy="0">CAD-as-code 19-inch rack mounts</tspan><tspan x="723.5" dy="14.5">for ATX power supplies</tspan></text>
+<g transform="translate(30 648)"><path class="sw" d="M-5 0A5 5 0 1 0 5 0A5 5 0 1 0 -5 0Z" fill="#ad5d8e"/></g>
+<text x="40" y="652" class="t-small">Applied ML &amp; classification</text>
+<g transform="translate(259 648)"><path class="sw" d="M-4.3 -4.3L4.3 -4.3L4.3 4.3L-4.3 4.3Z" fill="#df2225"/></g>
+<text x="269" y="652" class="t-small">Kernel, firmware &amp; security research</text>
+<g transform="translate(488 648)"><path class="sw" d="M0 -6L5.7 4.2L-5.7 4.2Z" fill="#00a0a6"/></g>
+<text x="498" y="652" class="t-small">Compilers, HPC &amp; functional compute</text>
+<g transform="translate(717 648)"><path class="sw" d="M0 -6L6 0L0 6L-6 0Z" fill="#b08134"/></g>
+<text x="727" y="652" class="t-small">Systems libraries &amp; tools</text>
+<g transform="translate(30 670)"><path class="sw" d="M0 6L5.7 -4.2L-5.7 -4.2Z" fill="#007e9a"/></g>
+<text x="40" y="674" class="t-small">Build systems &amp; infrastructure</text>
+<g transform="translate(259 670)"><path class="sw" d="M4.5 2.6L0 5.2L-4.5 2.6L-4.5 -2.6L0 -5.2L4.5 -2.6Z" fill="#b26df6"/></g>
+<text x="269" y="674" class="t-small">Software-lifecycle automation</text>
+<g transform="translate(488 670)"><path class="sw" d="M0 -6.2L1.6 -2.2L5.9 -1.9L2.6 0.8L3.7 5.1L0 2.8L-3.7 5.1L-2.6 0.8L-5.9 -1.9L-1.6 -2.2Z" fill="#9c4700"/></g>
+<text x="498" y="674" class="t-small">Web product &amp; libraries</text>
+<g transform="translate(717 670)"><path class="sw" d="M-1.9 -5.5L1.9 -5.5L1.9 -1.9L5.5 -1.9L5.5 1.9L1.9 1.9L1.9 5.5L-1.9 5.5L-1.9 1.9L-5.5 1.9L-5.5 -1.9L-1.9 -1.9Z" fill="#159b05"/></g>
+<text x="727" y="674" class="t-small">GIS, fabrication &amp; community</text>
+<text x="24" y="708" class="t-cap">Placement: t-SNE over README, description and topic text, grouped by claim category.</text>
+<text x="24" y="725" class="t-cap">Axes, and distances between groups, carry no meaning.</text></svg>

@@ -1,426 +1,178 @@
-<div align="center">
+<!-- Generated from spear_resumes profile/facts.toml by `just profile` (profile/render/render.py). Do not edit by hand. -->
 
-<img src="header_image.png" alt="Great Blue Heron" width="672" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Full+Stack+Engineer+%7C+DevSecOps+%7C+Agent+Orchestration+%7C+ML%2FHPC;Chapel+%7C+Haskell+%7C+Python+%7C+TypeScript+%7C+SvelteKit+%7C+Go;C%2B%2B+%7C+R+%7C+Zig+%7C+Nix+%7C+Rust+SIMD+%7C+Futhark+%7C+Emacs+Lisp;Computer+Vision+%7C+Fine-Grained+Classification+%7C+WASM+Inference;K8s+%7C+Ansible+%7C+GitLab+CI+%7C+Apache+Solr+%7C+Bazel;Global+DNS+%7C+k8gb+%7C+CoreDNS+%7C+NAT+Punching+%7C+MetalLB;GIS+%7C+Cartography+%7C+Remote+Sensing+%7C+R+%7C+QGIS;LangChain+%7C+LangGraph+%7C+pgvector+%7C+vLLM+%7C+Custom+Embeddings;Multilocal+Orchestration+%7C+RKE2+%7C+Rancher+%7C+OpenTofu;3D+Printing+%7C+OpenSCAD+%7C+Fusion+360+%7C+Arduino+%7C+RPi;TensorFlow+%7C+NumPy+%7C+Pandas+%7C+Flask+%7C+Docker+%7C+WebAssembly;9-String+Guitar+%7C+12-String+Acoustic+%7C+Rotary+Yamaha+Organ;ACME+Certs+%7C+SAML+%7C+KeePassXC+%7C+SearXNG+%7C+Caddy;Photography+%7C+Mass+Audubon+%7C+Goth+Nights+%7C+Bagel+Baker;Merlin+Sound+ID+%7C+Birder+%7C+Musician+%7C+Baker+%7C+Bard)](https://git.io/typing-svg)
-
-[![Ask me a question](https://img.shields.io/badge/Ask%20me%20a%20question-why%20are%20you%20so%20cool%3F-36BCF7?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=Why+are+you+so+cool%3F&body=%F0%9F%A4%94+No+but+seriously+though...&labels=question)
-[![Hire me](https://img.shields.io/badge/Hire%20me-I%20have%20budget-2ea44f?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I%27d+like+to+hire+you&body=Hi+Jess%21%0A%0AWe+have+a+role+that+might+interest+you...%0A%0A**Company%3A**+%0A**Role%3A**+%0A**Compensation%3A**+&labels=opportunity)
-[![Work for me](https://img.shields.io/badge/Work%20for%20me-let%27s%20build%20together-blueviolet?style=for-the-badge)](https://github.com/Jesssullivan/Jesssullivan/issues/new?title=I+want+to+work+with+you&body=Hi+Jess%21%0A%0AI+saw+your+work+and+I%27d+love+to+collaborate...%0A%0A**About+me%3A**+%0A**What+I+bring%3A**+&labels=collaboration)
-
-</div>
-
-<table>
-<tr>
-<td valign="top" width="60%">
-
-### Jess Sullivan / xoxd ^w^
-
-Full stack **engineer**, ***musician***, and *birdwatcher* based in ~~ipv6 squat space~~ New England (Lewiston, ME + Boston, MA). 🏡
-
-I build planet scale infrastructure tooling for fun, architect and enchant digital automata, hack upon compilers :thinking: I love learning new languages, futzing around with hardware, occasionally attempt to run businesses and maintain a *lot* of fun projects here and elsewhere.  
-
-
-
-</td>
-<td valign="top" width="40%">
-
-[![Blog](https://img.shields.io/badge/Blog-transscendsurvival.org-36BCF7?style=flat-square)](https://transscendsurvival.org)
-[![GitHub](https://img.shields.io/badge/GitHub-Jesssullivan-181717?style=flat-square&logo=github)](https://github.com/Jesssullivan)
-[![CV](https://img.shields.io/badge/CV-Download%20PDF-green?style=flat-square)](https://transscendsurvival.org/cv)
-[![Sponsor](https://img.shields.io/badge/Sponsor-Jesssullivan-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Jesssullivan)
-[![EFF](https://img.shields.io/badge/EFF-Member-red?style=flat-square&logo=eff&logoColor=white)](https://www.eff.org/)
-<a href="https://www.fightforthefuture.org/"><img src="idl_badge.png" alt="Member of The Internet Defense League" height="20" /></a>
-![Profile Views](https://komarev.com/ghpvc/?username=Jesssullivan&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
-![bitbanger](https://img.shields.io/badge/bitbanger-333333?style=flat-square)
-![NAT wanderer](https://img.shields.io/badge/NAT%20wanderer-006D77?style=flat-square)
-![sillygoose](https://img.shields.io/badge/sillygoose-FF69B4?style=flat-square)
-![Rocky Linux](https://img.shields.io/badge/RESF-10B981?style=flat-square&logo=rockylinux&logoColor=white)
-![Apache Solr](https://img.shields.io/badge/Apache%20Solr-D22128?style=flat-square&logo=apache&logoColor=white)
-![Chapel](https://img.shields.io/badge/Chapel-3B4D61?style=flat-square&logoColor=white)
-![Skeleton UI](https://img.shields.io/badge/Skeleton%20UI-EC4899?style=flat-square&logo=svelte&logoColor=white)
-![SearXNG](https://img.shields.io/badge/SearXNG-2E8B57?style=flat-square&logo=searxng&logoColor=white)
-![KeePassXC](https://img.shields.io/badge/KeePassXC-6CAC4D?style=flat-square&logo=keepassxc&logoColor=white)
-![Futhark](https://img.shields.io/badge/Futhark-5e5086?style=flat-square&logoColor=white)
-![xCaddy](https://img.shields.io/badge/xCaddy-1F88E5?style=flat-square&logo=caddy&logoColor=white)
-![fft.js](https://img.shields.io/badge/fft.js-333333?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![libdns](https://img.shields.io/badge/libdns-00695C?style=flat-square&logo=go&logoColor=white)
-![The-Compiler](https://img.shields.io/badge/The--Compiler-Freya%20Bruhin-blueviolet?style=flat-square&logo=githubsponsors&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-[![Xe Iaso](https://img.shields.io/badge/xeiaso.net-blueviolet?style=flat-square)](https://xeiaso.net/)
-![svelte-superforms](https://img.shields.io/badge/svelte--superforms-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-[![Gabby](https://img.shields.io/badge/haskellforall.com-blueviolet?style=flat-square)](https://haskellforall.com/)
-![Skeleton](https://img.shields.io/badge/Skeleton-EC4899?style=flat-square&logo=githubsponsors&logoColor=white)
-![purpl3F0x](https://img.shields.io/badge/purpl3F0x-9C27B0?style=flat-square&logo=githubsponsors&logoColor=white)
-![Klipper](https://img.shields.io/badge/Klipper-B71C1C?style=flat-square&logo=klipper&logoColor=white)
-
-
-
-</td>
-</tr>
-<tr>
-<td align="center" valign="middle">
-
-<img src="CodeCogsEqn-1.png" alt="Learning = internet * (time + standards * Ambition) / Difficulty" width="400" />
-
-</td>
-
-</tr>
-</table>
-
----
-
-### GitHub Activity
-
-<div align="center">
+<img alt="Photograph: a great blue heron in flight, wings spread, low over dense green ferns and brush" src="img/header_image.png" width="100%">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-stats-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-stats.svg" />
-  <img alt="GitHub Stats" src="github-stats.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="svg/header-dark.svg">
+  <img alt="Jess Sullivan: Senior Full-Stack & Systems Engineer · 8+ years. Full-Stack & Product · DevSecOps · ML / Computer Vision · Compilers & HPC · Kernel & Security Research." src="svg/header-light.svg" width="100%">
 </picture>
+
+[GitHub](https://github.com/Jesssullivan) · [Blog](https://transscendsurvival.org) · [CV](https://transscendsurvival.org/cv) · [LinkedIn](https://www.linkedin.com/in/jess-sullivan-11032a367/) · [xoxd.ai](https://xoxd.ai) · [xoxd.ai on GitHub](https://github.com/xoxd-ai) · [Great Falls Tool Bus](https://greatfallstoolbus.org) · [Email](mailto:jess@sulliwood.org) · <a href="https://www.fightforthefuture.org/"><img alt="Member of The Internet Defense League" src="img/idl_badge.png" height="20"></a>
+
+Senior full-stack and systems engineer with 8+ years building software across TypeScript/SvelteKit, Python, Go, C++, Rust, Zig, Chapel, Haskell, and Nix-first infrastructure.
+
+### Now
+
+- **Founder, [xoxd.ai](https://xoxd.ai)** (2024–present). Bootstrapped engineering and contracting firm: infrastructure automation, build platforms, agent orchestration for semi-autonomous infrastructure lifecycle management, and full business stacks for clients. Building glorious.build, a cache-first build and CI substrate (Bazel remote cache and execution, Nix, pooled self-hosted runners); pre-launch.
+- **Systems Analyst (DevSecOps), Bates College** (2024–present). Build and maintain enterprise systems supporting staff, faculty, and the technical ILS team. 24/7 on-call for CVE triage and mitigation; help lead IaC and dev-CI parity college-wide.
+- **[Great Falls Tool Bus](https://greatfallstoolbus.org)** (2026–present). Founder of the Great Falls Tool Bus, a member-run tool and gear lending library in Lewiston, ME, and builder of its site and member infrastructure.
+- **Kitten Spit Labs** (ongoing). Ultrasonics and piezoelectric lab-equipment venture focused on ultrasonic chaining of metapolymers.
+
+### Project map
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="top-langs-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="top-langs.svg" />
-  <img alt="Top Languages" src="top-langs.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="svg/project-map-dark.svg">
+  <img alt="Project map of Jess Sullivan's public repositories, each a marker whose color and shape give its category (Applied ML & classification; Kernel, firmware & security research; Compilers, HPC & functional compute; Systems libraries & tools; Build systems & infrastructure; Software-lifecycle automation; Web product & libraries; GIS, fabrication & community). Markers sit near others with similar README, description and topic text; the axes and the distances between groups carry no meaning. The Data table below lists every project." src="svg/project-map-light.svg" width="100%">
 </picture>
 
-</div>
+<details><summary>Data</summary>
 
-<div align="center">
+| Project | Category | Link |
+|---|---|---|
+| birdsong-identification interpreter experiments and demos | Applied ML & classification | [repository](https://github.com/Jesssullivan/MerlinAI-Interpreters) |
+| image-based mushroom identification experiments for MushroomObserver | Applied ML & classification | [repository](https://github.com/Jesssullivan/mo-image-identifier) |
+| a Leaflet audio annotator for squirrel and chipmunk calls | Applied ML & classification | [repository](https://github.com/Jesssullivan/squirrel-leaflet-annotation) |
+| ASM2362 NVMe recovery experiments and FTL-corruption research | Kernel, firmware & security research | [repository](https://github.com/Jesssullivan/hiberpower-ntfs) |
+| key-free, native-Linux recovery tooling for Canon MegaTank printers' ink-absorber lockout | Kernel, firmware & security research | [repository](https://github.com/Jesssullivan/canon-megatank-reset) |
+| a native KeePassXC KDBX database reader | Kernel, firmware & security research | not linked |
+| a research fork of Magic Lantern firmware | Kernel, firmware & security research | [repository](https://github.com/Jesssullivan/magiclantern_hydrogen) |
+| Rocky Linux 10 real-time (PREEMPT_RT) kernel lane carrying XR display patches and Dirty Frag security backports | Kernel, firmware & security research | [repository](https://github.com/xoxd-ai/linux-xr) |
+| early Chapel experiments: duplicate checking, string iteration and parallel evaluation | Compilers, HPC & functional compute | [repository](https://github.com/Jesssullivan/ChapelTests) |
+| glyph-compositor research with Futhark and WebGPU | Compilers, HPC & functional compute | [repository](https://github.com/Jesssullivan/pixelwise-research) |
+| property-based testing package for Chapel | Compilers, HPC & functional compute | [repository](https://github.com/Jesssullivan/quickchpl) |
+| provenance-clean Bessel functions (J0, J1 and J1 roots) for Futhark | Compilers, HPC & functional compute | [repository](https://github.com/Jesssullivan/futhark-bessel) |
+| an accounting and financial-modeling R package and MCP tool surface for GnuCash | Systems libraries & tools | [repository](https://github.com/Jesssullivan/gnucashr) |
+| a cross-platform disk-cleanup daemon with graduated thresholds (Go, Nix, systemd and launchd) | Systems libraries & tools | not linked |
+| in-progress encrypted sync filesystem (Linux FUSE + macOS FileProvider) | Systems libraries & tools | [repository](https://github.com/Jesssullivan/tummycrypt) |
+| an XWayland Emacs window manager experimenting with eye-gesture and XR input | Systems libraries & tools | [repository](https://github.com/Jesssullivan/XoxdWM) |
+| Zig capability libraries with C ABIs | Systems libraries & tools | [repository 1](https://github.com/Jesssullivan/zig-crypto) · [repository 2](https://github.com/Jesssullivan/zig-ctap2) · [repository 3](https://github.com/Jesssullivan/zig-keychain) · [repository 4](https://github.com/Jesssullivan/zig-notify) |
+| automated patching for Chrome Remote Desktop on Budgie and GNOME desktops | Build systems & infrastructure | [repository](https://github.com/Jesssullivan/chrome-remote-desktop-budgie) |
+| a Bazel module registry for the firm's published packages | Build systems & infrastructure | [repository](https://github.com/xoxd-ai/bazel-registry) |
+| Bazel rules for compiling LaTeX to PDF with Tectonic | Build systems & infrastructure | [repository](https://github.com/Jesssullivan/rules_tectonic) |
+| a Caddy, Tailscale and DNS reverse-proxy demo | Build systems & infrastructure | [repository](https://github.com/Jesssullivan/ts-caddy) |
+| a Dhall-typed Tailscale ACL policy with continuous delivery | Build systems & infrastructure | [repository](https://github.com/Jesssullivan/tailnet-acl) |
+| Raspberry Pi image tooling: emulate, organize, burn and manage Debian images | Build systems & infrastructure | [repository](https://github.com/Jesssullivan/clipi) |
+| Tailscale Aperture configuration bootstrapped from tagged devices over tsnet | Build systems & infrastructure | [repository](https://github.com/Jesssullivan/aperture-bootstrap) |
+| a utility for out-of-band management of air-gapped network devices | Build systems & infrastructure | [repository](https://github.com/Jesssullivan/DarwinNicUtil) |
+| experimental OAuth multiplexing for autonomous agents and people | Software-lifecycle automation | [repository](https://github.com/Jesssullivan/oauth-mux) |
+| a formal, auditable tool surface for playing the adversary in security testing | Software-lifecycle automation | not linked |
+| Linear and Google Workspace automation for calendar-facing operational workflows | Software-lifecycle automation | [repository](https://github.com/xoxd-ai/linear-gsuite) |
+| a local agent-research condenser with provenance-preserving prompt minimization | Software-lifecycle automation | [repository](https://github.com/Jesssullivan/prompt-toon) |
+| reusable GitHub Actions composite actions for Nix, Attic cache and CI/CD | Software-lifecycle automation | [repository](https://github.com/xoxd-ai/ci-templates) |
+| a self-bootstrapping LangGraph DAG harness for Ansible iteration cycles in GitLab | Software-lifecycle automation | [repository](https://github.com/Jesssullivan/Ansible-DAG-Harness) |
+| an ActivityPub federation library | Web product & libraries | not linked |
+| an authentication library with TOTP, RBAC and pluggable storage | Web product & libraries | not linked |
+| a backend-agnostic scheduling system with Acuity, Cal.com and native adapters | Web product & libraries | [repository](https://github.com/xoxd-ai/scheduling-kit) |
+| a calendar library with CalDAV, iCal, RRULE and time-zone support | Web product & libraries | not linked |
+| a Flask image server with Lanczos resampling | Web product & libraries | [repository](https://github.com/Jesssullivan/FastPhotoAPI) |
+| framework-agnostic rate-limiting and CSRF middleware | Web product & libraries | not linked |
+| the Great Falls Tool Bus apex site for Lewiston-Auburn, Maine | Web product & libraries | [repository](https://github.com/Great-Falls-Tool-Bus/gftb-site) |
+| markdown content services with versioning, scheduling and relationship resolution | Web product & libraries | not linked |
+| an OpenTelemetry instrumentation layer with a TraceQL query builder and RED metrics | Web product & libraries | not linked |
+| physics-simulated animated vector backgrounds for Svelte 5 | Web product & libraries | [repository](https://github.com/xoxd-ai/tinyvectors) |
+| a public dark-sky planning map for astronomy, field sensing and low-light logistics | Web product & libraries | [repository](https://github.com/Jesssullivan/darkmap.phasi.space) |
+| request-security utilities: IP hashing, encryption, risk scoring and timing-safe helpers | Web product & libraries | not linked |
+| a static rewrite of the transscendsurvival.org blog | Web product & libraries | [repository](https://github.com/Jesssullivan/jesssullivan.github.io) |
+| a streaming accessibility evaluation engine: WCAG contrast, ARIA and keyboard-navigation checks | Web product & libraries | not linked |
+| structured logging with Loki integration and OpenTelemetry trace correlation | Web product & libraries | not linked |
+| a tutorial for writing a command-line utility in modern TypeScript | Web product & libraries | [repository](https://github.com/Jesssullivan/IntroTypeScript) |
+| a Vite plugin for build-time WCAG checks of Svelte components | Web product & libraries | [repository](https://github.com/xoxd-ai/vite-plugin-a11y) |
+| a Vite plugin generating Skeleton UI color-pairing utilities on demand | Web product & libraries | [repository](https://github.com/xoxd-ai/vite-plugin-skeleton-colors) |
+| Zod schemas, field validators and Superforms integration helpers | Web product & libraries | not linked |
+| 3D-printer profiles for the Ithaca Generator makerspace | GIS, fabrication & community | [repository](https://github.com/Jesssullivan/IG-3DP-Profiles) |
+| CAD-as-code 19-inch rack mounts for ATX power supplies | GIS, fabrication & community | [repository](https://github.com/Jesssullivan/modular-atx-power-rack) |
+| open-source stepper hardware for coil winding | GIS, fabrication & community | [repository](https://github.com/Jesssullivan/Arduino_Coil_Winder) |
+| R / Shiny KML geoprocessing tools | GIS, fabrication & community | [repository](https://github.com/Jesssullivan/Shiny-Apps) |
+| R processing for bird point-count field data | GIS, fabrication & community | [repository](https://github.com/Jesssullivan/FieldProcessing) |
+| shelving and related CAD drawings for the Great Falls Tool Bus | GIS, fabrication & community | [repository](https://github.com/Great-Falls-Tool-Bus/cad) |
+| a UV-reactive 3D-printer bed adhesive: recipe, scaler and Klipper integration | GIS, fabrication & community | not linked |
+
+</details>
+
+### Merged upstream work
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="Snake animation" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="svg/upstream-dark.svg">
+  <img alt="Merged upstream work, one mark per project at its latest merge date: llama.cpp (2026-09-25); nixpkgs (2026-06-04); KeePassXC (2026-05-27, committer); ShikiJS textmate-grammars-themes (2026-05-19); numtide/nix-vm-test (2026-04-22); cmux (2026-03-21); rspamd (2026-03-09, committer); svelte-superforms (2026-02-22); Futhark (2026-02-10); Chapel Mason registry (2026-01-16, committer); xCaddy (2025-05-05); Klipper (2023-03-28). Counted as projects, not pull requests." src="svg/upstream-light.svg" width="100%">
 </picture>
 
-</div>
+<details><summary>Data</summary>
 
-### Repository Similarity Graph
+| Project | Merged | Relation | Link |
+|---|---|---|---|
+| llama.cpp | 2026-09-25 | Merged pull request | [pull request](https://github.com/ggml-org/llama.cpp/pull/29283) |
+| nixpkgs | 2026-06-04 | Merged pull request | [pull request](https://github.com/NixOS/nixpkgs/pull/516711) |
+| KeePassXC | 2026-05-27 | Committer | [pull request](https://github.com/keepassxreboot/keepassxc/pull/13383) |
+| ShikiJS textmate-grammars-themes | 2026-05-19 | Merged pull request | [pull request](https://github.com/shikijs/textmate-grammars-themes/pull/203) |
+| numtide/nix-vm-test | 2026-04-22 | Merged pull request | [pull request](https://github.com/numtide/nix-vm-test/pull/172) |
+| cmux | 2026-03-21 | Merged pull request | [pull request](https://github.com/manaflow-ai/cmux/pull/1877) |
+| rspamd | 2026-03-09 | Committer | [pull request](https://github.com/rspamd/rspamd/pull/5923) |
+| svelte-superforms | 2026-02-22 | Merged pull request | [pull request](https://github.com/ciscoheat/sveltekit-superforms/pull/678) |
+| Futhark | 2026-02-10 | Merged pull request | [pull request](https://github.com/diku-dk/futhark/pull/2365) |
+| Chapel Mason registry | 2026-01-16 | Committer | [pull request](https://github.com/chapel-lang/mason-registry/pull/77) |
+| xCaddy | 2025-05-05 | Merged pull request | [pull request](https://github.com/caddyserver/xcaddy/pull/238) |
+| Klipper | 2023-03-28 | Merged pull request | [pull request](https://github.com/Klipper3d/klipper/pull/6112) |
 
-<div align="center">
+</details>
+
+### Language mix
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="repo-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="repo-graph.svg" />
-  <img alt="Repository Similarity Graph" src="repo-graph.svg" width="960" />
+  <source media="(prefers-color-scheme: dark)" srcset="svg/languages-dark.svg">
+  <img alt="Language mix across the mapped public repositories, each weighted equally: TypeScript 31%; Python 22%; C 6%; Zig 5%; Starlark 4%; Shell 4%; Chapel 3%; R 3%; Other 22%." src="svg/languages-light.svg" width="100%">
 </picture>
 
-*Jaccard similarity of repository language distributions. [View Mermaid version](repo-graph.mmd)*
+<details><summary>Data</summary>
 
-</div>
+| Language | Share |
+|---|---|
+| TypeScript | 31% |
+| Python | 22% |
+| C | 6% |
+| Zig | 5% |
+| Starlark | 4% |
+| Shell | 4% |
+| Chapel | 3% |
+| R | 3% |
+| Other | 22% |
 
----
+</details>
 
-### Experience & Ventures
+### Roles and ventures
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="svg/timeline-dark.svg">
+  <img alt="Timeline of roles and ventures: Systems Analyst (DevSecOps), Bates College, 2024–present; Computer Vision Software Engineer, Macaulay Library, Cornell Lab of Ornithology, 2019–2021; Fabrication Laboratory Manager, Cornell CALS Landscape Architecture (DLA Makerspace), 2021–2022; Independent contractor, Full-Stack Contracting & FOSS, 2017–present; Columbari.us LLC, 2017–2021; Moonlight Coworking LLC, 2021–2024; xoxd.ai, 2024–present; Kitten Spit Labs, ongoing (undated); Great Falls Tool Bus, 2026–present." src="svg/timeline-light.svg" width="100%">
+</picture>
 
-**Systems Analyst (DevSecOps)**; Bates College
-- Legacy modernization, bespoke Ansible extensions, roles & plugins
-- Apache Solr, ACME cert management, SAML integrations
-- GitLab AutoDevOps, RKE2 + Rancher, promoter of IaC practices :tm:
-- Orchestration, packaging & tooling work
+<details><summary>Data</summary>
 
-**CV/ML Software Engineer**; Macaulay Library *(2018–2022)*
-- Developed & launched [Merlin Sound ID](https://merlin.allaboutbirds.org/) & The Machine Learning Blog
-- Fine-grained ML annotation tools for audio classification
-- Internal classification & model evaluation web APIs
-- Python (TensorFlow, NumPy, Pandas), Flask, TypeScript, Docker, WASM
+| Organization | Role | Dates | Summary |
+|---|---|---|---|
+| Bates College | Systems Analyst (DevSecOps) | 2024–present | Build and maintain enterprise systems supporting staff, faculty, and the technical ILS team. 24/7 on-call for CVE triage and mitigation; help lead IaC and dev-CI parity college-wide. |
+| Macaulay Library, Cornell Lab of Ornithology | Computer Vision Software Engineer | 2019–2021 | Developed & launched Merlin Sound ID, a production fine-grained audio classification system used by millions worldwide. |
+| Cornell CALS Landscape Architecture (DLA Makerspace) | Fabrication Laboratory Manager | 2021–2022 | Developed and taught rapid-fabrication curricula. |
+| Full-Stack Contracting & FOSS | Independent contractor | 2017–present | Independent contractor; active upstream contributor and committer. |
+| Columbari.us LLC |  | 2017–2021 | Independent contractor / contributor business while in the GIS & ML space. |
+| Moonlight Coworking LLC |  | 2021–2024 | Formed in NY to raise capital and interest in a for-profit hackerspace with a focus on mathematics and high performance computing alongside my nonprofit work leading the Ithaca Generator; shelved due to move to Maine. |
+| xoxd.ai | Founder | 2024–present | Bootstrapped engineering and contracting firm: infrastructure automation, build platforms, agent orchestration for semi-autonomous infrastructure lifecycle management, and full business stacks for clients. |
+| Kitten Spit Labs |  | ongoing | Ultrasonics and piezoelectric lab-equipment venture focused on ultrasonic chaining of metapolymers. |
+| Great Falls Tool Bus | Founder | 2026–present | Founder of the Great Falls Tool Bus, a member-run tool and gear lending library in Lewiston, ME, and builder of its site and member infrastructure. |
 
-**Fabrication Lab Manager**; Cornell CALS *(2021–2022)*
-- Rapid fabrication curricula for Landscape Architecture students & faculty
-- OpenSCAD, Fusion 360, C++ tiler development
-
-</td>
-<td width="50%" valign="top">
-
-**xoxd.ai** *(2024–Present)*
-- Massively parallel, provable, **ownable** infrastructure
-- Seeking funding, stealthmode
-
-**Tinyland.dev, Inc** *(2024–Present)*
-- Funded hackerspace initiative, stealthmode
-
-**Kitten Spit Labs** *(2022–Present)*
-- Ultrasonic phantom network gel synthesis. *currently on mfg. pause*
-
-**Columbari.us LLC** *(2017–2021)*
-- Independent Gov. contractor in GIS & ML
-
-**Moonlight Coworking LLC** *(2024)*
-- Shelved rapidfab / HPC hackerspace initiative in NY
-
-
-Clients:
-
-![NPS](https://img.shields.io/badge/National%20Park%20Service-006B3F?style=flat-square&logo=nps&logoColor=white)
-![FHC](https://img.shields.io/badge/Foundation%20for%20Healthy%20Communities-1976D2?style=flat-square)
-![GPRED](https://img.shields.io/badge/GPRED-5D4037?style=flat-square)
-![NBRC](https://img.shields.io/badge/Northern%20Border%20Regional%20Commission-37474F?style=flat-square)
-![Massage Ithaca](https://img.shields.io/badge/Massage%20Ithaca-8E24AA?style=flat-square)
-![Tetrahedron](https://img.shields.io/badge/Tetrahedron-E91E63?style=flat-square)
-![Rossel](https://img.shields.io/badge/Rossel-FF8F00?style=flat-square)
-![STNWL](https://img.shields.io/badge/STNWL-546E7A?style=flat-square)
-![PSU](https://img.shields.io/badge/Plymouth%20State%20University-003DA5?style=flat-square)
-
-</td>
-</tr>
-</table>
+</details>
 
 ### Community
 
-- **RESF Community Member**; Rocky Enterprise Linux Foundation
-- **First Fellow**; D&M Makerspace, Plymouth State University *(2017–2020)*
-- Taught Advanced GIS Programming & Intro to Electromechanics at PSU
-- **Membership Chair & 3D Printing Captain**; Ithaca Generator *(2020–2022)*
-- **COVID-19 PPE manufacturing coordination** across New England makerspaces
+- Ongoing engagement with the Rocky Enterprise Linux Foundation (Rocky 10 platform, real-time (PREEMPT_RT) kernel lanes, and downstream CVE backport practice).
+- First Fellow, D&M Makerspace, Plymouth State University (2017–2020)
+- Membership Chair & 3D Printing Captain, Ithaca Generator (2020–2022)
 
-### Beyond Code
+### Publications
 
-**Photography**
+- Sullivan, J. (2026). [Recovering Write-Protected NVMe SSDs Through USB Bridge XRAM Injection: Bypassing the ASMedia ASM2362 Firmware Opcode Whitelist](https://transscendsurvival.org/papers/recovery-paper.pdf).
+- Reitsma, L.R., Burns, C., & Sullivan, J. (2019). [Poecile atricapillus (Black-capped Chickadee) Feeding Catharus guttatus (Hermit Thrush) Nestlings](https://doi.org/10.1656/045.026.0213). Northeastern Naturalist, 26(2).
+- Sullivan, J. (2019). Web GIS: Telling Stories & Solving Problems. AAG Annual Meeting.
 
-Cut my teeth professionally with world-renowned aerial photographer Alex MacLean and Mike Nyman Wedding Photography before going into business as J.S. Event Photography. Wrote and taught the youth photography curriculum at Joppa Flats and Drumlin Farm Mass Audubon Wildlife Sanctuaries; programs still going strong. Work featured at Celebrate Newton, Newton Public Library, Pease Public Library, Newtonville Cinema, Newton Camera Club, Broadmoor Wildlife Sanctuary, and in the Newton Tab. Did my own printing on a heavily modified inkjet printer. Completely burnt out from photography by end of 2017, sold all my gear by the end of college.
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/CodeCogsEqn-1-dark.png"><img alt="Equation: Learning = internet × (time + standards × Ambition) / Difficulty" src="img/CodeCogsEqn-1.png" width="400"></picture>
 
-**Music**
-
-20+ years of guitar; currently play a custom 9-string electric made for me in NH and a 12-string acoustic. 25+ years of piano/organ; primarily on a rotary Yamaha organ these days.
-
-> *"If there were no computers I'd probably be a baker, a minstrel or a bard."*
-
-**Hospitality**
-
-Evening bartender & event organizer at Modern Alchemy Game Bar in Ithaca; organized monthly Goth Nights, art shows & private events. Bartender at The Downstairs Listening Room & Tavern and The Watershed in New York. Casual bagel baker at Tandem Bagel Co in Northampton, MA (Spring 2024).
-
----
-
-<!--START_SECTION:blog-->
-### Latest Blog Posts
-
-- [Hacking Canon MegaTank and clearing 5B00 Lock: A Native Waste-Ink Reset over USB with Ghidra, Frida and friends](https://transscendsurvival.org/blog/clearing-canon-5b00-lock-native-key-free-megatank-reset) — *Jun 09, 2026*
-- [Glue You Can See in UV](https://transscendsurvival.org/blog/glue-you-can-see-in-uv) — *Jun 08, 2026*
-- [Week Notes: scroll wheels, spring legs, and chasing the sun](https://transscendsurvival.org/blog/week-notes-scroll-wheels-and-chasing-the-sun) — *Jun 08, 2026*
-
-[Read more ->](https://transscendsurvival.org/blog)
-<!--END_SECTION:blog-->
-
----
-
-### Original Projects
-
-<!--START_SECTION:repos-->
-
-<details>
-<summary><strong>Languages & Compilers</strong> (8)</summary>
-
-- [**futhark-bessel**](https://github.com/Jesssullivan/futhark-bessel) — Provenance-clean J0, J1, and positive J1 roots for Futhark *(Python · Aug 2026)*
-- [**remote-juggler**](https://github.com/Jesssullivan/remote-juggler) — Experiment!  Danger!  WIP!  Hide!  Autonomous backend-agnostic identity management for cyborgs *(Chapel · Jul 2026)*
-- [**pixelwise-research**](https://github.com/Jesssullivan/pixelwise-research) — WIP, danger be lurking!  Novel glyph compositor research with Futhark webGPU investigating vector... *(TypeScript · 2 ★ · Apr 2026)*
-- [**quickchpl**](https://github.com/Jesssullivan/quickchpl) — Simple Property-Based Testing for Chapel Language *(Chapel · 2 ★ · Jan 2026)*
-- [**aoc-2025**](https://github.com/Jesssullivan/aoc-2025) — Example usage of quickchpl PBT Mason library for a few AoC 2025 problems in CI *(Chapel · Jan 2026)*
-- [**Jess-AOC-2023**](https://github.com/Jesssullivan/Jess-AOC-2023) — Jess's solutions to the 2023 Advent of Code *(Python · Dec 2023)*
-- [**tagnotes**](https://github.com/Jesssullivan/tagnotes) — Google Calendar API with Chapel & Python *(Chapel · Sep 2019)*
-- [**ChapelTests**](https://github.com/Jesssullivan/ChapelTests) — Dupe Checking, String Iteration, Parallel Evaluation in Chapel-language & Python3 *(Chapel · Sep 2019)*
-
-</details>
-
-<details>
-<summary><strong>Infrastructure & DevOps</strong> (11)</summary>
-
-- [**tailnet-acl**](https://github.com/Jesssullivan/tailnet-acl) — Dhall-typed Tailscale ACL policy & simple CD infrastructure *(Python · 1 ★ · 4 days ago)*
-- [**DarwinNicUtil**](https://github.com/Jesssullivan/DarwinNicUtil) — Extensible utility for dealing with out-of-band management / air gapped network devices, mostly f... *(Python · 2 ★ · 1 week ago)*
-- [**tinyland-cleanup**](https://github.com/Jesssullivan/tinyland-cleanup) — Cross-platform disk cleanup daemon with graduated thresholds — Go, Nix, systemd/launchd *(Go · 1 ★ · Aug 2026)*
-- [**Dell-7810**](https://github.com/Jesssullivan/Dell-7810) — Notes, instrumentation, configuration and monkey jabber on taking Dell 7810 servers way, way too far *(Shell · 1 ★ · Jul 2026)*
-- [**winrm-molecule-forkbomb-demo**](https://github.com/Jesssullivan/winrm-molecule-forkbomb-demo) — Fast and dirty demo of winrm molecule fork bomb behavior; when trying to go fast goes wrong *(Jinja · 1 ★ · Mar 2026)*
-- [**aperture-bootstrap**](https://github.com/Jesssullivan/aperture-bootstrap) — Bootstrap Tailscale Aperture config from tagged devices using tsnet — How to resolve WhoIs identi... *(Go · 2 ★ · Feb 2026)*
-- [**tinyland-kdbx**](https://github.com/Jesssullivan/tinyland-kdbx) — Native KeePassXC KDBX reader with base58 transport *(Python · 1 ★ · Feb 2026)*
-- [**Ansible-DAG-Harness**](https://github.com/Jesssullivan/Ansible-DAG-Harness) — A disposable self-bootstrapping LangGraph DAG harness for boxing up Ansible iteration cycles in G... *(Python · 1 ★ · Feb 2026)*
-- [**ts-caddy**](https://github.com/Jesssullivan/ts-caddy) — Dreamhost DNS, Caddy, Tailscale, Dreamhost reverse proxy demo *(Jinja · Mar 2025)*
-- [**HCI-notes**](https://github.com/Jesssullivan/HCI-notes) — Misc. notes to share on switch to Proxmox from Harvester *(HCL · Feb 2025)*
-- [**LeafletSync**](https://github.com/Jesssullivan/LeafletSync) — Chindōgu utility prompt & CLI for fetching private releases & files from GitHub & BitBucket *(Shell · Jan 2021)*
-
-</details>
-
-<details>
-<summary><strong>Hardware & Maker</strong> (14)</summary>
-
-- [**tinyland-goo**](https://github.com/Jesssullivan/tinyland-goo) — UV-reactive strontium-aluminate 3D-printer bed glue: recipe, weight scaler, UV coverage-sensing B... *(Svelte · 1 week ago)*
-- [**magiclantern_hydrogen**](https://github.com/Jesssullivan/magiclantern_hydrogen) — ML derivation for Jess's specific stuff: software-defined filter hacking for heavily modified 1d ... *(C · 2 weeks ago)*
-- [**prompt-toon**](https://github.com/Jesssullivan/prompt-toon) — Local agent research condenser with provenance-preserving prompt minimization and measured TOON s... *(C · 2 weeks ago)*
-- [**XoxdWM**](https://github.com/Jesssullivan/XoxdWM) — Eye-gesture VR & BCI XWayland Emacs Window Manager for transhumans and cyborgs *(Emacs Lisp · 2 ★ · 3 weeks ago)*
-- [**oauth-mux**](https://github.com/Jesssullivan/oauth-mux) — WIP!  Experimental!  Sophisticated grand-scale oauth multiplexing for shiny autonomous robots and... *(Zig · 3 ★ · 3 weeks ago)*
-- [**zig-ctap2**](https://github.com/Jesssullivan/zig-ctap2) — Portable FIDO2/WebAuthn in Zig with C FFI — direct USB HID, no Apple entitlements needed *(Zig · 1 ★ · Jul 2026)*
-- [**zig-crypto**](https://github.com/Jesssullivan/zig-crypto) — Portable Zig crypto primitives with a stable C FFI: SHA-256, HMAC, AES-CBC, PBKDF2, P-256, Ed2551... *(Zig · 1 ★ · Jul 2026)*
-- [**hiberpower-ntfs**](https://github.com/Jesssullivan/hiberpower-ntfs) — ASM2362 NVMe recovery experiments and research around FTL corruption *(Zig · 6 ★ · Apr 2026)*
-- [**TurkeyProbe**](https://github.com/Jesssullivan/TurkeyProbe) — for probing the Turkey *(C++ · Nov 2023)*
-- [**DoverDisplay**](https://github.com/Jesssullivan/DoverDisplay) — A stylish enclosure for the Xilinx / Digilent Genesys 2 FPGA + display panel *(1 ★ · Jan 2021)*
-- [**Arduino_Coil_Winder**](https://github.com/Jesssullivan/Arduino_Coil_Winder) — Investigating open-source stepper hardware for coil winding  *(C++ · 7 ★ · Dec 2020)*
-- [**momo**](https://github.com/Jesssullivan/momo) — @ D&M Makerspace *(C++ · Nov 2020)*
-- [**AeroTaz5_hotfix**](https://github.com/Jesssullivan/AeroTaz5_hotfix) — @ D&M Makerspace *(C++ · Jul 2020)*
-- [**Funmat-HT-Notes**](https://github.com/Jesssullivan/Funmat-HT-Notes) — misc notes, files for Funmat HT (late, pre-enhanced) 3d printer *(Jun 2020)*
-
-</details>
-
-<details>
-<summary><strong>ML & Data</strong> (6)</summary>
-
-- [**MerlinAI-Interpreters**](https://github.com/Jesssullivan/MerlinAI-Interpreters) — Experiments, interpreter implementations, demos, data ingress tangents and lots of notes for bird... *(TypeScript · 5 ★ · Mar 2026)*
-- [**gnucashr**](https://github.com/Jesssullivan/gnucashr) — A high performance accounting and financial modeling R package and MCP tool surface for GNUCash, ... *(C++ · 2 ★ · Mar 2026)*
-- [**AccuWixReport**](https://github.com/Jesssullivan/AccuWixReport) — A command line utility generating monthly transaction & superlative financial reports - migration... *(Python · Jan 2024)*
-- [**Shiny-Apps**](https://github.com/Jesssullivan/Shiny-Apps) — Old R / Shiny KML Geoprocessing Tools & Deployment Framework Ideas *(R · 1 ★ · Feb 2021)*
-- [**FieldProcessing**](https://github.com/Jesssullivan/FieldProcessing) — Processing Bird Point Count data.    *(R · Nov 2019)*
-- [**rJDKmanager**](https://github.com/Jesssullivan/rJDKmanager) — Quickly & forcefully manage extra JDKs in base R *(R · Nov 2019)*
-
-</details>
-
-<details>
-<summary><strong>Web & Apps</strong> (13)</summary>
-
-- [**dsa-woodshed.space**](https://github.com/Jesssullivan/dsa-woodshed.space) — Editor-first technical interview practice in Codespaces: ordinary reasoning comments, candidate-o... *(TypeScript · 3 days ago)*
-- [**transfemme-tailoring**](https://github.com/Jesssullivan/transfemme-tailoring) — Build log + interactive alteration calculators for refitting masculine-cut formalwear into a tran... *(Svelte · 2 weeks ago)*
-- [**darkmap.phasi.space**](https://github.com/Jesssullivan/darkmap.phasi.space) — Public dark-sky planning map for astronomy, field sensing, cycling, hiking, and low-light logistics *(TypeScript · 3 weeks ago)*
-- [**acuity-admin-skills**](https://github.com/Jesssullivan/acuity-admin-skills) — Agent automation skills for Acuity Scheduling admin panel leveraging tinyland calendaring stack  *(TypeScript · 1 ★ · Jul 2026)*
-- [**minolta-x370-repair**](https://github.com/Jesssullivan/minolta-x370-repair) — x370 wind lever repair, nothing to see here *(TypeScript · Jul 2026)*
-- [**GIS_Shortcuts**](https://github.com/Jesssullivan/GIS_Shortcuts) — Jess's miscellaneous GIS notes and related tomfoolery  *(R · 2 ★ · Feb 2026)*
-- [**FastPhotoAPI**](https://github.com/Jesssullivan/FastPhotoAPI) — An efficient, flexible, flask-based image server using Lanczos resampling  *(Python · 1 ★ · Dec 2024)*
-- [**timberbuddy**](https://github.com/Jesssullivan/timberbuddy) — Archive of Control Package work for Amish Sawmill *(TypeScript · 1 ★ · Dec 2024)*
-- [**tetrahedron**](https://github.com/Jesssullivan/tetrahedron) — Application for tetrahedron.gay mental health social service *(Svelte · Feb 2024)*
-- [**IntroTypeScript**](https://github.com/Jesssullivan/IntroTypeScript) — Learn how to write a command line utility of your own in pure modern TypeScript *(TypeScript · Nov 2022)*
-- [**USBoN**](https://github.com/Jesssullivan/USBoN) — Let's Automate All The Things *(Python · 6 ★ · Sep 2021)*
-- [**squirrel-leaflet-annotation**](https://github.com/Jesssullivan/squirrel-leaflet-annotation) — leaflet audio annotator for the squirrels & munks *(TypeScript · Feb 2021)*
-- [**bbox-jest-puppeteer**](https://github.com/Jesssullivan/bbox-jest-puppeteer) — Demo Jest + Puppeteer environment for web UI evaluation *(JavaScript · Feb 2021)*
-
-</details>
-
-<details>
-<summary><strong>Other</strong> (20)</summary>
-
-- [**tummycrypt**](https://github.com/Jesssullivan/tummycrypt) — WIP.   *(Rust · 4 ★ · today)*
-- [**rules_tectonic**](https://github.com/Jesssullivan/rules_tectonic) — Bazel rules for compiling LaTeX to PDF with tectonic *(Starlark · 2 weeks ago)*
-- [**dsa-study-packet**](https://github.com/Jesssullivan/dsa-study-packet) — Company-neutral technical interview practice in a real editor: reason in comments, implement, wri... *(Python · 4 weeks ago)*
-- [**modular-atx-power-rack**](https://github.com/Jesssullivan/modular-atx-power-rack) — WIP 19" rack solutions for ATX PSUs a CAD as code experiment *(Python · 1 ★ · Aug 2026)*
-- [**tailnet-trashmonitor**](https://github.com/Jesssullivan/tailnet-trashmonitor) — Tailscale + trash-based webcam streaming solution for monitoring the things; I actually use this ... *(Just · Jul 2026)*
-- [**canon-megatank-reset**](https://github.com/Jesssullivan/canon-megatank-reset) — Native-Linux, key-free, cloud-free reset for the Canon G-series MegaTank 5B00 'ink absorber full'... *(Python · 1 ★ · Jul 2026)*
-- [**homebrew-omux**](https://github.com/Jesssullivan/homebrew-omux) — Public Homebrew tap for oauth-mux *(Ruby · 1 ★ · Jul 2026)*
-- [**zig-keychain**](https://github.com/Jesssullivan/zig-keychain) — Cross-platform keychain abstraction in Zig with C FFI — macOS SecItem / Linux libsecret *(Python · 1 ★ · Apr 2026)*
-- [**zig-notify**](https://github.com/Jesssullivan/zig-notify) — Cross-platform notifications in Zig with C FFI — macOS osascript / Linux libnotify *(Python · 1 ★ · Apr 2026)*
-- [**tinyclaw**](https://github.com/Jesssullivan/tinyclaw) — Efficient verifiable fork of picoclaw for reasoning over recursive development cadence   *(Go · 1 ★ · Apr 2026)*
-- [**tinyland-huskycat**](https://github.com/Jesssullivan/tinyland-huskycat) — A multimodal, deterministic verification middleware for unsupervised, domain-driven iteration *(Python · 1 ★ · Apr 2026)*
-- [**tinyland-hexstrunk**](https://github.com/Jesssullivan/tinyland-hexstrunk) — Formal, tracable, auditable tool surface for playing the bad guy *(Python · 1 ★ · Feb 2026)*
-- [**IG-3DP-Profiles**](https://github.com/Jesssullivan/IG-3DP-Profiles) — Ithaca Generator 3d printer profiles and notes *(Sep 2022)*
-- [**chrome-remote-desktop-budgie**](https://github.com/Jesssullivan/chrome-remote-desktop-budgie) — Fully automated patching for Chrome Remote Desktop on Ubuntu Budgie & GNOME-based desktop environ... *(Python · 6 ★ · Sep 2021)*
-- [**OminousBeepingApp**](https://github.com/Jesssullivan/OminousBeepingApp) — Rick and Morty S4E2 *(Swift · Jul 2021)*
-- [**mo-image-identifier**](https://github.com/Jesssullivan/mo-image-identifier) — Image-based mushroom identification experiments for MushroomObserver.org *(Python · 2 ★ · Mar 2021)*
-- [**misc-roi-distance-notes**](https://github.com/Jesssullivan/misc-roi-distance-notes) — naive distance measurements with opencv *(Python · Jan 2021)*
-- [**clipi**](https://github.com/Jesssullivan/clipi) — Raspberry Pi automation tools and notes for Debian distros- emulate, organize, burn & manage *(Python · Oct 2020)*
-- [**Flask-Manager**](https://github.com/Jesssullivan/Flask-Manager) — Manage multiple single-thread web applications with Flask *(Python · Dec 2019)*
-- [**Xfinity-WiFi**](https://github.com/Jesssullivan/Xfinity-WiFi) — Python/Selenium *(Python · 1 ★ · Aug 2019)*
-
-</details>
-
-*...and [2 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-<details>
-<summary><strong>tinyland-inc / Languages & Compilers</strong> (1)</summary>
-
-- [**scheduling-kit**](https://github.com/tinyland-inc/scheduling-kit) — Backend-agnostic scheduling system with Acuity, CalCom, and homegrown adapters *(TypeScript · 1 ★ · 1 week ago)*
-
-</details>
-
-<details>
-<summary><strong>tinyland-inc / Infrastructure & DevOps</strong> (2)</summary>
-
-- [**bazel-registry**](https://github.com/tinyland-inc/bazel-registry) — Bazel Central Registry for @tummycrypt packages *(Starlark · 1 week ago)*
-- [**betterkvm**](https://github.com/tinyland-inc/betterkvm) — The converged multiarch KVM for Tinyland NoneX86 contributions *(Python · 1 ★ · 3 weeks ago)*
-
-</details>
-
-<details>
-<summary><strong>tinyland-inc / Hardware & Maker</strong> (2)</summary>
-
-- [**moonlight**](https://github.com/tinyland-inc/moonlight) — Tinyland fork of moonlight-stream/moonlight-qt (certificate-only pairing mode; Rocky RPM + signed... *(C++ · Jul 2026)*
-- [**sunshine**](https://github.com/tinyland-inc/sunshine) — Tinyland fork of LizardByte/Sunshine (CertOnlyAuth mesh pairing; Rocky RPM + notarized macOS buil... *(C++ · Jul 2026)*
-
-</details>
-
-<details>
-<summary><strong>tinyland-inc / Web & Apps</strong> (4)</summary>
-
-- [**scheduling-bridge.tinyland.dev**](https://github.com/tinyland-inc/scheduling-bridge.tinyland.dev) — Brand site for scheduling-bridge — monadic booking middleware for hostile calendar stacks (brand ... *(Svelte · yesterday)*
-- [**linear-gsuite**](https://github.com/tinyland-inc/linear-gsuite) — minimal Linear and Google Workspace automation surface for calenderable actions *(TypeScript · 1 week ago)*
-- [**tinyland-auth-redis**](https://github.com/tinyland-inc/tinyland-auth-redis) — Redis storage adapter for @tummycrypt/tinyland-auth (Upstash) *(TypeScript · 1 week ago)*
-- [**tinyland-auth-pg**](https://github.com/tinyland-inc/tinyland-auth-pg) — PostgreSQL storage adapter for @tummycrypt/tinyland-auth (Neon + Drizzle) *(TypeScript · 1 week ago)*
-
-</details>
-
-<details>
-<summary><strong>tinyland-inc / Other</strong> (2)</summary>
-
-- [**ci-templates**](https://github.com/tinyland-inc/ci-templates) — Reusable GitHub Actions composite actions for Nix, Attic cache, and CI/CD *(Ruby · 1 week ago)*
-- [**prompt-pulse-go-archive**](https://github.com/tinyland-inc/prompt-pulse-go-archive) — ARCHIVED: retired Go static shell dashboard; Lab delivery removed by TIN-3350. Historical code on... *(Go · Aug 2026)*
-
-</details>
-
-*...and [53 more](https://github.com/Jesssullivan?tab=repositories&type=source)*
-*Last updated: 2026-09-19 06:29 UTC*
-<!--END_SECTION:repos-->
-
-<!--START_SECTION:foss-->
-<details>
-<summary><strong>FOSS Contributions</strong> (23)</summary>
-
-- [**keepassxreboot/keepassxc**](https://github.com/keepassxreboot/keepassxc) — KeePassXC is a cross-platform community-driven port of the Windows applicatio... *(C++)*
-- [**charmbracelet/crush**](https://github.com/charmbracelet/crush) — Glamourous agentic coding for all 💘 *(Go)*
-- [**manaflow-ai/cmux**](https://github.com/manaflow-ai/cmux) — Open source Ghostty-based macOS terminal with vertical tabs and notifications... *(Swift)*
-- [**NixOS/nixpkgs**](https://github.com/NixOS/nixpkgs) — Nix Packages collection & NixOS *(Nix)*
-- [**tidyverse/ggplot2**](https://github.com/tidyverse/ggplot2) — An implementation of the Grammar of Graphics in R *(R)*
-- [**diku-dk/futhark**](https://github.com/diku-dk/futhark) — :boom::computer::boom: A data-parallel functional programming language *(Haskell)*
-- [**ciscoheat/sveltekit-superforms**](https://github.com/ciscoheat/sveltekit-superforms) — Making SvelteKit forms a pleasure to use! *(TypeScript)*
-- [**rspamd/rspamd**](https://github.com/rspamd/rspamd) — Rapid spam filtering system. *(C)*
-- [**apache/solr**](https://github.com/apache/solr) — Apache Solr open-source search software *(Java)*
-- [**liqotech/liqo**](https://github.com/liqotech/liqo) — Enable dynamic and seamless Kubernetes multi-cluster topologies *(Go)*
-- [**shikijs/textmate-grammars-themes**](https://github.com/shikijs/textmate-grammars-themes) — Collection of TextMate grammars and themes in JSON *(JavaScript)*
-- [**numtide/nix-vm-test**](https://github.com/numtide/nix-vm-test) — Re-use the NixOS VM test infrastructure to test Ubuntu, Debian, and Fedora ma... *(Nix)*
-- [**charles-river-analytics/Scruff.jl**](https://github.com/charles-river-analytics/Scruff.jl) — Scruff.jl *(Julia)*
-- [**chapel-lang/mason-registry**](https://github.com/chapel-lang/mason-registry) — Package registry for mason, Chapel's package manager *(Shell)*
-- [**manaflow-ai/bonsplit**](https://github.com/manaflow-ai/bonsplit) — Bonsplit is a custom tab bar and layout split library for macOS apps. Out of ... *(Swift)*
-- [**DSA-Woodshed/.github**](https://github.com/DSA-Woodshed/.github) — Org profile for The DSA Woodshed
-- [**DSA-Woodshed/dsa-woodshed-infra**](https://github.com/DSA-Woodshed/dsa-woodshed-infra) — Reserved implementation overlay for The DSA Woodshed's remote-everything setup
-- [**DSA-Woodshed/dsa-woodshed-track-cpp**](https://github.com/DSA-Woodshed/dsa-woodshed-track-cpp) — Reserved track template for The DSA Woodshed (C++: memory layout, cache behav...
-- [**DSA-Woodshed/dsa-woodshed-track-r**](https://github.com/DSA-Woodshed/dsa-woodshed-track-r) — Reserved track template for The DSA Woodshed (R: array and matrix fluency wit...
-- [**DSA-Woodshed/dsa-woodshed-track-ts**](https://github.com/DSA-Woodshed/dsa-woodshed-track-ts) — Reserved track template for The DSA Woodshed (TypeScript/React: UX reasoning ...
-- [**Great-Falls-Tool-Bus/.github**](https://github.com/Great-Falls-Tool-Bus/.github) — Great Falls Tool Bus org profile
-- [**Great-Falls-Tool-Bus/cad**](https://github.com/Great-Falls-Tool-Bus/cad) — GFTB shelving and related CAD drawings *(TeX)*
-- [**Great-Falls-Tool-Bus/gftb-site**](https://github.com/Great-Falls-Tool-Bus/gftb-site) — Great Falls Tool Bus apex site for Lewiston-Auburn, Maine. *(TypeScript)*
-
-</details>
-<!--END_SECTION:foss-->
-
----
-<table>
-<tr>
-<td align="center" width="50%">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=radical&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Jesssullivan&theme=default&hide_border=true" />
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Jesssullivan&theme=dark&hide_border=true" width="100%" />
-</picture>
-
-</td>
-<td align="center" width="50%">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=minimal&hide_border=true&area=true" />
-  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Jesssullivan&theme=react-dark&hide_border=true&area=true" width="100%" />
-</picture>
-
-</td>
-</tr>
-</table>
-
-*This README is updated daily by a [GitHub Action](.github/workflows/update-readme.yml).*
+> Hey! I am always hacking, learning, building, reading, and tinkering. Day in, day out, this is what I do.

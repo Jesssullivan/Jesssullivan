@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 550" width="960" height="550" role="img" aria-labelledby="timeline-light-t" aria-describedby="timeline-light-d"><title id="timeline-light-t">Roles and ventures</title><desc id="timeline-light-d">Timeline of roles and ventures: Systems Analyst (DevSecOps), Bates College, 2024–present; Fabrication Laboratory Manager, Cornell CALS Landscape Architecture (DLA Makerspace), 2021–2022; Computer Vision Software Engineer, Macaulay Library, Cornell Lab of Ornithology, 2019–2021; Independent contractor, Full-Stack Contracting &amp; FOSS, 2017–present; Great Falls Tool Bus, 2026–present; xoxd.ai, 2024–present; Moonlight Coworking LLC, 2021–2024; Columbari.us LLC, 2017–2021; Kitten Spit Labs, ongoing (undated, not placed on the year axis).</desc><style>text{font-family:'Inter', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#1d2218}.t-title{font-size:20px;font-weight:700;fill:#6c5933}.t-sub{font-size:13px;fill:#56554f}.t-cap{font-size:11.5px;fill:#56554f;font-style:italic;font-family:'Crimson Pro', Georgia, 'Times New Roman', serif}.t-lab{font-size:12px;fill:#1d2218}.t-small{font-size:11px;fill:#56554f}.t-hd{font-size:11px;font-weight:700;letter-spacing:.06em;fill:#56554f}.t-mono{font-family:'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:11px;fill:#56554f}.bar{transform-box:fill-box;transform-origin:0 50%;animation:grow 900ms cubic-bezier(.2,.8,.2,1) backwards}@keyframes grow{from{transform:scaleX(0)}}.fade{animation:fade 500ms ease-out backwards}@keyframes fade{from{opacity:0}}@media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}</style><rect x=".5" y=".5" width="959" height="549" fill="#edede5" stroke="#acb6a1"/><text x="24" y="38" class="t-title">Roles and ventures</text>
+<line x1="430" y1="70" x2="430" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="455" y="518" class="t-mono" text-anchor="middle">2017</text>
+<line x1="480" y1="70" x2="480" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="505" y="518" class="t-mono" text-anchor="middle">2018</text>
+<line x1="530" y1="70" x2="530" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="555" y="518" class="t-mono" text-anchor="middle">2019</text>
+<line x1="580" y1="70" x2="580" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="605" y="518" class="t-mono" text-anchor="middle">2020</text>
+<line x1="630" y1="70" x2="630" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="655" y="518" class="t-mono" text-anchor="middle">2021</text>
+<line x1="680" y1="70" x2="680" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="705" y="518" class="t-mono" text-anchor="middle">2022</text>
+<line x1="730" y1="70" x2="730" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="755" y="518" class="t-mono" text-anchor="middle">2023</text>
+<line x1="780" y1="70" x2="780" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="805" y="518" class="t-mono" text-anchor="middle">2024</text>
+<line x1="830" y1="70" x2="830" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="855" y="518" class="t-mono" text-anchor="middle">2025</text>
+<line x1="880" y1="70" x2="880" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="905" y="518" class="t-mono" text-anchor="middle">2026</text>
+<line x1="930" y1="70" x2="930" y2="500" stroke="#c3c8ba" stroke-width="1"/>
+<text x="24" y="90" class="t-hd">Roles</text>
+<text x="24" y="113" class="t-lab" font-weight="700">Bates College</text>
+<text x="24" y="129" class="t-small">Systems Analyst (DevSecOps)</text>
+<rect class="bar" x="780" y="118" width="150" height="10" fill="#91743f" style="animation-delay:260ms"/>
+<text x="780" y="112" class="t-mono fade" style="animation-delay:660ms">2024–present</text>
+<text x="24" y="155" class="t-lab" font-weight="700">Cornell CALS Landscape Architecture (DLA Makerspace)</text>
+<text x="24" y="171" class="t-small">Fabrication Laboratory Manager</text>
+<rect class="bar" x="630" y="160" width="100" height="10" fill="#91743f" style="animation-delay:370ms"/>
+<text x="630" y="154" class="t-mono fade" style="animation-delay:770ms">2021–2022</text>
+<text x="24" y="197" class="t-lab" font-weight="700">Macaulay Library, Cornell Lab of Ornithology</text>
+<text x="24" y="213" class="t-small">Computer Vision Software Engineer</text>
+<rect class="bar" x="530" y="202" width="150" height="10" fill="#91743f" style="animation-delay:480ms"/>
+<text x="530" y="196" class="t-mono fade" style="animation-delay:880ms">2019–2021</text>
+<text x="24" y="239" class="t-lab" font-weight="700">Full-Stack Contracting &amp; FOSS</text>
+<text x="24" y="255" class="t-small">Independent contractor</text>
+<rect class="bar" x="430" y="244" width="500" height="10" fill="#91743f" style="animation-delay:590ms"/>
+<text x="430" y="238" class="t-mono fade" style="animation-delay:990ms">2017–present</text>
+<text x="24" y="284" class="t-hd">Ventures</text>
+<text x="24" y="307" class="t-lab" font-weight="700">Great Falls Tool Bus</text>
+<text x="24" y="323" class="t-small">Founder</text>
+<rect class="bar" x="880" y="312" width="50" height="10" fill="#914473" style="animation-delay:700ms"/>
+<text x="930" y="306" text-anchor="end" class="t-mono fade" style="animation-delay:1100ms">2026–present</text>
+<text x="24" y="349" class="t-lab" font-weight="700">xoxd.ai</text>
+<text x="24" y="365" class="t-small">Founder</text>
+<rect class="bar" x="780" y="354" width="150" height="10" fill="#914473" style="animation-delay:810ms"/>
+<text x="780" y="348" class="t-mono fade" style="animation-delay:1210ms">2024–present</text>
+<text x="24" y="391" class="t-lab" font-weight="700">Moonlight Coworking LLC</text>
+<rect class="bar" x="630" y="396" width="200" height="10" fill="#914473" style="animation-delay:920ms"/>
+<text x="630" y="390" class="t-mono fade" style="animation-delay:1320ms">2021–2024</text>
+<text x="24" y="433" class="t-lab" font-weight="700">Columbari.us LLC</text>
+<rect class="bar" x="430" y="438" width="250" height="10" fill="#914473" style="animation-delay:1030ms"/>
+<text x="430" y="432" class="t-mono fade" style="animation-delay:1430ms">2017–2021</text>
+<text x="24" y="475" class="t-lab" font-weight="700">Kitten Spit Labs</text>
+<text x="24" y="491" class="t-small">undated</text>
+<text x="75.8" y="491" class="t-mono">ongoing</text></svg>
